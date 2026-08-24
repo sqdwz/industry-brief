@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#8e3529" />
+    <meta name="description" content="个人长期使用的信息聚合中心：空域、AI、城市更新与政策资料。" />
+    <title>信息聚合中心</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="topbar__inner">
+          <a class="brand" href="#home" aria-label="返回瑞雪的小栈首页"><img class="brand__avatar" src="./assets/avatar-klee.png" alt="瑞雪的小栈头像" /><span>瑞雪的小栈</span></a>
+          <nav class="nav" aria-label="主导航">
+            <a href="#home" data-route="home">首页</a>
+            <a href="#airspace" data-route="airspace">空域信息</a>
+            <a href="#ai" data-route="ai">行业日报与周汇总</a>
+            <a href="#urban" data-route="urban">城市更新</a>
+            <a href="#policy" data-route="policy">政策面板</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="page" id="home" data-page="home" aria-labelledby="home-title">
+          <div class="hero panel">
+            <p class="eyebrow"><span></span>个人信息聚合中心</p>
+            <h1 id="home-title">把分散的信息，整理成每天能用的内容。</h1>
+            <p class="hero__copy">聚合空域、AI、城市更新与政策资料。重要信息先看结论，原始来源保持可追溯，历史信息逐步形成可检索资料库。</p>
+            <p class="hero__note">当前已接入：<strong>空域信息</strong><span aria-hidden="true">·</span>其余板块将按数据源逐步接入</p>
+          </div>
+          <div class="portal-grid" aria-label="信息板块入口">
+            <button class="portal portal--air" data-go="airspace"><span class="status status--active">已接入</span><h2>空域信息</h2><p>海南省禁飞、临时空域管制与无人机作业相关公告巡检。</p><span class="portal__metric" id="home-airspace-metric">加载巡检信息中…</span><span class="portal__arrow">进入 <b>→</b></span></button>
+            <button class="portal" data-go="ai"><span class="status">待接入</span><h2>行业日报与周汇总</h2><p>行业日报、周报、模型发布与 AI 工具动态。</p><span class="portal__metric">日报 / 周报 / 归档</span><span class="portal__arrow">查看 <b>→</b></span></button>
+            <button class="portal" data-go="urban"><span class="status">待接入</span><h2>城市更新</h2><p>海南省城市更新领域招投标信息每日巡检报告。</p><span class="portal__metric">招标 / 中标 / 成交</span><span class="portal__arrow">查看 <b>→</b></span></button>
+            <button class="portal" data-go="policy"><span class="status">待接入</span><h2>政策面板</h2><p>城市更新、征收补偿和实施意见等政策资料库。</p><span class="portal__metric">分类 / 检索 / 原文</span><span class="portal__arrow">查看 <b>→</b></span></button>
+          </div>
+        </section>
+
+        <section class="page" id="airspace" data-page="airspace" aria-labelledby="airspace-title">
+          <div class="page-head panel">
+            <div><p class="eyebrow"><span></span>海南 · 空域巡检</p><h1 id="airspace-title">空域信息</h1><p>聚合海南省禁飞、临时空域管制及无人机作业相关信息；先看巡检结论，再核查原始来源。</p></div>
+            <p class="update" id="airspace-updated">正在读取最新巡检数据…</p>
+          </div>
+          <section class="summary panel" aria-labelledby="summary-title">
+            <div class="summary__message"><p class="eyebrow"><span></span>巡检摘要</p><h2 id="summary-title" data-summary-message>正在读取巡检结论…</h2><p>公开信息辅助核查，实际飞行前仍应核对 UOM 实时空域、NOTAM、军民航空管和属地临时管制要求。</p></div>
+            <div class="summary__stats" id="airspace-stats" aria-label="空域公告统计"></div>
+          </section>
+          <section class="content-section" aria-labelledby="new-title"><div class="section-heading"><div><p class="eyebrow"><span></span>本轮发现</p><h2 id="new-title">本次巡检新增</h2></div><p id="new-date"></p></div><div class="notice-grid" id="new-list"></div></section>
+          <section class="content-section" aria-labelledby="active-title"><div class="section-heading"><div><p class="eyebrow"><span></span>重点关注</p><h2 id="active-title">当前生效</h2></div><p>按结束时间排序</p></div><div class="notice-grid" id="active-list"></div></section>
+          <section class="content-section" aria-labelledby="upcoming-title"><div class="section-heading"><div><p class="eyebrow"><span></span>提前准备</p><h2 id="upcoming-title">即将生效</h2></div></div><div class="notice-grid" id="upcoming-list"></div></section>
+          <section class="content-section" aria-labelledby="ended-title"><div class="section-heading"><div><p class="eyebrow"><span></span>保留记录</p><h2 id="ended-title">近期结束</h2></div></div><div class="notice-grid" id="ended-list"></div></section>
+          <section class="content-section panel source-panel" aria-labelledby="source-title"><div class="section-heading"><div><p class="eyebrow"><span></span>检索范围</p><h2 id="source-title">信息来源</h2></div><p>官方优先，权威媒体补充</p></div><ul class="source-list" id="source-list"></ul></section>
+        </section>
+
+        <section class="page" id="ai" data-page="ai" aria-labelledby="ai-title"><div class="page-head panel"><div><p class="eyebrow"><span></span>行业动态</p><h1 id="ai-title">行业日报与周汇总</h1><p>AI 模型、工具与行业动态，后续支持日报、周报和重点事件归档。</p></div></div><div class="empty-state panel"><span>AI</span><h2>数据暂未接入</h2><p>已预留行业日报、行业周报、模型发布与工具动态的数据接口。</p><div><i>行业日报</i><i>行业周报</i><i>模型发布</i><i>AI工具</i></div></div></section>
+        <section class="page" id="urban" data-page="urban" aria-labelledby="urban-title"><div class="page-head panel"><div><p class="eyebrow"><span></span>海南 · 每日巡检</p><h1 id="urban-title">城市更新</h1><p>海南省城市更新领域招投标信息每日巡检报告。</p></div></div><div class="empty-state panel"><span>更</span><h2>数据暂未接入</h2><p>后续展示每日新增项目、招标公告、中标结果、成交信息、项目地区和相关单位。</p><div><i>今日新增</i><i>招标公告</i><i>中标结果</i><i>项目地区</i></div></div></section>
+        <section class="page" id="policy" data-page="policy" aria-labelledby="policy-title"><div class="page-head panel"><div><p class="eyebrow"><span></span>政策资料库</p><h1 id="policy-title">政策面板</h1><p>城市更新常用政策文件、指导意见以及征收补偿相关政策依据。</p></div></div><div class="empty-state panel"><span>政</span><h2>政策资料待整理</h2><p>后续按国家、海南省、海口市及专项主题分类收录，并支持检索与原文跳转。</p><div><i>590号令</i><i>补偿指导意见</i><i>城市更新</i><i>征收依据</i></div></div></section>
+      </main>
+      <footer>信息聚合中心 · 前端第一阶段 · 数据与界面分离</footer>
+    </div>
+    <dialog class="detail-dialog" id="notice-dialog" aria-labelledby="dialog-title"><div class="dialog__body"><button class="dialog__close" type="button" aria-label="关闭详情" data-close-dialog>×</button><div id="dialog-content"></div></div></dialog>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

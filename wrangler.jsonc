@@ -1,0 +1,26 @@
+{
+  "name": "sqdwz-information-hub",
+  "main": "./src/worker.js",
+  "compatibility_date": "2026-08-24",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/data/airspace.json"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "AIRSPACE_DATA",
+      "id": "53bf63bf9ea6410aa4b6b9398f07de54"
+    }
+  ],
+  "triggers": {
+    "crons": ["*/15 * * * *"]
+  },
+  "routes": [
+    {
+      "pattern": "new.103535.xyz",
+      "custom_domain": true
+    }
+  ]
+}
