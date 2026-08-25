@@ -1,0 +1,122 @@
+{
+  "type": "daily",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T14:50:37+08:00",
+  "title": "行业日报｜2026-08-25",
+  "summary": "本次日报聚焦过去24小时内5条高价值动态：越南通过新的《城市发展法》，城市治理与投资权限进一步下放；OpenAI将GPT-5.6系列接入Kiro，AI编码继续向规范化长任务演进；NVIDIA发布Vera Rubin NVL72最新Agent推理能效数据；AECOM参与澳大利亚高铁开发阶段环境规划与评估；Sizewell C公开周期性无人机测绘服务需求，把周/月复飞、正射、点云、DTM和GIS交付纳入长期建设流程。",
+  "time_window": {
+    "start": "2026-08-24T14:50:37+08:00",
+    "end": "2026-08-25T14:50:37+08:00"
+  },
+  "coverage_note": "本期优先采用过去24小时内官方或高可信来源；已避开近几日已记录的Wan3.0、ArcGIS Annotation/Dimension、World Imagery扩展、DJI DFR路线图等重复内容。无人机方向本窗口内高质量新品不多，因此选取了直接反映工程生产化需求的Sizewell C周期测绘采购信息。",
+  "sections": [
+    {
+      "name": "城市更新 / GIS",
+      "summary": "城市发展治理出现更强的地方授权趋势，同时大型基础设施项目继续把环境规划、空间评估与实施阶段数据协同前置。"
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "AI竞争继续从单模型能力转向长任务工程化和推理基础设施效率：一端强调结构化需求与执行，一端强调单位能耗下的Agent吞吐。"
+    },
+    {
+      "name": "测绘 / 无人机",
+      "summary": "大型工程正在把无人机从临时航拍工具改造成固定频率的空间数据生产线，并明确正射、点云、DTM、三维实景和GIS/CAD交付标准。"
+    },
+    {
+      "name": "行业观察",
+      "summary": "今天几条信息共同指向“生产化”：城市更新需要更清晰的制度与项目数据链，AI需要可重复的需求—设计—任务流程，无人机需要固定航线、标准成果和持续交付。真正能落地的系统，不再以某个模型或某架无人机为中心，而是以任务、数据版本、审核和长期复用为中心。"
+    },
+    {
+      "name": "本周值得尝试的工具 / 方法",
+      "summary": "建议尝试“规格驱动的小样本先行”方法：先把需求写成验收条件，再让AI生成方案和任务；先用5—20个样本验证字段、空间规则和输出格式，全部通过后再批量处理。它特别适合ArcGIS工具箱、批量数据质检和房屋成果导出，能显著降低长任务跑到一半才发现规则错了的返工。"
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新 / 政策",
+      "title": "越南国会通过《城市发展法》，扩大胡志明市等城市的发展与治理权限",
+      "summary": "越南国会8月24日以465票赞成通过《城市发展法》。新法为胡志明市等重点城市和特殊经济区建立更灵活的城市治理、投资和融资框架，并强化地方层面的授权与发展机制。",
+      "impact": "对城市更新项目而言，值得关注的不是具体制度照搬，而是“规划—投资—融资—实施”权限逐步向城市层级整合。GIS项目库应同步管理规划状态、项目单元、资金来源和实施节点，而不只是维护更新红线。",
+      "publisher": "Vietnam News / 越南国会信息",
+      "publish_date": "2026-08-24",
+      "url": "https://vietnamnews.vn/politics-laws/1798177/national-assembly-passes-urban-development-law-giving-hcm-city-greater-autonomy.html",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI将GPT-5.6系列接入Kiro，强调规范化长任务开发",
+      "summary": "OpenAI于8月24日宣布GPT-5.6 Sol、Terra和Luna进入Kiro软件开发Agent。Kiro先把高层需求转成明确的requirements、technical design和executable tasks，再由模型执行、审查和测试。",
+      "impact": "对GIS/CAD内部工具开发，最值得借鉴的是先结构化需求再写代码：把字段规则、输入输出、异常处理和验收条件固化下来，再让Agent开发。这样比在超长对话里边改界面边改算法更容易复核和回退。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-08-24",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro/",
+      "image_url": null
+    },
+    {
+      "category": "AI基础设施",
+      "title": "NVIDIA公布Vera Rubin NVL72最新Agent推理能效数据",
+      "summary": "NVIDIA于8月25日公布Vera Rubin NVL72在真实Agentic coding轨迹上的新测试数据，称其单位功耗可完成的工作量相比上一代平台最高提升约30倍。该数据来自NVIDIA自测，适合作为架构趋势参考而非独立第三方基准。",
+      "impact": "这意味着Agent系统未来的成本比较不能只看单次Token价格，还要看延迟、吞吐、并行任务数和能耗。对本地AI/GIS服务器，采购时可逐步从“显存够不够”升级到“单位成本能完成多少完整任务”。",
+      "publisher": "NVIDIA",
+      "publish_date": "2026-08-25",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "image_url": null
+    },
+    {
+      "category": "城市规划 / 基础设施",
+      "title": "AECOM参与澳大利亚纽卡斯尔—悉尼高铁开发阶段环境规划与评估",
+      "summary": "AECOM于8月25日宣布，与bd infrastructure及专业顾问团队共同获任澳大利亚政府纽卡斯尔—悉尼高铁开发阶段的环境规划与评估顾问，工作将覆盖环境、遗产和视觉规划等专业内容。",
+      "impact": "大型基础设施越来越要求环境、规划、土地和工程数据从开发阶段就协同。对城市更新/GIS工作，可借鉴建立“工程方案—环境约束—权属—敏感点—审批状态”统一空间底板，减少后期各专业反复叠图。",
+      "publisher": "AECOM",
+      "publish_date": "2026-08-25",
+      "url": "https://aecom.com/press-releases/aecom-and-bd-infrastructure-appointed-environmental-advisors-for-australias-high-speed-rail/",
+      "image_url": null
+    },
+    {
+      "category": "测绘 / 无人机",
+      "title": "Sizewell C公开周期性无人机测绘服务需求，要求周/月固定复飞并进入GIS交付",
+      "summary": "Sizewell C于近期公开Drone/UAV Survey Services采购需求：主施工区计划每周测飞，其余施工点按月测飞；成果包括2cm/5cm/10cm正射、彩色分类点云、DSM/DTM、三维Reality Mesh、测量报告以及面向GIS和CAD的多种交付格式。",
+      "impact": "这说明无人机在大型工程中的成熟形态是“固定频率采集+统一坐标+多成果标准化+直接进入GIS/CAD”，而不是偶尔航拍。测绘团队若做长期施工监测，建议提前固定航线、控制网、分辨率、文件格式和质量报告模板。",
+      "publisher": "Sizewell C Limited（采购信息由Defence Online / Stotles披露）",
+      "publish_date": "2026-08-24",
+      "url": "https://www.defenceonline.co.uk/2026/08/24/szc-drone-services/",
+      "image_url": null
+    }
+  ],
+  "recommended_reading": null,
+  "tool_recommendation": {
+    "name": "规格驱动的小样本先行工作法",
+    "reason": "先把需求与验收条件写清，再用5—20个样本验证逻辑、字段、空间关系和输出格式，通过后再全量执行；非常适合AI辅助开发GIS工具和批量数据处理。",
+    "url": "https://openai.com/index/gpt-5-6-in-kiro/"
+  },
+  "sources": [
+    {
+      "name": "Vietnam News",
+      "url": "https://vietnamnews.vn/politics-laws/1798177/national-assembly-passes-urban-development-law-giving-hcm-city-greater-autonomy.html"
+    },
+    {
+      "name": "SGGP English Edition（交叉核验）",
+      "url": "https://en.sggp.org.vn/national-assembly-passes-urban-development-law-with-93-percent-approval-post129152.html"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro/"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
+    },
+    {
+      "name": "AECOM",
+      "url": "https://aecom.com/press-releases/aecom-and-bd-infrastructure-appointed-environmental-advisors-for-australias-high-speed-rail/"
+    },
+    {
+      "name": "Defence Online - SZC Drone Services",
+      "url": "https://www.defenceonline.co.uk/2026/08/24/szc-drone-services/"
+    },
+    {
+      "name": "Stotles - Sizewell C Drone Services（交叉核验）",
+      "url": "https://www.stotles.com/explore/notices/2f99f229-b65c-4aac-983d-b544c6afca81/szc-drone-services"
+    }
+  ]
+}
