@@ -1,7 +1,13 @@
 {
-  "latest_daily": "data/daily/2026-08-24.json",
+  "latest_daily": "data/daily/2026-08-25.json",
   "latest_weekly": null,
   "recent": [
+    {
+      "type": "daily",
+      "date": "2026-08-25",
+      "title": "行业日报｜2026-08-25",
+      "path": "data/daily/2026-08-25.json"
+    },
     {
       "type": "daily",
       "date": "2026-08-24",
