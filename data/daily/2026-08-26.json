@@ -1,0 +1,27 @@
+{
+  "type": "daily",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T14:22:22+08:00",
+  "title": "行业日报｜2026-08-26",
+  "summary": "过去24小时的核心变化集中在AI推理基础设施与记忆、无人机BVLOS规模化运行，以及城市更新/GIS的项目状态持续管理。",
+  "sections": [
+    {"name":"重点动态","summary":"过去24小时值得关注的主线是：AI基础设施与持久上下文继续增强；无人机监管转向规模化BVLOS运行；城市更新和市政GIS更强调项目状态、里程碑与公众可视化。"},
+    {"name":"行业观察","summary":"本期几条动态共同指向“持续运行”而非一次性交付：AI需要长期上下文和更低推理成本，无人机需要可重复的空域与任务管理，城市更新则需要把项目状态和时限持续挂到空间对象上。实际系统设计应优先统一Object_ID、Status、Date和Source四类字段，让模型、地图和业务流程都围绕同一事实层工作。"},
+    {"name":"本周值得尝试","summary":"方法：给行业简报和GIS自动化结果加一层JSON Schema校验。先定义必填字段、日期格式、URL、category枚举和items数量，再在提交GitHub前自动验证；可用ajv、Python jsonschema或GitHub Actions执行。这样能在数据进入网页前拦住字段缺失、日期写错、数组结构变化等低级问题。"}
+  ],
+  "items": [
+    {"category":"AI模型与工具","title":"OpenAI公布首款自研推理芯片 Jalapeño 首批实测","summary":"OpenAI于8月25日公布Jalapeño首批公开基准结果，称其在GPT‑OSS 120B等推理负载上实现更高单位功耗吞吐和更低Token延迟，并在DeepSeek R1、Kimi K2等模型上也表现出跨模型收益。","impact":"对GIS Agent、批量脚本生成和持续自动化而言，推理基础设施正在从“模型更强”转向“单位功耗完成更多任务”。实际部署时应开始关注tokens/s、单位任务成本和长任务并发，而不是只看模型榜单。","publisher":"OpenAI","publish_date":"2026-08-25","url":"https://openai.com/index/jalapeno-first-results/","image_url":null},
+    {"category":"AI模型与工具","title":"Claude统一Chat与Cowork记忆，并开放逐主题查看、编辑和删除","summary":"Anthropic于8月25日宣布Claude在聊天与Cowork中使用同一套记忆；用户可按主题查看、修改或删除记忆，记忆也会随对话动态更新。Free、Pro、Max默认可用，Team和Enterprise由管理员控制。","impact":"长期GIS/城市更新项目可将项目约定、字段口径和输出习惯作为持续上下文，但关键业务规则仍应落到文档/配置文件中。记忆适合减少重复说明，不适合成为唯一的“规范数据库”。","publisher":"Anthropic","publish_date":"2026-08-25","url":"https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it","image_url":null},
+    {"category":"测绘/无人机","title":"Commercial UAV Expo 2026下周开幕，BVLOS与Part 108成为监管主线","summary":"Commercial UAV News于8月25日发布会前综述：9月1—3日拉斯维加斯展会预计吸引3700+行业人士和240+展商，讨论重点集中在FAA Part 108、BVLOS规模化运营、空域管理和欧美监管变化。","impact":"对周期性航测、无人机机库和机场周边任务而言，未来竞争重点会从单次“能否获批”转向可持续运营：任务记录、空域状态、Remote ID、审批有效期和异常处置应进入统一台账。","publisher":"Commercial UAV News","publish_date":"2026-08-25","url":"https://www.commercialuavnews.com/commercial-uav-expo-2026-regulators-faa-easa-part-108-bvlos","image_url":null},
+    {"category":"城市更新/GIS","title":"Charlottesville要求停工近20年的市中心烂尾项目60天内提交处置计划","summary":"Charlottesville市政府8月25日要求201 East Water Street长期停工项目的业主在60天内提交完成建设、出售或拆除的明确方案，并计划开展新的结构评估；若无充分方案，将评估适用危房、荒废和滋扰建筑等法律工具。","impact":"存量更新中的长期停滞项目应建立“状态+里程碑+责任+检查”台账，而不是只留一条项目红线。GIS可把结构评估、产权状态、整改期限和下一步行政动作挂到同一Building/Parcel ID上。","publisher":"City of Charlottesville","publish_date":"2026-08-25","url":"https://www.charlottesville.gov/m/newsflash/Home/Detail/2664","image_url":null},
+    {"category":"城市更新/GIS","title":"Mequon发布2026道路更新ArcGIS StoryMap，把年度工程直接做成公众项目地图","summary":"Mequon市工程部门8月25日发布2026 Annual Road Program StoryMap，用交互地图公开道路修复、维护项目位置、合同和预计进度，公众可直接按位置查看项目。","impact":"这类轻量做法适合城市更新项目公开展示：项目数据库一次更新，同时驱动内部台账和外部地图。建议至少统一Project_ID、Work_Type、Start_Date、Status和Last_Update，避免“内部已完工、网页还施工中”。","publisher":"City of Mequon / Esri ArcGIS StoryMaps","publish_date":"2026-08-25","url":"https://storymaps.arcgis.com/stories/c1655f08109744fda75a895be5c7982d","image_url":null}
+  ],
+  "recommended_reading": null,
+  "sources": [
+    {"publisher":"OpenAI","title":"Jalapeño’s first results show industry-leading speed and efficiency in AI inference","publish_date":"2026-08-25","url":"https://openai.com/index/jalapeno-first-results/"},
+    {"publisher":"Anthropic","title":"Claude's memory works everywhere, and you decide what's in it","publish_date":"2026-08-25","url":"https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"},
+    {"publisher":"Commercial UAV News","title":"Commercial UAV Expo 2026 Convenes Global Drone Industry in Las Vegas Next Week at a Turning Point for the U.S. Market","publish_date":"2026-08-25","url":"https://www.commercialuavnews.com/commercial-uav-expo-2026-regulators-faa-easa-part-108-bvlos"},
+    {"publisher":"City of Charlottesville","title":"City Calls for a Redevelopment Plan to Address Unfinished Dewberry Property","publish_date":"2026-08-25","url":"https://www.charlottesville.gov/m/newsflash/Home/Detail/2664"},
+    {"publisher":"City of Mequon / Esri","title":"2026 Annual Road Program","publish_date":"2026-08-25","url":"https://storymaps.arcgis.com/stories/c1655f08109744fda75a895be5c7982d"}
+  ]
+}
