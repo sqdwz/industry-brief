@@ -1,1 +1,30 @@
-{"latest_daily":"data/daily/2026-08-26.json","latest_weekly":null,"recent":[{"type":"daily","date":"2026-08-26","title":"行业日报｜2026-08-26","path":"data/daily/2026-08-26.json"},{"type":"daily","date":"2026-08-25","title":"行业日报｜2026-08-25","path":"data/daily/2026-08-25.json"},{"type":"daily","date":"2026-08-24","title":"行业日报｜2026-08-24","path":"data/daily/2026-08-24.json"}]}
+{
+  "latest_daily": "data/daily/2026-08-27.json",
+  "latest_weekly": null,
+  "recent": [
+    {
+      "type": "daily",
+      "date": "2026-08-27",
+      "title": "行业日报｜2026-08-27",
+      "path": "data/daily/2026-08-27.json"
+    },
+    {
+      "type": "daily",
+      "date": "2026-08-26",
+      "title": "行业日报｜2026-08-26",
+      "path": "data/daily/2026-08-26.json"
+    },
+    {
+      "type": "daily",
+      "date": "2026-08-25",
+      "title": "行业日报｜2026-08-25",
+      "path": "data/daily/2026-08-25.json"
+    },
+    {
+      "type": "daily",
+      "date": "2026-08-24",
+      "title": "行业日报｜2026-08-24",
+      "path": "data/daily/2026-08-24.json"
+    }
+  ]
+}
