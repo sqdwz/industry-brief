@@ -1,7 +1,8 @@
 {
   "latest_daily": "data/daily/2026-09-03.json",
-  "latest_weekly": "data/weekly/2026-W35.json",
+  "latest_weekly": "data/weekly/2026-W36.json",
   "recent": [
+    {"type":"weekly","date":"2026-09-04","title":"本周行业汇总｜2026-W36（8月29日—9月4日）","path":"data/weekly/2026-W36.json"},
     {"type":"daily","date":"2026-09-03","title":"行业日报｜2026-09-03","path":"data/daily/2026-09-03.json"},
     {"type":"daily","date":"2026-09-02","title":"行业日报｜2026-09-02","path":"data/daily/2026-09-02.json"},
     {"type":"daily","date":"2026-09-01","title":"行业日报｜2026-09-01","path":"data/daily/2026-09-01.json"},
