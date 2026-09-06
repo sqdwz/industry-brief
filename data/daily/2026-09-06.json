@@ -1,0 +1,33 @@
+{
+  "type": "daily",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T14:38:53+08:00",
+  "title": "行业日报｜2026-09-06",
+  "summary": "过去24小时正值周末，重磅新品较少，但仍出现了几条具有生产意义的变化：JupyterGIS强化多人实时协作与远程空间计算；城市更新讨论继续从单纯扩容转向循环利用和系统韧性；住房与更新项目更强调跨主体协同；自主无人机开始把发现、诊断和处置整合为一套任务链；AI多Agent系统显示出通过结构化任务图、共享状态和形式化校验完成超长复杂任务的潜力。",
+  "sections": [
+    {"name":"今日五条","items":[
+      {"category":"城市更新/GIS","title":"JupyterGIS 0.16强化实时协作、openEO远程处理与声明式地图工作流","summary":"9月5日的技术报道显示，JupyterGIS 0.16把多人实时编辑扩展到地图视图和矢量图层，同时加强openEO远程处理、懒加载与声明式符号配置，使Notebook进一步接近可协作的空间分析工作台。","impact":"适合把遥感分析、空间统计、地图表达和复现记录放到同一项目中；可先用小型共享项目测试多人判读和空间数据核验，正式成果仍建议配合Git和数据版本管理。","publisher":"InfoQ","publish_date":"2026-09-05","url":"https://www.infoq.com/news/2026/09/jupyter-gis-extension/","image_url":null},
+      {"category":"城市更新/GIS","title":"印度智库提出“循环城市主义”：城市更新应优先修复与再利用，而非持续扩容","summary":"Vivekananda International Foundation于9月5日发布文章，讨论基础设施反复扩容造成的新瓶颈，主张把既有资产修复、材料循环、设施寿命和系统韧性纳入城市更新决策。","impact":"城市更新评价可以增加建筑剩余寿命、修缮成本、材料复用、设施冗余和全生命周期成本，而不是只比较新增建设规模。","publisher":"Vivekananda International Foundation","publish_date":"2026-09-05","url":"https://www.vifindia.org/article/2026/september/05/The-Band-Aid-City-Circular-Urbanism-Beyond-Capacity-Expansion","image_url":null},
+      {"category":"城市更新/GIS","title":"尼日利亚住房部门推动与工程企业扩大住房、城市更新和基础设施合作","summary":"9月5日公开信息显示，尼日利亚联邦住房和城市发展部门表示愿扩大与TEC Engineering Company Nigeria在大规模住房、城市更新和基础设施项目上的合作。","impact":"大型更新项目越来越需要把政府、开发主体、工程单位、资金来源和实施地块放进统一项目台账；GIS数据库可增加Partner_ID、Funding_Source和Implementation_Status等字段。","publisher":"Blueprint Newspapers / Federal Ministry of Housing and Urban Development相关报道","publish_date":"2026-09-05","url":"https://blueprint.ng/housing-ministry-seeks-partnership-with-chinese-firm-to-tackle-deficits/","image_url":null},
+      {"category":"测绘/无人机","title":"Iwa Robotics公布HAWK、CANARY、PELICAN三平台自主无人机体系","summary":"9月5日，Iwa Robotics公开三类无人机平台，分别承担长航时发现、火情诊断和空中处置，并在统一任务框架下协同运行。虽然场景面向城市野火应急，但其核心是把多机型、多传感器和处置动作做成连续任务链。","impact":"对测绘巡检的启发是把“侦察—精查—处置/复核”拆成不同平台和任务角色，而不是要求一架飞机完成所有工作；任务系统应统一Mission_ID、传感器、数据状态和复核状态。","publisher":"Iwa Robotics / PR Newswire","publish_date":"2026-09-05","url":"https://www.streetinsider.com/PRNewswire/Iwa%2BRobotics%2BUnveils%2BHAWK%2C%2BCANARY%2Band%2BPELICAN%3A%2BAn%2BAutonomous%2BDrone%2BFleet%2BEquipped%2Bto%2BDetect%2C%2BDiagnose%2Band%2BSuppress%2BUrban%2BWildfires/27031134.html","image_url":null},
+      {"category":"AI模型与工具","title":"多Agent形式化任务显示：共享任务图与可机器验证结果比“单个更强模型”更关键","summary":"9月5日的后续报道继续聚焦Anthropic公开的Claude形式化费马大定理项目：多Agent最终依靠Prove2Me任务DAG、共享状态、搜索复用和Lean内核校验完成超长流程，暴露了Agent长期协作中状态管理的重要性。","impact":"GIS Agent做长任务时可照搬这一结构：把任务拆成DAG，所有中间产物显式保存，空间计算交给确定性工具验证，避免把几十步工作全塞进一个聊天上下文。","publisher":"Anthropic（9月4日原始研究）/ 9月5日行业跟进","publish_date":"2026-09-05","url":"https://www.anthropic.com/research/formalizing-fermats-last-theorem","image_url":null}
+    ]},
+    {"name":"行业观察","summary":"本期最明显的共同点不是某个硬件参数或模型分数，而是“协作结构”。GIS开始支持多人同时编辑和远程处理，城市更新强调跨主体与全生命周期，无人机从单机任务转向多平台协同，AI Agent则依靠任务图和可验证中间结果完成长流程。对实际项目而言，下一步值得优先补的是共享对象ID、任务状态、版本记录和确定性校验。"},
+    {"name":"本周值得尝试","summary":"任务DAG + 中间结果落盘：选一个重复GIS流程，把“输入→检查→空间分析→导出→复核”拆成5—10个节点，每一步输出独立文件或数据库状态并记录Run_ID。AI只负责调度和解释，ArcPy/GeoPandas/SQL负责确定性计算。这样模型换了，流程仍然能复跑。"}
+  ],
+  "items": [
+    {"category":"城市更新/GIS","title":"JupyterGIS 0.16强化实时协作、openEO远程处理与声明式地图工作流","summary":"多人实时编辑扩展到地图与矢量数据，并强化远程空间处理。","impact":"适合共享判读、协作分析与可复现GIS工作流。","publisher":"InfoQ","publish_date":"2026-09-05","url":"https://www.infoq.com/news/2026/09/jupyter-gis-extension/","image_url":null},
+    {"category":"城市更新/GIS","title":"印度智库提出“循环城市主义”：城市更新应优先修复与再利用，而非持续扩容","summary":"城市更新讨论从容量扩张进一步转向既有资产寿命、循环利用与系统韧性。","impact":"更新评价可加入生命周期成本和资产复用指标。","publisher":"Vivekananda International Foundation","publish_date":"2026-09-05","url":"https://www.vifindia.org/article/2026/september/05/The-Band-Aid-City-Circular-Urbanism-Beyond-Capacity-Expansion","image_url":null},
+    {"category":"城市更新/GIS","title":"尼日利亚住房部门推动与工程企业扩大住房、城市更新和基础设施合作","summary":"政府部门推动大型住房、更新与基础设施项目的跨主体合作。","impact":"GIS项目台账应同时管理主体、资金、地块和实施状态。","publisher":"Blueprint Newspapers / Federal Ministry of Housing and Urban Development相关报道","publish_date":"2026-09-05","url":"https://blueprint.ng/housing-ministry-seeks-partnership-with-chinese-firm-to-tackle-deficits/","image_url":null},
+    {"category":"测绘/无人机","title":"Iwa Robotics公布HAWK、CANARY、PELICAN三平台自主无人机体系","summary":"发现、诊断和处置由不同无人机平台在统一任务框架内协同。","impact":"巡检系统可从单机作业升级为多角色任务链。","publisher":"Iwa Robotics / PR Newswire","publish_date":"2026-09-05","url":"https://www.streetinsider.com/PRNewswire/Iwa%2BRobotics%2BUnveils%2BHAWK%2C%2BCANARY%2Band%2BPELICAN%3A%2BAn%2BAutonomous%2BDrone%2BFleet%2BEquipped%2Bto%2BDetect%2C%2BDiagnose%2Band%2BSuppress%2BUrban%2BWildfires/27031134.html","image_url":null},
+    {"category":"AI模型与工具","title":"多Agent形式化任务显示：共享任务图与可机器验证结果比“单个更强模型”更关键","summary":"Claude超长形式化任务依靠任务DAG、共享状态与Lean验证完成。","impact":"GIS长流程Agent应显式拆任务、保存状态并用确定性工具验算。","publisher":"Anthropic / 9月5日行业跟进","publish_date":"2026-09-05","url":"https://www.anthropic.com/research/formalizing-fermats-last-theorem","image_url":null}
+  ],
+  "recommended_reading": null,
+  "sources": [
+    "https://www.infoq.com/news/2026/09/jupyter-gis-extension/",
+    "https://www.vifindia.org/article/2026/september/05/The-Band-Aid-City-Circular-Urbanism-Beyond-Capacity-Expansion",
+    "https://blueprint.ng/housing-ministry-seeks-partnership-with-chinese-firm-to-tackle-deficits/",
+    "https://www.streetinsider.com/PRNewswire/Iwa%2BRobotics%2BUnveils%2BHAWK%2C%2BCANARY%2Band%2BPELICAN%3A%2BAn%2BAutonomous%2BDrone%2BFleet%2BEquipped%2Bto%2BDetect%2C%2BDiagnose%2Band%2BSuppress%2BUrban%2BWildfires/27031134.html",
+    "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+  ]
+}
