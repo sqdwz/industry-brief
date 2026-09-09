@@ -1,34 +1,30 @@
 {
   "type": "daily",
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08T14:16:04+08:00",
-  "title": "行业日报｜2026-09-08",
-  "summary": "过去24小时内，城市更新政策侧出现两项较明确的新动作：湖南启动2026—2028年城市更新三年行动，北京确认央企在京第八批63个老旧小区综合整治项目。AI方向的重要新增更多集中在高能力Agent的安全边界与人类监督；测绘方向则出现高频三维重建与卫星立体测绘能力加速落地的信号。",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T14:35:54+08:00",
+  "title": "行业日报｜2026-09-09",
+  "summary": "过去24小时最值得关注的变化集中在三条主线上：国务院再次把城市更新提升到高质量内涵式发展的政策抓手；GIS正在从单纯制图平台转向实时跨机构协同底座；AI Agent与无人机工程监测都在从“能用”进入“可持续运行、可审计、可量化产出”的阶段。",
   "sections": [
-    {"name":"今日五条","items":[
-      {"category":"城市更新/GIS","title":"湖南启动城市更新三年行动，2026年启动100个更新片区","summary":"湖南省发布《城市更新三年行动实施方案（2026—2028年）》，部署20项任务，提出2026年启动100个城市更新片区建设，到2028年底基本建成80个引领片区，并要求地级城市在2026年12月底前实现城市体检中心城区全覆盖。","impact":"这类省级行动计划会直接推动城市体检、片区策划、项目库和年度实施清单联动。GIS项目台账建议提前按片区、任务类型、年度、资金来源、实施状态建立统一编码。","publisher":"湖南省人民政府 / 湖南省发展和改革委员会","publish_date":"2026-09-08","url":"https://hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202609/t20260908_34058640.html","image_url":null},
-      {"category":"城市更新/GIS","title":"北京确认央企在京第八批63个老旧小区综合整治项目","summary":"北京市住建委9月7日公布第八批符合条件的央企在京老旧小区综合整治项目，共63个，并要求同步推进违建治理、架空线治理、红线外市政基础设施和区域公共配套设施建设。","impact":"老旧小区项目边界已经明显从楼栋本体扩展到红线外基础设施和公共配套。做GIS调查时不宜只画小区面，建议同时建立楼栋、红线外设施、产权主体和配套项目的关联关系。","publisher":"北京市住房和城乡建设委员会","publish_date":"2026-09-07","url":"https://zjw.beijing.gov.cn/bjjs/ljxqgzhlljt/ljxqgz/gg/ztblgg/744115429/index.shtml","image_url":null},
-      {"category":"AI模型与工具","title":"OpenAI首席科学家强调高能力Agent需加强监控与人类控制","summary":"OpenAI首席科学家Jakub Pachocki在9月7日发布的文章中讨论高能力推理与Agent系统的安全边界，指出模型已能操作计算机、协作并执行研究任务，但随着能力提升，监控、对齐和人在回路仍是核心约束。","impact":"对GIS/CAD Agent最实际的启发不是减少使用，而是把权限拆开：读取、分析、写文件、写数据库、提交Git分别授权，并保留可审计日志和人工确认节点。","publisher":"OpenAI","publish_date":"2026-09-07","url":"https://openai.com/index/an-alien-mind/","image_url":null},
-      {"category":"测绘/无人机","title":"19星立体测绘星群形成大范围高频三维数据生产能力","summary":"9月8日《工人日报》报道，长光卫星已建成由19颗卫星组成的立体测绘星群，可提供双视、三视和多星五视立体数据，并生产DSM、DEM、三维白模和实景三维模型。相关星群建设于9月1日对外公布。","impact":"对城市更新和测绘项目而言，卫星立体数据开始更适合作为无人机禁飞、任务周期紧或大范围前期摸底时的替代数据源，可与无人机精细测量形成‘大范围筛查+重点区精测’组合。","publisher":"工人日报 / 长光卫星","publish_date":"2026-09-08","url":"https://www.workercn.cn/papers/grrb/2026/09/08/6/news-6.html","image_url":null},
-      {"category":"测绘/无人机","title":"竹基倾转旋翼无人机完成首飞，轻量化复合材料进入新型无人机验证阶段","summary":"由国际竹藤中心、北京航空航天大学宁波创新研究院等联合研制的竹基倾转旋翼无人机9月8日在天津完成首飞，翼展超过2.5米、整机约7公斤、续航超过1小时。","impact":"它暂时不是测绘生产工具，但值得关注的是轻量化材料对续航和载荷空间的影响。未来长航时倾转旋翼平台若进一步成熟，会直接改善大范围航测中的航线效率和起降条件。","publisher":"中关村在线（转述研发单位发布信息）","publish_date":"2026-09-08","url":"https://news.zol.com.cn/1244/12449432.html","image_url":null}
-    ]},
-    {"name":"行业观察","summary":"今天最明显的变化不是某个单点工具升级，而是城市更新和空间数据都在扩大管理尺度：城市更新从楼栋、小区扩展到片区和红线外基础设施；三维测绘从单次无人机采集扩展到卫星高频重建。GIS数据库如果仍按‘一个项目一个图层’组织，后续会越来越吃力，更适合转向对象ID、关系表、时间状态和多源影像共同管理。"},
-    {"name":"本周值得尝试","summary":"尝试建立‘片区—小区—楼栋—设施’四级对象表。每一级保留唯一ID，并把调查、权属、照片、航拍、整改和实施状态挂到对象ID上。这样城市更新从单楼栋扩展到片区时，不需要重新推倒数据结构。"}
+    {
+      "name": "今日五条",
+      "items": [
+        {"category":"城市更新/GIS","title":"国务院专题学习聚焦高质量推进城市更新","summary":"9月8日，国务院以“高质量推进城市更新、促进城市内涵式发展”为主题开展第二十一次专题学习，强调建立可持续的城市更新模式，推动城市结构优化、功能完善、文脉赓续和品质提升。","impact":"对城市更新项目而言，片区策划不能只停留在工程清单，后续更需要把人口、住房、公共服务、历史文化、资产运营和资金平衡放在统一空间底图上管理。","publisher":"中国政府网 / 新华社","publish_date":"2026-09-08","url":"https://www.gov.cn/yaowen/liebiao/202609/content_7080439.htm","image_url":null},
+        {"category":"城市更新/GIS","title":"Esri发布黎巴嫩危机协调案例：GIS成为跨机构实时协同底座","summary":"Esri 9月8日介绍黎巴嫩在大规模人口流离失所危机中构建的实时协调系统，通过GIS把政府、联合国机构和社区信息连接起来，用共享地图支持动态资源调配与现场决策。","impact":"这类架构很适合迁移到征收、城市体检和应急调查：统一对象ID、实时状态、责任单位、现场反馈与地图联动，比各单位各维护一张表更适合复杂项目。","publisher":"Esri","publish_date":"2026-09-08","url":"https://www.esri.com/about/newsroom/blog/lebanon-crisis-coordination-system","image_url":null},
+        {"category":"AI模型与工具","title":"Meta推出Muse个人AI Agent，可跨应用执行邮件、支付和预订","summary":"Meta 9月8日推出Muse，可在用户授权下访问邮件、日历、支付、购物等应用并自主执行任务；产品采用隔离虚拟机并配置独立安全代理监控操作，但公开报道也提到其测试阶段出现过隐私和可靠性问题。","impact":"AI Agent从“回答问题”转向“直接操作外部系统”后，GIS/CAD自动化同样应把数据读取、数据库写入、支付/采购、Git提交等高风险动作拆开授权，并保留人工确认。","publisher":"Meta / Reuters","publish_date":"2026-09-08","url":"https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/","image_url":null},
+        {"category":"AI模型与工具","title":"OpenAI把AI进一步推向芯片设计等专业工程场景","summary":"OpenAI CFO Sarah Friar 9月9日表示，公司正在把AI能力扩展到芯片设计、生命科学和金融服务，并称内部AI辅助完成Jalapeno芯片设计并在9个月内达到流片阶段；同时强调企业客户越来越关注可量化结果与成本。","impact":"对测绘与GIS团队的启发是，模型选择不应只比榜单分数，更应按真实任务核算“完成一次成果”的成本、时间和返工率，例如批量ArcPy脚本、图件质检和资料归档。","publisher":"Reuters","publish_date":"2026-09-09","url":"https://www.reuters.com/world/china/openai-offers-ai-chip-design-touts-cost-advantage-over-open-source-cfo-says-2026-09-09/","image_url":null},
+        {"category":"测绘/无人机","title":"Bechtel与Cyberhawk扩大AI无人机施工监测合作","summary":"Bechtel与Cyberhawk 9月8日扩大长期合作，将无人机自主采集、iHawk平台和AI辅助分析进一步用于大型EPC项目的近实时施工监测，重点是把周期性航拍直接转化为进度与现场决策信息。","impact":"这比“飞一次、交一套正射”更接近城市更新现场的长期需求。可固定航线和时间间隔，通过同一坐标框架做多期对比，把工程进度、拆除状态、临建变化和安全隐患转成可追踪事件。","publisher":"DRONELIFE / Bechtel / Cyberhawk","publish_date":"2026-09-08","url":"https://dronelife.com/2026/09/08/bechtel-cyberhawk-drone-construction-monitoring/","image_url":null}
+      ]
+    },
+    {"name":"行业观察","summary":"今天的共同线索是“持续运营”。城市更新强调可持续模式，GIS案例强调跨机构实时协同，AI Agent开始真正操作外部系统，无人机也从单次采集转成周期性工程监测。对实际项目最值得调整的，不是再多加一个软件，而是把对象ID、时间状态、权限和变更记录做成长期可维护的数据骨架。"},
+    {"name":"本周值得尝试","summary":"建立“变化事件表（Change Event Log）”：每次现场调查、航拍、权属核查或资料修改都不直接覆盖旧值，而是记录 Object_ID、Event_ID、时间、变化类型、前值、后值、来源、责任人和附件路径。先在一个小区或一个征收组试行，后续多期影像和AI自动识别都能直接挂接。"}
   ],
   "items": [
-    {"category":"城市更新/GIS","title":"湖南启动城市更新三年行动，2026年启动100个更新片区","summary":"湖南把城市体检、片区更新、老旧小区、完整社区和韧性建设纳入三年量化行动。","impact":"GIS项目库应按片区、年度、任务和资金建立统一编码。","publisher":"湖南省人民政府 / 湖南省发展和改革委员会","publish_date":"2026-09-08","url":"https://hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202609/t20260908_34058640.html","image_url":null},
-    {"category":"城市更新/GIS","title":"北京确认央企在京第八批63个老旧小区综合整治项目","summary":"老旧小区更新进一步要求同步处理红线外市政和区域公共配套。","impact":"调查范围应从小区本体扩展到周边设施和多产权主体。","publisher":"北京市住房和城乡建设委员会","publish_date":"2026-09-07","url":"https://zjw.beijing.gov.cn/bjjs/ljxqgzhlljt/ljxqgz/gg/ztblgg/744115429/index.shtml","image_url":null},
-    {"category":"AI模型与工具","title":"OpenAI首席科学家强调高能力Agent需加强监控与人类控制","summary":"更强Agent能力正在提高对权限隔离、监控和人在回路的要求。","impact":"GIS/CAD Agent应把读取、写文件、写数据库和提交权限分级。","publisher":"OpenAI","publish_date":"2026-09-07","url":"https://openai.com/index/an-alien-mind/","image_url":null},
-    {"category":"测绘/无人机","title":"19星立体测绘星群形成大范围高频三维数据生产能力","summary":"多星多视立体数据可用于DSM、DEM、白模和实景三维生产。","impact":"可补充无人机禁飞区和大范围前期三维调查。","publisher":"工人日报 / 长光卫星","publish_date":"2026-09-08","url":"https://www.workercn.cn/papers/grrb/2026/09/08/6/news-6.html","image_url":null},
-    {"category":"测绘/无人机","title":"竹基倾转旋翼无人机完成首飞","summary":"轻量化复合材料和倾转旋翼路线继续推进长航时无人机验证。","impact":"长期看可能改善大范围航测的续航和复杂场地起降能力。","publisher":"中关村在线","publish_date":"2026-09-08","url":"https://news.zol.com.cn/1244/12449432.html","image_url":null}
+    {"category":"城市更新/GIS","title":"国务院专题学习聚焦高质量推进城市更新","summary":"9月8日，国务院以“高质量推进城市更新、促进城市内涵式发展”为主题开展第二十一次专题学习，强调建立可持续的城市更新模式，推动城市结构优化、功能完善、文脉赓续和品质提升。","impact":"对城市更新项目而言，片区策划不能只停留在工程清单，后续更需要把人口、住房、公共服务、历史文化、资产运营和资金平衡放在统一空间底图上管理。","publisher":"中国政府网 / 新华社","publish_date":"2026-09-08","url":"https://www.gov.cn/yaowen/liebiao/202609/content_7080439.htm","image_url":null},
+    {"category":"城市更新/GIS","title":"Esri发布黎巴嫩危机协调案例：GIS成为跨机构实时协同底座","summary":"Esri 9月8日介绍黎巴嫩在大规模人口流离失所危机中构建的实时协调系统，通过GIS把政府、联合国机构和社区信息连接起来，用共享地图支持动态资源调配与现场决策。","impact":"这类架构很适合迁移到征收、城市体检和应急调查：统一对象ID、实时状态、责任单位、现场反馈与地图联动，比各单位各维护一张表更适合复杂项目。","publisher":"Esri","publish_date":"2026-09-08","url":"https://www.esri.com/about/newsroom/blog/lebanon-crisis-coordination-system","image_url":null},
+    {"category":"AI模型与工具","title":"Meta推出Muse个人AI Agent，可跨应用执行邮件、支付和预订","summary":"Meta 9月8日推出Muse，可在用户授权下访问邮件、日历、支付、购物等应用并自主执行任务；产品采用隔离虚拟机并配置独立安全代理监控操作，但公开报道也提到其测试阶段出现过隐私和可靠性问题。","impact":"AI Agent从“回答问题”转向“直接操作外部系统”后，GIS/CAD自动化同样应把数据读取、数据库写入、支付/采购、Git提交等高风险动作拆开授权，并保留人工确认。","publisher":"Meta / Reuters","publish_date":"2026-09-08","url":"https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/","image_url":null},
+    {"category":"AI模型与工具","title":"OpenAI把AI进一步推向芯片设计等专业工程场景","summary":"OpenAI CFO Sarah Friar 9月9日表示，公司正在把AI能力扩展到芯片设计、生命科学和金融服务，并称内部AI辅助完成Jalapeno芯片设计并在9个月内达到流片阶段；同时强调企业客户越来越关注可量化结果与成本。","impact":"对测绘与GIS团队的启发是，模型选择不应只比榜单分数，更应按真实任务核算“完成一次成果”的成本、时间和返工率，例如批量ArcPy脚本、图件质检和资料归档。","publisher":"Reuters","publish_date":"2026-09-09","url":"https://www.reuters.com/world/china/openai-offers-ai-chip-design-touts-cost-advantage-over-open-source-cfo-says-2026-09-09/","image_url":null},
+    {"category":"测绘/无人机","title":"Bechtel与Cyberhawk扩大AI无人机施工监测合作","summary":"Bechtel与Cyberhawk 9月8日扩大长期合作，将无人机自主采集、iHawk平台和AI辅助分析进一步用于大型EPC项目的近实时施工监测，重点是把周期性航拍直接转化为进度与现场决策信息。","impact":"这比“飞一次、交一套正射”更接近城市更新现场的长期需求。可固定航线和时间间隔，通过同一坐标框架做多期对比，把工程进度、拆除状态、临建变化和安全隐患转成可追踪事件。","publisher":"DRONELIFE / Bechtel / Cyberhawk","publish_date":"2026-09-08","url":"https://dronelife.com/2026/09/08/bechtel-cyberhawk-drone-construction-monitoring/","image_url":null}
   ],
   "recommended_reading": null,
-  "sources": [
-    "https://hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202609/t20260908_34058640.html",
-    "https://fgw.hunan.gov.cn/fgw/xxgk_70899/zcfg/zcjd/202609/t20260907_34058526.html",
-    "https://zjw.beijing.gov.cn/bjjs/ljxqgzhlljt/ljxqgz/gg/ztblgg/744115429/index.shtml",
-    "https://openai.com/index/an-alien-mind/",
-    "https://www.workercn.cn/papers/grrb/2026/09/08/6/news-6.html",
-    "https://news.zol.com.cn/1244/12449432.html"
-  ]
+  "sources": ["https://www.gov.cn/yaowen/liebiao/202609/content_7080439.htm","https://www.esri.com/about/newsroom/blog/lebanon-crisis-coordination-system","https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/","https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race","https://www.reuters.com/world/china/openai-offers-ai-chip-design-touts-cost-advantage-over-open-source-cfo-says-2026-09-09/","https://dronelife.com/2026/09/08/bechtel-cyberhawk-drone-construction-monitoring/"]
 }
