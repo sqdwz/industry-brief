@@ -1,135 +1,27 @@
 {
   "type": "daily",
-  "date": "2026-09-13",
-  "generated_at": "2026-09-13T14:20:26+08:00",
-  "title": "行业日报｜2026-09-13",
-  "summary": "过去24小时最值得关注的变化集中在三条线上：城市更新开始把房屋体检、遥感/无人机与长期档案打通；片区更新进一步从单体改造转向交通、产业、居住和公共服务协同；AI与三维采集工具则同步进入更重视权限、审计和全生命周期数据链的阶段。",
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T14:30:22+08:00",
+  "title": "行业日报｜2026-09-14",
+  "summary": "过去24小时与今天正在发生的高价值动态，重点集中在Agent端到端执行能力、GNSS/PNT技术交流、三维扫描以及点云从项目成果向企业级数据资产管理转变。城市更新/GIS方向当天没有足够多的高质量独立政策新闻，因此未机械凑数，改以INTERGEO前夕最直接影响GIS与城市空间工作的行业动向补充。",
   "sections": [
-    {
-      "name": "今日五条",
-      "items": [
-        {
-          "category": "城市更新/房屋安全",
-          "title": "长沙望城区启动老旧房屋安全体检，采用“天空地”一体化监测",
-          "summary": "9月12日，望城区城镇房屋安全体检和保险项目启动，面向房龄25年以上多业主住宅及自建房，综合使用全站仪、钢筋探测、红外无人机、SAR卫星遥感、多光谱无人机和物联监测，并实行“一栋一档”数字化管理。",
-          "impact": "这套结构与城市更新前期摸排高度契合：房屋对象统一建档，再把现场测量、无人机、遥感、监测和保险/处置状态挂到同一栋房屋ID下，可直接借鉴到危旧房调查和更新项目数据库。",
-          "publisher": "三湘都市报 / 新湖南",
-          "publish_date": "2026-09-12",
-          "url": "https://www.hunantoday.cn/news/xhn/202609/33739055.html",
-          "image_url": null
-        },
-        {
-          "category": "城市更新/GIS",
-          "title": "天津西站南片区以“站产城”一体推进更新，老旧小区与产业载体同步实施",
-          "summary": "央广网9月12日报道，天津西站南片区把产业载体、住宅开发、老旧小区改造、教育和公共配套放在同一片区框架推进，已有6个老旧小区完成改造，另有3个计划年内完工。",
-          "impact": "片区更新的数据组织不宜只围绕单一征收红线，可改成“片区—子项目—设施—实施状态”的分层模型，并把交通枢纽、产业、居住和公共服务一起做空间关联。",
-          "publisher": "央广网",
-          "publish_date": "2026-09-12",
-          "url": "https://www.cnr.cn/tj/sgjs/20260912/t20260912_527811612.shtml",
-          "image_url": null
-        },
-        {
-          "category": "AI模型与工具",
-          "title": "Anthropic CEO提出“给前沿模型降速”的三步框架",
-          "summary": "Dario Amodei 9月12日提出前沿AI应通过企业内部独立审查、行业共同标准和国际协调来放慢能力扩张节奏；Reuters与TechCrunch均对该提议进行了报道。",
-          "impact": "对GIS/CAD Agent的现实启示不是“少用AI”，而是把能力和权限分开：浏览、读取项目文件、写数据库、执行脚本、Git提交应设置独立授权和复核点，高能力模型尤其需要可追踪日志。",
-          "publisher": "Dario Amodei / Reuters / TechCrunch",
-          "publish_date": "2026-09-12",
-          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-          "image_url": null
-        },
-        {
-          "category": "测绘/LiDAR",
-          "title": "美国CDC采购移动SLAM LiDAR系统，用于无GNSS环境快速三维采集",
-          "summary": "美国CDC旗下NIOSH于9月12日发布采购需求，拟购置两套手持或背负式移动SLAM LiDAR扫描系统，并要求配套软件、附件、质保与培训。",
-          "impact": "说明SLAM移动扫描正在从展示型技术进入常规机构采购。对老旧建筑、室内空间、巷道和GNSS遮挡区域，可评估“RTK定基准＋SLAM补内部”的组合，而不是强行用单一设备覆盖全场景。",
-          "publisher": "U.S. CDC / NIOSH采购信息",
-          "publish_date": "2026-09-12",
-          "url": "https://sam.gov/opp/75D301-26-Q-79246",
-          "image_url": null
-        },
-        {
-          "category": "数字建造/GIS",
-          "title": "迪拜Construction Technology ConFex强调“数据从建设活到运维”与数字孪生联动",
-          "summary": "本届Construction Technology ConFex聚焦AI、BIM、数字孪生、机器人和数据管理，其中专题明确讨论如何建立贯穿项目策划、建设、移交到FM运维的“Golden Thread”，避免项目竣工后数据断链。",
-          "impact": "城市更新项目可在测绘阶段就固定对象ID、资料来源、版本和变更记录，让房屋测量、权属、补偿、施工和后续运维沿同一数据链延续，减少竣工时重新整理一套资料。",
-          "publisher": "Construction Technology ConFex",
-          "publish_date": "2026-09-12",
-          "url": "https://ctf-uae.com/",
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "name": "行业观察",
-      "summary": "今天几条信息看似分散，底层其实很一致：城市更新正在从“做一次调查、交一套成果”转向持续管理对象。房屋安全体检用天空地多源数据，站产城更新要求跨子项目协同，SLAM补齐室内与遮挡区，而数字建造强调数据从建设延续到运维。GIS真正要升级的不是多加几个图层，而是把对象ID、时间、来源、版本和状态设计好。"
-    },
-    {
-      "name": "本周值得尝试",
-      "title": "给房屋建立“一栋一档＋变化事件表”",
-      "summary": "挑一个正在做的片区，为每栋房屋固定House_ID；主表只放当前状态，另建Event表记录每次入户、权属核查、测量、航拍、结构变化和处置结果。字段建议：House_ID、Event_ID、event_type、event_time、source、before_value、after_value、attachment、operator。这样后续无人机、RTK、照片和AI识别都能按时间回溯。"
-    }
+    {"name":"今日五条","items":[
+      {"category":"AI模型与工具","title":"OpenAI披露Perplexity将GPT-6 Astra用于端到端生产系统","summary":"OpenAI 9月14日发布案例称，Perplexity已让GPT-6 Astra参与编写通信内容、修改真实软件系统、监控生产环境，并用模型生成测试程序模拟外部服务响应，验证工作流端到端表现。","impact":"对GIS/CAD自动化最有价值的不是单次问答变强，而是Agent可以围绕真实工具链做测试、执行和监控。适合优先在非生产副本中试验“生成脚本—自动测试—输出日志—人工批准后写正式成果”的闭环。","publisher":"OpenAI","publish_date":"2026-09-14","url":"https://openai.com/index/perplexity-improving-accuracy-with-astra/","image_url":null},
+      {"category":"测绘/GNSS","title":"ION GNSS+ 2026今日开幕，定位导航与授时进入年度集中更新窗口","summary":"ION GNSS+ 2026于9月14日至18日在美国奥兰多举行，覆盖GNSS系统现状与未来、先进导航算法、航天器导航以及商业与政策议题；Hexagon/NovAtel、Exail、Microchip等厂商参与展示。","impact":"RTK、PPK、组合导航和抗干扰能力的年度变化会直接影响测绘设备选型和无人机定位方案。近期如计划采购RTK、惯导或移动测量设备，建议等本周新品与技术资料集中发布后再横向比较。","publisher":"The Institute of Navigation (ION)","publish_date":"2026-09-14","url":"https://www.ion.org/gnss/","image_url":null},
+      {"category":"测绘/三维扫描","title":"Artec 3D在IMTS 2026展示新一代三维扫描方案","summary":"Artec 3D在9月14日开幕的IMTS 2026展示完整专业三维扫描产品线，并预告现场首发新技术；现有无线AI扫描设备Artec Leo重点面向快速采集、质量检测与逆向工程。","impact":"城市更新中的建筑立面、复杂构件、室内细部并不都适合无人机摄影测量。手持三维扫描可作为RTK和无人机之间的补位工具，尤其适合遮挡严重、尺度较小、需要高密度表面信息的对象。","publisher":"Artec 3D","publish_date":"2026-09-14","url":"https://www.artec3d.com/events/imts-2026","image_url":null},
+      {"category":"GIS/点云数据治理","title":"TopoDOT Solutions Day把重点从点云生产转向企业级数据治理","summary":"9月14日举行的TopoDOT Solutions Day重点讨论如何把点云从单项目成果升级为可发现、可沟通、可协作的企业级资产，并以TopoShare演示测量数据治理与长期复用。","impact":"这与城市更新项目很贴近：点云、DOM和三维模型不应只按项目文件夹存放。可开始为成果增加统一Object_ID、采集时间、坐标系、精度、设备、版本与适用范围元数据，后续查找和复用成本会明显下降。","publisher":"TopoDOT Solutions","publish_date":"2026-09-14","url":"https://www.linkedin.com/company/topodot","image_url":null},
+      {"category":"城市/GIS/数字孪生","title":"INTERGEO 2026明日开幕，GeoAI、数字孪生与Reality Capture成为主轴","summary":"INTERGEO 2026将于9月15日至17日在慕尼黑举行，官方议程把GeoAI、Digital Twins、BIM、Earth Observation、现代地理空间数据基础设施、测量定位和Reality Capture放在核心位置，汇集530余家展商。","impact":"GIS行业竞争点正从单一制图软件转向“采集—对象化管理—三维表达—AI分析—共享协作”的完整链路。对城市更新项目而言，本周值得重点留意能够直接连接点云、BIM、GIS与Web三维发布的新工具。","publisher":"INTERGEO / DVW / Messe München","publish_date":"2026-09-14","url":"https://dvw.de/intergeo/en/","image_url":null}
+    ]},
+    {"name":"行业观察","summary":"今天几条动态有一个共同方向：采集能力本身已经不是唯一门槛，行业开始把重点放到数据能否持续进入生产系统。GNSS解决定位，三维扫描和点云解决现实捕获，GIS/数字孪生负责组织空间对象，Agent则开始参与测试、执行和监控。真正能拉开效率差距的，会是这些环节之间是否仍靠人工反复搬文件。"},
+    {"name":"本周值得尝试","title":"给点云/DOM建立最小元数据清单","summary":"任选一个现有测绘项目，为每份DOM、点云、DSM或三维模型补齐8个字段：dataset_id、project_id、capture_time、device、coordinate_system、accuracy、version、coverage。再把文件路径或对象存储链接写入表中。先解决“这份数据是什么、什么时候采的、能不能用”，后面接GIS、Web三维或AI才不会继续靠文件名猜。"}
   ],
   "items": [
-    {
-      "category": "城市更新/房屋安全",
-      "title": "长沙望城区启动老旧房屋安全体检，采用“天空地”一体化监测",
-      "summary": "9月12日，望城区城镇房屋安全体检和保险项目启动，面向房龄25年以上多业主住宅及自建房，综合使用全站仪、钢筋探测、红外无人机、SAR卫星遥感、多光谱无人机和物联监测，并实行“一栋一档”数字化管理。",
-      "impact": "这套结构与城市更新前期摸排高度契合：房屋对象统一建档，再把现场测量、无人机、遥感、监测和保险/处置状态挂到同一栋房屋ID下，可直接借鉴到危旧房调查和更新项目数据库。",
-      "publisher": "三湘都市报 / 新湖南",
-      "publish_date": "2026-09-12",
-      "url": "https://www.hunantoday.cn/news/xhn/202609/33739055.html",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "天津西站南片区以“站产城”一体推进更新，老旧小区与产业载体同步实施",
-      "summary": "央广网9月12日报道，天津西站南片区把产业载体、住宅开发、老旧小区改造、教育和公共配套放在同一片区框架推进，已有6个老旧小区完成改造，另有3个计划年内完工。",
-      "impact": "片区更新的数据组织不宜只围绕单一征收红线，可改成“片区—子项目—设施—实施状态”的分层模型，并把交通枢纽、产业、居住和公共服务一起做空间关联。",
-      "publisher": "央广网",
-      "publish_date": "2026-09-12",
-      "url": "https://www.cnr.cn/tj/sgjs/20260912/t20260912_527811612.shtml",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "Anthropic CEO提出“给前沿模型降速”的三步框架",
-      "summary": "Dario Amodei 9月12日提出前沿AI应通过企业内部独立审查、行业共同标准和国际协调来放慢能力扩张节奏；Reuters与TechCrunch均对该提议进行了报道。",
-      "impact": "对GIS/CAD Agent的现实启示不是“少用AI”，而是把能力和权限分开：浏览、读取项目文件、写数据库、执行脚本、Git提交应设置独立授权和复核点，高能力模型尤其需要可追踪日志。",
-      "publisher": "Dario Amodei / Reuters / TechCrunch",
-      "publish_date": "2026-09-12",
-      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "image_url": null
-    },
-    {
-      "category": "测绘/LiDAR",
-      "title": "美国CDC采购移动SLAM LiDAR系统，用于无GNSS环境快速三维采集",
-      "summary": "美国CDC旗下NIOSH于9月12日发布采购需求，拟购置两套手持或背负式移动SLAM LiDAR扫描系统，并要求配套软件、附件、质保与培训。",
-      "impact": "说明SLAM移动扫描正在从展示型技术进入常规机构采购。对老旧建筑、室内空间、巷道和GNSS遮挡区域，可评估“RTK定基准＋SLAM补内部”的组合，而不是强行用单一设备覆盖全场景。",
-      "publisher": "U.S. CDC / NIOSH采购信息",
-      "publish_date": "2026-09-12",
-      "url": "https://sam.gov/opp/75D301-26-Q-79246",
-      "image_url": null
-    },
-    {
-      "category": "数字建造/GIS",
-      "title": "迪拜Construction Technology ConFex强调“数据从建设活到运维”与数字孪生联动",
-      "summary": "本届Construction Technology ConFex聚焦AI、BIM、数字孪生、机器人和数据管理，其中专题明确讨论如何建立贯穿项目策划、建设、移交到FM运维的“Golden Thread”，避免项目竣工后数据断链。",
-      "impact": "城市更新项目可在测绘阶段就固定对象ID、资料来源、版本和变更记录，让房屋测量、权属、补偿、施工和后续运维沿同一数据链延续，减少竣工时重新整理一套资料。",
-      "publisher": "Construction Technology ConFex",
-      "publish_date": "2026-09-12",
-      "url": "https://ctf-uae.com/",
-      "image_url": null
-    }
+    {"category":"AI模型与工具","title":"OpenAI披露Perplexity将GPT-6 Astra用于端到端生产系统","summary":"OpenAI 9月14日发布案例称，Perplexity已让GPT-6 Astra参与编写通信内容、修改真实软件系统、监控生产环境，并用模型生成测试程序模拟外部服务响应，验证工作流端到端表现。","impact":"对GIS/CAD自动化最有价值的不是单次问答变强，而是Agent可以围绕真实工具链做测试、执行和监控。适合优先在非生产副本中试验“生成脚本—自动测试—输出日志—人工批准后写正式成果”的闭环。","publisher":"OpenAI","publish_date":"2026-09-14","url":"https://openai.com/index/perplexity-improving-accuracy-with-astra/","image_url":null},
+    {"category":"测绘/GNSS","title":"ION GNSS+ 2026今日开幕，定位导航与授时进入年度集中更新窗口","summary":"ION GNSS+ 2026于9月14日至18日在美国奥兰多举行，覆盖GNSS系统现状与未来、先进导航算法、航天器导航以及商业与政策议题；Hexagon/NovAtel、Exail、Microchip等厂商参与展示。","impact":"RTK、PPK、组合导航和抗干扰能力的年度变化会直接影响测绘设备选型和无人机定位方案。近期如计划采购RTK、惯导或移动测量设备，建议等本周新品与技术资料集中发布后再横向比较。","publisher":"The Institute of Navigation (ION)","publish_date":"2026-09-14","url":"https://www.ion.org/gnss/","image_url":null},
+    {"category":"测绘/三维扫描","title":"Artec 3D在IMTS 2026展示新一代三维扫描方案","summary":"Artec 3D在9月14日开幕的IMTS 2026展示完整专业三维扫描产品线，并预告现场首发新技术；现有无线AI扫描设备Artec Leo重点面向快速采集、质量检测与逆向工程。","impact":"城市更新中的建筑立面、复杂构件、室内细部并不都适合无人机摄影测量。手持三维扫描可作为RTK和无人机之间的补位工具，尤其适合遮挡严重、尺度较小、需要高密度表面信息的对象。","publisher":"Artec 3D","publish_date":"2026-09-14","url":"https://www.artec3d.com/events/imts-2026","image_url":null},
+    {"category":"GIS/点云数据治理","title":"TopoDOT Solutions Day把重点从点云生产转向企业级数据治理","summary":"9月14日举行的TopoDOT Solutions Day重点讨论如何把点云从单项目成果升级为可发现、可沟通、可协作的企业级资产，并以TopoShare演示测量数据治理与长期复用。","impact":"这与城市更新项目很贴近：点云、DOM和三维模型不应只按项目文件夹存放。可开始为成果增加统一Object_ID、采集时间、坐标系、精度、设备、版本与适用范围元数据，后续查找和复用成本会明显下降。","publisher":"TopoDOT Solutions","publish_date":"2026-09-14","url":"https://www.linkedin.com/company/topodot","image_url":null},
+    {"category":"城市/GIS/数字孪生","title":"INTERGEO 2026明日开幕，GeoAI、数字孪生与Reality Capture成为主轴","summary":"INTERGEO 2026将于9月15日至17日在慕尼黑举行，官方议程把GeoAI、Digital Twins、BIM、Earth Observation、现代地理空间数据基础设施、测量定位和Reality Capture放在核心位置，汇集530余家展商。","impact":"GIS行业竞争点正从单一制图软件转向“采集—对象化管理—三维表达—AI分析—共享协作”的完整链路。对城市更新项目而言，本周值得重点留意能够直接连接点云、BIM、GIS与Web三维发布的新工具。","publisher":"INTERGEO / DVW / Messe München","publish_date":"2026-09-14","url":"https://dvw.de/intergeo/en/","image_url":null}
   ],
   "recommended_reading": null,
-  "sources": [
-    "https://www.hunantoday.cn/news/xhn/202609/33739055.html",
-    "https://www.cnr.cn/tj/sgjs/20260912/t20260912_527811612.shtml",
-    "https://darioamodei.com/post/we-must-pace-the-frontier",
-    "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
-    "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-    "https://sam.gov/opp/75D301-26-Q-79246",
-    "https://ctf-uae.com/"
-  ]
+  "sources": ["https://openai.com/index/perplexity-improving-accuracy-with-astra/","https://www.ion.org/gnss/","https://www.ion.org/gnss/program.cfm","https://www.artec3d.com/events/imts-2026","https://www.linkedin.com/company/topodot","https://dvw.de/intergeo/en/","https://dvw.de/intergeo/en/press/three-days-of-future-knowledge-for-the-geo-community","https://messe-muenchen.de/en/events/intergeo-2026.html"]
 }

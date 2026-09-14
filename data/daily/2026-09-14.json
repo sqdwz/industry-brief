@@ -1,0 +1,136 @@
+{
+  "type": "daily",
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T14:30:22+08:00",
+  "title": "行业日报｜2026-09-14",
+  "summary": "过去24小时与今天正在发生的高价值动态，重点集中在Agent端到端执行能力、GNSS/PNT技术交流、三维扫描以及点云从项目成果向企业级数据资产管理转变。城市更新/GIS方向当天没有足够多的高质量独立政策新闻，因此未机械凑数，改以INTERGEO前夕最直接影响GIS与城市空间工作的行业动向补充。",
+  "sections": [
+    {
+      "name": "今日五条",
+      "items": [
+        {
+          "category": "AI模型与工具",
+          "title": "OpenAI披露Perplexity将GPT-6 Astra用于端到端生产系统",
+          "summary": "OpenAI 9月14日发布案例称，Perplexity已让GPT-6 Astra参与编写通信内容、修改真实软件系统、监控生产环境，并用模型生成测试程序模拟外部服务响应，验证工作流端到端表现。",
+          "impact": "对GIS/CAD自动化最有价值的不是单次问答变强，而是Agent可以围绕真实工具链做测试、执行和监控。适合优先在非生产副本中试验“生成脚本—自动测试—输出日志—人工批准后写正式成果”的闭环。",
+          "publisher": "OpenAI",
+          "publish_date": "2026-09-14",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+          "image_url": null
+        },
+        {
+          "category": "测绘/GNSS",
+          "title": "ION GNSS+ 2026今日开幕，定位导航与授时进入年度集中更新窗口",
+          "summary": "ION GNSS+ 2026于9月14日至18日在美国奥兰多举行，覆盖GNSS系统现状与未来、先进导航算法、航天器导航以及商业与政策议题；Hexagon/NovAtel、Exail、Microchip等厂商参与展示。",
+          "impact": "RTK、PPK、组合导航和抗干扰能力的年度变化会直接影响测绘设备选型和无人机定位方案。近期如计划采购RTK、惯导或移动测量设备，建议等本周新品与技术资料集中发布后再横向比较。",
+          "publisher": "The Institute of Navigation (ION)",
+          "publish_date": "2026-09-14",
+          "url": "https://www.ion.org/gnss/",
+          "image_url": null
+        },
+        {
+          "category": "测绘/三维扫描",
+          "title": "Artec 3D在IMTS 2026展示新一代三维扫描方案",
+          "summary": "Artec 3D在9月14日开幕的IMTS 2026展示完整专业三维扫描产品线，并预告现场首发新技术；现有无线AI扫描设备Artec Leo重点面向快速采集、质量检测与逆向工程。",
+          "impact": "城市更新中的建筑立面、复杂构件、室内细部并不都适合无人机摄影测量。手持三维扫描可作为RTK和无人机之间的补位工具，尤其适合遮挡严重、尺度较小、需要高密度表面信息的对象。",
+          "publisher": "Artec 3D",
+          "publish_date": "2026-09-14",
+          "url": "https://www.artec3d.com/events/imts-2026",
+          "image_url": null
+        },
+        {
+          "category": "GIS/点云数据治理",
+          "title": "TopoDOT Solutions Day把重点从点云生产转向企业级数据治理",
+          "summary": "9月14日举行的TopoDOT Solutions Day重点讨论如何把点云从单项目成果升级为可发现、可沟通、可协作的企业级资产，并以TopoShare演示测量数据治理与长期复用。",
+          "impact": "这与城市更新项目很贴近：点云、DOM和三维模型不应只按项目文件夹存放。可开始为成果增加统一Object_ID、采集时间、坐标系、精度、设备、版本与适用范围元数据，后续查找和复用成本会明显下降。",
+          "publisher": "TopoDOT Solutions",
+          "publish_date": "2026-09-14",
+          "url": "https://www.linkedin.com/company/topodot",
+          "image_url": null
+        },
+        {
+          "category": "城市/GIS/数字孪生",
+          "title": "INTERGEO 2026明日开幕，GeoAI、数字孪生与Reality Capture成为主轴",
+          "summary": "INTERGEO 2026将于9月15日至17日在慕尼黑举行，官方议程把GeoAI、Digital Twins、BIM、Earth Observation、现代地理空间数据基础设施、测量定位和Reality Capture放在核心位置，汇集530余家展商。",
+          "impact": "GIS行业竞争点正从单一制图软件转向“采集—对象化管理—三维表达—AI分析—共享协作”的完整链路。对城市更新项目而言，本周值得重点留意能够直接连接点云、BIM、GIS与Web三维发布的新工具。",
+          "publisher": "INTERGEO / DVW / Messe München",
+          "publish_date": "2026-09-14",
+          "url": "https://dvw.de/intergeo/en/",
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "name": "行业观察",
+      "summary": "今天几条动态有一个共同方向：采集能力本身已经不是唯一门槛，行业开始把重点放到数据能否持续进入生产系统。GNSS解决定位，三维扫描和点云解决现实捕获，GIS/数字孪生负责组织空间对象，Agent则开始参与测试、执行和监控。真正能拉开效率差距的，会是这些环节之间是否仍靠人工反复搬文件。"
+    },
+    {
+      "name": "本周值得尝试",
+      "title": "给点云/DOM建立最小元数据清单",
+      "summary": "任选一个现有测绘项目，为每份DOM、点云、DSM或三维模型补齐8个字段：dataset_id、project_id、capture_time、device、coordinate_system、accuracy、version、coverage。再把文件路径或对象存储链接写入表中。先解决“这份数据是什么、什么时候采的、能不能用”，后面接GIS、Web三维或AI才不会继续靠文件名猜。"
+    }
+  ],
+  "items": [
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI披露Perplexity将GPT-6 Astra用于端到端生产系统",
+      "summary": "OpenAI 9月14日发布案例称，Perplexity已让GPT-6 Astra参与编写通信内容、修改真实软件系统、监控生产环境，并用模型生成测试程序模拟外部服务响应，验证工作流端到端表现。",
+      "impact": "对GIS/CAD自动化最有价值的不是单次问答变强，而是Agent可以围绕真实工具链做测试、执行和监控。适合优先在非生产副本中试验“生成脚本—自动测试—输出日志—人工批准后写正式成果”的闭环。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-09-14",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/GNSS",
+      "title": "ION GNSS+ 2026今日开幕，定位导航与授时进入年度集中更新窗口",
+      "summary": "ION GNSS+ 2026于9月14日至18日在美国奥兰多举行，覆盖GNSS系统现状与未来、先进导航算法、航天器导航以及商业与政策议题；Hexagon/NovAtel、Exail、Microchip等厂商参与展示。",
+      "impact": "RTK、PPK、组合导航和抗干扰能力的年度变化会直接影响测绘设备选型和无人机定位方案。近期如计划采购RTK、惯导或移动测量设备，建议等本周新品与技术资料集中发布后再横向比较。",
+      "publisher": "The Institute of Navigation (ION)",
+      "publish_date": "2026-09-14",
+      "url": "https://www.ion.org/gnss/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/三维扫描",
+      "title": "Artec 3D在IMTS 2026展示新一代三维扫描方案",
+      "summary": "Artec 3D在9月14日开幕的IMTS 2026展示完整专业三维扫描产品线，并预告现场首发新技术；现有无线AI扫描设备Artec Leo重点面向快速采集、质量检测与逆向工程。",
+      "impact": "城市更新中的建筑立面、复杂构件、室内细部并不都适合无人机摄影测量。手持三维扫描可作为RTK和无人机之间的补位工具，尤其适合遮挡严重、尺度较小、需要高密度表面信息的对象。",
+      "publisher": "Artec 3D",
+      "publish_date": "2026-09-14",
+      "url": "https://www.artec3d.com/events/imts-2026",
+      "image_url": null
+    },
+    {
+      "category": "GIS/点云数据治理",
+      "title": "TopoDOT Solutions Day把重点从点云生产转向企业级数据治理",
+      "summary": "9月14日举行的TopoDOT Solutions Day重点讨论如何把点云从单项目成果升级为可发现、可沟通、可协作的企业级资产，并以TopoShare演示测量数据治理与长期复用。",
+      "impact": "这与城市更新项目很贴近：点云、DOM和三维模型不应只按项目文件夹存放。可开始为成果增加统一Object_ID、采集时间、坐标系、精度、设备、版本与适用范围元数据，后续查找和复用成本会明显下降。",
+      "publisher": "TopoDOT Solutions",
+      "publish_date": "2026-09-14",
+      "url": "https://www.linkedin.com/company/topodot",
+      "image_url": null
+    },
+    {
+      "category": "城市/GIS/数字孪生",
+      "title": "INTERGEO 2026明日开幕，GeoAI、数字孪生与Reality Capture成为主轴",
+      "summary": "INTERGEO 2026将于9月15日至17日在慕尼黑举行，官方议程把GeoAI、Digital Twins、BIM、Earth Observation、现代地理空间数据基础设施、测量定位和Reality Capture放在核心位置，汇集530余家展商。",
+      "impact": "GIS行业竞争点正从单一制图软件转向“采集—对象化管理—三维表达—AI分析—共享协作”的完整链路。对城市更新项目而言，本周值得重点留意能够直接连接点云、BIM、GIS与Web三维发布的新工具。",
+      "publisher": "INTERGEO / DVW / Messe München",
+      "publish_date": "2026-09-14",
+      "url": "https://dvw.de/intergeo/en/",
+      "image_url": null
+    }
+  ],
+  "recommended_reading": null,
+  "sources": [
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+    "https://www.ion.org/gnss/",
+    "https://www.ion.org/gnss/program.cfm",
+    "https://www.artec3d.com/events/imts-2026",
+    "https://www.linkedin.com/company/topodot",
+    "https://dvw.de/intergeo/en/",
+    "https://dvw.de/intergeo/en/press/three-days-of-future-knowledge-for-the-geo-community",
+    "https://messe-muenchen.de/en/events/intergeo-2026.html"
+  ]
+}
