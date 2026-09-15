@@ -19,5 +19,12 @@
   "industry_observation": "今天最明显的行业信号不是某一台设备单独变强，而是采集、AI提取、CAD/GIS表达和数字孪生正在被连成一条生产链。INTERGEO首日议程本身也把Cloud/Data Management、GNSS、LiDAR/Aerial Surveying、3D Visualization、GIS、Mobile Mapping和AEC Workflows并列安排。对实际项目而言，下一轮效率提升更可能来自流程衔接，而不是再多买一个互不相通的软件。",
   "tool_of_week": {"name":"点云→AI提取→人工复核小样测试","description":"选一个已有点云的小范围街区，人工制作一份基准线划；再用可用的AI/自动提取工具生成建筑边线、道路边缘或设施线划，对比耗时、漏检率、误检率和人工修订时间。先用100—300个对象测ROI，再决定是否扩大。"},
   "recommended_reading": null,
-  "sources": ["https://sg.finance.yahoo.com/news/ouster-raises-bar-high-altitude-020000395.html","https://mach9.ai/events","https://www.navvis.com/events/intergeo-2026","https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/","https://www.wpb.org/Departments/Development-Services/Planning-Division/Downtown-Master-Plan","https://dvw.de/intergeo/en/main-stage"]
+  "sources": [
+    "https://sg.finance.yahoo.com/news/ouster-raises-bar-high-altitude-020000395.html",
+    "https://mach9.ai/events",
+    "https://www.navvis.com/events/intergeo-2026",
+    "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+    "https://www.wpb.org/Departments/Development-Services/Planning-Division/Downtown-Master-Plan",
+    "https://dvw.de/intergeo/en/main-stage"
+  ]
 }
