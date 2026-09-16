@@ -1,23 +1,19 @@
 {
-  "type": "daily",
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15T14:54:49+08:00",
-  "title": "行业日报｜2026-09-15",
-  "summary": "过去24小时的高价值信号集中在INTERGEO开幕带来的测绘/GIS新技术、AI与现实世界采集进一步融合，以及城市中心区规划更新。",
-  "sections": [
-    {"name":"城市更新/GIS","summary":"城市规划继续强调综合更新，GIS侧重点向数据治理、三维实景和工程协同扩展。"},
-    {"name":"AI模型与工具","summary":"AI与计算摄影、CAD/工程软件的结合继续加深。"},
-    {"name":"测绘/无人机","summary":"INTERGEO首日集中出现原生彩色LiDAR、AI点云要素提取和轻量化移动扫描等生产型能力。"}
+  "type":"daily",
+  "date":"2026-09-16",
+  "generated_at":"2026-09-16T14:49:21+08:00",
+  "title":"行业日报｜2026-09-16",
+  "summary":"过去24小时的高价值动态集中在INTERGEO带来的测绘全链路整合、Agentic GeoAI，以及面向自动化的结构化AI模型。城市更新侧新增政策级消息较少，因此保留一条9月15日起正式施行、对项目工作流直接相关的江西城市更新规划细则，不以低价值消息凑数。",
+  "sections":[{"name":"城市更新/GIS","summary":"城市更新规划实施体系继续从专项规划向体检、片区策划、年度计划和项目实施贯通；GIS更适合承担跨阶段对象与指标底座。"},{"name":"AI模型与工具","summary":"AI一边向长任务Agent发展，一边出现专为机器自动化设计的结构化、低延迟模型路线。"},{"name":"测绘/无人机","summary":"INTERGEO第二日的主线是数字孪生、传感器与AI、Reality Capture，以及从采集到决策的全链路整合。"}],
+  "items":[
+    {"category":"测绘/GIS","title":"Topcon扩展一体化Geomatics产品链","summary":"Topcon在INTERGEO 2026集中扩展测绘产品组合，覆盖室内定位Origo、CR-M2移动测量、HiPer S1/V1 GNSS、MAGNET数据处理、Delta Watch形变监测以及地下探测协同，重点不是单台设备，而是打通采集、处理和项目交付。","impact":"设备选型应开始按数据能否连续流转评价。","publisher":"Topcon Positioning Systems","publish_date":"2026-09-15","url":"https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","image_url":null},
+    {"category":"测绘/GIS","title":"Sokkia更新全站仪、GNSS与手持Reality Capture组合","summary":"Sokkia在INTERGEO发布测量、定位和现实捕获产品更新，强调统一工作流。","impact":"RTK/全站仪与手持扫描可按场景互补。","publisher":"Sokkia / Business Wire","publish_date":"2026-09-15","url":"https://www.businesswire.com/news/home/20260915765767/en/","image_url":null},
+    {"category":"AI模型与工具","title":"TypeSafe AI发布面向软件自动化的System One模型Jev","summary":"Jev采用类型化结构输出与校准置信度，主攻机器自动决策。","impact":"适合GIS分类、字段判断和复核分流等结构化节点。","publisher":"TypeSafe AI","publish_date":"2026-09-15","url":"https://typesafe.ai/blog/introducing-system-one-models-and-jev","image_url":null},
+    {"category":"GIS/AI","title":"INTERGEO第二日把Agentic GeoAI、城市数字孪生列为核心议题","summary":"9月16日议程集中讨论Digital Twins、Sensors/Monitoring & AI Integration、Reality Capturing与Agentic Geo-AI。","impact":"应提前准备标准对象ID、工具接口和审计日志。","publisher":"INTERGEO / DVW","publish_date":"2026-09-16","url":"https://dvw.de/intergeo/en/main-stage","image_url":null},
+    {"category":"城市更新/GIS","title":"江西城市更新规划编制细则9月15日起试行","summary":"明确‘城市体检—专项规划—片区策划方案—年度计划—项目实施方案’实施体系。","impact":"GIS数据库应让同一空间对象贯穿更新全周期。","publisher":"江西省住房和城乡建设厅 / 江西省人民政府公报","publish_date":"2026-09-15","url":"https://jx.ifeng.com/c/8wPIhtiTiVf","image_url":null}
   ],
-  "items": [
-    {"category":"测绘/无人机","title":"Ouster推进Rev8 OS1 Max原生彩色LiDAR用于高空无人机测绘","summary":"Ouster在INTERGEO 2026期间披露Rev8 OS1 Max在航空测绘市场的应用进展，强调原生RGB彩色点云及精度、精密度提升，面向公用设施走廊、基础设施监测和大范围测图。","impact":"对无人机LiDAR选型而言，点云着色可从后处理融合向传感器原生采集靠拢，有望减少RGB与LiDAR配准环节；采购时仍需重点核验绝对精度、航高、GNSS/IMU组合和实际地物条件。","publisher":"Ouster / Business Wire","publish_date":"2026-09-15","url":"https://sg.finance.yahoo.com/news/ouster-raises-bar-high-altitude-020000395.html","image_url":null},
-    {"category":"测绘/无人机","title":"Mach9在INTERGEO展示AI辅助点云要素提取到工程线划","summary":"Mach9在9月15日至17日的INTERGEO展示AI-assisted feature extraction，目标是把测量、交通和公用设施的Reality Capture数据更快转换为工程可用线划成果。","impact":"对现有点云生产流程最值得测试的是‘点云→AI提取→CAD/GIS人工复核’，它可能比直接追求全自动成图更容易落地，并可把人工时间集中到边界、遮挡和复杂结构。","publisher":"Mach9","publish_date":"2026-09-15","url":"https://mach9.ai/events","image_url":null},
-    {"category":"测绘/无人机","title":"NavVis CLX在INTERGEO进入现场展示","summary":"NavVis在INTERGEO展示新款CLX手持Reality Capture系统，定位于日常空间记录和移动式三维采集。","impact":"老旧街区、室内、骑楼、狭窄巷道等无人机难覆盖区域，可重点关注手持SLAM与RTK/控制点联合工作流，而不是强行让单一设备包打天下。","publisher":"NavVis","publish_date":"2026-09-15","url":"https://www.navvis.com/events/intergeo-2026","image_url":null},
-    {"category":"AI模型与工具","title":"OpenAI据报收购计算摄影公司Glass Imaging","summary":"TechCrunch援引《华尔街日报》称OpenAI以超过3亿美元收购Glass Imaging；该公司专注智能手机计算摄影与图像处理，OpenAI尚未向TechCrunch确认交易。","impact":"信号比交易金额更重要：多模态AI正在继续向图像采集端和成像链路前移。对测绘/GIS而言，未来现场照片的增强、识别、质量判断可能更多在采集设备端完成，但现阶段不应把消费级计算摄影等同于测量精度。","publisher":"TechCrunch","publish_date":"2026-09-14","url":"https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/","image_url":null},
-    {"category":"城市更新/GIS","title":"West Palm Beach推进Downtown Master Plan综合更新","summary":"West Palm Beach Downtown Master Plan更新于9月15日进入公开听证节点，规划历时一年，目标是形成面向未来的市中心综合愿景并统筹既有规划研究。","impact":"对城市更新项目的可借鉴点是把历史研究、现状调查、公众参与和未来方案放进同一长期规划框架；GIS数据库也应保留方案版本和公众意见对应的空间对象，而不是只保存最终成果。","publisher":"City of West Palm Beach","publish_date":"2026-09-15","url":"https://www.wpb.org/Departments/Development-Services/Planning-Division/Downtown-Master-Plan","image_url":null}
-  ],
-  "industry_observation": "今天最明显的行业信号不是某一台设备单独变强，而是采集、AI提取、CAD/GIS表达和数字孪生正在被连成一条生产链。INTERGEO首日议程本身也把Cloud/Data Management、GNSS、LiDAR/Aerial Surveying、3D Visualization、GIS、Mobile Mapping和AEC Workflows并列安排。对实际项目而言，下一轮效率提升更可能来自流程衔接，而不是再多买一个互不相通的软件。",
-  "tool_of_week": {"name":"点云→AI提取→人工复核小样测试","description":"选一个已有点云的小范围街区，人工制作一份基准线划；再用可用的AI/自动提取工具生成建筑边线、道路边缘或设施线划，对比耗时、漏检率、误检率和人工修订时间。先用100—300个对象测ROI，再决定是否扩大。"},
-  "recommended_reading": null,
-  "sources": ["https://sg.finance.yahoo.com/news/ouster-raises-bar-high-altitude-020000395.html","https://mach9.ai/events","https://www.navvis.com/events/intergeo-2026","https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/","https://www.wpb.org/Departments/Development-Services/Planning-Division/Downtown-Master-Plan","https://dvw.de/intergeo/en/main-stage"]
+  "industry_observation":"行业正在从单点工具竞争转向采集、处理、AI判断、GIS/BIM表达和决策的完整链路。",
+  "tool_of_week":{"name":"三段式自动复核门","description":"把GIS批处理统一分为正常、复核、失败三类；硬规则先判，AI返回置信度，低置信度强制人工复核并记录全过程。"},
+  "recommended_reading":null,
+  "sources":["https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","https://www.businesswire.com/news/home/20260915765767/en/","https://typesafe.ai/blog/introducing-system-one-models-and-jev","https://dvw.de/intergeo/en/main-stage","https://jx.ifeng.com/c/8wPIhtiTiVf"]
 }

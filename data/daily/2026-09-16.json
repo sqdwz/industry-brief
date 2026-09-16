@@ -1,0 +1,23 @@
+{
+  "type":"daily",
+  "date":"2026-09-16",
+  "generated_at":"2026-09-16T14:49:21+08:00",
+  "title":"行业日报｜2026-09-16",
+  "summary":"过去24小时的高价值动态集中在INTERGEO带来的测绘全链路整合、Agentic GeoAI，以及面向自动化的结构化AI模型。城市更新侧新增政策级消息较少，因此保留一条9月15日起正式施行、对项目工作流直接相关的江西城市更新规划细则，不以低价值消息凑数。",
+  "sections":[
+    {"name":"城市更新/GIS","summary":"城市更新规划实施体系继续从专项规划向体检、片区策划、年度计划和项目实施贯通；GIS更适合承担跨阶段对象与指标底座。"},
+    {"name":"AI模型与工具","summary":"AI一边向长任务Agent发展，一边出现专为机器自动化设计的结构化、低延迟模型路线。"},
+    {"name":"测绘/无人机","summary":"INTERGEO第二日的主线是数字孪生、传感器与AI、Reality Capture，以及从采集到决策的全链路整合。"}
+  ],
+  "items":[
+    {"category":"测绘/GIS","title":"Topcon扩展一体化Geomatics产品链","summary":"Topcon在INTERGEO 2026集中扩展测绘产品组合，覆盖室内定位Origo、CR-M2移动测量、HiPer S1/V1 GNSS、MAGNET数据处理、Delta Watch形变监测以及地下探测协同，重点不是单台设备，而是打通采集、处理和项目交付。","impact":"对测绘生产的启示是设备选型应开始按‘数据能否连续流转’评价。RTK、移动扫描、监测和地下探测若能共享坐标、项目和成果管理体系，可明显减少格式转换与重复整理。","publisher":"Topcon Positioning Systems","publish_date":"2026-09-15","url":"https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","image_url":null},
+    {"category":"测绘/GIS","title":"Sokkia更新全站仪、GNSS与手持Reality Capture组合","summary":"Sokkia在INTERGEO发布测量、定位和现实捕获产品更新，强调从现场采集到办公室设计和交付的统一工作流。","impact":"对城市更新现场调查而言，RTK/全站仪负责控制与高精度离散点，手持扫描补室内和复杂立面，会比要求单一设备覆盖全部场景更实际。","publisher":"Sokkia / Business Wire","publish_date":"2026-09-15","url":"https://www.businesswire.com/news/home/20260915765767/en/","image_url":null},
+    {"category":"AI模型与工具","title":"TypeSafe AI发布面向软件自动化的System One模型Jev","summary":"TypeSafe AI于9月15日发布Jev早期访问版。其路线不同于自由文本LLM：输出预定义的类型化结构结果并附带校准置信度，公司称端到端响应约70—500毫秒，主攻机器到机器的自动决策。","impact":"这类模型很适合GIS批处理中的分类、字段判断、异常分流和是否进入人工复核等结构化节点。真正值得测试的不是聊天能力，而是能否用置信度阈值把‘自动通过/复核/失败’稳定分流。","publisher":"TypeSafe AI","publish_date":"2026-09-15","url":"https://typesafe.ai/blog/introducing-system-one-models-and-jev","image_url":null},
+    {"category":"GIS/AI","title":"INTERGEO第二日把Agentic GeoAI、城市数字孪生列为核心议题","summary":"9月16日INTERGEO议程集中讨论Digital Twins、Sensors/Monitoring & AI Integration、Reality Capturing，并设置Agentic AI Meets Geodata and BIM相关内容，包括Agentic Geo-AI与城市数字孪生。","impact":"GIS Agent的方向正在从‘自然语言查地图’走向调用空间服务、BIM和三维数据完成多步骤任务。现阶段最值得准备的是标准对象ID、明确工具接口和可审计的操作日志。","publisher":"INTERGEO / DVW","publish_date":"2026-09-16","url":"https://dvw.de/intergeo/en/main-stage","image_url":null},
+    {"category":"城市更新/GIS","title":"江西城市更新规划编制细则9月15日起试行","summary":"江西省住建部门印发城市更新规划编制实施细则，明确构建‘城市体检—专项规划—片区策划方案—年度计划—项目实施方案’规划实施体系。","impact":"对城市更新GIS数据库设计非常直接：不应按单次成果建库，而应让同一空间对象贯穿体检指标、问题识别、片区策划、年度项目和实施状态，减少每阶段重新建表。","publisher":"江西省住房和城乡建设厅 / 江西省人民政府公报","publish_date":"2026-09-15","url":"https://jx.ifeng.com/c/8wPIhtiTiVf","image_url":null}
+  ],
+  "industry_observation":"今天的共同信号是‘链路化’。测绘厂商不再只强调某个GNSS或扫描仪参数，INTERGEO议程也把数字孪生、AI、Reality Capture和Data-to-Decision放在一起；AI侧Jev则把模型直接做成可嵌入软件流程的结构化决策组件。对实际项目来说，下一步效率差距很可能来自数据、工具和复核节点能否连起来，而不只是某个模型或设备的峰值性能。",
+  "tool_of_week":{"name":"三段式自动复核门","description":"挑一个已有GIS批处理流程，把结果统一分为正常、复核、失败三类。确定性规则先判断硬错误，AI只处理模糊分类并返回置信度；低于阈值自动进入复核，不允许直接写正式成果。记录输入、判断依据、模型/规则版本和最终人工结论，形成可追溯日志。"},
+  "recommended_reading":null,
+  "sources":["https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","https://www.businesswire.com/news/home/20260915765767/en/","https://typesafe.ai/blog/introducing-system-one-models-and-jev","https://dvw.de/intergeo/en/main-stage","https://jx.ifeng.com/c/8wPIhtiTiVf"]
+}
