@@ -1,19 +1,17 @@
 {
-  "type":"daily",
-  "date":"2026-09-16",
-  "generated_at":"2026-09-16T14:49:21+08:00",
-  "title":"行业日报｜2026-09-16",
-  "summary":"过去24小时的高价值动态集中在INTERGEO带来的测绘全链路整合、Agentic GeoAI，以及面向自动化的结构化AI模型。城市更新侧新增政策级消息较少，因此保留一条9月15日起正式施行、对项目工作流直接相关的江西城市更新规划细则，不以低价值消息凑数。",
-  "sections":[{"name":"城市更新/GIS","summary":"城市更新规划实施体系继续从专项规划向体检、片区策划、年度计划和项目实施贯通；GIS更适合承担跨阶段对象与指标底座。"},{"name":"AI模型与工具","summary":"AI一边向长任务Agent发展，一边出现专为机器自动化设计的结构化、低延迟模型路线。"},{"name":"测绘/无人机","summary":"INTERGEO第二日的主线是数字孪生、传感器与AI、Reality Capture，以及从采集到决策的全链路整合。"}],
-  "items":[
-    {"category":"测绘/GIS","title":"Topcon扩展一体化Geomatics产品链","summary":"Topcon在INTERGEO 2026集中扩展测绘产品组合，覆盖室内定位Origo、CR-M2移动测量、HiPer S1/V1 GNSS、MAGNET数据处理、Delta Watch形变监测以及地下探测协同，重点不是单台设备，而是打通采集、处理和项目交付。","impact":"设备选型应开始按数据能否连续流转评价。","publisher":"Topcon Positioning Systems","publish_date":"2026-09-15","url":"https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","image_url":null},
-    {"category":"测绘/GIS","title":"Sokkia更新全站仪、GNSS与手持Reality Capture组合","summary":"Sokkia在INTERGEO发布测量、定位和现实捕获产品更新，强调统一工作流。","impact":"RTK/全站仪与手持扫描可按场景互补。","publisher":"Sokkia / Business Wire","publish_date":"2026-09-15","url":"https://www.businesswire.com/news/home/20260915765767/en/","image_url":null},
-    {"category":"AI模型与工具","title":"TypeSafe AI发布面向软件自动化的System One模型Jev","summary":"Jev采用类型化结构输出与校准置信度，主攻机器自动决策。","impact":"适合GIS分类、字段判断和复核分流等结构化节点。","publisher":"TypeSafe AI","publish_date":"2026-09-15","url":"https://typesafe.ai/blog/introducing-system-one-models-and-jev","image_url":null},
-    {"category":"GIS/AI","title":"INTERGEO第二日把Agentic GeoAI、城市数字孪生列为核心议题","summary":"9月16日议程集中讨论Digital Twins、Sensors/Monitoring & AI Integration、Reality Capturing与Agentic Geo-AI。","impact":"应提前准备标准对象ID、工具接口和审计日志。","publisher":"INTERGEO / DVW","publish_date":"2026-09-16","url":"https://dvw.de/intergeo/en/main-stage","image_url":null},
-    {"category":"城市更新/GIS","title":"江西城市更新规划编制细则9月15日起试行","summary":"明确‘城市体检—专项规划—片区策划方案—年度计划—项目实施方案’实施体系。","impact":"GIS数据库应让同一空间对象贯穿更新全周期。","publisher":"江西省住房和城乡建设厅 / 江西省人民政府公报","publish_date":"2026-09-15","url":"https://jx.ifeng.com/c/8wPIhtiTiVf","image_url":null}
+  "type": "daily",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T14:52:11+08:00",
+  "title": "行业日报｜2026-09-17",
+  "summary": "过去24小时的核心信号集中在GeoAI从演示走向业务工作流、LiDAR/SLAM数据链进一步打通，以及高自治AI Agent的权限与行为审计要求上升。",
+  "sections": ["城市更新/GIS", "AI模型与工具", "测绘/无人机"],
+  "items": [
+    {"category":"城市更新/GIS","title":"INTERGEO 2026：GeoAI从单点算法转向可行动的地理空间工作流","summary":"INTERGEO中期发布会指出训练型AI、开放数据平台和Agent正进入施工监测、数字孪生和灾害响应。","impact":"城市更新GIS可把AI推进到识别、变化检测、质检和任务编排。","publisher":"DVW / INTERGEO","publish_date":"2026-09-16","url":"https://dvw.de/intergeo/en/newsroom/press-conference-of-intergeo-2026","image_url":null},
+    {"category":"AI模型与工具","title":"OpenAI建立模型失准事件跟踪与披露框架","summary":"OpenAI公布框架并披露6起异常行为案例。","impact":"GIS/CAD Agent应拆分联网、写文件、脚本执行、数据库修改和Git提交权限。","publisher":"OpenAI","publish_date":"2026-09-16","url":"https://openai.com/index/model-misalignment-reporting-framework/","image_url":null},
+    {"category":"测绘/无人机","title":"Emesent SLAM点云可直接进入Trimble工作流","summary":"GX1和Hovermap STX点云接入Trimble Business Center和Trimble Connect。","impact":"适合构建SLAM采集到GIS/CAD成果的连续链路。","publisher":"DroneDJ / Emesent-Trimble","publish_date":"2026-09-16","url":"https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/","image_url":null},
+    {"category":"测绘/无人机","title":"RIEGL推出miniVUX-4UAV并强化LiDAR导航与地理配准","summary":"RIEGL展示新型无人机LiDAR及一体化导航、地理配准方案。","impact":"设备评估应关注传感器到轨迹解算的整体精度链。","publisher":"RIEGL / Commercial UAV News","publish_date":"2026-09-16","url":"https://www.commercialuavnews.com/riegl-minivux-4uav-lidar-intergeo-2026","image_url":null},
+    {"category":"GIS/测绘AI","title":"LP360展示AI点云分类的项目化工作流","summary":"LP360可自动分类地面、植被、建筑、墙体、车辆、桥面、水体等。","impact":"适合用人工真值做小样ROI测试后再进入半自动生产。","publisher":"GeoCue / LP360","publish_date":"2026-09-17","url":"https://www.lp360.com/resources/articles/see-whats-next-in-lidar-and-ai-geocue-lp360-at-intergeo-2026/","image_url":null}
   ],
-  "industry_observation":"行业正在从单点工具竞争转向采集、处理、AI判断、GIS/BIM表达和决策的完整链路。",
-  "tool_of_week":{"name":"三段式自动复核门","description":"把GIS批处理统一分为正常、复核、失败三类；硬规则先判，AI返回置信度，低置信度强制人工复核并记录全过程。"},
-  "recommended_reading":null,
-  "sources":["https://www.topconpositioning.com/us/en/articles/topcon-launches-innovations-supporting-integrated-geomatics-workflows-at-intergeo-2026","https://www.businesswire.com/news/home/20260915765767/en/","https://typesafe.ai/blog/introducing-system-one-models-and-jev","https://dvw.de/intergeo/en/main-stage","https://jx.ifeng.com/c/8wPIhtiTiVf"]
+  "recommended_reading": null,
+  "sources": ["https://dvw.de/intergeo/en/newsroom/press-conference-of-intergeo-2026","https://openai.com/index/model-misalignment-reporting-framework/","https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/","https://www.commercialuavnews.com/riegl-minivux-4uav-lidar-intergeo-2026","https://www.lp360.com/resources/articles/see-whats-next-in-lidar-and-ai-geocue-lp360-at-intergeo-2026/"]
 }

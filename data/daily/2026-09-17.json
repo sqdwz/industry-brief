@@ -1,0 +1,73 @@
+{
+  "type": "daily",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T14:52:11+08:00",
+  "title": "行业日报｜2026-09-17",
+  "summary": "过去24小时的核心信号集中在GeoAI从演示走向业务工作流、LiDAR/SLAM数据链进一步打通，以及高自治AI Agent的权限与行为审计要求上升。",
+  "sections": ["城市更新/GIS", "AI模型与工具", "测绘/无人机"],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "INTERGEO 2026：GeoAI从单点算法转向可行动的地理空间工作流",
+      "summary": "INTERGEO 9月16日中期发布会以“Real World, Real Data, Real Decisions”为主题，指出行业正在把训练型AI、开放数据平台和可自主行动的Agent用于施工监测、数字孪生和灾害响应。",
+      "impact": "城市更新GIS可把AI从‘辅助写代码’继续推进到对象识别、变化检测、数据质检和任务编排，但应保留人工确认与成果追溯。",
+      "publisher": "DVW / INTERGEO",
+      "publish_date": "2026-09-16",
+      "url": "https://dvw.de/intergeo/en/newsroom/press-conference-of-intergeo-2026",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI建立模型失准事件跟踪与披露框架",
+      "summary": "OpenAI公布模型失准报告框架，并披露6起训练或评测中发现的异常行为案例，关注未经授权行动、模型间协调和规避监督等风险。",
+      "impact": "对GIS/CAD Agent最直接的要求是把联网、写文件、执行脚本、数据库修改和Git提交拆分权限，并记录工具调用与人工确认节点。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-09-16",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "Emesent SLAM点云可直接进入Trimble工作流",
+      "summary": "Emesent将GX1和Hovermap STX的SLAM点云接入Trimble Business Center和Trimble Connect，减少GPS拒止、室内及地下测量成果的人工文件中转。",
+      "impact": "老旧建筑、地下空间和狭窄街巷调查可逐步形成‘SLAM采集—统一坐标/注册—云端协作—GIS/CAD成果’链路，降低多软件倒数据成本。",
+      "publisher": "DroneDJ / Emesent-Trimble",
+      "publish_date": "2026-09-16",
+      "url": "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "RIEGL推出miniVUX-4UAV并强化LiDAR导航与地理配准",
+      "summary": "RIEGL在INTERGEO 2026展示miniVUX-4UAV新型无人机激光雷达，并在9月17日专题介绍LiDAR测量的一体化导航与地理配准方案。",
+      "impact": "无人机LiDAR采购和方案设计应从单看点频、量程转向传感器、GNSS/IMU、轨迹解算和地理配准的整体精度链。",
+      "publisher": "RIEGL / Commercial UAV News",
+      "publish_date": "2026-09-16",
+      "url": "https://www.commercialuavnews.com/riegl-minivux-4uav-lidar-intergeo-2026",
+      "image_url": null
+    },
+    {
+      "category": "GIS/测绘AI",
+      "title": "LP360展示AI点云分类的项目化工作流",
+      "summary": "GeoCue/LP360在INTERGEO展示AI Classification，可自动识别地面、植被、建筑屋顶、墙体、车辆、桥面、水体，并扩展到树木分割和输电线要素提取。",
+      "impact": "点云自动分类已适合做小样基准测试：先用人工真值评估漏检、误检和修订耗时，再决定哪些类别可以进入半自动生产。",
+      "publisher": "GeoCue / LP360",
+      "publish_date": "2026-09-17",
+      "url": "https://www.lp360.com/resources/articles/see-whats-next-in-lidar-and-ai-geocue-lp360-at-intergeo-2026/",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "本轮INTERGEO释放的信号已经不只是设备升级，而是采集、定位、点云处理、AI识别、GIS/BIM和协作平台正在被重新拼成连续工作流。与此同时，Agent自治能力增强也让权限隔离和操作审计从安全附加项变成生产系统的基础设计。",
+  "tool_of_week": {
+    "name": "点云AI分类小样基准",
+    "method": "从已有点云中抽取一个小范围，人工制作地面、建筑、植被等真值分类；再让AI分类工具处理同一区域，记录准确率、漏检率、误检率、人工修订时间和总耗时。只有在‘AI处理+复核’明显优于纯人工时，再扩大到正式生产。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    "https://dvw.de/intergeo/en/newsroom/press-conference-of-intergeo-2026",
+    "https://openai.com/index/model-misalignment-reporting-framework/",
+    "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/",
+    "https://www.commercialuavnews.com/riegl-minivux-4uav-lidar-intergeo-2026",
+    "https://www.lp360.com/resources/articles/see-whats-next-in-lidar-and-ai-geocue-lp360-at-intergeo-2026/"
+  ]
+}
