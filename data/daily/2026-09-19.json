@@ -1,0 +1,35 @@
+{
+  "type":"daily",
+  "date":"2026-09-19",
+  "generated_at":"2026-09-19T14:38:41+08:00",
+  "title":"行业日报｜2026-09-19",
+  "summary":"过去24小时高价值新增信息主要集中在AI模型治理、位置智能资产整合和三维高程数据规范化。前沿AI厂商开始把安全节奏、滥用监测和模型能力升级同时推进；地理空间侧则出现Foursquare位置智能资产并购，以及USGS继续强化3DEP空间元数据规范。",
+  "sections":[
+    {"name":"城市更新/GIS","items":[
+      {"category":"GIS/位置智能","title":"Infillion宣布收购Foursquare，位置智能数据进一步平台化整合","summary":"Infillion于9月18日宣布收购Foursquare，将其全球POI与现实世界访问数据接入广告和分析平台。Foursquare拥有覆盖200个国家、超过1亿个POI的位置数据资产。","impact":"位置智能正在从地图展示进一步成为AI和业务系统的底层数据服务。城市更新平台可借鉴其思路，把POI、商铺、楼宇、道路和现场调查对象统一成可持续更新的空间实体。","publisher":"Infillion / Newswire","publish_date":"2026-09-18","url":"https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","image_url":null},
+      {"category":"GIS/三维数据","title":"USGS发布3DEP空间元数据新培训内容","summary":"美国地质调查局9月18日发布3D Elevation Program空间元数据培训，重点介绍Work Unit Extent Spatial Metadata（WESM），用于描述三维高程数据工作单元的覆盖范围和元信息。","impact":"对DOM、DSM、点云等成果管理很有参考价值：除文件本身外，应同步保存覆盖范围、采集批次、坐标基准、精度、来源和处理版本，让三维成果真正可检索、可复用。","publisher":"U.S. Geological Survey","publish_date":"2026-09-18","url":"https://www.usgs.gov/programs/national-geospatial-program/news","image_url":null}
+    ]},
+    {"name":"AI模型与工具","items":[
+      {"category":"AI模型与工具","title":"Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","summary":"Anthropic发布Fable 5.1与Mythos 5.1，重点提升编码、知识工作和研究能力，并继续采用不同安全等级的模型访问机制。","impact":"专业GIS开发可更关注长任务编码、研究和工具调用能力，但生产环境仍应把模型访问、工具权限与正式成果写入分开控制。","publisher":"Anthropic","publish_date":"2026-09-19","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","image_url":null},
+      {"category":"AI安全/Agent","title":"Anthropic披露新一轮AI滥用趋势：从助手进一步走向编排器","summary":"Anthropic 9月发布的威胁情报报告指出，近期观察到的恶意使用越来越多采用多Agent和自动化框架，由AI直接执行或编排连续任务，而非仅提供问答建议。","impact":"GIS/CAD Agent接入真实文件、数据库和服务器后，应把权限、审计、异常停止和人工确认作为基础设施，而不是上线后的补丁。","publisher":"Anthropic Threat Intelligence","publish_date":"2026-09-19","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","image_url":null},
+      {"category":"AI模型与工具","title":"OpenAI提出在网络安全能力快速上升阶段主动控制模型开发节奏","summary":"OpenAI最新说明称，随着模型具备更强的长期、多步骤网络能力，内部监控、对齐和安全标准必须同步提高，并曾主动放缓扩展节奏以满足新的安全要求。","impact":"对企业Agent同样适用：能力升级不应自动等于权限升级。模型更强时，反而应重新评估脚本执行、联网、密钥、数据库写入和自动提交权限。","publisher":"OpenAI","publish_date":"2026-09-19","url":"https://openai.com/index/pacing-model-development-cyber-capabilities/","image_url":null}
+    ]},
+    {"name":"行业观察","summary":"今天的新信息没有出现值得强行凑数的无人机硬件新品，反而更清楚地显示两个基础趋势：一是空间数据正在被整理成可持续调用的服务和资产，二是AI Agent进入生产环境后，竞争重点从‘能不能做’转向‘数据是否可靠、权限是否可控、过程是否可审计’。对城市更新GIS而言，这两条线最终会汇合到统一对象库、标准元数据和受控Agent接口。"},
+    {"name":"本周值得尝试","summary":"给现有DOM、点云或调查成果做一次‘最小元数据补录’：dataset_id、project_id、coverage、capture_time、device、coordinate_system、accuracy、source、version、operator。先选10份成果试填，检查能否只看元数据就判断‘这份数据是什么、覆盖哪里、什么时候采、能不能继续用’。"}
+  ],
+  "items":[
+    {"category":"GIS/位置智能","title":"Infillion宣布收购Foursquare，位置智能数据进一步平台化整合","summary":"Foursquare全球POI与访问数据将并入Infillion平台。","impact":"城市更新空间对象应从一次性图层转向持续更新的数据服务。","publisher":"Infillion / Newswire","publish_date":"2026-09-18","url":"https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","image_url":null},
+    {"category":"GIS/三维数据","title":"USGS发布3DEP空间元数据新培训内容","summary":"3DEP继续强化三维高程数据工作单元空间元数据规范。","impact":"DOM、DSM、点云应同步管理覆盖范围、精度、坐标基准和版本。","publisher":"U.S. Geological Survey","publish_date":"2026-09-18","url":"https://www.usgs.gov/programs/national-geospatial-program/news","image_url":null},
+    {"category":"AI模型与工具","title":"Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","summary":"新模型重点增强编码、知识工作和研究能力。","impact":"可用于复杂GIS开发与研究，但生产权限应独立控制。","publisher":"Anthropic","publish_date":"2026-09-19","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","image_url":null},
+    {"category":"AI安全/Agent","title":"Anthropic披露AI滥用从助手走向编排器","summary":"多Agent和自动化框架在现实滥用中的占比和自主性继续提高。","impact":"真实业务Agent必须默认具备权限隔离、日志、停止机制和人工确认。","publisher":"Anthropic Threat Intelligence","publish_date":"2026-09-19","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","image_url":null},
+    {"category":"AI模型与工具","title":"OpenAI提出在网络安全能力快速上升阶段控制模型开发节奏","summary":"模型能力提升必须同步提高监控、对齐和安全标准。","impact":"Agent能力升级时应重新评估脚本、联网、密钥和写入权限。","publisher":"OpenAI","publish_date":"2026-09-19","url":"https://openai.com/index/pacing-model-development-cyber-capabilities/","image_url":null}
+  ],
+  "recommended_reading":null,
+  "sources":[
+    "https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573",
+    "https://www.usgs.gov/programs/national-geospatial-program/news",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    "https://openai.com/index/pacing-model-development-cyber-capabilities/"
+  ]
+}

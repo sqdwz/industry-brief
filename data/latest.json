@@ -1,18 +1,17 @@
 {
-  "type": "weekly",
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18T14:24:38+08:00",
-  "title": "本周行业汇总｜2026-W38（9月12日—9月18日）",
-  "summary": "本周核心变化：城市更新进入体检、规划、片区、项目、评估和治理闭环；AI Agent走向多Agent并行、权威数据直连和分级权限；测绘进入Reality Capture全链路竞争。",
-  "sections": ["城市更新/GIS","AI模型与工具","测绘/无人机","本周3个核心变化","本周对实际工作的影响","本周值得关注的趋势","下周值得继续跟踪的3件事"],
-  "items": [
-    {"category":"城市更新/GIS","title":"广东构建城市体检与城市更新一体化全周期机制","summary":"形成‘体检—更新—评估—提升’循环。","impact":"用同一空间对象贯穿体检、策划、实施和评估。","publisher":"广东省住房和城乡建设厅 / 21世纪经济报道","publish_date":"2026-09-13","url":"https://finance.sina.com.cn/roll/2026-09-13/doc-inirszcu4418014.shtml","image_url":null},
-    {"category":"城市治理/GIS","title":"重庆发布‘十五五’超大城市现代化治理规划","summary":"将城市更新、基础设施、安全韧性纳入数智化一体治理。","impact":"GIS从项目台账扩大为跨部门治理底座。","publisher":"重庆市政府系统 / 华龙网","publish_date":"2026-09-18","url":"https://www.cqnews.net/web/content_1550448558340800512.html","image_url":null},
-    {"category":"AI模型与工具","title":"Claude Code Projects转向多Agent并行项目工作区","summary":"多个云端线程共享目标与文件并行处理项目。","impact":"GIS开发可分线程并行，但合并、测试和提交必须设关口。","publisher":"The Verge / Anthropic","publish_date":"2026-09-18","url":"https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects","image_url":null},
-    {"category":"AI模型与工具","title":"联合国Data Commons开始为AI Agent提供权威统计数据接口","summary":"支持MCP并保留数据来源追溯。","impact":"专业Agent应先查权威数据源，再由模型分析。","publisher":"United Nations / Google / TechCrunch","publish_date":"2026-09-17","url":"https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/","image_url":null},
-    {"category":"测绘/无人机","title":"INTERGEO 2026显示Reality Capture竞争焦点转向完整数据链","summary":"LiDAR、SLAM、GNSS、AI和三维可视化加速融合。","impact":"设备选型应把进入CAD/GIS生产链的效率纳入核心指标。","publisher":"INTERGEO / GEOmedia","publish_date":"2026-09-17","url":"https://www.rivistageomedia.it/survey-and-positioning/reality-capture-is-changing-from-lidar-and-slam-to-intelligent-3d-mapping","image_url":null},
-    {"category":"测绘/无人机","title":"Emesent移动SLAM扫描成果直连Trimble生态","summary":"SLAM数据可直接进入Trimble Connect和Business Center。","impact":"适合RTK定基准、SLAM补盲、统一处理的组合流程。","publisher":"Emesent / Geo Week News","publish_date":"2026-09-17","url":"https://www.geoweeknews.com/articles/emesents-mobile-slam-scanners-integrated-into-trimble-connect-and-trimble-business-center/","image_url":null}
+  "type":"daily",
+  "date":"2026-09-19",
+  "generated_at":"2026-09-19T14:38:41+08:00",
+  "title":"行业日报｜2026-09-19",
+  "summary":"过去24小时高价值新增信息主要集中在AI模型治理、位置智能资产整合和三维高程数据规范化。前沿AI厂商开始把安全节奏、滥用监测和模型能力升级同时推进；地理空间侧则出现Foursquare位置智能资产并购，以及USGS继续强化3DEP空间元数据规范。",
+  "sections":[{"name":"城市更新/GIS","items":["Infillion收购Foursquare，位置智能数据进一步平台化整合","USGS发布3DEP空间元数据新培训内容"]},{"name":"AI模型与工具","items":["Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","Anthropic披露AI滥用从助手走向编排器","OpenAI提出在网络安全能力快速上升阶段控制模型开发节奏"]},{"name":"行业观察","summary":"空间数据服务化与Agent生产治理正在汇合到统一对象库、标准元数据和受控接口。"},{"name":"本周值得尝试","summary":"给10份现有DOM、点云或调查成果补录最小元数据并测试可检索性。"}],
+  "items":[
+    {"category":"GIS/位置智能","title":"Infillion宣布收购Foursquare，位置智能数据进一步平台化整合","summary":"Foursquare全球POI与访问数据将并入Infillion平台。","impact":"城市更新空间对象应从一次性图层转向持续更新的数据服务。","publisher":"Infillion / Newswire","publish_date":"2026-09-18","url":"https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","image_url":null},
+    {"category":"GIS/三维数据","title":"USGS发布3DEP空间元数据新培训内容","summary":"3DEP继续强化三维高程数据工作单元空间元数据规范。","impact":"DOM、DSM、点云应同步管理覆盖范围、精度、坐标基准和版本。","publisher":"U.S. Geological Survey","publish_date":"2026-09-18","url":"https://www.usgs.gov/programs/national-geospatial-program/news","image_url":null},
+    {"category":"AI模型与工具","title":"Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","summary":"新模型重点增强编码、知识工作和研究能力。","impact":"可用于复杂GIS开发与研究，但生产权限应独立控制。","publisher":"Anthropic","publish_date":"2026-09-19","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","image_url":null},
+    {"category":"AI安全/Agent","title":"Anthropic披露AI滥用从助手走向编排器","summary":"多Agent和自动化框架在现实滥用中的占比和自主性继续提高。","impact":"真实业务Agent必须默认具备权限隔离、日志、停止机制和人工确认。","publisher":"Anthropic Threat Intelligence","publish_date":"2026-09-19","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","image_url":null},
+    {"category":"AI模型与工具","title":"OpenAI提出在网络安全能力快速上升阶段控制模型开发节奏","summary":"模型能力提升必须同步提高监控、对齐和安全标准。","impact":"Agent能力升级时应重新评估脚本、联网、密钥和写入权限。","publisher":"OpenAI","publish_date":"2026-09-19","url":"https://openai.com/index/pacing-model-development-cyber-capabilities/","image_url":null}
   ],
-  "recommended_reading":{"title":"《江西省城市更新规划编制实施细则（试行）》政策解读","author":"江西省人民政府公报","publish_date":"2026-09-14","url":"https://jx.ifeng.com/c/8wO9NpjxQZQ","reading_value":["理解规划层级传导","反推GIS项目库字段与版本设计","篇幅适中，适合快速阅读"],"work_insight":"把规划层级翻译成城市—片区—项目—空间对象—变化事件的数据层级。"},
-  "sources":["https://finance.sina.com.cn/roll/2026-09-13/doc-inirszcu4418014.shtml","https://jx.ifeng.com/c/8wPIhtiTiVf","https://www.cqnews.net/web/content_1550448558340800512.html","https://www.news.gov.hk/chi/2026/09/20260916/20260916_100552_338.html","https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects","https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/","https://www.rivistageomedia.it/survey-and-positioning/reality-capture-is-changing-from-lidar-and-slam-to-intelligent-3d-mapping","https://www.geoweeknews.com/articles/emesents-mobile-slam-scanners-integrated-into-trimble-connect-and-trimble-business-center/"]
+  "recommended_reading":null,
+  "sources":["https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","https://www.usgs.gov/programs/national-geospatial-program/news","https://www.anthropic.com/claude-fable-and-mythos-5-1","https://www.anthropic.com/threat-intelligence-report-september-2026","https://openai.com/index/pacing-model-development-cyber-capabilities/"]
 }
