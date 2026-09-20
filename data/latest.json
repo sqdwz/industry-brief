@@ -1,17 +1,17 @@
 {
   "type":"daily",
-  "date":"2026-09-19",
-  "generated_at":"2026-09-19T14:38:41+08:00",
-  "title":"行业日报｜2026-09-19",
-  "summary":"过去24小时高价值新增信息主要集中在AI模型治理、位置智能资产整合和三维高程数据规范化。前沿AI厂商开始把安全节奏、滥用监测和模型能力升级同时推进；地理空间侧则出现Foursquare位置智能资产并购，以及USGS继续强化3DEP空间元数据规范。",
-  "sections":[{"name":"城市更新/GIS","items":["Infillion收购Foursquare，位置智能数据进一步平台化整合","USGS发布3DEP空间元数据新培训内容"]},{"name":"AI模型与工具","items":["Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","Anthropic披露AI滥用从助手走向编排器","OpenAI提出在网络安全能力快速上升阶段控制模型开发节奏"]},{"name":"行业观察","summary":"空间数据服务化与Agent生产治理正在汇合到统一对象库、标准元数据和受控接口。"},{"name":"本周值得尝试","summary":"给10份现有DOM、点云或调查成果补录最小元数据并测试可检索性。"}],
+  "date":"2026-09-20",
+  "generated_at":"2026-09-20T14:03:36+08:00",
+  "title":"行业日报｜2026-09-20",
+  "summary":"城市更新进入十五五规模化实施，AI Agent权限边界出现真实安全案例，SAR与政府地理空间服务继续扩展。",
+  "sections":[{"name":"城市更新/GIS","items":["住建部披露十五五城市更新量化任务","USGS新增地理空间产品与服务合同"]},{"name":"AI模型与工具","items":["Gemini安全测试误入侵真实公司","AI安全协作引发反垄断诉讼"]},{"name":"测绘/无人机","items":["Synspective Strix SAR卫星入轨"]}],
   "items":[
-    {"category":"GIS/位置智能","title":"Infillion宣布收购Foursquare，位置智能数据进一步平台化整合","summary":"Foursquare全球POI与访问数据将并入Infillion平台。","impact":"城市更新空间对象应从一次性图层转向持续更新的数据服务。","publisher":"Infillion / Newswire","publish_date":"2026-09-18","url":"https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","image_url":null},
-    {"category":"GIS/三维数据","title":"USGS发布3DEP空间元数据新培训内容","summary":"3DEP继续强化三维高程数据工作单元空间元数据规范。","impact":"DOM、DSM、点云应同步管理覆盖范围、精度、坐标基准和版本。","publisher":"U.S. Geological Survey","publish_date":"2026-09-18","url":"https://www.usgs.gov/programs/national-geospatial-program/news","image_url":null},
-    {"category":"AI模型与工具","title":"Anthropic发布Claude Fable 5.1与Claude Mythos 5.1","summary":"新模型重点增强编码、知识工作和研究能力。","impact":"可用于复杂GIS开发与研究，但生产权限应独立控制。","publisher":"Anthropic","publish_date":"2026-09-19","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","image_url":null},
-    {"category":"AI安全/Agent","title":"Anthropic披露AI滥用从助手走向编排器","summary":"多Agent和自动化框架在现实滥用中的占比和自主性继续提高。","impact":"真实业务Agent必须默认具备权限隔离、日志、停止机制和人工确认。","publisher":"Anthropic Threat Intelligence","publish_date":"2026-09-19","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","image_url":null},
-    {"category":"AI模型与工具","title":"OpenAI提出在网络安全能力快速上升阶段控制模型开发节奏","summary":"模型能力提升必须同步提高监控、对齐和安全标准。","impact":"Agent能力升级时应重新评估脚本、联网、密钥和写入权限。","publisher":"OpenAI","publish_date":"2026-09-19","url":"https://openai.com/index/pacing-model-development-cyber-capabilities/","image_url":null}
+    {"category":"城市更新/GIS","title":"住建部披露‘十五五’城市更新量化任务","summary":"未来5年计划改造11.5万个老旧小区并推进1500个老旧街区厂区改造。","impact":"GIS项目库应支持多层级对象和长期实施状态。","publisher":"中国政府网 / 住房城乡建设部","publish_date":"2026-09-20","url":"https://www.ln.gov.cn/web/ywdt/rdgz/2026092007141135540/index.shtml","image_url":null},
+    {"category":"AI安全/Agent","title":"Google确认Gemini在安全测试中误入侵三家真实公司","summary":"测试环境意外联网后，Gemini进入真实企业系统并在识别错误目标后停止。","impact":"Agent测试必须隔离生产凭据、网络和写权限。","publisher":"Google / The Guardian / Wall Street Journal","publish_date":"2026-09-19","url":"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack","image_url":null},
+    {"category":"AI治理","title":"AI安全协作引发美国反垄断诉讼","summary":"诉讼指控多家AI公司围绕放缓开发的安全倡议构成反竞争协作，目前尚无司法结论。","impact":"AI安全协作也需明确竞争法边界。","publisher":"Associated Press","publish_date":"2026-09-19","url":"https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b","image_url":null},
+    {"category":"遥感/测绘","title":"Synspective新一颗Strix SAR地球观测卫星入轨","summary":"SAR星座继续扩容，可昼夜、穿云获取地表信息。","impact":"适合多云地区的变化、沉降和灾害监测。","publisher":"Rocket Lab / Space.com","publish_date":"2026-09-19","url":"https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-owl-by-the-dozen-launch","image_url":null},
+    {"category":"GIS/测绘服务","title":"USGS新增地理空间产品与服务合同任务","summary":"GPSC4新增约107.4万美元地理空间产品与服务任务。","impact":"政府测绘交付继续向采集、处理、元数据和服务一体化发展。","publisher":"U.S. Geological Survey / SAM.gov award notice","publish_date":"2026-09-19","url":"https://sam.directory/opportunities/c-nv5-geospatial-incgeospatial-products-and-services-contract-v4-gpsc4-140g0226f0235","image_url":null}
   ],
   "recommended_reading":null,
-  "sources":["https://www.newswire.com/news/infillion-to-acquire-foursquare-closing-the-loop-between-advertising-22863573","https://www.usgs.gov/programs/national-geospatial-program/news","https://www.anthropic.com/claude-fable-and-mythos-5-1","https://www.anthropic.com/threat-intelligence-report-september-2026","https://openai.com/index/pacing-model-development-cyber-capabilities/"]
+  "sources":["https://www.ln.gov.cn/web/ywdt/rdgz/2026092007141135540/index.shtml","https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack","https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b","https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-owl-by-the-dozen-launch","https://sam.directory/opportunities/c-nv5-geospatial-incgeospatial-products-and-services-contract-v4-gpsc4-140g0226f0235"]
 }

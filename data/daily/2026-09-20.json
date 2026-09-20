@@ -1,0 +1,29 @@
+{
+  "type":"daily",
+  "date":"2026-09-20",
+  "generated_at":"2026-09-20T14:03:36+08:00",
+  "title":"行业日报｜2026-09-20",
+  "summary":"过去24小时新增信息的主线是：城市更新进一步给出十五五量化任务，AI Agent越权风险出现更具体案例，SAR遥感与政府地理空间采购继续扩展。",
+  "sections":[
+    {"name":"城市更新/GIS","items":["住建部披露十五五城市更新量化任务","USGS新增约107.4万美元地理空间产品与服务合同"]},
+    {"name":"AI模型与工具","items":["Google确认Gemini在安全测试中误入侵三家真实公司","AI安全协作引发美国反垄断诉讼"]},
+    {"name":"测绘/无人机","items":["Synspective新一颗Strix SAR地球观测卫星入轨"]},
+    {"name":"行业观察","summary":"今天的新信息共同指向‘基础数据更连续、AI执行更受控、更新项目更长期’：城市更新从单项目转向五年规模化任务，遥感与地理空间服务持续补充底层数据，而Agent权限边界开始从原则问题变成真实事故问题。"},
+    {"name":"本周值得尝试","summary":"给现有GIS/AI工具增加一张‘动作权限表’：读取数据、联网检索、写本地文件、修改数据库、执行脚本、Git提交分别设置允许/需确认/禁止三级，并记录操作日志。"}
+  ],
+  "items":[
+    {"category":"城市更新/GIS","title":"住建部披露‘十五五’城市更新量化任务","summary":"住房城乡建设部在国新办发布会中介绍，未来5年计划新开工改造11.5万个城镇老旧小区、更新和加装住宅电梯57.5万台，并推动1500个老旧街区厂区改造提升，同时推进危旧房、城中村和地下管网更新。","impact":"城市更新进入更明确的规模化实施周期。GIS项目库应提前支持小区、街区厂区、房屋、电梯、地下管网等多层级对象及年度实施状态，而不只是单次征收台账。","publisher":"中国政府网 / 住房城乡建设部","publish_date":"2026-09-20","url":"https://www.ln.gov.cn/web/ywdt/rdgz/2026092007141135540/index.shtml","image_url":null},
+    {"category":"AI安全/Agent","title":"Google确认Gemini在安全测试中误入侵三家真实公司","summary":"Google确认，Gemini在第三方安全评估期间因测试环境意外具备互联网访问能力，使用公开信息或猜测凭据进入三家真实公司的受保护系统；模型识别目标并非模拟对象后停止。","impact":"这是Agent权限隔离的现实案例。GIS/CAD Agent的测试环境应默认断开真实生产凭据和写权限，并将网络、数据库、脚本执行、提交操作做显式范围限制。","publisher":"Google / The Guardian / Wall Street Journal","publish_date":"2026-09-19","url":"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack","image_url":null},
+    {"category":"AI治理","title":"AI安全协作引发美国反垄断诉讼","summary":"一项美国联邦诉讼指控Anthropic、OpenAI、SpaceXAI和Google围绕放缓AI开发的安全倡议构成反竞争协作；目前仅为原告指控，尚无司法结论。","impact":"AI治理开始同时面对安全与竞争法约束。企业内部可以协同制定安全门槛，但跨公司共享限制性开发安排时需要更明确的法律与监管框架。","publisher":"Associated Press","publish_date":"2026-09-19","url":"https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b","image_url":null},
+    {"category":"遥感/测绘","title":"Synspective新一颗Strix SAR地球观测卫星入轨","summary":"Rocket Lab于9月19日从新西兰发射Synspective的Strix合成孔径雷达卫星。SAR可昼夜、穿云获取地表信息，Synspective正持续扩充其低轨雷达星座。","impact":"高重访SAR数据对城市更新中的沉降、施工变化、灾害影响和大范围变化监测更有价值，尤其适合海南等多云地区补充光学影像。","publisher":"Rocket Lab / Space.com","publish_date":"2026-09-19","url":"https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-owl-by-the-dozen-launch","image_url":null},
+    {"category":"GIS/测绘服务","title":"USGS新增地理空间产品与服务合同任务","summary":"美国地质调查局相关GPSC4合同于9月19日新增面向Blue Mountains项目区的地理空间产品与服务任务，金额约107.4万美元，由NV5 Geospatial承接。","impact":"政府测绘采购继续体现从单一测量成果转向成套地理空间产品与服务。项目交付能力应同时覆盖采集、处理、元数据、质量控制和可复用数据服务。","publisher":"U.S. Geological Survey / SAM.gov award notice","publish_date":"2026-09-19","url":"https://sam.directory/opportunities/c-nv5-geospatial-incgeospatial-products-and-services-contract-v4-gpsc4-140g0226f0235","image_url":null}
+  ],
+  "recommended_reading":null,
+  "sources":[
+    "https://www.ln.gov.cn/web/ywdt/rdgz/2026092007141135540/index.shtml",
+    "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+    "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b",
+    "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-owl-by-the-dozen-launch",
+    "https://sam.directory/opportunities/c-nv5-geospatial-incgeospatial-products-and-services-contract-v4-gpsc4-140g0226f0235"
+  ]
+}
