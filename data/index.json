@@ -1,7 +1,8 @@
 {
-  "latest_daily":"data/daily/2026-09-20.json",
+  "latest_daily":"data/daily/2026-09-21.json",
   "latest_weekly":"data/weekly/2026-W38.json",
   "recent":[
+    {"type":"daily","date":"2026-09-21","title":"行业日报｜2026-09-21","path":"data/daily/2026-09-21.json"},
     {"type":"daily","date":"2026-09-20","title":"行业日报｜2026-09-20","path":"data/daily/2026-09-20.json"},
     {"type":"daily","date":"2026-09-19","title":"行业日报｜2026-09-19","path":"data/daily/2026-09-19.json"},
     {"type":"weekly","date":"2026-09-18","title":"本周行业汇总｜2026-W38（9月12日—9月18日）","path":"data/weekly/2026-W38.json"},
@@ -28,7 +29,6 @@
     {"type":"weekly","date":"2026-08-28","title":"本周行业汇总｜2026-W35（8月21日—8月28日）","path":"data/weekly/2026-W35.json"},
     {"type":"daily","date":"2026-08-27","title":"行业日报｜2026-08-27","path":"data/daily/2026-08-27.json"},
     {"type":"daily","date":"2026-08-26","title":"行业日报｜2026-08-26","path":"data/daily/2026-08-26.json"},
-    {"type":"daily","date":"2026-08-25","title":"行业日报｜2026-08-25","path":"data/daily/2026-08-25.json"},
-    {"type":"daily","date":"2026-08-24","title":"行业日报｜2026-08-24","path":"data/daily/2026-08-24.json"}
+    {"type":"daily","date":"2026-08-25","title":"行业日报｜2026-08-25","path":"data/daily/2026-08-25.json"}
   ]
 }
