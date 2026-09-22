@@ -1,7 +1,8 @@
 {
-  "latest_daily":"data/daily/2026-09-21.json",
+  "latest_daily":"data/daily/2026-09-22.json",
   "latest_weekly":"data/weekly/2026-W38.json",
   "recent":[
+    {"type":"daily","date":"2026-09-22","title":"行业日报｜2026-09-22","path":"data/daily/2026-09-22.json"},
     {"type":"daily","date":"2026-09-21","title":"行业日报｜2026-09-21","path":"data/daily/2026-09-21.json"},
     {"type":"daily","date":"2026-09-20","title":"行业日报｜2026-09-20","path":"data/daily/2026-09-20.json"},
     {"type":"daily","date":"2026-09-19","title":"行业日报｜2026-09-19","path":"data/daily/2026-09-19.json"},
