@@ -1,23 +1,17 @@
 {
   "type": "daily",
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22T14:16:37+08:00",
-  "title": "行业日报｜2026-09-22",
-  "summary": "过去24小时的高价值动态集中在三条主线：城市基础设施以国土空间‘一张图’加强跨网统筹；前沿AI进一步强调专业成果的独立验证与长任务执行；无人机与GIS测绘能力继续向政府部门和业务人员常态化扩散。",
-  "sections": [
-    {"name":"城市更新/GIS","summary":"深圳以国土空间规划‘一张图’统筹水网、电网、算力网、通信网、地下管网和物流网，体现城市空间治理从单专题向跨基础设施协同演进。"},
-    {"name":"AI模型与工具","summary":"OpenAI成立独立数学与AI顾问组，强调前沿模型产生专业成果后的外部审查；GPT-6 Astra案例则显示长任务规划正压缩软件功能从想法到上线的周期。"},
-    {"name":"测绘/无人机","summary":"政府GIS与遥感机构继续把无人机测绘培训嵌入部门业务，应用重点从飞行操作扩展到GIS制图、调查和数据获取。"}
-  ],
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T14:10:29+08:00",
+  "title": "行业日报｜2026-09-23",
+  "summary": "过去24小时重点：Claude Opus 5.5发布；德里以无人机+GIS+LiDAR+AI更新房产数据库；阿里公布新AI芯片与更大模型计划；NASA/CSDA更新WorldView-1高分影像目录；企业GIS继续向组织级基础设施演进。",
+  "sections": ["AI模型与工具","城市更新/GIS","测绘/无人机"],
   "items": [
-    {"category":"城市更新/GIS","title":"深圳推进‘六张网’规划一张图统筹","summary":"深圳近日印发‘六张网’规划‘一张图’统筹和空间要素保障工作方案，由规划和自然资源部门牵头，统筹水网、新型电网、算力网、新一代通信网、城市地下管网和物流网，并部署22项重点任务。","impact":"对城市更新项目的数据组织很有参考价值：道路、地下管网、能源、通信和物流不宜长期各做一套图层，应建立统一空间对象、冲突检查和项目落位机制。","publisher":"深圳环境水务集团/智能制造网转载","publish_date":"2026-09-21","url":"https://www.gkzhan.com/news/detail/195821.html","image_url":null},
-    {"category":"AI模型与工具","title":"OpenAI成立独立数学与AI顾问组","summary":"OpenAI宣布与数学界建立独立顾问组，由Institute for Advanced Study托管，参与评估新兴AI数学成果的重要性、发布方式和学术标准；成员可公开提出不同意见。","impact":"这对GIS/测绘AI同样适用：模型生成面积统计、空间分析结论或自动质检结果时，应把‘生成’和‘专业复核’分离，关键成果保留可追溯证据链。","publisher":"OpenAI","publish_date":"2026-09-21","url":"https://openai.com/index/advisory-group-on-mathematics-and-ai/","image_url":null},
-    {"category":"AI模型与工具","title":"GPT-6 Astra案例显示长任务规划正在压缩软件功能迭代周期","summary":"OpenAI披露Higgsfield使用GPT-6 Astra进行多步骤规划与开发，称单个工程师可在一天内交付新的探索功能；案例同时展示从提示到多版本视频生产的端到端流程。","impact":"对自建GIS网页工具和ArcGIS脚本而言，AI Agent的价值正在从‘帮写一段代码’转向‘拆任务—实现—测试—迭代’；更适合用小功能闭环衡量效率，而不是只比较代码生成速度。","publisher":"OpenAI","publish_date":"2026-09-21","url":"https://openai.com/index/higgsfield-from-prompt-to-production-with-astra/","image_url":null},
-    {"category":"AI模型与工具","title":"全球机构发起多语言AI五年合作目标","summary":"盖茨基金会宣布由60个初始签署方参与的合作，目标是在五年内帮助超过30亿人使用本地语言和语音AI，参与方包括前沿AI实验室、研究机构、政府和社会组织。","impact":"对基层调查、入户记录和移动GIS而言，多语言与语音能力成熟后，现场口述记录、方言/多语言信息结构化和移动端自然语言查询会更实用，但仍需保留人工核对原始记录。","publisher":"Gates Foundation","publish_date":"2026-09-21","url":"https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership","image_url":null},
-    {"category":"测绘/无人机","title":"Nagaland政府GIS机构持续推进无人机GIS测绘与调查培训","summary":"Nagaland GIS & Remote Sensing Centre及Drone Centre of Excellence披露无人机培训进展，课程覆盖合规飞行、GIS无人机测量与制图、维修和航电等；此前针对卫生部门官员的Drone GIS Mapping & Survey培训也已完成。","impact":"说明无人机能力建设正在从专门飞手扩展到业务部门。实际项目培训可采用‘任务规划—采集—坐标/像控—成果检查—GIS入库’整链条，而不是只教起降和航线。","publisher":"Times of India / Nagaland GIS & Remote Sensing Centre","publish_date":"2026-09-22","url":"https://timesofindia.indiatimes.com/city/guwahati/nagaland-empowering-youth-with-drone-technology/articleshow/133888565.cms","image_url":null}
+    {"category":"AI模型与工具","title":"Anthropic发布Claude Opus 5.5","summary":"旗舰模型进一步降本并加强外部安全评测。","impact":"长流程GIS/CAD Agent成本继续下降，但仍需权限隔离。","publisher":"Reuters","publish_date":"2026-09-23","url":"https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/","image_url":null},
+    {"category":"城市更新/GIS","title":"德里启动无人机房产调查","summary":"融合无人机、GIS、LiDAR、AI和3D建模更新房产数据库。","impact":"适合迁移到城市更新房屋现状差异核查。","publisher":"The New Indian Express","publish_date":"2026-09-23","url":"https://www.newindianexpress.com/cities/delhi/2026/Sep/23/mcd-commences-pilot-drone-survey-to-improve-property-tax-assessment","image_url":null},
+    {"category":"AI模型与工具","title":"阿里巴巴公布新AI芯片与更大模型计划","summary":"Zhenwu V900及最高10万亿参数模型计划公布。","impact":"国产AI基础设施选择继续扩展。","publisher":"Associated Press","publish_date":"2026-09-23","url":"https://apnews.com/article/b29908e516faff9f5a82b201ba954aab","image_url":null},
+    {"category":"测绘/无人机","title":"WorldView-1 0.5米正射影像数据集更新","summary":"NASA/CSDA目录更新高分辨率商业卫星标准化正射影像。","impact":"可用于大范围变化筛查后再由无人机/RTK精查。","publisher":"NASA / Data.gov","publish_date":"2026-09-22","url":"https://catalog.data.gov/dataset/worldview-1-level-3d-panchromatic-satellite-imagery","image_url":null},
+    {"category":"GIS","title":"企业GIS向组织级基础设施演进","summary":"行业论坛强调治理、架构与跨部门协作。","impact":"长期GIS应先稳定对象ID、标准、权限和版本流程。","publisher":"BeSpatial Ontario","publish_date":"2026-09-23","url":"https://www.bespatialontario.ca/event-6731326","image_url":null}
   ],
-  "industry_observation":"今天的共同信号不是某一款新设备，而是‘跨系统协同+专业复核’正在成为基础能力。城市侧把多张基础设施网络压到一张空间底图上，AI侧开始给专业成果增加独立审查，测绘侧则把无人机从设备操作变成完整业务链。对实际GIS项目而言，下一步最值钱的往往不是再加一个工具，而是让数据、自动化和复核规则真正接起来。",
-  "tool_or_method":{"name":"GIS成果自动质检清单","description":"选一个现有ArcGIS Pro成果，先固化5类机器可检查规则：编号唯一/非空、几何有效、坐标系一致、面积异常阈值、必填字段完整；AI只负责解释异常和生成复核说明，不直接修改正式成果。这样可以把确定性检查交给规则，把模糊判断留给人和AI协作。"},
   "recommended_reading": null,
-  "sources": ["https://www.gkzhan.com/news/detail/195821.html","https://openai.com/index/advisory-group-on-mathematics-and-ai/","https://openai.com/index/higgsfield-from-prompt-to-production-with-astra/","https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership","https://timesofindia.indiatimes.com/city/guwahati/nagaland-empowering-youth-with-drone-technology/articleshow/133888565.cms"]
+  "sources": ["https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/","https://www.newindianexpress.com/cities/delhi/2026/Sep/23/mcd-commences-pilot-drone-survey-to-improve-property-tax-assessment","https://apnews.com/article/b29908e516faff9f5a82b201ba954aab","https://catalog.data.gov/dataset/worldview-1-level-3d-panchromatic-satellite-imagery","https://www.bespatialontario.ca/event-6731326"]
 }
