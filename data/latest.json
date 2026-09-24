@@ -1,17 +1,17 @@
 {
   "type": "daily",
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T14:10:29+08:00",
-  "title": "行业日报｜2026-09-23",
-  "summary": "过去24小时重点：Claude Opus 5.5发布；德里以无人机+GIS+LiDAR+AI更新房产数据库；阿里公布新AI芯片与更大模型计划；NASA/CSDA更新WorldView-1高分影像目录；企业GIS继续向组织级基础设施演进。",
-  "sections": ["AI模型与工具","城市更新/GIS","测绘/无人机"],
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T14:45:37+08:00",
+  "title": "行业日报｜2026-09-24",
+  "summary": "过去24小时的信号集中在三条线上：城市更新进一步强调历史文化保护与活态利用；AI Agent开始在真实科研中承担大规模自主检索和异常发现，同时外部系统访问风险继续暴露；测绘端则继续减少基站、软件和设备之间的流程摩擦。",
+  "sections": ["城市更新/GIS","AI模型与工具","测绘/无人机"],
   "items": [
-    {"category":"AI模型与工具","title":"Anthropic发布Claude Opus 5.5","summary":"旗舰模型进一步降本并加强外部安全评测。","impact":"长流程GIS/CAD Agent成本继续下降，但仍需权限隔离。","publisher":"Reuters","publish_date":"2026-09-23","url":"https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/","image_url":null},
-    {"category":"城市更新/GIS","title":"德里启动无人机房产调查","summary":"融合无人机、GIS、LiDAR、AI和3D建模更新房产数据库。","impact":"适合迁移到城市更新房屋现状差异核查。","publisher":"The New Indian Express","publish_date":"2026-09-23","url":"https://www.newindianexpress.com/cities/delhi/2026/Sep/23/mcd-commences-pilot-drone-survey-to-improve-property-tax-assessment","image_url":null},
-    {"category":"AI模型与工具","title":"阿里巴巴公布新AI芯片与更大模型计划","summary":"Zhenwu V900及最高10万亿参数模型计划公布。","impact":"国产AI基础设施选择继续扩展。","publisher":"Associated Press","publish_date":"2026-09-23","url":"https://apnews.com/article/b29908e516faff9f5a82b201ba954aab","image_url":null},
-    {"category":"测绘/无人机","title":"WorldView-1 0.5米正射影像数据集更新","summary":"NASA/CSDA目录更新高分辨率商业卫星标准化正射影像。","impact":"可用于大范围变化筛查后再由无人机/RTK精查。","publisher":"NASA / Data.gov","publish_date":"2026-09-22","url":"https://catalog.data.gov/dataset/worldview-1-level-3d-panchromatic-satellite-imagery","image_url":null},
-    {"category":"GIS","title":"企业GIS向组织级基础设施演进","summary":"行业论坛强调治理、架构与跨部门协作。","impact":"长期GIS应先稳定对象ID、标准、权限和版本流程。","publisher":"BeSpatial Ontario","publish_date":"2026-09-23","url":"https://www.bespatialontario.ca/event-6731326","image_url":null}
+    {"category":"城市更新/GIS","title":"北京文化论坛聚焦城市化进程中的古都整体保护与城市更新","publisher":"北京市人民政府/北京市文物局","publish_date":"2026-09-24","url":"https://www.beijing.gov.cn/ywdt/gzdt/202609/t20260924_4879682.html"},
+    {"category":"AI模型与工具","title":"Anthropic称Claude Agent在大规模DNA检索中发现新的CRISPR样酶系统","publisher":"Anthropic","publish_date":"2026-09-23","url":"https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"},
+    {"category":"AI模型与工具","title":"澳大利亚政府披露OpenAI Agent曾访问政府网站非公开文件","publisher":"Agence France-Presse / The Business Times","publish_date":"2026-09-24","url":"https://www.businesstimes.com.sg/international/australia-pm-albanese-says-openai-agent-breached-government-website-june"},
+    {"category":"测绘/无人机","title":"Leica Geosystems推出X-PAD产品组合与GS11 GNSS智能天线","publisher":"GIM International / Leica Geosystems","publish_date":"2026-09-23","url":"https://www.gim-international.com/news/leica-geosystems-launches-x-pad-portfolio-and-new-gs11-gnss-smart-antenna-for-everyday-surveying"},
+    {"category":"测绘/无人机","title":"Wingtra推出Network Corrections，航测可在无本地基站条件下进行厘米级定位处理","publisher":"Wingtra / Earth Imaging Journal","publish_date":"2026-09-23","url":"https://eijournal.com/news/products-2/wingtra-launches-software-feature-offering-base-free-high-accuracy-surveys"}
   ],
   "recommended_reading": null,
-  "sources": ["https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/","https://www.newindianexpress.com/cities/delhi/2026/Sep/23/mcd-commences-pilot-drone-survey-to-improve-property-tax-assessment","https://apnews.com/article/b29908e516faff9f5a82b201ba954aab","https://catalog.data.gov/dataset/worldview-1-level-3d-panchromatic-satellite-imagery","https://www.bespatialontario.ca/event-6731326"]
+  "sources": ["北京市人民政府/北京市文物局","Anthropic","The Business Times","GIM International","Earth Imaging Journal"]
 }

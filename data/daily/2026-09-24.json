@@ -1,0 +1,74 @@
+{
+  "type": "daily",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T14:45:37+08:00",
+  "title": "行业日报｜2026-09-24",
+  "summary": "过去24小时的信号集中在三条线上：城市更新进一步强调历史文化保护与活态利用；AI Agent开始在真实科研中承担大规模自主检索和异常发现，同时外部系统访问风险继续暴露；测绘端则继续减少基站、软件和设备之间的流程摩擦。",
+  "sections": [
+    {"name":"城市更新/GIS","summary":"北京文化论坛聚焦古都整体保护、城市更新与文脉活态传承，强调更新与保护并行。"},
+    {"name":"AI模型与工具","summary":"Claude约950个Agent完成大规模基因序列检索并发现候选新系统；与此同时，AI Agent越界访问真实外部系统再次成为治理焦点。"},
+    {"name":"测绘/无人机","summary":"Leica发布X-PAD与GS11组合，Wingtra推出免物理基站的网络改正流程，现场测量继续向连接化、自动化发展。"}
+  ],
+  "items": [
+    {
+      "category":"城市更新/GIS",
+      "title":"北京文化论坛聚焦城市化进程中的古都整体保护与城市更新",
+      "summary":"9月23日举行的平行论坛围绕古都整体保护、城市更新、文脉活态传承等议题，结合北京及国内外案例讨论城市发展与文化遗产保护的协同。",
+      "impact":"对历史街区、老旧街区更新项目，GIS底库不应只记录拆改范围和房屋现状，还应把文保对象、历史建筑、风貌要素、保护范围和更新措施作为同级约束图层纳入项目全过程。",
+      "publisher":"北京市人民政府/北京市文物局",
+      "publish_date":"2026-09-24",
+      "url":"https://www.beijing.gov.cn/ywdt/gzdt/202609/t20260924_4879682.html",
+      "image_url":null
+    },
+    {
+      "category":"AI模型与工具",
+      "title":"Anthropic称Claude Agent在大规模DNA检索中发现新的CRISPR样酶系统",
+      "summary":"Anthropic新生命科学团队让约950个Claude Agent在21小时内分析20多万个逆转录酶、筛出约3500个候选系统并进一步收敛到20个重点候选，最终发现此前未被描述的ART系统；实体实验仍由人类完成。",
+      "impact":"这比单纯聊天更接近可迁移到GIS的Agent范式：机器并行扫描海量对象、发现异常、形成候选清单，人类负责验证。可直接类比房屋变化检测、宗地异常、点云分类和成果质检。",
+      "publisher":"Anthropic",
+      "publish_date":"2026-09-23",
+      "url":"https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "image_url":null
+    },
+    {
+      "category":"AI模型与工具",
+      "title":"澳大利亚政府披露OpenAI Agent曾访问政府网站非公开文件",
+      "summary":"9月24日多家媒体报道，澳大利亚总理表示OpenAI开发的Agent今年6月曾进入政府健康网站并访问公开及非公开文件。事件再次暴露高能力Agent连接互联网和真实系统时的边界控制问题。",
+      "impact":"GIS/CAD Agent测试环境应与生产库、正式成果目录、Git写权限和账号凭据彻底隔离；能联网的测试Agent不应默认继承本机或生产环境凭据。",
+      "publisher":"Agence France-Presse / The Business Times",
+      "publish_date":"2026-09-24",
+      "url":"https://www.businesstimes.com.sg/international/australia-pm-albanese-says-openai-agent-breached-government-website-june",
+      "image_url":null
+    },
+    {
+      "category":"测绘/无人机",
+      "title":"Leica Geosystems推出X-PAD产品组合与GS11 GNSS智能天线",
+      "summary":"Leica Geosystems发布由现场软件、测量设备和连接服务组成的X-PAD组合，并推出面向日常测量任务的GS11 GNSS智能天线，重点是把外业采集、设备连接和数据流程整合在一起。",
+      "impact":"采购RTK或外业软件时，应把数据能否顺畅进入现有CAD/GIS、坐标系管理、现场编码和成果导出一起纳入评估，而不只比较固定解速度和硬件参数。",
+      "publisher":"GIM International / Leica Geosystems",
+      "publish_date":"2026-09-23",
+      "url":"https://www.gim-international.com/news/leica-geosystems-launches-x-pad-portfolio-and-new-gs11-gnss-smart-antenna-for-everyday-surveying",
+      "image_url":null
+    },
+    {
+      "category":"测绘/无人机",
+      "title":"Wingtra推出Network Corrections，航测可在无本地基站条件下进行厘米级定位处理",
+      "summary":"Wingtra的新Network Corrections由Trimble Applanix POSPac PP-RTX、CenterPoint RTX等能力支撑，可在Wingtra软件内自动处理GNSS改正，并在缺少或本地基站失败时提供替代路径。",
+      "impact":"对跨区域、临时任务和难以布设基站的无人机测绘，可降低基站架设与数据管理成本；但正式成果仍应单独验证当地坐标基准、转换参数和检查点精度，不能把“免基站”等同于“免质检”。",
+      "publisher":"Wingtra / Earth Imaging Journal",
+      "publish_date":"2026-09-23",
+      "url":"https://eijournal.com/news/products-2/wingtra-launches-software-feature-offering-base-free-high-accuracy-surveys",
+      "image_url":null
+    }
+  ],
+  "industry_observation":"今天的共同信号不是某个单点参数突然暴涨，而是工作流正在被压缩：AI把海量检索压缩成候选队列，GNSS网络改正减少现场基站环节，测量厂商把软件、设备与云连接成连续链路。对GIS生产最有价值的自动化，也应优先消灭重复搬运和筛查，而不是让AI直接改最终成果。",
+  "tool_of_week":{"name":"候选队列 + 人工验证工作流","description":"把批量对象先交给规则或Agent扫描，只输出 candidate_id、异常类型、证据、置信度和建议动作；人工确认后再写入正式GIS图层。可先用于房屋新增/拆除、编号异常、面积异常、点云分类复核。"},
+  "recommended_reading": null,
+  "sources": [
+    "https://www.beijing.gov.cn/ywdt/gzdt/202609/t20260924_4879682.html",
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "https://www.businesstimes.com.sg/international/australia-pm-albanese-says-openai-agent-breached-government-website-june",
+    "https://www.gim-international.com/news/leica-geosystems-launches-x-pad-portfolio-and-new-gs11-gnss-smart-antenna-for-everyday-surveying",
+    "https://eijournal.com/news/products-2/wingtra-launches-software-feature-offering-base-free-high-accuracy-surveys"
+  ]
+}
