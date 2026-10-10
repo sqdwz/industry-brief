@@ -1,0 +1,190 @@
+{
+  "type": "weekly",
+  "date": "2026-10-09",
+  "week": "2026-W41",
+  "period_start": "2026-10-03",
+  "period_end": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-09T14:35:58+08:00",
+  "title": "本周行业汇总｜2026-W41（10月3日—10月9日）",
+  "summary": "本周聚焦城市基础设施的动态GIS资产管理、AI模型分层及Agent权限治理，以及无人机从采集向实时建图、空域合规和问题闭环延伸。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "基础设施数字孪生的重点转向可维护的资产数据，停车研究强调时段、价格与路缘用途而非单一泊位数量。",
+      "item_titles": [
+        "Bentley 2026基础设施奖公布：数字孪生覆盖城市设施与运营水网",
+        "INRIX首次发布2026停车评分卡：从泊位数量转向路缘使用效率"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "开放权重模型、低成本轻量模型、跨应用Agent与系统级执行隔离同步推进，模型选型正走向分层与权限治理。",
+      "item_titles": [
+        "Mistral Large 4公开预览，开放权重计划于10月下旬发布",
+        "Claude Haiku 5.5面向高频任务降本，推动模型分层调度",
+        "Google发布跨Workspace的Gemini工作Agent",
+        "Windows混合智能与Agent执行容器：本地/云端协同开始系统化"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "无人机产业由单一采集扩展至安全空域管理、实时三维感知、GIS问题定位和工单闭环。",
+      "item_titles": [
+        "FAA拨款1200万美元支持19项无人机安全融合研究",
+        "MicroVision与Robinson Unmanned推进机载LiDAR实时三维建图",
+        "PowerAI把巡检影像与GIS位置和工单优先级打通",
+        "DroneSense集成LAANC低空授权：空域合规融入飞行工作台"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "Bentley 2026基础设施奖公布：数字孪生覆盖城市设施与运营水网",
+      "summary": "10月7日Bentley公布12个类别获奖项目，300余个提名来自53国；城市设施数字孪生、地理空间实景建模和运营水网数字孪生均获认可。官方称约七成入围项目使用AI，但奖项本身不等于成效已被独立量化验证。",
+      "impact": "城市更新GIS应把建筑、设施、管网的空间对象与资产状态、历史版本、工单和维护责任关联；优先建立可更新的对象台账，而非仅制作展示型三维模型。",
+      "publisher": "Bentley Systems",
+      "publish_date": "2026-10-07",
+      "url": "https://www.bentley.com/en/news/bentley-systems-announces-winners-of-the-2026-year-in-infrastructure-awards/",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "INRIX首次发布2026停车评分卡：从泊位数量转向路缘使用效率",
+      "summary": "10月8日专业媒体解读INRIX 2026 Parking Scorecard，研究覆盖14国120余个城市中心区；样本中北美与欧洲的路侧可找到车位概率分别约为59%与41%，并对价格、路缘管制和用途冲突作比较。数据为样本地区估计值，不可直接套用中国城市。",
+      "impact": "停车设施摸排可从泊位数量升级为“空间位置+允许时段+路侧用途+收费+周转/可用性”的GIS数据库，区分供给、可用性和实际使用效率。",
+      "publisher": "Highways Today / INRIX",
+      "publish_date": "2026-10-08",
+      "url": "https://highways.today/2026/10/08/inrix-parking-scorecard/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Mistral Large 4公开预览，开放权重计划于10月下旬发布",
+      "summary": "Mistral于10月6日开放Large 4 API预览，定位为面向编码、Agent和多模态任务的大型MoE模型；官方表示权重计划于10月底开放，目前尚不能把预览服务等同于已可离线部署。",
+      "impact": "可把其纳入GIS内网模型候选清单，先用脱敏ArcPy脚本、空间查询和CAD指令做回归测试；等正式权重发布后再核算显存、吞吐和部署成本。",
+      "publisher": "Mistral AI",
+      "publish_date": "2026-10-06",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Claude Haiku 5.5面向高频任务降本，推动模型分层调度",
+      "summary": "Anthropic于10月7日推出Haiku 5.5，面向摘要、分类、数据库查询和子Agent；官方称相对Haiku 4.5平均任务成本约降低75%，具体取决于提示长度与任务token使用。",
+      "impact": "房屋调查表归类、文件摘录和字段清洗可先用轻量模型；权属判断、坐标与面积成果仍交给确定性规则和人工复核。",
+      "publisher": "Anthropic",
+      "publish_date": "2026-10-07",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Google发布跨Workspace的Gemini工作Agent",
+      "summary": "Google Cloud于10月8日介绍统一工作Agent，可在Gmail、Drive、Docs、Sheets、Calendar等环境执行任务并连接业务工具，同时强调身份、授权、策略和沙箱治理；部分能力仍处预览或分阶段开放。",
+      "impact": "GIS项目协作可参考“任务入口—资料读取—分析—成果生成—审批写入”的跨系统Agent链路，但要对资料来源、账户授权和修改动作建立审计。",
+      "publisher": "Google Cloud",
+      "publish_date": "2026-10-08",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Windows混合智能与Agent执行容器：本地/云端协同开始系统化",
+      "summary": "微软10月7日宣布Windows混合智能路线，Microsoft Execution Containers（MXC）在Windows 11提供可用的Agent隔离机制，GitHub HydraFusion本地模型路由计划于10月下旬进入实验预览；两者的可用状态应区别对待。",
+      "impact": "对GIS/CAD自动化，可把数据敏感级别、可访问目录、网络权限和正式成果写入权限纳入操作系统/工具层策略；避免仅靠提示词约束Agent。",
+      "publisher": "Microsoft Windows Experience Blog",
+      "publish_date": "2026-10-07",
+      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "FAA拨款1200万美元支持19项无人机安全融合研究",
+      "summary": "美国FAA于10月5日公布19项无人机测试研究资助，涵盖避碰、通信、身份核验、统一高度参考及空域管理；这是科研测试支持，不代表相关BVLOS常态化飞行已获批准。",
+      "impact": "制定无人机测绘SOP时应把空域授权、避碰、飞行记录、通信冗余和高度基准统一列为前置检查；国内项目仍须遵循中国民航和当地空域规定。",
+      "publisher": "Federal Aviation Administration",
+      "publish_date": "2026-10-05",
+      "url": "https://www.faa.gov/newsroom/faa-funds-drone-research-support-safe-integration",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "MicroVision与Robinson Unmanned推进机载LiDAR实时三维建图",
+      "summary": "双方10月6日宣布将MOVIA Air Plus集成至SPIRIT无人机进行实时空间感知与建图演示，宣称支持无GPS定位和导航；目前属于联合演示与客户评估阶段，未提供可独立核验的工程精度指标。",
+      "impact": "可关注桥底、厂房、林下等GNSS受限场景，但项目验收仍需核查控制点、闭合差、漂移和坐标配准精度，不能以实时显示替代精度检验。",
+      "publisher": "MicroVision",
+      "publish_date": "2026-10-06",
+      "url": "https://ir.microvision.com/news/press-releases/detail/479/microvision-and-robinson-unmanned-advance-lidar-integration",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "PowerAI把巡检影像与GIS位置和工单优先级打通",
+      "summary": "Commercial UAV News于10月7日报道Buzz Solutions的PowerAI，将巡检图像中的疑似设施缺陷关联GIS定位，并接入资产管理及工单系统；厂商效果主张仍需在真实项目上评估。",
+      "impact": "可用作城市更新现场调查闭环参考：照片→问题候选→空间落点→人工复核→派单→复查，并记录模型置信度与处置时间。",
+      "publisher": "Commercial UAV News",
+      "publish_date": "2026-10-07",
+      "url": "https://www.commercialuavnews.com/buzz-solutions-powerai-utility-inspection-software",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "DroneSense集成LAANC低空授权：空域合规融入飞行工作台",
+      "summary": "Commercial UAV News于10月8日报道Versaterm DroneSense将FAA LAANC授权流程集成到无人机作业平台，可在平台内申请受控空域许可并记录合规过程；适用范围是美国FAA体系。",
+      "impact": "国内测绘平台可借鉴“项目任务—空域核验—授权记录—飞行日志—成果归档”的一体化界面，但不能将美国LAANC作为海南等地空域审批依据。",
+      "publisher": "Commercial UAV News",
+      "publish_date": "2026-10-08",
+      "url": "https://www.commercialuavnews.com/versaterm-dronesense-laanc-airspace-authorization",
+      "image_url": null
+    }
+  ],
+  "weekly_core_changes": [
+    "城市空间信息从一次性展示模型走向可维护的数字资产与动态路缘/停车管理。",
+    "AI从单模型调用转向开放/闭源并存、大小模型协作、跨应用执行与系统级权限治理。",
+    "无人机从单纯外业采集转向实时三维感知、合规调度和GIS工单闭环。"
+  ],
+  "work_impact": "城市更新项目建议统一“宗地/建筑/设施ID—位置—调查日期—问题状态—证据—复核—处置”数据链；AI用于文本/影像初筛，面积和权属由确定性规则及人工核查；无人机项目增加飞行许可、精度验证和多期变化记录。",
+  "trends": [
+    "基础设施数字孪生与城市更新GIS的资产台账化、时态化",
+    "轻量模型分流+本地/云端混合推理+Agent执行容器",
+    "GNSS受限环境的实时LiDAR建图与空域合规一体化"
+  ],
+  "next_week_watch": [
+    "跟踪Mistral Large 4开放权重发布日期、许可与实际部署资源要求。",
+    "跟踪Windows MXC及GitHub HydraFusion预览范围，验证Agent沙箱能否隔离GIS生产目录。",
+    "跟踪MicroVision机载LiDAR后续演示的可量化精度，以及各地无人机空域授权和巡检工单接口进展。"
+  ],
+  "recommended_reading": {
+    "title": "INRIX Parking Scorecard Reveals a Transatlantic Divide in Urban Parking",
+    "author": "Anthony Davis / Highways Today（基于INRIX 2026停车评分卡）",
+    "publisher": "Highways Today",
+    "publish_date": "2026-10-08",
+    "url": "https://highways.today/2026/10/08/inrix-parking-scorecard/",
+    "estimated_reading_minutes": 5,
+    "reading_values": [
+      "将停车可用性与泊位存量明确区分，避免用“有多少车位”替代实际停车体验。",
+      "把收费、路缘限制、装卸与临停需求作为同一条街道的时空属性分析。",
+      "指出跨城市比较存在区域、时段、交通结构差异，强调本地校准和方法透明。"
+    ],
+    "work_inspiration": "将停车摸排数据表升级为可支持分时管理与供需评价的GIS图层，至少增加允许时段、用途类型、收费、可用性来源与更新时间。",
+    "free_to_read": true
+  },
+  "sources": [
+    "https://www.bentley.com/en/news/bentley-systems-announces-winners-of-the-2026-year-in-infrastructure-awards/",
+    "https://highways.today/2026/10/08/inrix-parking-scorecard/",
+    "https://mistral.ai/news/mistral-large-4/",
+    "https://www.anthropic.com/claude-haiku-5-5",
+    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+    "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+    "https://www.faa.gov/newsroom/faa-funds-drone-research-support-safe-integration",
+    "https://ir.microvision.com/news/press-releases/detail/479/microvision-and-robinson-unmanned-advance-lidar-integration",
+    "https://www.commercialuavnews.com/buzz-solutions-powerai-utility-inspection-software",
+    "https://www.commercialuavnews.com/versaterm-dronesense-laanc-airspace-authorization",
+    "https://www.bentley.com/en/blog/2026-year-in-infrastructure-awards-winners/",
+    "https://inrix.com/parking-scorecard/",
+    "https://www.geoweeknews.com/articles/where-efficiency-meets-purpose-at-year-in-infrastructure-2026/"
+  ],
+  "quality_notes": "仅收录2026-10-03至2026-10-09可核验的不同事件；公开厂商声明、行业案例与正式实施/工程精度需区分，未直接复用10月2日以前的旧闻。"
+}
