@@ -1,0 +1,133 @@
+{
+  "type": "daily",
+  "date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-11T12:12:19+08:00",
+  "title": "行业日报｜2026-10-11",
+  "summary": "10月11日星期日。三条10月10日城市更新官方信息聚焦片区年度指标、政策性融资与项目储备；补充10月9日发布、10月10日仍有重要后续报道的Deno与Qwen动态。测绘/无人机方向未发现足够新且可靠的消息，不以旧闻补位。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "城市更新进入项目库动态管理、资金适配和空间化绩效追踪阶段。",
+      "item_titles": [
+        "广东明确每年启动60个城市更新重点片区，建立动态项目库",
+        "福建政策性金融支持城市更新八大领域，强调项目储备与资金平衡",
+        "郑州9个城市更新项目拟入库，总投资近40亿元"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "开发平台整合与轻量视觉生成工具更新，但需关注产品迁移与模型许可。",
+      "item_titles": [
+        "Cloudflare收购Deno团队，整合Workers与Durable Objects技术",
+        "Qwen-Image-2.1-Turbo发布：8步图像生成编辑与透明背景"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "过去24小时未发现可靠、未重复的高价值新发布，本期无入选条目。",
+      "item_titles": []
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "广东明确每年启动60个城市更新重点片区，建立动态项目库",
+      "summary": "广东五部门印发城市更新实施方案，“十五五”期间每年启动60个重点片区、五年不少于300个；以城市体检、片区统筹、项目库动态管理和运营前置组织九大任务及20项指标。",
+      "impact": "建议以GIS建立片区—项目—宗地/建筑—问题—实施状态的多层对象库，形成年度进度与绩效追踪；广东政策不能直接套用海南。",
+      "publisher": "深圳市龙岗区政府（转载广东省住建厅）",
+      "publish_date": "2026-10-10",
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/gzdt/content/post_13013272.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "福建政策性金融支持城市更新八大领域，强调项目储备与资金平衡",
+      "summary": "福建省住建厅联合国开行福建分行出台通知，支持既有建筑、老旧小区、城中村、管网设施、历史文化保护等八类项目；以需求摸底、资源梳理、供需适配为基础形成项目清单与实施方案。",
+      "impact": "可在GIS项目库补充项目类型、现状问题、投资估算、资金渠道与可研状态，服务片区策划和项目申报；该资金政策适用福建。",
+      "publisher": "福建省住房和城乡建设厅／新华网",
+      "publish_date": "2026-10-10",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "郑州9个城市更新项目拟入库，总投资近40亿元",
+      "summary": "郑州市组织评审并公示9个拟入库项目，公示期10月8—13日，涵盖雨水管网、养老服务、旧厂区及低效用地盘活；其中航海东路雨水管道改造拟投资6.74亿元。当前属于拟入库公示，非项目全部开工。",
+      "impact": "将更新项目与地下管网、公共服务覆盖、低效土地和投资规模叠加，制作空间化的项目优先级与资金需求图。",
+      "publisher": "郑州市人民政府／郑州日报",
+      "publish_date": "2026-10-10",
+      "url": "https://www.zhengzhou.gov.cn/news1/10286419.jhtml",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Cloudflare收购Deno团队，整合Workers与Durable Objects技术",
+      "summary": "Cloudflare与Deno在10月9日宣布团队整合，推进celld与workerd融合及可自托管Workers；Deno运行时继续维护一年、Deno Deploy运营六个月，JSR继续运营。10月10日科技媒体跟进报道。",
+      "impact": "若GIS知识库或共享地图使用Deno Deploy，应检查迁移期限；Cloudflare Workers/Durable Objects适合持续任务状态和实时协作，但现有服务不必立即改架构。",
+      "publisher": "Cloudflare／Deno／TechCrunch",
+      "publish_date": "2026-10-09",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Qwen-Image-2.1-Turbo发布：8步图像生成编辑与透明背景",
+      "summary": "Qwen于10月9日发布Qwen-Image-2.1-Turbo，官方更新日志确认模型支持图像生成与编辑、透明背景和多参考图处理；媒体报道8步去噪加速。模型权重开放不意味着商业使用不受限制。",
+      "impact": "可用非生产素材测试城市更新效果图贴图、透明图形元素与报告插画；禁止将生成图当作正射影像、测量结果或权属证据。",
+      "publisher": "QwenCloud官方日志／PC Watch",
+      "publish_date": "2026-10-09",
+      "url": "https://docs.qwencloud.com/changelog/models",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "城市更新正在从静态现状调查转向有明确年度指标、资金来源、实施阶段的动态项目治理。GIS的价值不止出图，而在于把空间对象、项目台账、权属证据和资金可行性贯通；AI可协助整理资料和视觉表达，但不能替代测绘精度或权属审核。",
+  "tool_of_week": {
+    "name": "GIS城市更新项目融资就绪度筛选",
+    "method": "在ArcGIS Pro中按project_id连接片区、宗地、建筑、管网、调查问题与投资估算；添加project_type、service_gap、funding_channel、evidence_completeness、readiness_score、review_status字段。先选5—10个项目输出待补证据与申报候选清单，人工复核后再形成正式成果。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "深圳市龙岗区政府（转载广东省住建厅）",
+      "publish_date": "2026-10-10",
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/gzdt/content/post_13013272.html"
+    },
+    {
+      "publisher": "福建省住房和城乡建设厅／新华网",
+      "publish_date": "2026-10-10",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm"
+    },
+    {
+      "publisher": "郑州市人民政府／郑州日报",
+      "publish_date": "2026-10-10",
+      "url": "https://www.zhengzhou.gov.cn/news1/10286419.jhtml"
+    },
+    {
+      "publisher": "Cloudflare／Deno／TechCrunch",
+      "publish_date": "2026-10-09",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/"
+    },
+    {
+      "publisher": "QwenCloud官方日志／PC Watch",
+      "publish_date": "2026-10-09",
+      "url": "https://docs.qwencloud.com/changelog/models"
+    },
+    {
+      "publisher": "Deno官方",
+      "publish_date": "2026-10-09",
+      "url": "https://deno.com/blog/cloudflare"
+    },
+    {
+      "publisher": "TechCrunch",
+      "publish_date": "2026-10-10",
+      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/"
+    },
+    {
+      "publisher": "PC Watch",
+      "publish_date": "2026-10-09",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2147316.html"
+    }
+  ],
+  "source_policy": "优先2026-10-10官方来源；10月9日两条为未重复的跨窗补充，已标注真实发布日期；不以低质量无人机资讯凑数。"
+}
