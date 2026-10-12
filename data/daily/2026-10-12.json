@@ -1,0 +1,126 @@
+{
+  "type": "daily",
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-12T12:07:52.912+08:00",
+  "title": "行业日报｜2026-10-12",
+  "summary": "2026年10月12日星期一，日报重点记录10月11日下午至12日上午的城市更新实践、空间治理研讨、历史街区项目落地、AI多Agent成本评测后续和无人机技能标准化。五条均提供可核查的原文链接；其中AI评测原始研究发布于10月9日，10月11日为新报道，不冒充当日模型发布。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "从城市体检到存量空间复合利用，兼顾公共服务、历史文化保护与项目标段跟踪。",
+      "item_titles": [
+        "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
+        "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
+        "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "多Agent编排需以任务实测收益而非Agent数量衡量。",
+      "item_titles": [
+        "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "专业技能培养开始更重视标准化任务和可复用的实训流程。",
+      "item_titles": [
+        "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
+      "summary": "四川日报10月11日披露丹棱县老齿轮厂片区更新：闲置厂房用地转为大雅学校，另一处约3000平方米社区综合体保留部分工业结构，面向养老、托育和社区服务，计划年底投用。当地通过多渠道资金组合和专业运营回应城市体检发现的公共服务短板。",
+      "impact": "在片区GIS中叠加闲置资产、老人儿童人口、学校/托育/养老设施与15分钟服务圈，形成“问题—资产—功能—资金—运营主体”的候选更新项目表；不应将四川模式直接当作海南现行政策。",
+      "publisher": "四川在线（四川日报全媒体）",
+      "publish_date": "2026-10-11",
+      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
+      "summary": "10月11日举行的2026中国城市学年会以高质量城市更新为主题，提出把物理空间与数字空间结合，并从存量资源激活、空间结构优化、公共服务完善三个维度审视城市更新；会议讨论历史文化保护与县域旧厂区、旧园区改造。",
+      "impact": "建议将城市更新项目分类从单一房屋结构或征收范围扩展为“存量资产盘活/空间结构/公共服务/历史文化”多维标签；会议观点属学术研讨，不是强制政策。",
+      "publisher": "杭州网／杭州通客户端",
+      "publish_date": "2026-10-11",
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果",
+      "summary": "10月12日京津冀公共资源交易平台转发天津中标结果：天津美术学院片区历史文化街区保护项目的乳胶厂地块公共部位装饰装修方案设计由天津华汇工程建筑设计有限公司中标，规模6859.1平方米、标价125万元，计划工期10月16日至11月4日。",
+      "impact": "历史街区类更新项目宜在GIS台账中关联具体地块、保护对象、设计标段、合同金额、实施节点及文保约束，便于区分片区总体更新与单标段进度。",
+      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "publish_date": "2026-10-12",
+      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍",
+      "summary": "The Decoder于10月11日跟进Vals AI 10月9日原始评测：GPT-6 Sol与Claude Opus 5.5在50个Web应用任务上的多Agent配置成本是单Agent的1.8—5.1倍，四组对比仅一组质量提升具有统计显著性。该结果只针对所测编码基准，不能直接推广到所有GIS任务。",
+      "impact": "ArcPy批处理、字段核查和简报生成应先测单Agent基线，再对真正可并行的模块启用多Agent；记录成本、完成时间、质量与人工复核量，避免为“多智能体”概念支付协调开销。",
+      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
+      "publish_date": "2026-10-11",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "image_url": null,
+      "original_research_date": "2026-10-09",
+      "original_research_url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训",
+      "summary": "10月12日每日甘肃网报道，第48届世界技能大赛新增无人机系统赛项，甘肃建筑职业技术学院作为国家集训分基地完成备赛支撑；该校测绘地理信息学院计划将相关赛项训练方法融入无人机与测绘专业人才培养。报道属于技能人才与作业规范动态，不是新型航测设备发布。",
+      "impact": "无人机测绘团队可借鉴竞赛式能力考核：任务规划、设备检查、飞行安全、数据采集、精度核验与交付记录形成可复用SOP；不应把赛事成绩等同于测绘成果精度认证。",
+      "publisher": "每日甘肃网",
+      "publish_date": "2026-10-12",
+      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "今天最明显的共同趋势是“把能力做成可管理对象”：城市更新从地块建设走向服务供给与运营，AI从多Agent规模转向成本—质量评测，无人机从设备使用走向规范化作业。对GIS规划团队，核心是建立空间对象、过程证据、实施状态和质量责任的统一台账。",
+  "tool_of_week": {
+    "name": "ArcGIS Pro完整社区服务缺口与存量资产匹配法",
+    "method": "以500米/1000米步行路网服务区（优先真实道路网络，无法获得时明确标注直线缓冲区近似）分析养老、托育、学校服务覆盖；叠加人口网格、闲置国有资产和历史建筑保护边界，筛选服务缺口与可利用资产重叠的候选点，导出project_id、gap_type、asset_owner、planning_constraint、funding_source、review_status，现场核实后再入项目库。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "四川在线（四川日报全媒体）",
+      "publish_date": "2026-10-11",
+      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html"
+    },
+    {
+      "publisher": "杭州网／杭州通客户端",
+      "publish_date": "2026-10-11",
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm"
+    },
+    {
+      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "publish_date": "2026-10-12",
+      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html"
+    },
+    {
+      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
+      "publish_date": "2026-10-11",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
+    },
+    {
+      "publisher": "每日甘肃网",
+      "publish_date": "2026-10-12",
+      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml"
+    },
+    {
+      "publisher": "Vals AI（原始研究）",
+      "publish_date": "2026-10-09",
+      "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+    }
+  ],
+  "source_policy": "以2026-10-11 12:10至2026-10-12 12:10（北京时间）发布的信息为优先；AI项属于10月11日新报道、10月9日原始研究，已明确区分。新闻不含无授权的图片直链；不使用此前10月5—11日简报已覆盖的旧闻凑数。"
+}

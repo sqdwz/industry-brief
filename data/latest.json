@@ -1,133 +1,126 @@
 {
   "type": "daily",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-11T12:12:19+08:00",
-  "title": "行业日报｜2026-10-11",
-  "summary": "10月11日星期日。三条10月10日城市更新官方信息聚焦片区年度指标、政策性融资与项目储备；补充10月9日发布、10月10日仍有重要后续报道的Deno与Qwen动态。测绘/无人机方向未发现足够新且可靠的消息，不以旧闻补位。",
+  "generated_at": "2026-10-12T12:07:52.912+08:00",
+  "title": "行业日报｜2026-10-12",
+  "summary": "2026年10月12日星期一，日报重点记录10月11日下午至12日上午的城市更新实践、空间治理研讨、历史街区项目落地、AI多Agent成本评测后续和无人机技能标准化。五条均提供可核查的原文链接；其中AI评测原始研究发布于10月9日，10月11日为新报道，不冒充当日模型发布。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "城市更新进入项目库动态管理、资金适配和空间化绩效追踪阶段。",
+      "summary": "从城市体检到存量空间复合利用，兼顾公共服务、历史文化保护与项目标段跟踪。",
       "item_titles": [
-        "广东明确每年启动60个城市更新重点片区，建立动态项目库",
-        "福建政策性金融支持城市更新八大领域，强调项目储备与资金平衡",
-        "郑州9个城市更新项目拟入库，总投资近40亿元"
+        "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
+        "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
+        "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "开发平台整合与轻量视觉生成工具更新，但需关注产品迁移与模型许可。",
+      "summary": "多Agent编排需以任务实测收益而非Agent数量衡量。",
       "item_titles": [
-        "Cloudflare收购Deno团队，整合Workers与Durable Objects技术",
-        "Qwen-Image-2.1-Turbo发布：8步图像生成编辑与透明背景"
+        "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "过去24小时未发现可靠、未重复的高价值新发布，本期无入选条目。",
-      "item_titles": []
+      "summary": "专业技能培养开始更重视标准化任务和可复用的实训流程。",
+      "item_titles": [
+        "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训"
+      ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "广东明确每年启动60个城市更新重点片区，建立动态项目库",
-      "summary": "广东五部门印发城市更新实施方案，“十五五”期间每年启动60个重点片区、五年不少于300个；以城市体检、片区统筹、项目库动态管理和运营前置组织九大任务及20项指标。",
-      "impact": "建议以GIS建立片区—项目—宗地/建筑—问题—实施状态的多层对象库，形成年度进度与绩效追踪；广东政策不能直接套用海南。",
-      "publisher": "深圳市龙岗区政府（转载广东省住建厅）",
-      "publish_date": "2026-10-10",
-      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/gzdt/content/post_13013272.html",
+      "title": "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
+      "summary": "四川日报10月11日披露丹棱县老齿轮厂片区更新：闲置厂房用地转为大雅学校，另一处约3000平方米社区综合体保留部分工业结构，面向养老、托育和社区服务，计划年底投用。当地通过多渠道资金组合和专业运营回应城市体检发现的公共服务短板。",
+      "impact": "在片区GIS中叠加闲置资产、老人儿童人口、学校/托育/养老设施与15分钟服务圈，形成“问题—资产—功能—资金—运营主体”的候选更新项目表；不应将四川模式直接当作海南现行政策。",
+      "publisher": "四川在线（四川日报全媒体）",
+      "publish_date": "2026-10-11",
+      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "福建政策性金融支持城市更新八大领域，强调项目储备与资金平衡",
-      "summary": "福建省住建厅联合国开行福建分行出台通知，支持既有建筑、老旧小区、城中村、管网设施、历史文化保护等八类项目；以需求摸底、资源梳理、供需适配为基础形成项目清单与实施方案。",
-      "impact": "可在GIS项目库补充项目类型、现状问题、投资估算、资金渠道与可研状态，服务片区策划和项目申报；该资金政策适用福建。",
-      "publisher": "福建省住房和城乡建设厅／新华网",
-      "publish_date": "2026-10-10",
-      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm",
+      "title": "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
+      "summary": "10月11日举行的2026中国城市学年会以高质量城市更新为主题，提出把物理空间与数字空间结合，并从存量资源激活、空间结构优化、公共服务完善三个维度审视城市更新；会议讨论历史文化保护与县域旧厂区、旧园区改造。",
+      "impact": "建议将城市更新项目分类从单一房屋结构或征收范围扩展为“存量资产盘活/空间结构/公共服务/历史文化”多维标签；会议观点属学术研讨，不是强制政策。",
+      "publisher": "杭州网／杭州通客户端",
+      "publish_date": "2026-10-11",
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "郑州9个城市更新项目拟入库，总投资近40亿元",
-      "summary": "郑州市组织评审并公示9个拟入库项目，公示期10月8—13日，涵盖雨水管网、养老服务、旧厂区及低效用地盘活；其中航海东路雨水管道改造拟投资6.74亿元。当前属于拟入库公示，非项目全部开工。",
-      "impact": "将更新项目与地下管网、公共服务覆盖、低效土地和投资规模叠加，制作空间化的项目优先级与资金需求图。",
-      "publisher": "郑州市人民政府／郑州日报",
-      "publish_date": "2026-10-10",
-      "url": "https://www.zhengzhou.gov.cn/news1/10286419.jhtml",
+      "title": "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果",
+      "summary": "10月12日京津冀公共资源交易平台转发天津中标结果：天津美术学院片区历史文化街区保护项目的乳胶厂地块公共部位装饰装修方案设计由天津华汇工程建筑设计有限公司中标，规模6859.1平方米、标价125万元，计划工期10月16日至11月4日。",
+      "impact": "历史街区类更新项目宜在GIS台账中关联具体地块、保护对象、设计标段、合同金额、实施节点及文保约束，便于区分片区总体更新与单标段进度。",
+      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "publish_date": "2026-10-12",
+      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Cloudflare收购Deno团队，整合Workers与Durable Objects技术",
-      "summary": "Cloudflare与Deno在10月9日宣布团队整合，推进celld与workerd融合及可自托管Workers；Deno运行时继续维护一年、Deno Deploy运营六个月，JSR继续运营。10月10日科技媒体跟进报道。",
-      "impact": "若GIS知识库或共享地图使用Deno Deploy，应检查迁移期限；Cloudflare Workers/Durable Objects适合持续任务状态和实时协作，但现有服务不必立即改架构。",
-      "publisher": "Cloudflare／Deno／TechCrunch",
-      "publish_date": "2026-10-09",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-      "image_url": null
+      "title": "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍",
+      "summary": "The Decoder于10月11日跟进Vals AI 10月9日原始评测：GPT-6 Sol与Claude Opus 5.5在50个Web应用任务上的多Agent配置成本是单Agent的1.8—5.1倍，四组对比仅一组质量提升具有统计显著性。该结果只针对所测编码基准，不能直接推广到所有GIS任务。",
+      "impact": "ArcPy批处理、字段核查和简报生成应先测单Agent基线，再对真正可并行的模块启用多Agent；记录成本、完成时间、质量与人工复核量，避免为“多智能体”概念支付协调开销。",
+      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
+      "publish_date": "2026-10-11",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "image_url": null,
+      "original_research_date": "2026-10-09",
+      "original_research_url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
     },
     {
-      "category": "AI模型与工具",
-      "title": "Qwen-Image-2.1-Turbo发布：8步图像生成编辑与透明背景",
-      "summary": "Qwen于10月9日发布Qwen-Image-2.1-Turbo，官方更新日志确认模型支持图像生成与编辑、透明背景和多参考图处理；媒体报道8步去噪加速。模型权重开放不意味着商业使用不受限制。",
-      "impact": "可用非生产素材测试城市更新效果图贴图、透明图形元素与报告插画；禁止将生成图当作正射影像、测量结果或权属证据。",
-      "publisher": "QwenCloud官方日志／PC Watch",
-      "publish_date": "2026-10-09",
-      "url": "https://docs.qwencloud.com/changelog/models",
+      "category": "测绘/无人机",
+      "title": "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训",
+      "summary": "10月12日每日甘肃网报道，第48届世界技能大赛新增无人机系统赛项，甘肃建筑职业技术学院作为国家集训分基地完成备赛支撑；该校测绘地理信息学院计划将相关赛项训练方法融入无人机与测绘专业人才培养。报道属于技能人才与作业规范动态，不是新型航测设备发布。",
+      "impact": "无人机测绘团队可借鉴竞赛式能力考核：任务规划、设备检查、飞行安全、数据采集、精度核验与交付记录形成可复用SOP；不应把赛事成绩等同于测绘成果精度认证。",
+      "publisher": "每日甘肃网",
+      "publish_date": "2026-10-12",
+      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml",
       "image_url": null
     }
   ],
-  "industry_observation": "城市更新正在从静态现状调查转向有明确年度指标、资金来源、实施阶段的动态项目治理。GIS的价值不止出图，而在于把空间对象、项目台账、权属证据和资金可行性贯通；AI可协助整理资料和视觉表达，但不能替代测绘精度或权属审核。",
+  "industry_observation": "今天最明显的共同趋势是“把能力做成可管理对象”：城市更新从地块建设走向服务供给与运营，AI从多Agent规模转向成本—质量评测，无人机从设备使用走向规范化作业。对GIS规划团队，核心是建立空间对象、过程证据、实施状态和质量责任的统一台账。",
   "tool_of_week": {
-    "name": "GIS城市更新项目融资就绪度筛选",
-    "method": "在ArcGIS Pro中按project_id连接片区、宗地、建筑、管网、调查问题与投资估算；添加project_type、service_gap、funding_channel、evidence_completeness、readiness_score、review_status字段。先选5—10个项目输出待补证据与申报候选清单，人工复核后再形成正式成果。"
+    "name": "ArcGIS Pro完整社区服务缺口与存量资产匹配法",
+    "method": "以500米/1000米步行路网服务区（优先真实道路网络，无法获得时明确标注直线缓冲区近似）分析养老、托育、学校服务覆盖；叠加人口网格、闲置国有资产和历史建筑保护边界，筛选服务缺口与可利用资产重叠的候选点，导出project_id、gap_type、asset_owner、planning_constraint、funding_source、review_status，现场核实后再入项目库。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "深圳市龙岗区政府（转载广东省住建厅）",
-      "publish_date": "2026-10-10",
-      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/gzdt/content/post_13013272.html"
+      "publisher": "四川在线（四川日报全媒体）",
+      "publish_date": "2026-10-11",
+      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html"
     },
     {
-      "publisher": "福建省住房和城乡建设厅／新华网",
-      "publish_date": "2026-10-10",
-      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm"
+      "publisher": "杭州网／杭州通客户端",
+      "publish_date": "2026-10-11",
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm"
     },
     {
-      "publisher": "郑州市人民政府／郑州日报",
-      "publish_date": "2026-10-10",
-      "url": "https://www.zhengzhou.gov.cn/news1/10286419.jhtml"
+      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "publish_date": "2026-10-12",
+      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html"
     },
     {
-      "publisher": "Cloudflare／Deno／TechCrunch",
+      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
+      "publish_date": "2026-10-11",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
+    },
+    {
+      "publisher": "每日甘肃网",
+      "publish_date": "2026-10-12",
+      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml"
+    },
+    {
+      "publisher": "Vals AI（原始研究）",
       "publish_date": "2026-10-09",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/"
-    },
-    {
-      "publisher": "QwenCloud官方日志／PC Watch",
-      "publish_date": "2026-10-09",
-      "url": "https://docs.qwencloud.com/changelog/models"
-    },
-    {
-      "publisher": "Deno官方",
-      "publish_date": "2026-10-09",
-      "url": "https://deno.com/blog/cloudflare"
-    },
-    {
-      "publisher": "TechCrunch",
-      "publish_date": "2026-10-10",
-      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/"
-    },
-    {
-      "publisher": "PC Watch",
-      "publish_date": "2026-10-09",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2147316.html"
+      "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
     }
   ],
-  "source_policy": "优先2026-10-10官方来源；10月9日两条为未重复的跨窗补充，已标注真实发布日期；不以低质量无人机资讯凑数。"
+  "source_policy": "以2026-10-11 12:10至2026-10-12 12:10（北京时间）发布的信息为优先；AI项属于10月11日新报道、10月9日原始研究，已明确区分。新闻不含无授权的图片直链；不使用此前10月5—11日简报已覆盖的旧闻凑数。"
 }
