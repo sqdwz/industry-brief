@@ -1,0 +1,130 @@
+{
+  "type": "daily",
+  "date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-13T12:07:10+08:00",
+  "title": "行业日报｜2026-10-13",
+  "summary": "10月13日星期二。过去24小时重点：北京住宅公共空间规划细则落地、Cesium将三维地理资产接入AI Agent、Meta发布面向持续任务的新模型；无人机线性工程前期测绘与GitHub项目级AI工作流实践同步值得关注。五条均为10月12日发布或报道，不重复10月12日简报。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "住宅立体公共空间的规划规则细化，三维地理数据与Agent交互进一步产品化。",
+      "item_titles": [
+        "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
+        "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "新模型强化长链路Agent能力，项目级指令、技能和MCP成为工程化配置重点。",
+      "item_titles": [
+        "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
+        "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "无人机用于线性工程前期现状核查、选线展示与约束冲突识别，但项目仍处于拟开展阶段。",
+      "item_titles": [
+        "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
+      "summary": "北京市规划和自然资源委员会10月12日解读新规：拟招拍挂出让且规划七层及以上的居住用地可采用抬板设计，地形高差、滨水及轨道微中心地块优先；符合条件的板下空间在技术指标表单列并不计入容积率，抬板平台高度原则上不超过8米。该政策面向北京相应新供地项目，不能直接套用其他地区或既有建筑面积测算。",
+      "impact": "在城市更新及社区配套分析中，建立地上/板下空间、功能、标高、容积率计入状态和消防通道的三维属性；区分规划指标核算与房屋测绘建筑面积认定，避免混用。",
+      "publisher": "北京市规划和自然资源委员会",
+      "publish_date": "2026-10-12",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产",
+      "summary": "Cesium 10月12日宣布托管式ion MCP Server可用，支持Codex、Claude Code等工具通过OAuth访问账户内3D数据、查询瓦片化状态及BIM/CAD模型元素；首版仅覆盖部分ion API，并具备上传和瓦片处理等写操作。",
+      "impact": "适合测试城市更新三维建筑模型的自然语言检索、构件定位与CesiumJS展示联动；先采用测试账户和最小权限，上传/重建瓦片等写操作须人工确认。",
+      "publisher": "Cesium官方博客",
+      "publish_date": "2026-10-12",
+      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
+      "summary": "Meta 10月12日发布两款面向个人及专业Agent任务的模型，强调Active Memory与Active Focus；普通Wonder通过Meta Model API和Muse Code提供，Wonder Full目前面向Muse Code订阅用户，不能等同于公开API可用。",
+      "impact": "可将GIS Agent评测从一次性问答扩展到长链路任务恢复、错误重试、上下文延续与关键写操作确认；不要把厂商自述性能直接当成实际生产效果。",
+      "publisher": "Meta官方新闻室",
+      "publish_date": "2026-10-12",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查",
+      "summary": "《印度快报》10月12日报道，浦那市政部门拟开展拟建43.60公里高架交通环线的无人机现场调查、线路测绘、三维动画和现状记录，用于修订详细项目报告与路线方案；相关方案涉及征地和沿线敏感设施争议，尚非测绘成果已交付。",
+      "impact": "大型线性工程前期调查应把无人机正射/倾斜成果与征地范围、居民建筑、学校医院、历史遗产、树木及生态约束叠加，形成可复核的路线冲突清单；展示动画不能代替测量成果。",
+      "publisher": "The Indian Express（Ajay Jadhav）",
+      "publish_date": "2026-10-12",
+      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同",
+      "summary": "GitHub 10月12日发布官方实践文章，介绍通过仓库级指令、Agent Skills、专用Agent及MCP连接外部工具，让代码助手理解项目规范并执行可重复流程；这是一篇工程方法文章，不是新模型发布。",
+      "impact": "适合为ArcPy脚本、CAD插件与GIS网站分别沉淀仓库约束、成果质检Skill和可控工具接口，减少每次对AI重复说明坐标系、字段规则及验收步骤。",
+      "publisher": "GitHub Blog（Christopher Harrison）",
+      "publish_date": "2026-10-12",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "城市更新的空间表达正从二维平面与静态成果转向分层空间对象和可交互数据；与此同时，AI Agent开始通过MCP访问真正的GIS/BIM资产。关键不是让模型直接替代规划测绘，而是让模型可查询、可定位、可解释，正式修改仍受权限和人工复核约束。",
+  "tool_of_week": {
+    "name": "Cesium ion MCP Server 三维资产只读试验",
+    "method": "使用脱敏测试资产接入Cesium ion MCP，在测试账户中验证：①按项目名检索3D Tiles资产；②检查瓦片处理状态；③查询BIM/CAD构件属性；④由Agent生成CesiumJS定位代码。全程记录工具调用与返回结果，禁用或人工确认上传、重新瓦片化等写操作；不上传涉密测绘成果。",
+    "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "北京市规划和自然资源委员会",
+      "publish_date": "2026-10-12",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html"
+    },
+    {
+      "publisher": "Cesium官方博客",
+      "publish_date": "2026-10-12",
+      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
+    },
+    {
+      "publisher": "Meta官方新闻室",
+      "publish_date": "2026-10-12",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    },
+    {
+      "publisher": "The Indian Express（Ajay Jadhav）",
+      "publish_date": "2026-10-12",
+      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/"
+    },
+    {
+      "publisher": "GitHub Blog（Christopher Harrison）",
+      "publish_date": "2026-10-12",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"
+    },
+    {
+      "publisher": "VentureBeat（Meta模型独立报道）",
+      "publish_date": "2026-10-12",
+      "url": "https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api"
+    },
+    {
+      "publisher": "北京商报（北京抬板政策报道）",
+      "publish_date": "2026-10-12",
+      "url": "https://finance.eastmoney.com/a/202610123892926367.html"
+    }
+  ],
+  "source_policy": "五条消息均以2026-10-12为原始发布日期或媒体首发日；官方来源优先，国外交通项目明确为拟开展、AI厂商性能表述保留归因；配图来源无法直接确认可复用许可，因此image_url为null。"
+}

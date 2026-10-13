@@ -1,126 +1,130 @@
 {
   "type": "daily",
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-12T12:07:52.912+08:00",
-  "title": "行业日报｜2026-10-12",
-  "summary": "2026年10月12日星期一，日报重点记录10月11日下午至12日上午的城市更新实践、空间治理研讨、历史街区项目落地、AI多Agent成本评测后续和无人机技能标准化。五条均提供可核查的原文链接；其中AI评测原始研究发布于10月9日，10月11日为新报道，不冒充当日模型发布。",
+  "generated_at": "2026-10-13T12:07:10+08:00",
+  "title": "行业日报｜2026-10-13",
+  "summary": "10月13日星期二。过去24小时重点：北京住宅公共空间规划细则落地、Cesium将三维地理资产接入AI Agent、Meta发布面向持续任务的新模型；无人机线性工程前期测绘与GitHub项目级AI工作流实践同步值得关注。五条均为10月12日发布或报道，不重复10月12日简报。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "从城市体检到存量空间复合利用，兼顾公共服务、历史文化保护与项目标段跟踪。",
+      "summary": "住宅立体公共空间的规划规则细化，三维地理数据与Agent交互进一步产品化。",
       "item_titles": [
-        "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
-        "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
-        "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果"
+        "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
+        "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "多Agent编排需以任务实测收益而非Agent数量衡量。",
+      "summary": "新模型强化长链路Agent能力，项目级指令、技能和MCP成为工程化配置重点。",
       "item_titles": [
-        "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍"
+        "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
+        "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "专业技能培养开始更重视标准化任务和可复用的实训流程。",
+      "summary": "无人机用于线性工程前期现状核查、选线展示与约束冲突识别，但项目仍处于拟开展阶段。",
       "item_titles": [
-        "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训"
+        "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "四川城市更新案例：老齿轮厂转为学校与3000平方米社区综合体",
-      "summary": "四川日报10月11日披露丹棱县老齿轮厂片区更新：闲置厂房用地转为大雅学校，另一处约3000平方米社区综合体保留部分工业结构，面向养老、托育和社区服务，计划年底投用。当地通过多渠道资金组合和专业运营回应城市体检发现的公共服务短板。",
-      "impact": "在片区GIS中叠加闲置资产、老人儿童人口、学校/托育/养老设施与15分钟服务圈，形成“问题—资产—功能—资金—运营主体”的候选更新项目表；不应将四川模式直接当作海南现行政策。",
-      "publisher": "四川在线（四川日报全媒体）",
-      "publish_date": "2026-10-11",
-      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "杭州城市学年会讨论城市更新、数实融合与县域存量空间盘活",
-      "summary": "10月11日举行的2026中国城市学年会以高质量城市更新为主题，提出把物理空间与数字空间结合，并从存量资源激活、空间结构优化、公共服务完善三个维度审视城市更新；会议讨论历史文化保护与县域旧厂区、旧园区改造。",
-      "impact": "建议将城市更新项目分类从单一房屋结构或征收范围扩展为“存量资产盘活/空间结构/公共服务/历史文化”多维标签；会议观点属学术研讨，不是强制政策。",
-      "publisher": "杭州网／杭州通客户端",
-      "publish_date": "2026-10-11",
-      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "天津美院历史街区城市更新乳胶厂地块设计标段公布中标结果",
-      "summary": "10月12日京津冀公共资源交易平台转发天津中标结果：天津美术学院片区历史文化街区保护项目的乳胶厂地块公共部位装饰装修方案设计由天津华汇工程建筑设计有限公司中标，规模6859.1平方米、标价125万元，计划工期10月16日至11月4日。",
-      "impact": "历史街区类更新项目宜在GIS台账中关联具体地块、保护对象、设计标段、合同金额、实施节点及文保约束，便于区分片区总体更新与单标段进度。",
-      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "title": "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
+      "summary": "北京市规划和自然资源委员会10月12日解读新规：拟招拍挂出让且规划七层及以上的居住用地可采用抬板设计，地形高差、滨水及轨道微中心地块优先；符合条件的板下空间在技术指标表单列并不计入容积率，抬板平台高度原则上不超过8米。该政策面向北京相应新供地项目，不能直接套用其他地区或既有建筑面积测算。",
+      "impact": "在城市更新及社区配套分析中，建立地上/板下空间、功能、标高、容积率计入状态和消防通道的三维属性；区分规划指标核算与房屋测绘建筑面积认定，避免混用。",
+      "publisher": "北京市规划和自然资源委员会",
       "publish_date": "2026-10-12",
-      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产",
+      "summary": "Cesium 10月12日宣布托管式ion MCP Server可用，支持Codex、Claude Code等工具通过OAuth访问账户内3D数据、查询瓦片化状态及BIM/CAD模型元素；首版仅覆盖部分ion API，并具备上传和瓦片处理等写操作。",
+      "impact": "适合测试城市更新三维建筑模型的自然语言检索、构件定位与CesiumJS展示联动；先采用测试账户和最小权限，上传/重建瓦片等写操作须人工确认。",
+      "publisher": "Cesium官方博客",
+      "publish_date": "2026-10-12",
+      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "多Agent未必更划算：新一轮评测报道指出成本最高增至5.1倍",
-      "summary": "The Decoder于10月11日跟进Vals AI 10月9日原始评测：GPT-6 Sol与Claude Opus 5.5在50个Web应用任务上的多Agent配置成本是单Agent的1.8—5.1倍，四组对比仅一组质量提升具有统计显著性。该结果只针对所测编码基准，不能直接推广到所有GIS任务。",
-      "impact": "ArcPy批处理、字段核查和简报生成应先测单Agent基线，再对真正可并行的模块启用多Agent；记录成本、完成时间、质量与人工复核量，避免为“多智能体”概念支付协调开销。",
-      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
-      "publish_date": "2026-10-11",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "image_url": null,
-      "original_research_date": "2026-10-09",
-      "original_research_url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+      "title": "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
+      "summary": "Meta 10月12日发布两款面向个人及专业Agent任务的模型，强调Active Memory与Active Focus；普通Wonder通过Meta Model API和Muse Code提供，Wonder Full目前面向Muse Code订阅用户，不能等同于公开API可用。",
+      "impact": "可将GIS Agent评测从一次性问答扩展到长链路任务恢复、错误重试、上下文延续与关键写操作确认；不要把厂商自述性能直接当成实际生产效果。",
+      "publisher": "Meta官方新闻室",
+      "publish_date": "2026-10-12",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "世界技能大赛新增无人机系统赛项，测绘院校推动赛项标准转化为实训",
-      "summary": "10月12日每日甘肃网报道，第48届世界技能大赛新增无人机系统赛项，甘肃建筑职业技术学院作为国家集训分基地完成备赛支撑；该校测绘地理信息学院计划将相关赛项训练方法融入无人机与测绘专业人才培养。报道属于技能人才与作业规范动态，不是新型航测设备发布。",
-      "impact": "无人机测绘团队可借鉴竞赛式能力考核：任务规划、设备检查、飞行安全、数据采集、精度核验与交付记录形成可复用SOP；不应把赛事成绩等同于测绘成果精度认证。",
-      "publisher": "每日甘肃网",
+      "title": "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查",
+      "summary": "《印度快报》10月12日报道，浦那市政部门拟开展拟建43.60公里高架交通环线的无人机现场调查、线路测绘、三维动画和现状记录，用于修订详细项目报告与路线方案；相关方案涉及征地和沿线敏感设施争议，尚非测绘成果已交付。",
+      "impact": "大型线性工程前期调查应把无人机正射/倾斜成果与征地范围、居民建筑、学校医院、历史遗产、树木及生态约束叠加，形成可复核的路线冲突清单；展示动画不能代替测量成果。",
+      "publisher": "The Indian Express（Ajay Jadhav）",
       "publish_date": "2026-10-12",
-      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml",
+      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同",
+      "summary": "GitHub 10月12日发布官方实践文章，介绍通过仓库级指令、Agent Skills、专用Agent及MCP连接外部工具，让代码助手理解项目规范并执行可重复流程；这是一篇工程方法文章，不是新模型发布。",
+      "impact": "适合为ArcPy脚本、CAD插件与GIS网站分别沉淀仓库约束、成果质检Skill和可控工具接口，减少每次对AI重复说明坐标系、字段规则及验收步骤。",
+      "publisher": "GitHub Blog（Christopher Harrison）",
+      "publish_date": "2026-10-12",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "image_url": null
     }
   ],
-  "industry_observation": "今天最明显的共同趋势是“把能力做成可管理对象”：城市更新从地块建设走向服务供给与运营，AI从多Agent规模转向成本—质量评测，无人机从设备使用走向规范化作业。对GIS规划团队，核心是建立空间对象、过程证据、实施状态和质量责任的统一台账。",
+  "industry_observation": "城市更新的空间表达正从二维平面与静态成果转向分层空间对象和可交互数据；与此同时，AI Agent开始通过MCP访问真正的GIS/BIM资产。关键不是让模型直接替代规划测绘，而是让模型可查询、可定位、可解释，正式修改仍受权限和人工复核约束。",
   "tool_of_week": {
-    "name": "ArcGIS Pro完整社区服务缺口与存量资产匹配法",
-    "method": "以500米/1000米步行路网服务区（优先真实道路网络，无法获得时明确标注直线缓冲区近似）分析养老、托育、学校服务覆盖；叠加人口网格、闲置国有资产和历史建筑保护边界，筛选服务缺口与可利用资产重叠的候选点，导出project_id、gap_type、asset_owner、planning_constraint、funding_source、review_status，现场核实后再入项目库。"
+    "name": "Cesium ion MCP Server 三维资产只读试验",
+    "method": "使用脱敏测试资产接入Cesium ion MCP，在测试账户中验证：①按项目名检索3D Tiles资产；②检查瓦片处理状态；③查询BIM/CAD构件属性；④由Agent生成CesiumJS定位代码。全程记录工具调用与返回结果，禁用或人工确认上传、重新瓦片化等写操作；不上传涉密测绘成果。",
+    "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "四川在线（四川日报全媒体）",
-      "publish_date": "2026-10-11",
-      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337678.html"
-    },
-    {
-      "publisher": "杭州网／杭州通客户端",
-      "publish_date": "2026-10-11",
-      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/11/content_9334194.htm"
-    },
-    {
-      "publisher": "北京市公共资源交易服务平台（信息来源：天津市公共资源交易服务平台）",
+      "publisher": "北京市规划和自然资源委员会",
       "publish_date": "2026-10-12",
-      "url": "https://ggzyfw.beijing.gov.cn/xtggtjzbjg/20261012/5742447.html"
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html"
     },
     {
-      "publisher": "The Decoder（交叉核验：Vals AI原始研究）",
-      "publish_date": "2026-10-11",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
-    },
-    {
-      "publisher": "每日甘肃网",
+      "publisher": "Cesium官方博客",
       "publish_date": "2026-10-12",
-      "url": "https://gansu.gansudaily.com.cn/system/2026/10/12/031443525.shtml"
+      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
     },
     {
-      "publisher": "Vals AI（原始研究）",
-      "publish_date": "2026-10-09",
-      "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+      "publisher": "Meta官方新闻室",
+      "publish_date": "2026-10-12",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    },
+    {
+      "publisher": "The Indian Express（Ajay Jadhav）",
+      "publish_date": "2026-10-12",
+      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/"
+    },
+    {
+      "publisher": "GitHub Blog（Christopher Harrison）",
+      "publish_date": "2026-10-12",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"
+    },
+    {
+      "publisher": "VentureBeat（Meta模型独立报道）",
+      "publish_date": "2026-10-12",
+      "url": "https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api"
+    },
+    {
+      "publisher": "北京商报（北京抬板政策报道）",
+      "publish_date": "2026-10-12",
+      "url": "https://finance.eastmoney.com/a/202610123892926367.html"
     }
   ],
-  "source_policy": "以2026-10-11 12:10至2026-10-12 12:10（北京时间）发布的信息为优先；AI项属于10月11日新报道、10月9日原始研究，已明确区分。新闻不含无授权的图片直链；不使用此前10月5—11日简报已覆盖的旧闻凑数。"
+  "source_policy": "五条消息均以2026-10-12为原始发布日期或媒体首发日；官方来源优先，国外交通项目明确为拟开展、AI厂商性能表述保留归因；配图来源无法直接确认可复用许可，因此image_url为null。"
 }
