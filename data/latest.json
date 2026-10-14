@@ -1,130 +1,129 @@
 {
   "type": "daily",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-13T12:07:10+08:00",
-  "title": "行业日报｜2026-10-13",
-  "summary": "10月13日星期二。过去24小时重点：北京住宅公共空间规划细则落地、Cesium将三维地理资产接入AI Agent、Meta发布面向持续任务的新模型；无人机线性工程前期测绘与GitHub项目级AI工作流实践同步值得关注。五条均为10月12日发布或报道，不重复10月12日简报。",
+  "generated_at": "2026-10-14T12:07:09+08:00",
+  "title": "行业日报｜2026-10-14",
+  "summary": "2026年10月14日星期三。过去24小时重点关注上海老公房安全治理、城市更新分类立法、Gemini 4 Argon正式开放、Agent权限治理及无人机测绘成果采购模式。五条均为10月13日至14日发布或报道；无人机服务化案例含商业赞助，已标明证据局限。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "住宅立体公共空间的规划规则细化，三维地理数据与Agent交互进一步产品化。",
+      "summary": "老旧住房安全与多类型城市更新法规并进，强调房屋对象级问题台账及分类处置。",
       "item_titles": [
-        "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
-        "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产"
+        "上海聚焦老公房安全与城市更新，强调排查摸底和依法分类处置",
+        "重庆、安徽、江苏城市更新条例草案推进，分类更新与公众参与成为制度重点"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "新模型强化长链路Agent能力，项目级指令、技能和MCP成为工程化配置重点。",
+      "summary": "前沿模型开放与Agent权限治理同步推进，GIS开发须同时评估能力、成本和风险。",
       "item_titles": [
-        "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
-        "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同"
+        "Google Gemini 4 Argon面向开发者和企业正式开放，强化复杂编码与三维推理",
+        "Workday宣布收购C1.ai，推动AI Agent身份、权限和操作审计集中治理"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "无人机用于线性工程前期现状核查、选线展示与约束冲突识别，但项目仍处于拟开展阶段。",
+      "summary": "从设备采购转向成果采购的服务模式值得评估，但应把测量质量与数据权属写入交付要求。",
       "item_titles": [
-        "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查"
+        "无人机测绘服务化再受关注：按成果采购与自建机队的成本边界"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "北京发布住宅公共空间品质提升政策，明确抬板空间与配套设施规划规则",
-      "summary": "北京市规划和自然资源委员会10月12日解读新规：拟招拍挂出让且规划七层及以上的居住用地可采用抬板设计，地形高差、滨水及轨道微中心地块优先；符合条件的板下空间在技术指标表单列并不计入容积率，抬板平台高度原则上不超过8米。该政策面向北京相应新供地项目，不能直接套用其他地区或既有建筑面积测算。",
-      "impact": "在城市更新及社区配套分析中，建立地上/板下空间、功能、标高、容积率计入状态和消防通道的三维属性；区分规划指标核算与房屋测绘建筑面积认定，避免混用。",
-      "publisher": "北京市规划和自然资源委员会",
-      "publish_date": "2026-10-12",
-      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html",
+      "title": "上海聚焦老公房安全与城市更新，强调排查摸底和依法分类处置",
+      "summary": "上海市政府10月14日报道，市领导在长宁区调研上世纪60年代老公房，要求排查房屋结构老化、生活配套不足等风险，统筹城市更新与居民诉求，并推动从个案处置向同类问题治理延伸。",
+      "impact": "适合将房屋结构安全、建造年代、居民诉求、配套短板、权属及整改状态统一关联到建筑物GIS对象，形成风险分级和一房一档核查闭环；上海做法不等于海南现行征收或面积认定规则。",
+      "publisher": "上海市人民政府／解放日报",
+      "publish_date": "2026-10-14",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261014/669cd02043814e30a694d79398b67491.html",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "Cesium ion MCP Server上线：AI Agent可直接查询三维GIS与BIM/CAD资产",
-      "summary": "Cesium 10月12日宣布托管式ion MCP Server可用，支持Codex、Claude Code等工具通过OAuth访问账户内3D数据、查询瓦片化状态及BIM/CAD模型元素；首版仅覆盖部分ion API，并具备上传和瓦片处理等写操作。",
-      "impact": "适合测试城市更新三维建筑模型的自然语言检索、构件定位与CesiumJS展示联动；先采用测试账户和最小权限，上传/重建瓦片等写操作须人工确认。",
-      "publisher": "Cesium官方博客",
-      "publish_date": "2026-10-12",
-      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "title": "重庆、安徽、江苏城市更新条例草案推进，分类更新与公众参与成为制度重点",
+      "summary": "《法治日报》10月13日专题梳理重庆、安徽、江苏近期审议的城市更新条例草案，关注体检先行、规划衔接、危旧房自主更新、完整社区和多主体参与；宁波条例已于10月1日施行。报道涉及多地不同立法阶段，草案尚不能当作已生效法规。",
+      "impact": "建议在城市体检GIS问题库中按危旧房、完整社区、管网、历史保护等建立分类标签，并增加法规适用地区、实施主体、公众意见和证据状态字段，避免把地方草案当成通行规则。",
+      "publisher": "法治日报／北京市人大常委会网站",
+      "publish_date": "2026-10-13",
+      "url": "https://www.bjrd.gov.cn/xwzx/gsrd/202610/t20261013_4899299.html",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Meta推出Muse Wonder与Muse Wonder Full，强化Agent持续执行和上下文记忆",
-      "summary": "Meta 10月12日发布两款面向个人及专业Agent任务的模型，强调Active Memory与Active Focus；普通Wonder通过Meta Model API和Muse Code提供，Wonder Full目前面向Muse Code订阅用户，不能等同于公开API可用。",
-      "impact": "可将GIS Agent评测从一次性问答扩展到长链路任务恢复、错误重试、上下文延续与关键写操作确认；不要把厂商自述性能直接当成实际生产效果。",
-      "publisher": "Meta官方新闻室",
-      "publish_date": "2026-10-12",
-      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "title": "Google Gemini 4 Argon面向开发者和企业正式开放，强化复杂编码与三维推理",
+      "summary": "Google 10月13日正式开放Gemini 4 Argon API，并提供Antigravity等入口；官方强调长链路编码、复杂推理及3D可视化能力，API入门价为每百万输入/输出token 2/10美元，11月30日后拟调整至4/20美元。性能与效率数字主要来自厂商评测。",
+      "impact": "可选取CAD面积核算插件、ArcPy空间叠加、Three.js城市更新三维动画各1项做同题回归测试，记录正确率、人工修正量、token成本和版本；勿仅凭基准榜单替换生产模型。",
+      "publisher": "Google官方博客／Reuters",
+      "publish_date": "2026-10-13",
+      "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Workday宣布收购C1.ai，推动AI Agent身份、权限和操作审计集中治理",
+      "summary": "Workday 10月13日宣布已签署收购C1.ai的最终协议，目标是为人和Agent统一分配、撤销跨系统访问权限并记录操作；交易尚待完成，预计于其2027财年第四季度交割。",
+      "impact": "GIS/CAD Agent可借鉴短期授权模式：只读查询默认允许，数据库写入、图形批改和Git提交按任务授权、审批及留痕，任务结束自动撤销令牌；不要把尚未完成的并购当成现有产品功能。",
+      "publisher": "Workday官方投资者新闻稿",
+      "publish_date": "2026-10-13",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
       "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "印度浦那拟用无人机测绘支持43.6公里高架交通环线前期核查",
-      "summary": "《印度快报》10月12日报道，浦那市政部门拟开展拟建43.60公里高架交通环线的无人机现场调查、线路测绘、三维动画和现状记录，用于修订详细项目报告与路线方案；相关方案涉及征地和沿线敏感设施争议，尚非测绘成果已交付。",
-      "impact": "大型线性工程前期调查应把无人机正射/倾斜成果与征地范围、居民建筑、学校医院、历史遗产、树木及生态约束叠加，形成可复核的路线冲突清单；展示动画不能代替测量成果。",
-      "publisher": "The Indian Express（Ajay Jadhav）",
-      "publish_date": "2026-10-12",
-      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "GitHub发布项目级AI上下文实践：指令、Skills、自定义Agent和MCP分层协同",
-      "summary": "GitHub 10月12日发布官方实践文章，介绍通过仓库级指令、Agent Skills、专用Agent及MCP连接外部工具，让代码助手理解项目规范并执行可重复流程；这是一篇工程方法文章，不是新模型发布。",
-      "impact": "适合为ArcPy脚本、CAD插件与GIS网站分别沉淀仓库约束、成果质检Skill和可控工具接口，减少每次对AI重复说明坐标系、字段规则及验收步骤。",
-      "publisher": "GitHub Blog（Christopher Harrison）",
-      "publish_date": "2026-10-12",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "title": "无人机测绘服务化再受关注：按成果采购与自建机队的成本边界",
+      "summary": "Commercial UAV News 10月13日整理一场由服务商赞助的行业研讨，讨论按需采购无人机测绘、点云和巡检成果，相比自建机队可能减少设备、飞手、保险与维护负担；文章中节省成本与交付时间的数据未经独立方法披露。",
+      "impact": "城市更新短周期航测可对比自建与外包的全成本，同时在合同中写清坐标系统、GSD、点云密度、控制点、精度报告、原始数据交付、涉密数据管理和复测责任；不能将营销性节约比例作为采购测算依据。",
+      "publisher": "Commercial UAV News（含厂商赞助内容）",
+      "publish_date": "2026-10-13",
+      "url": "https://www.commercialuavnews.com/webinar-makes-the-case-for-buying-drone-data-instead-of-drones",
       "image_url": null
     }
   ],
-  "industry_observation": "城市更新的空间表达正从二维平面与静态成果转向分层空间对象和可交互数据；与此同时，AI Agent开始通过MCP访问真正的GIS/BIM资产。关键不是让模型直接替代规划测绘，而是让模型可查询、可定位、可解释，正式修改仍受权限和人工复核约束。",
+  "industry_observation": "城市更新正在把老房屋的风险、权属、诉求与实施阶段纳入可追溯治理；AI Agent则从模型能力竞争延伸到跨系统身份和权限控制。GIS真正的增量在于对象级台账、可复核数据和受控自动化，而不是仅增加一个聊天入口。",
   "tool_of_week": {
-    "name": "Cesium ion MCP Server 三维资产只读试验",
-    "method": "使用脱敏测试资产接入Cesium ion MCP，在测试账户中验证：①按项目名检索3D Tiles资产；②检查瓦片处理状态；③查询BIM/CAD构件属性；④由Agent生成CesiumJS定位代码。全程记录工具调用与返回结果，禁用或人工确认上传、重新瓦片化等写操作；不上传涉密测绘成果。",
-    "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
+    "name": "建筑对象级风险与处置GIS台账（ArcGIS Pro/QGIS）",
+    "method": "选取10栋老旧房屋建立building_id唯一标识，字段包括build_year、structure、risk_type、evidence_refs、resident_need、ownership_status、priority、reviewer、action_status；叠加公共服务设施和管网问题图层。输出风险分级清单与地图，并保留人工复核记录。若结合Agent，仅授予只读数据权限。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "北京市规划和自然资源委员会",
-      "publish_date": "2026-10-12",
-      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/2024zcjd/202610/t20261012_4898511.html"
+      "publisher": "上海市人民政府／解放日报",
+      "publish_date": "2026-10-14",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261014/669cd02043814e30a694d79398b67491.html"
     },
     {
-      "publisher": "Cesium官方博客",
-      "publish_date": "2026-10-12",
-      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
+      "publisher": "法治日报／北京市人大常委会网站",
+      "publish_date": "2026-10-13",
+      "url": "https://www.bjrd.gov.cn/xwzx/gsrd/202610/t20261013_4899299.html"
     },
     {
-      "publisher": "Meta官方新闻室",
-      "publish_date": "2026-10-12",
-      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      "publisher": "Google官方博客／Reuters",
+      "publish_date": "2026-10-13",
+      "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/"
     },
     {
-      "publisher": "The Indian Express（Ajay Jadhav）",
-      "publish_date": "2026-10-12",
-      "url": "https://indianexpress.com/article/cities/pune/pune-high-capacity-mass-transit-circular-route-drone-survey-10918392/"
+      "publisher": "Workday官方投资者新闻稿",
+      "publish_date": "2026-10-13",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx"
     },
     {
-      "publisher": "GitHub Blog（Christopher Harrison）",
-      "publish_date": "2026-10-12",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"
+      "publisher": "Commercial UAV News（含厂商赞助内容）",
+      "publish_date": "2026-10-13",
+      "url": "https://www.commercialuavnews.com/webinar-makes-the-case-for-buying-drone-data-instead-of-drones"
     },
     {
-      "publisher": "VentureBeat（Meta模型独立报道）",
-      "publish_date": "2026-10-12",
-      "url": "https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api"
+      "publisher": "Reuters",
+      "publish_date": "2026-10-13",
+      "url": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/"
     },
     {
-      "publisher": "北京商报（北京抬板政策报道）",
-      "publish_date": "2026-10-12",
-      "url": "https://finance.eastmoney.com/a/202610123892926367.html"
+      "publisher": "Workday官方新闻室",
+      "publish_date": "2026-10-13",
+      "url": "https://newsroom.workday.com/2026-10-13-Workday-to-Bring-Sana-Everywhere-Employees-Work%2C-Including-Claude%2C-Gemini-Enterprise%2C-Microsoft-Copilot%2C-Microsoft-Teams%2C-and-Slack"
     }
   ],
-  "source_policy": "五条消息均以2026-10-12为原始发布日期或媒体首发日；官方来源优先，国外交通项目明确为拟开展、AI厂商性能表述保留归因；配图来源无法直接确认可复用许可，因此image_url为null。"
+  "source_policy": "优先官方及专业媒体；两条城市更新来源分别为10月14日政府报道及10月13日法治专题，条例草案未冒充生效法律；无人机行业文章含赞助且效果数字未独立核验；无可靠可复用配图许可，image_url均为null。"
 }
