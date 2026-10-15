@@ -1,129 +1,134 @@
 {
   "type": "daily",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-14T12:07:09+08:00",
-  "title": "行业日报｜2026-10-14",
-  "summary": "2026年10月14日星期三。过去24小时重点关注上海老公房安全治理、城市更新分类立法、Gemini 4 Argon正式开放、Agent权限治理及无人机测绘成果采购模式。五条均为10月13日至14日发布或报道；无人机服务化案例含商业赞助，已标明证据局限。",
+  "generated_at": "2026-10-15T12:12:44+08:00",
+  "title": "行业日报｜2026-10-15",
+  "summary": "2026年10月15日星期四。精选10月14—15日五条已核实动态：武汉城市更新182片区进度、北京城市更新案例、深圳龙岗EOD项目、NVIDIA Agent安全研究投入与禾赛Kosmo空间数据引擎。城市更新3条、AI 1条、空间感知1条；没有为凑数引入旧闻。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "老旧住房安全与多类型城市更新法规并进，强调房屋对象级问题台账及分类处置。",
+      "summary": "从武汉片区实施进度、北京历史街区精细更新到深圳EOD生态产业联动，GIS应服务项目全生命周期及运营绩效。",
       "item_titles": [
-        "上海聚焦老公房安全与城市更新，强调排查摸底和依法分类处置",
-        "重庆、安徽、江苏城市更新条例草案推进，分类更新与公众参与成为制度重点"
+        "武汉182个城市更新片区开工率超九成，老厂房转型科创空间",
+        "北京公布32个城市更新案例，东城区5个入选",
+        "深圳龙岗15.5亿元EOD项目纳入广东省项目库，联动生态治理与产业发展"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "前沿模型开放与Agent权限治理同步推进，GIS开发须同时评估能力、成本和风险。",
+      "summary": "Agent安全投入向可验证沙箱、基准评测和权限治理延伸。",
       "item_titles": [
-        "Google Gemini 4 Argon面向开发者和企业正式开放，强化复杂编码与三维推理",
-        "Workday宣布收购C1.ai，推动AI Agent身份、权限和操作审计集中治理"
+        "NVIDIA承诺五年提供2.5亿美元算力支持英国Agent安全研究"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "从设备采购转向成果采购的服务模式值得评估，但应把测量质量与数据权属写入交付要求。",
+      "summary": "空间感知硬件与3DGS融合加快，但消费/机器人级重建不等于测量级成果；过去24小时未找到值得替代的可靠无人机航测新品。",
       "item_titles": [
-        "无人机测绘服务化再受关注：按成果采购与自建机队的成本边界"
+        "禾赛发布Kosmo三维空间数据引擎，融合激光雷达、影像和IMU"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "上海聚焦老公房安全与城市更新，强调排查摸底和依法分类处置",
-      "summary": "上海市政府10月14日报道，市领导在长宁区调研上世纪60年代老公房，要求排查房屋结构老化、生活配套不足等风险，统筹城市更新与居民诉求，并推动从个案处置向同类问题治理延伸。",
-      "impact": "适合将房屋结构安全、建造年代、居民诉求、配套短板、权属及整改状态统一关联到建筑物GIS对象，形成风险分级和一房一档核查闭环；上海做法不等于海南现行征收或面积认定规则。",
-      "publisher": "上海市人民政府／解放日报",
-      "publish_date": "2026-10-14",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261014/669cd02043814e30a694d79398b67491.html",
+      "title": "武汉182个城市更新片区开工率超九成，老厂房转型科创空间",
+      "summary": "人民日报10月15日报道，武汉计划在2025—2027年完成182个片区城市更新，目前开工率超过90%；通过老厂房改造、危旧房合作化更新和校区园区社区融合盘活存量空间。",
+      "impact": "可按片区建立GIS进度台账，关联旧厂房面积、建筑更新方式、产业导入、居民参与和后续运营绩效；注意开工率不等于完工率。",
+      "publisher": "人民日报／武汉市人民政府",
+      "publish_date": "2026-10-15",
+      "url": "https://www.wuhan.gov.cn/sy/kwh/202610/t20261015_2861474.shtml",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "重庆、安徽、江苏城市更新条例草案推进，分类更新与公众参与成为制度重点",
-      "summary": "《法治日报》10月13日专题梳理重庆、安徽、江苏近期审议的城市更新条例草案，关注体检先行、规划衔接、危旧房自主更新、完整社区和多主体参与；宁波条例已于10月1日施行。报道涉及多地不同立法阶段，草案尚不能当作已生效法规。",
-      "impact": "建议在城市体检GIS问题库中按危旧房、完整社区、管网、历史保护等建立分类标签，并增加法规适用地区、实施主体、公众意见和证据状态字段，避免把地方草案当成通行规则。",
-      "publisher": "法治日报／北京市人大常委会网站",
-      "publish_date": "2026-10-13",
-      "url": "https://www.bjrd.gov.cn/xwzx/gsrd/202610/t20261013_4899299.html",
+      "title": "北京公布32个城市更新案例，东城区5个入选",
+      "summary": "北京市政府10月14日披露，2026北京城市更新体验周发布32个案例，东城区入选项目涵盖平房修缮、申请式退租、工业遗存活化和公园更新；西总布街区探索一院一策和双师协同。",
+      "impact": "对城市更新GIS项目库，可增加保护等级、修缮策略、退租协商、运营业态及实施主体字段，比较‘改造前—改造后—运营中’绩效；具体模式需结合当地政策。",
+      "publisher": "北京市人民政府／东城区人民政府",
+      "publish_date": "2026-10-14",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261014_4901842.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳龙岗15.5亿元EOD项目纳入广东省项目库，联动生态治理与产业发展",
+      "summary": "深圳市龙岗区10月14日公告，‘花韵横岗·时尚数字’EOD项目入选广东省EOD项目库，总投资15.5亿元，拟统筹流域治理、雨洪调蓄、蓝绿空间与产业升级，并采用数字化流域监管。",
+      "impact": "GIS可把流域、排污点、海绵设施、产业用地和投融资项目边界关联，构建‘环境问题—工程措施—受益区域—收益来源’分析链；入库不等于资金已落实。",
+      "publisher": "深圳市龙岗区人民政府／深圳市生态环境局龙岗管理局",
+      "publish_date": "2026-10-14",
+      "url": "https://www.lg.gov.cn/xxgk/xwzx/lgyw/bmdt/content/post_13020410.html",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Google Gemini 4 Argon面向开发者和企业正式开放，强化复杂编码与三维推理",
-      "summary": "Google 10月13日正式开放Gemini 4 Argon API，并提供Antigravity等入口；官方强调长链路编码、复杂推理及3D可视化能力，API入门价为每百万输入/输出token 2/10美元，11月30日后拟调整至4/20美元。性能与效率数字主要来自厂商评测。",
-      "impact": "可选取CAD面积核算插件、ArcPy空间叠加、Three.js城市更新三维动画各1项做同题回归测试，记录正确率、人工修正量、token成本和版本；勿仅凭基准榜单替换生产模型。",
-      "publisher": "Google官方博客／Reuters",
-      "publish_date": "2026-10-13",
-      "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "Workday宣布收购C1.ai，推动AI Agent身份、权限和操作审计集中治理",
-      "summary": "Workday 10月13日宣布已签署收购C1.ai的最终协议，目标是为人和Agent统一分配、撤销跨系统访问权限并记录操作；交易尚待完成，预计于其2027财年第四季度交割。",
-      "impact": "GIS/CAD Agent可借鉴短期授权模式：只读查询默认允许，数据库写入、图形批改和Git提交按任务授权、审批及留痕，任务结束自动撤销令牌；不要把尚未完成的并购当成现有产品功能。",
-      "publisher": "Workday官方投资者新闻稿",
-      "publish_date": "2026-10-13",
-      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
+      "title": "NVIDIA承诺五年提供2.5亿美元算力支持英国Agent安全研究",
+      "summary": "NVIDIA 10月14日宣布未来五年提供价值2.5亿美元的计算资源，支持英国Agent安全、开放模型安全和机器人安全研究，涉及安全沙箱与可复现评测；路透社和卫报报道交叉确认。",
+      "impact": "GIS/CAD Agent在自动处理成果前应建立隔离沙箱、只读测试数据、操作日志和回归测试；这是研究算力承诺，不是已经发布的通用安全认证。",
+      "publisher": "NVIDIA官方新闻稿／Reuters／The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-250-Million-to-Advance-UK-Agentic-Safety-and-Security-Research-Over-the-Next-Five-Years/default.aspx",
       "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "无人机测绘服务化再受关注：按成果采购与自建机队的成本边界",
-      "summary": "Commercial UAV News 10月13日整理一场由服务商赞助的行业研讨，讨论按需采购无人机测绘、点云和巡检成果，相比自建机队可能减少设备、飞手、保险与维护负担；文章中节省成本与交付时间的数据未经独立方法披露。",
-      "impact": "城市更新短周期航测可对比自建与外包的全成本，同时在合同中写清坐标系统、GSD、点云密度、控制点、精度报告、原始数据交付、涉密数据管理和复测责任；不能将营销性节约比例作为采购测算依据。",
-      "publisher": "Commercial UAV News（含厂商赞助内容）",
-      "publish_date": "2026-10-13",
-      "url": "https://www.commercialuavnews.com/webinar-makes-the-case-for-buying-drone-data-instead-of-drones",
+      "title": "禾赛发布Kosmo三维空间数据引擎，融合激光雷达、影像和IMU",
+      "summary": "禾赛10月14日发布Kosmo One空间相机及Kosmo World平台，面向室内外实景采集、3DGS重建和机器人训练；官方称可同步获取几何、纹理与位姿，路透社证实发布。该产品不是已验证的测量级航测载荷。",
+      "impact": "可跟踪其用于既有建筑室内快速建模、历史建筑数字展示和城市更新三维表达的潜力；若用于测绘成果，必须先检验控制点、绝对精度、坐标基准、尺度误差和成果格式，不能直接套用厂商精度宣传。",
+      "publisher": "禾赛科技官方／Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.hesaitech.com/9974-2/",
       "image_url": null
     }
   ],
-  "industry_observation": "城市更新正在把老房屋的风险、权属、诉求与实施阶段纳入可追溯治理；AI Agent则从模型能力竞争延伸到跨系统身份和权限控制。GIS真正的增量在于对象级台账、可复核数据和受控自动化，而不是仅增加一个聊天入口。",
+  "industry_observation": "城市更新项目正在从‘工程清单’转向‘空间资产—实施过程—运营绩效’的动态管理；空间感知设备将更多现实场景数字化，AI Agent则需要安全沙箱和审计才能进入正式生产。把对象级GIS数据、可信测绘精度与可控AI执行结合，才能形成可复核的更新闭环。",
   "tool_of_week": {
-    "name": "建筑对象级风险与处置GIS台账（ArcGIS Pro/QGIS）",
-    "method": "选取10栋老旧房屋建立building_id唯一标识，字段包括build_year、structure、risk_type、evidence_refs、resident_need、ownership_status、priority、reviewer、action_status；叠加公共服务设施和管网问题图层。输出风险分级清单与地图，并保留人工复核记录。若结合Agent，仅授予只读数据权限。"
+    "name": "城市更新片区‘问题—措施—进度—成效’四表关联法（QGIS/ArcGIS Pro）",
+    "method": "选取1个片区、10栋房屋，建立统一project_id/building_id，分别关联现状问题、拟实施工程、里程碑、复核证据；用空间连接统计每个项目的实施率与问题消减率。无人机/3DGS模型仅作可视化辅助，法定测绘成果需独立精度检验。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "上海市人民政府／解放日报",
+      "publisher": "人民日报／武汉市人民政府",
+      "publish_date": "2026-10-15",
+      "url": "https://www.wuhan.gov.cn/sy/kwh/202610/t20261015_2861474.shtml"
+    },
+    {
+      "publisher": "北京市人民政府／东城区人民政府",
       "publish_date": "2026-10-14",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261014/669cd02043814e30a694d79398b67491.html"
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261014_4901842.html"
     },
     {
-      "publisher": "法治日报／北京市人大常委会网站",
-      "publish_date": "2026-10-13",
-      "url": "https://www.bjrd.gov.cn/xwzx/gsrd/202610/t20261013_4899299.html"
+      "publisher": "深圳市龙岗区人民政府／深圳市生态环境局龙岗管理局",
+      "publish_date": "2026-10-14",
+      "url": "https://www.lg.gov.cn/xxgk/xwzx/lgyw/bmdt/content/post_13020410.html"
     },
     {
-      "publisher": "Google官方博客／Reuters",
-      "publish_date": "2026-10-13",
-      "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/"
+      "publisher": "NVIDIA官方新闻稿／Reuters／The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-250-Million-to-Advance-UK-Agentic-Safety-and-Security-Research-Over-the-Next-Five-Years/default.aspx"
     },
     {
-      "publisher": "Workday官方投资者新闻稿",
-      "publish_date": "2026-10-13",
-      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx"
-    },
-    {
-      "publisher": "Commercial UAV News（含厂商赞助内容）",
-      "publish_date": "2026-10-13",
-      "url": "https://www.commercialuavnews.com/webinar-makes-the-case-for-buying-drone-data-instead-of-drones"
+      "publisher": "禾赛科技官方／Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.hesaitech.com/9974-2/"
     },
     {
       "publisher": "Reuters",
-      "publish_date": "2026-10-13",
-      "url": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/"
+      "publish_date": "2026-10-14",
+      "url": "https://www.reuters.com/technology/chinas-hesai-launches-spatial-camera-boost-ai-powered-robotics-adoption-2026-10-14/"
     },
     {
-      "publisher": "Workday官方新闻室",
-      "publish_date": "2026-10-13",
-      "url": "https://newsroom.workday.com/2026-10-13-Workday-to-Bring-Sana-Everywhere-Employees-Work%2C-Including-Claude%2C-Gemini-Enterprise%2C-Microsoft-Copilot%2C-Microsoft-Teams%2C-and-Slack"
+      "publisher": "Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.reuters.com/technology/nvidia-pledges-250-million-boost-uk-ai-safety-research-2026-10-14/"
+    },
+    {
+      "publisher": "The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research"
     }
   ],
-  "source_policy": "优先官方及专业媒体；两条城市更新来源分别为10月14日政府报道及10月13日法治专题，条例草案未冒充生效法律；无人机行业文章含赞助且效果数字未独立核验；无可靠可复用配图许可，image_url均为null。"
+  "source_policy": "主要采用政府、厂商原始公告，重要科技动态经Reuters等交叉核验；未确认配图复用许可，image_url设为null；未将厂商声称的毫米精度直接等同于法定测绘成果。"
 }

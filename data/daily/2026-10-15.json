@@ -1,0 +1,134 @@
+{
+  "type": "daily",
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-15T12:12:44+08:00",
+  "title": "行业日报｜2026-10-15",
+  "summary": "2026年10月15日星期四。精选10月14—15日五条已核实动态：武汉城市更新182片区进度、北京城市更新案例、深圳龙岗EOD项目、NVIDIA Agent安全研究投入与禾赛Kosmo空间数据引擎。城市更新3条、AI 1条、空间感知1条；没有为凑数引入旧闻。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "从武汉片区实施进度、北京历史街区精细更新到深圳EOD生态产业联动，GIS应服务项目全生命周期及运营绩效。",
+      "item_titles": [
+        "武汉182个城市更新片区开工率超九成，老厂房转型科创空间",
+        "北京公布32个城市更新案例，东城区5个入选",
+        "深圳龙岗15.5亿元EOD项目纳入广东省项目库，联动生态治理与产业发展"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "Agent安全投入向可验证沙箱、基准评测和权限治理延伸。",
+      "item_titles": [
+        "NVIDIA承诺五年提供2.5亿美元算力支持英国Agent安全研究"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "空间感知硬件与3DGS融合加快，但消费/机器人级重建不等于测量级成果；过去24小时未找到值得替代的可靠无人机航测新品。",
+      "item_titles": [
+        "禾赛发布Kosmo三维空间数据引擎，融合激光雷达、影像和IMU"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "武汉182个城市更新片区开工率超九成，老厂房转型科创空间",
+      "summary": "人民日报10月15日报道，武汉计划在2025—2027年完成182个片区城市更新，目前开工率超过90%；通过老厂房改造、危旧房合作化更新和校区园区社区融合盘活存量空间。",
+      "impact": "可按片区建立GIS进度台账，关联旧厂房面积、建筑更新方式、产业导入、居民参与和后续运营绩效；注意开工率不等于完工率。",
+      "publisher": "人民日报／武汉市人民政府",
+      "publish_date": "2026-10-15",
+      "url": "https://www.wuhan.gov.cn/sy/kwh/202610/t20261015_2861474.shtml",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "北京公布32个城市更新案例，东城区5个入选",
+      "summary": "北京市政府10月14日披露，2026北京城市更新体验周发布32个案例，东城区入选项目涵盖平房修缮、申请式退租、工业遗存活化和公园更新；西总布街区探索一院一策和双师协同。",
+      "impact": "对城市更新GIS项目库，可增加保护等级、修缮策略、退租协商、运营业态及实施主体字段，比较‘改造前—改造后—运营中’绩效；具体模式需结合当地政策。",
+      "publisher": "北京市人民政府／东城区人民政府",
+      "publish_date": "2026-10-14",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261014_4901842.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳龙岗15.5亿元EOD项目纳入广东省项目库，联动生态治理与产业发展",
+      "summary": "深圳市龙岗区10月14日公告，‘花韵横岗·时尚数字’EOD项目入选广东省EOD项目库，总投资15.5亿元，拟统筹流域治理、雨洪调蓄、蓝绿空间与产业升级，并采用数字化流域监管。",
+      "impact": "GIS可把流域、排污点、海绵设施、产业用地和投融资项目边界关联，构建‘环境问题—工程措施—受益区域—收益来源’分析链；入库不等于资金已落实。",
+      "publisher": "深圳市龙岗区人民政府／深圳市生态环境局龙岗管理局",
+      "publish_date": "2026-10-14",
+      "url": "https://www.lg.gov.cn/xxgk/xwzx/lgyw/bmdt/content/post_13020410.html",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "NVIDIA承诺五年提供2.5亿美元算力支持英国Agent安全研究",
+      "summary": "NVIDIA 10月14日宣布未来五年提供价值2.5亿美元的计算资源，支持英国Agent安全、开放模型安全和机器人安全研究，涉及安全沙箱与可复现评测；路透社和卫报报道交叉确认。",
+      "impact": "GIS/CAD Agent在自动处理成果前应建立隔离沙箱、只读测试数据、操作日志和回归测试；这是研究算力承诺，不是已经发布的通用安全认证。",
+      "publisher": "NVIDIA官方新闻稿／Reuters／The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-250-Million-to-Advance-UK-Agentic-Safety-and-Security-Research-Over-the-Next-Five-Years/default.aspx",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "禾赛发布Kosmo三维空间数据引擎，融合激光雷达、影像和IMU",
+      "summary": "禾赛10月14日发布Kosmo One空间相机及Kosmo World平台，面向室内外实景采集、3DGS重建和机器人训练；官方称可同步获取几何、纹理与位姿，路透社证实发布。该产品不是已验证的测量级航测载荷。",
+      "impact": "可跟踪其用于既有建筑室内快速建模、历史建筑数字展示和城市更新三维表达的潜力；若用于测绘成果，必须先检验控制点、绝对精度、坐标基准、尺度误差和成果格式，不能直接套用厂商精度宣传。",
+      "publisher": "禾赛科技官方／Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.hesaitech.com/9974-2/",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "城市更新项目正在从‘工程清单’转向‘空间资产—实施过程—运营绩效’的动态管理；空间感知设备将更多现实场景数字化，AI Agent则需要安全沙箱和审计才能进入正式生产。把对象级GIS数据、可信测绘精度与可控AI执行结合，才能形成可复核的更新闭环。",
+  "tool_of_week": {
+    "name": "城市更新片区‘问题—措施—进度—成效’四表关联法（QGIS/ArcGIS Pro）",
+    "method": "选取1个片区、10栋房屋，建立统一project_id/building_id，分别关联现状问题、拟实施工程、里程碑、复核证据；用空间连接统计每个项目的实施率与问题消减率。无人机/3DGS模型仅作可视化辅助，法定测绘成果需独立精度检验。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "人民日报／武汉市人民政府",
+      "publish_date": "2026-10-15",
+      "url": "https://www.wuhan.gov.cn/sy/kwh/202610/t20261015_2861474.shtml"
+    },
+    {
+      "publisher": "北京市人民政府／东城区人民政府",
+      "publish_date": "2026-10-14",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261014_4901842.html"
+    },
+    {
+      "publisher": "深圳市龙岗区人民政府／深圳市生态环境局龙岗管理局",
+      "publish_date": "2026-10-14",
+      "url": "https://www.lg.gov.cn/xxgk/xwzx/lgyw/bmdt/content/post_13020410.html"
+    },
+    {
+      "publisher": "NVIDIA官方新闻稿／Reuters／The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-250-Million-to-Advance-UK-Agentic-Safety-and-Security-Research-Over-the-Next-Five-Years/default.aspx"
+    },
+    {
+      "publisher": "禾赛科技官方／Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.hesaitech.com/9974-2/"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.reuters.com/technology/chinas-hesai-launches-spatial-camera-boost-ai-powered-robotics-adoption-2026-10-14/"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-10-14",
+      "url": "https://www.reuters.com/technology/nvidia-pledges-250-million-boost-uk-ai-safety-research-2026-10-14/"
+    },
+    {
+      "publisher": "The Guardian",
+      "publish_date": "2026-10-14",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research"
+    }
+  ],
+  "source_policy": "主要采用政府、厂商原始公告，重要科技动态经Reuters等交叉核验；未确认配图复用许可，image_url设为null；未将厂商声称的毫米精度直接等同于法定测绘成果。"
+}
