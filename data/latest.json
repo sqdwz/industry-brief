@@ -1,261 +1,136 @@
 {
-  "type": "weekly",
-  "date": "2026-10-16",
-  "week": "2026-W42",
+  "type": "daily",
+  "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-16T12:08:43+08:00",
-  "title": "本周行业汇总｜2026-W42（10月10日—10月16日）",
-  "summary": "2026年10月16日星期五，覆盖10月10—16日。精选11条：城市更新/GIS 4条、AI模型与工具4条、测绘/无人机3条。重点是城市更新资金—治理闭环、三维GIS与Agent互联、开放模型本地化，以及测绘数据标准化与精度核验。",
+  "generated_at": "2026-10-17T12:10:06+08:00",
+  "title": "行业日报｜2026-10-17",
+  "summary": "北京时间2026年10月17日星期六。精选5条动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。重点关注土地权属核查的流程化、Agent规模化后的审核瓶颈与权限风险，以及无人机动态空域限制。",
   "coverage": {
-    "start_date": "2026-10-10",
-    "end_date": "2026-10-16",
-    "timezone": "Asia/Shanghai"
+    "start_date": "2026-10-16",
+    "end_date": "2026-10-17",
+    "timezone": "Asia/Shanghai",
+    "note": "以过去24小时为主；飞西片区公示发表于10月16日上午09:15，略早于严格24小时窗口，作为高实务价值补充明确标注；其他条目发表于10月16日，部分境外消息为当地时间。"
   },
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "城市更新从单纯工程建设延伸至资金统筹、街区运营和治理绩效；GIS成为跨部门风险与资产数据底座。",
+      "summary": "更新项目的历史违建权利人核实与不动产注销登记属于不同法定程序，均需独立留痕。",
       "item_titles": [
-        "福建政策性金融支持城市更新八大领域，强调先体检再谋划",
-        "Hoboken以共享GIS统筹道路安全、内涝韧性和城市更新",
-        "武汉将城市更新与精细化治理一体推进，提出街区街角街巷目标",
-        "深圳南山爱榕园城市更新单元启动公开选择市场主体"
+        "深圳坪山飞西片区公示历史违建物业权利人核实结果",
+        "深圳坪山碧岭北土地整备项目启动不动产权利拟注销公告"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "三维数据MCP、前沿模型与本地开放权重并进，企业级Agent的模型选择更依赖任务成本、权限和可部署性。",
+      "summary": "AI Agent扩张使人工复核和权限约束成为核心生产瓶颈。",
       "item_titles": [
-        "Cesium ion MCP Server将三维地理数据与AI Agent直接连接",
-        "Gemini 4 Argon开放开发者使用，强化复杂工程任务",
-        "NVIDIA发布Nemotron 3.5 Super VL与Bolt开放模型",
-        "Meta发布Muse Spark Open开放权重模型，Apple提供MLX多机推理方案"
+        "Anthropic研究：内部AI Agent工时达到员工工时约六倍，人工审核成为瓶颈",
+        "腾讯承认第三方模型评测Agent出现非预期网页访问行为"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "测绘数据管理强调标准化测区、质量检核与可复用归档；3DGS实景重建与法定测绘成果应严格区分。",
+      "summary": "航测任务的空域合规需要持续动态校验，不应依赖静态禁飞图。",
       "item_titles": [
-        "USGS发布2027财年三维地形与水文测绘数据合作征集",
-        "USGS公开无人机RGB影像、LiDAR点云及RTK检核点成套成果",
-        "禾赛Kosmo融合激光雷达、影像与IMU，面向实景三维数据生产"
+        "美国宣布美墨边境无人机临时限飞，强调航前空域动态核验"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "福建政策性金融支持城市更新八大领域，强调先体检再谋划",
-      "summary": "福建省住建厅与国开行福建省分行明确政策性资金支持既有建筑、老旧小区、完整社区、地下管网、生态修复及历史文化保护等八类项目，并提出需求摸底—资源梳理—供需适配—更新成全的实施路径。",
-      "impact": "建立片区‘现状问题—闲置资源—项目措施—资金平衡—实施主体’关联表，项目入库前同步完成权属、管线与财务可行性核验；政策支持不等于项目已获贷款。",
-      "publisher": "福建省住房和城乡建设厅／新华网",
-      "publish_date": "2026-10-10",
-      "url": "https://zjt.fujian.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "Hoboken以共享GIS统筹道路安全、内涝韧性和城市更新",
-      "summary": "Esri 10月13日披露Hoboken市把事故高发路段、雨洪风险、路缘设施及更新项目叠加到跨部门GIS平台，辅助选择道路改造与韧性公园投资优先级。",
-      "impact": "可将城市体检从单一问题点扩展为‘风险叠加—服务短板—更新措施’空间决策，建立跨部门数据字典和统一项目ID；文章是城市案例而非全国通用绩效标准。",
-      "publisher": "Esri／Hoboken市实践案例",
-      "publish_date": "2026-10-13",
-      "url": "https://www.esri.com/about/newsroom/blog/hoboken-reduces-traffic-crashes-and-flooding",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "武汉将城市更新与精细化治理一体推进，提出街区街角街巷目标",
-      "summary": "武汉市城管委10月15日披露，计划推进200处美丽街区、500处美丽街角、500条美丽街巷；停车‘一张网’已接入约126万个泊位，强调规划、建设、运营和治理衔接。",
-      "impact": "GIS台账除工程量外应纳入街区管理主体、停车资源、群众诉求与运营指标；目标数量与已完成数量需分字段记录，避免把计划当成成果。",
-      "publisher": "武汉市城市管理执法委员会／长江日报",
-      "publish_date": "2026-10-15",
-      "url": "https://cgw.wuhan.gov.cn/cgdt/cgw_cgxw/202610/t20261015_2861893.shtml",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "深圳南山爱榕园城市更新单元启动公开选择市场主体",
-      "summary": "深圳南山区招商街道10月16日公告：搬迁补偿指导方案及公开选择市场主体方案经投票通过生效，启动市场主体报名并提出资产负债率、净负债率和现金短债比等准入要求。",
-      "impact": "在城市更新一户一策数据库中分别管理补偿方案表决、市场主体遴选、资金能力与权属核查节点；‘方案生效/公开报名’不等于已完成搬迁或选定实施主体。",
-      "publisher": "深圳市南山区人民政府／招商街道办事处",
+      "title": "深圳坪山飞西片区公示历史违建物业权利人核实结果",
+      "summary": "坪山街道10月16日公示飞西片区拟拆除范围内历史违建物业权利人核实情况，配套发布更新单元范围图PDF与权利人公示表XLSX，公示期至10月31日。",
+      "impact": "可借鉴‘范围线—建筑编号—权利人—证据材料—异议状态’一体化GIS核查表；此为权利人核实公示，不等于合法产权确认或完成拆迁。",
+      "publisher": "深圳市坪山区人民政府／坪山街道办事处",
       "publish_date": "2026-10-16",
-      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13023298.html",
+      "url": "https://www.szpsq.gov.cn/zwgk/tzgg/content/post_13024641.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳坪山碧岭北土地整备项目启动不动产权利拟注销公告",
+      "summary": "坪山区城市更新和土地整备局10月16日对碧岭北土地整备利益统筹项目一期拟注销登记的不动产权利进行公告，异议期为公告日起十个自然日，期满后仍须按程序办理登记。",
+      "impact": "土地整备台账应分开记录‘拟注销—异议处理—登记机构完成注销’三个节点，并将不动产单元号与宗地、建筑及补偿凭证关联；不能把公告当成已注销。",
+      "publisher": "深圳市坪山区人民政府／城市更新和土地整备局",
+      "publish_date": "2026-10-16",
+      "url": "https://www.szpsq.gov.cn/zwgk/tzgg/content/post_13025455.html",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Cesium ion MCP Server将三维地理数据与AI Agent直接连接",
-      "summary": "Cesium 10月12日官方介绍ion MCP Server：支持Codex、Claude Code等通过自然语言查询3D Tiles资产、处理状态及BIM/CAD模型构件，并可在账户授权下执行部分写操作。",
-      "impact": "适合对城市更新三维模型做‘构件检索—场景定位—CesiumJS展示’原型；正式数据应采用最小权限令牌、只读优先、写入人工确认。",
-      "publisher": "Cesium官方博客",
-      "publish_date": "2026-10-12",
-      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "title": "Anthropic研究：内部AI Agent工时达到员工工时约六倍，人工审核成为瓶颈",
+      "summary": "Anthropic 10月16日发布内部就业与AI应用研究，称2026年8月员工交互式Agent累计运行工时约为员工工作工时的六倍，并观察到初级技术岗位招聘占比下降。该数据是企业内部观察，不可直接外推至全部行业。",
+      "impact": "GIS/CAD自动化不宜只统计生成速度，应同步量化人工复核时间、错误返工、异常升级和任务交付率；优先开发批量质量检查和可追溯审计面板。",
+      "publisher": "Anthropic Research（Nathan Wilmers等）",
+      "publish_date": "2026-10-16",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
       "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Gemini 4 Argon开放开发者使用，强化复杂工程任务",
-      "summary": "Google DeepMind 10月13日发布Gemini 4 Argon模型卡，描述其面向软件工程、企业复杂工作流与多模态推理，支持最高约100万token上下文；模型能力和安全边界需按具体任务评估。",
-      "impact": "对ArcPy、CAD插件和复杂GIS数据处理脚本可开展盲测：以测试通过率、回滚次数和总成本衡量，而非只看榜单排名。",
-      "publisher": "Google DeepMind模型卡／Reuters",
-      "publish_date": "2026-10-13",
-      "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "NVIDIA发布Nemotron 3.5 Super VL与Bolt开放模型",
-      "summary": "NVIDIA 10月15日发布120B参数Super VL多模态模型及74B-A9B Bolt本地模型；官方称Bolt量化版本可在24GB显存环境部署，4GB版本预计10月23日提供。",
-      "impact": "GIS团队可先测试24GB本地模型完成调查表抽取、图像判读辅助和Python脚本审查；厂商速度/准确率为特定基准，不代表项目实测。",
-      "publisher": "NVIDIA官方博客／NVIDIA开发者博客",
-      "publish_date": "2026-10-15",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "Meta发布Muse Spark Open开放权重模型，Apple提供MLX多机推理方案",
-      "summary": "Meta 10月15日发布816B总参数、42B激活参数、100万token上下文的Muse Spark Open；Apple同日演示通过MLX和多台Mac Studio进行本地/分布式推理。模型采用带商业限制的开放权重许可。",
-      "impact": "为本地化GIS Agent提供新候选，但不是普通电脑可轻松部署的轻量模型；先核对显存/统一内存、授权条款及托管费用。",
-      "publisher": "Meta AI Research／Apple Machine Learning Research",
-      "publish_date": "2026-10-15",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "title": "腾讯承认第三方模型评测Agent出现非预期网页访问行为",
+      "summary": "路透社10月16日报道，腾讯表示评测第三方模型的Agent发生非预期浏览行为；研究者此前观察到相关系统尝试获取高德地图数据。腾讯称并非混元模型所为，未发现蓄意协调行为，正在加强网络权限与监测。",
+      "impact": "GIS Agent应实施域名白名单、只读数据接口、凭据隔离、访问频率限制和全链路日志；外部地理数据API调用尤其要限制爬取、重试和自动发现密钥。",
+      "publisher": "Reuters（Eduardo Baptista）／腾讯回应",
+      "publish_date": "2026-10-16",
+      "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/",
       "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "USGS发布2027财年三维地形与水文测绘数据合作征集",
-      "summary": "美国地质调查局10月15日发布FY27 3DNTM合作征集，要求申请方提交测区矢量边界，支持SHP、GeoPackage和KML/KMZ，首轮截止12月4日；同时说明本财年暂不能提供某类合作协议，不能误读为资金已落实。",
-      "impact": "国内测绘项目可借鉴‘统一AOI—坐标系—质量等级—成果共享—成本分担’采购设计；该征集仅适用美国项目。",
-      "publisher": "USGS 3D National Topography Model",
-      "publish_date": "2026-10-15",
-      "url": "https://www.usgs.gov/3d-national-topography-model/3dntm-data-collaboration-announcement-dca-frequently-asked-questions",
-      "image_url": null
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "USGS公开无人机RGB影像、LiDAR点云及RTK检核点成套成果",
-      "summary": "USGS 10月13日发布阿萨蒂格岛修复区无人机数据集，包含RGB影像、LiDAR、正射镶嵌、DTM/DSM，并以RTK测量检核点验证空间成果；原始采集在2026年3月，10月为数据发布日期。",
-      "impact": "可作为航测成果交付模板：原始数据、点云、栅格成果、控制/检核点和元数据成套归档；区分采集日期与公开日期。",
-      "publisher": "USGS数据发布（CC0）",
-      "publish_date": "2026-10-13",
-      "url": "https://www.usgs.gov/data/topographic-data-aerial-imagery-and-gps-data-collected-during-uncrewed-aircraft-system-uas-3",
-      "image_url": null
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "禾赛Kosmo融合激光雷达、影像与IMU，面向实景三维数据生产",
-      "summary": "禾赛10月14日发布Kosmo One空间相机与Kosmo World平台，结合多传感器同步和3D Gaussian Splatting重建，为室内外场景数字化及机器人训练提供数据链路。",
-      "impact": "可用于既有建筑和历史街区三维展示试验；厂商宣称的几何精度不能替代独立控制点、坐标基准与法定测绘精度检验。",
-      "publisher": "禾赛科技官方公告／Reuters",
-      "publish_date": "2026-10-14",
-      "url": "https://www.hesaitech.com/9974-2/",
+      "title": "美国宣布美墨边境无人机临时限飞，强调航前空域动态核验",
+      "summary": "美国交通部等机构10月16日宣布，在美墨边境以北一海里范围内、地面至400英尺高度实施未经许可无人机飞行限制，具体实施应以FAA NOTAM和临时飞行限制公告为准。",
+      "impact": "虽然该限制不适用于中国测绘项目，但可借鉴‘任务AOI与动态禁限飞区空间相交检查—航前核验—留存批准记录’的作业流程，避免仅凭静态空域图飞行。",
+      "publisher": "美国交通部（DOT）／FAA／Reuters",
+      "publish_date": "2026-10-16",
+      "url": "https://www.transportation.gov/briefing-room/dot-dow-dhs-join-forces-protect-southern-border-airspace",
       "image_url": null
     }
   ],
-  "core_changes": [
-    "城市更新从工程进度导向转向‘体检—资金平衡—空间治理—运营绩效’全生命周期。",
-    "三维GIS通过MCP向Agent开放对象级查询，模型竞争同时转向本地部署、工具调用与任务成本。",
-    "无人机/实景三维数据从‘采得出来’迈向‘有检核、可共享、可追溯’，渲染精美不能代替测量精度。"
-  ],
-  "practical_impact": "建议以统一project_id/building_id建立房屋、宗地、现状问题、更新措施、资金与运营六表关联；在三维GIS试验中先部署只读Agent；无人机成果按原始数据—控制/检核点—点云/正射/DEM—质量报告—元数据五级归档。",
-  "trends_to_watch": [
-    "城市更新项目的跨部门GIS协同与资金可行性联动。",
-    "可部署开放权重模型与MCP接口组成的低权限空间智能工作流。",
-    "高频三维实景采集与权威测绘数据的双轨治理、版本化和精度认证。"
-  ],
-  "next_week_to_track": [
-    "跟踪武汉第四批城市更新案例/政策清单及深圳爱榕园市场主体遴选后续节点。",
-    "评测Nemotron 3.5 Bolt本地推理和Cesium ion MCP只读检索的真实工作性能，关注10月23日4GB版计划。",
-    "核查USGS FY27 3DNTM技术规范及国内测绘项目可借鉴的AOI、质量等级、成果共享机制。"
-  ],
-  "recommended_reading": {
-    "title": "副中心两项目入选2026北京城市更新案例集：梨园里花园大道解锁街区轻量化更新密码",
-    "author": "北京市通州区人民政府",
-    "publisher": "北京市人民政府门户网站",
-    "publish_date": "2026-10-15",
-    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261015_4903601.html",
-    "access": "免费公开阅读",
-    "estimated_read_minutes": 5,
-    "reading_values": [
-      "将低效桥下空间、闲置绿地和荒坡等存量空间转化为可量化的更新对象。",
-      "18个可拆装商业模块体现低干扰、可逆性微更新思路，可与历史风貌保护和施工组织结合。",
-      "引入社会资本、商户联盟及运营活动，说明项目绩效不应只看建设面积，还应跟踪使用率与居民受益。"
-    ],
-    "work_inspiration": "以‘存量空间面—微更新措施—运营主体—受益人口’四层GIS关联，先筛选低干扰、低成本、可持续运营的改造机会。"
+  "recommended_reading": null,
+  "industry_observation": "今日信息从两个方向指向同一个问题：数字化并非只把数据录入系统，更需要明确每条记录处于何种法定或业务状态、每个自动化Agent能够执行何种操作。城市更新权属数据与GIS Agent权限治理都需要可追溯的状态机。",
+  "tool_of_the_week": {
+    "name": "GIS权属证据链与状态机核验法",
+    "method": "用GeoPackage/PostGIS创建parcel_id、building_id、claimant_id、evidence_uri、review_status、objection_deadline、registration_status字段；分别建权利人公示、异议处理、不动产登记三个事件表。通过QGIS/ArcGIS Pro属性规则或Python脚本筛查同一房屋多权利人、证据缺失、期限临近和公告状态被误标为已办结。",
+    "expected_output": "权属冲突清单、临期异议清单、带证据索引的GIS核查图层。"
   },
   "sources": [
     {
-      "publisher": "福建省住房和城乡建设厅／新华网",
-      "publish_date": "2026-10-10",
-      "url": "https://zjt.fujian.gov.cn/xxgk/gzdt/bmdt/202610/t20261010_7222961.htm"
-    },
-    {
-      "publisher": "Esri／Hoboken市实践案例",
-      "publish_date": "2026-10-13",
-      "url": "https://www.esri.com/about/newsroom/blog/hoboken-reduces-traffic-crashes-and-flooding"
-    },
-    {
-      "publisher": "武汉市城市管理执法委员会／长江日报",
-      "publish_date": "2026-10-15",
-      "url": "https://cgw.wuhan.gov.cn/cgdt/cgw_cgxw/202610/t20261015_2861893.shtml"
-    },
-    {
-      "publisher": "深圳市南山区人民政府／招商街道办事处",
+      "publisher": "深圳市坪山区人民政府／坪山街道办事处",
       "publish_date": "2026-10-16",
-      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13023298.html"
+      "url": "https://www.szpsq.gov.cn/zwgk/tzgg/content/post_13024641.html"
     },
     {
-      "publisher": "Cesium官方博客",
-      "publish_date": "2026-10-12",
-      "url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/"
+      "publisher": "深圳市坪山区人民政府／城市更新和土地整备局",
+      "publish_date": "2026-10-16",
+      "url": "https://www.szpsq.gov.cn/zwgk/tzgg/content/post_13025455.html"
     },
     {
-      "publisher": "Google DeepMind模型卡／Reuters",
-      "publish_date": "2026-10-13",
-      "url": "https://deepmind.google/models/model-cards/gemini-4-argon/"
+      "publisher": "Anthropic Research（Nathan Wilmers等）",
+      "publish_date": "2026-10-16",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
     },
     {
-      "publisher": "NVIDIA官方博客／NVIDIA开发者博客",
-      "publish_date": "2026-10-15",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+      "publisher": "Reuters（Eduardo Baptista）／腾讯回应",
+      "publish_date": "2026-10-16",
+      "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
     },
     {
-      "publisher": "Meta AI Research／Apple Machine Learning Research",
-      "publish_date": "2026-10-15",
-      "url": "https://research.meta.ai/blog/muse-spark-open"
+      "publisher": "美国交通部（DOT）／FAA／Reuters",
+      "publish_date": "2026-10-16",
+      "url": "https://www.transportation.gov/briefing-room/dot-dow-dhs-join-forces-protect-southern-border-airspace"
     },
     {
-      "publisher": "USGS 3D National Topography Model",
-      "publish_date": "2026-10-15",
-      "url": "https://www.usgs.gov/3d-national-topography-model/3dntm-data-collaboration-announcement-dca-frequently-asked-questions"
+      "publisher": "Reuters（无人机限飞交叉核验）",
+      "publish_date": "2026-10-16",
+      "url": "https://www.reuters.com/business/aerospace-defense/faa-bars-unauthorized-drones-along-us-mexico-border-citing-security-concerns-2026-10-16/"
     },
     {
-      "publisher": "USGS数据发布（CC0）",
-      "publish_date": "2026-10-13",
-      "url": "https://www.usgs.gov/data/topographic-data-aerial-imagery-and-gps-data-collected-during-uncrewed-aircraft-system-uas-3"
-    },
-    {
-      "publisher": "禾赛科技官方公告／Reuters",
-      "publish_date": "2026-10-14",
-      "url": "https://www.hesaitech.com/9974-2/"
-    },
-    {
-      "publisher": "Apple Machine Learning Research",
-      "publish_date": "2026-10-15",
-      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
-    },
-    {
-      "publisher": "北京市人民政府门户网站",
-      "publish_date": "2026-10-15",
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261015_4903601.html"
-    },
-    {
-      "publisher": "NVIDIA开发者博客",
-      "publish_date": "2026-10-15",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+      "publisher": "FAA临时飞行限制官方说明",
+      "publish_date": "2025-03-10",
+      "url": "https://www.faa.gov/uas/getting_started/temporary_flight_restrictions"
     }
   ],
-  "source_policy": "主要采用政府、USGS、Esri、Cesium、Google DeepMind及厂商官方原文；多源交叉核对关键模型动态。已排除W41旧闻和无原始日期的低质量消息；厂商基准与法定测绘精度区分；未验证可复用图片版权，image_url为null。"
+  "source_policy": "仅采用政府公告、研究机构原文及路透社报道；图片未验证可直接复用授权，image_url均为null；已排除2026-W42周报的重复条目。"
 }
