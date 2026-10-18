@@ -1,0 +1,122 @@
+{
+  "type": "daily",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T12:07:00+08:00",
+  "title": "行业日报｜2026-10-18",
+  "summary": "星期日，精选5条：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。3条发布于10月17日，另2条为10月16日高价值补充。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "城市更新权属、实施主体和城市体检流程化",
+      "item_titles": [
+        "深圳向南村二期实施主体公示",
+        "湖南推进城市体检闭环"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "Agent模型升级与工程化工具链",
+      "item_titles": [
+        "DeepSeek V4.1 Flash 1017",
+        "Reflection Beam正式开放"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "航测设备采集与处理链条一体化",
+      "item_titles": [
+        "山东三维激光测绘实训室采购"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳向南村二期拟确认实施主体",
+      "summary": "10月17日南山区公示，二期拆除面积12692.6平方米，已完成100%搬迁补偿签约，拟确认深圳市安和二号房地产开发有限公司为实施主体，公示至10月23日。",
+      "impact": "GIS项目库分开记录权利人核实、签约、实施主体公示与正式确认，避免把拟确认误当已确认。",
+      "publisher": "深圳市南山区城市更新和土地整备局",
+      "publish_date": "2026-10-17",
+      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13026779.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "湖南推进县级城市体检与城市更新全链条闭环",
+      "summary": "10月16日湖南省城市更新工作现场会提出全面启动县级城市体检，建立体检—规划—策划—项目—实施—评估闭环，并强调运营前置。",
+      "impact": "建立问题点位、更新项目、运营主体与评估指标的关联GIS数据库；会议发布不是新项目全部开工。",
+      "publisher": "湖南省人民政府门户网站",
+      "publish_date": "2026-10-16",
+      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/tt/202610/t20261016_34083056.html",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "DeepSeek升级V4.1-Flash-1017并开放搜索接口",
+      "summary": "10月17日DeepSeek更新Web、App和deepseek-flash API模型，调用方式与价格不变，并开放Search与Fetch API。厂商称新版代码Agent表现和执行效率改善。",
+      "impact": "用相同ArcPy和CAD脚本测试集比较通过率、耗时、成本；外部搜索权限和数据外发需单独管控。",
+      "publisher": "DeepSeek API官方更新日志",
+      "publish_date": "2026-10-17",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Reflection Beam开放权重与Mirror CLI",
+      "summary": "10月16日Reflection AI开放501B总参数、23B激活参数的Beam模型权重（Apache 2.0），配套Mirror CLI支持恢复会话、隔离工作树、Skills和MCP。",
+      "impact": "GIS自动化可借鉴可恢复任务与工具调用审批机制；不建议普通消费级显卡直接部署超大模型。",
+      "publisher": "Reflection AI官方博客",
+      "publish_date": "2026-10-16",
+      "url": "https://reflection.ai/blog/beam-is-available",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "山东采购三维激光测绘实训设备，包含航测LiDAR和点云处理",
+      "summary": "中国政府采购网10月17日发布73万元采购公告，涵盖便携移动测量、点云处理、无人机算力盒子、小型无人机和航测激光雷达等。",
+      "impact": "测绘设备采购应同时核算采集、算力、点云处理、精度检核与培训成本；采购公告不代表已交付。",
+      "publisher": "中国政府采购网",
+      "publish_date": "2026-10-17",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261017_27513542.htm",
+      "image_url": null
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "城市更新和GIS Agent都需要明确业务状态与审计记录，公示不等于确权，代码生成不等于成果交付。",
+  "tool_of_the_week": {
+    "name": "GIS项目状态机核验",
+    "method": "在GeoPackage或PostGIS关联宗地、房屋、权属证据与项目流程事件，按签约、公示、确认、实施、评估建立独立状态并筛查异常。"
+  },
+  "sources": [
+    {
+      "publisher": "深圳市南山区城市更新和土地整备局",
+      "publish_date": "2026-10-17",
+      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13026779.html"
+    },
+    {
+      "publisher": "湖南省人民政府门户网站",
+      "publish_date": "2026-10-16",
+      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/tt/202610/t20261016_34083056.html"
+    },
+    {
+      "publisher": "DeepSeek API官方更新日志",
+      "publish_date": "2026-10-17",
+      "url": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "publisher": "Reflection AI官方博客",
+      "publish_date": "2026-10-16",
+      "url": "https://reflection.ai/blog/beam-is-available"
+    },
+    {
+      "publisher": "中国政府采购网",
+      "publish_date": "2026-10-17",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261017_27513542.htm"
+    }
+  ],
+  "coverage": {
+    "start_date": "2026-10-17",
+    "end_date": "2026-10-18",
+    "note": "10月16日两条超出严格24小时窗口，作为高价值补充明确标注；未核实图片授权，image_url为null。"
+  }
+}
