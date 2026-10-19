@@ -1,0 +1,134 @@
+{
+  "type": "daily",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T12:09:14+08:00",
+  "title": "行业日报｜2026-10-19",
+  "summary": "周一日报，精选5条：城市更新/GIS 3条、AI模型与工具1条、测绘/无人机1条。关注镇江容积率转移与规划一张图、湖南城市更新资产运营闭环、航测影像本地处理；2条18日早间报道略超24小时窗口，航测软件仅有厂商自证。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "规划指标转移、更新资金闭环、海绵城市空间协同",
+      "item_titles": [
+        "镇江出台城市更新容积率奖励与转移试行规程",
+        "湖南披露存量资产盘活与城市更新运营资金闭环案例",
+        "绵阳展示街区更新与海绵城市的空间协同实践"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "AI治理与社会影响机制",
+      "item_titles": [
+        "Anthropic宣布拟划拨5%股份设立公共利益基金"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "本地航测数据处理与交付，需独立精度检验",
+      "item_titles": [
+        "SkyView Desktop标称10月18日上线本地航测处理方案"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "镇江出台城市更新容积率奖励与转移试行规程",
+      "summary": "镇江媒体10月18日报道，自然资源规划部门通过容积率奖励、转移及不计容等机制支持历史保护与公共配套，配套申请审批和违约撤销程序，成果纳入规划一张图。",
+      "impact": "GIS应记录指标来源地块、承接地块、公共贡献、审批状态和履约情况；实施前核对规程正式文本。",
+      "publisher": "金山网／镇江报业",
+      "publish_date": "2026-10-18",
+      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml",
+      "image_url": null,
+      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "湖南披露存量资产盘活与城市更新运营资金闭环案例",
+      "summary": "湖南省级媒体10月19日报道长沙金科园社区通过财政资金、产权单位闲置资产、专营单位投入和社会资本完善养老、青年公寓及健身配套；并介绍历史街区长期运营与融资模式。",
+      "impact": "在项目库关联宗地房屋、资金主体、闲置资产、服务半径及运营收入，注意区分案例与通用政策。",
+      "publisher": "华声在线／湖南日报",
+      "publish_date": "2026-10-19",
+      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "绵阳展示街区更新与海绵城市的空间协同实践",
+      "summary": "川观新闻10月18日报道绵阳城博会案例，包括上马商圈微更新、青义片区雨水径流分析与海绵绿地，以及智慧工地和桥梁传感监测；案例建设多在此前完成。",
+      "impact": "将更新前后影像、排水分区、调蓄设施、道路和建筑物关联至GIS，并保存时间戳及数据来源。",
+      "publisher": "川观新闻／四川日报",
+      "publish_date": "2026-10-18",
+      "url": "https://cbgc.scol.com.cn/news/8067635",
+      "image_url": null,
+      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Anthropic宣布拟划拨5%股份设立公共利益基金",
+      "summary": "Anthropic于10月18日公布设立公共利益基金的计划，拟经股东批准划拨5%股份，关注公益和AI劳动市场影响；路透社同日报道。不是新模型发布。",
+      "impact": "在AI工作流采购与评估中补充治理、人员影响和审计维度；基金计划不等于已有资助可申请。",
+      "publisher": "Anthropic官方／Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "SkyView Desktop标称10月18日上线本地航测处理方案",
+      "summary": "PilotLedger官网标称10月18日上线Windows航测软件，可本地生成正射影像、点云和三维网格并通过云端交付。厂商页面未披露文章发布日期，亦缺独立精度测试和上线验证。",
+      "impact": "仅建议用脱敏样本及独立检核点试测，核验坐标基准、精度、导出格式与成本，不能直接认定测量级。",
+      "publisher": "PilotLedger厂商产品页",
+      "publish_date": null,
+      "url": "https://pilotledger.com/skyview",
+      "image_url": null,
+      "event_date": "2026-10-18",
+      "date_note": "仅确认厂商标称上线日，未确认文章发布日期或独立测评",
+      "verification": "厂商单一来源"
+    }
+  ],
+  "industry_observation": "城市更新正将规划激励、空间资产、资金和运营绩效连为一体；GIS应充当跨部门数据索引。航测成果仍应坚持坐标与独立检核，不能用视觉效果替代测量精度。",
+  "recommended_tool": {
+    "name": "GIS容积率转移与项目资金双台账",
+    "method": "用宗地ID建立奖励指标来源/承接地块、审批状态、公共服务贡献、资金主体与运营绩效的关联表，并叠加规划一张图进行人工复核。",
+    "caveat": "分析台账不替代正式规划审批"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "金山网／镇江报业",
+      "publish_date": "2026-10-18",
+      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml"
+    },
+    {
+      "publisher": "华声在线／湖南日报",
+      "publish_date": "2026-10-19",
+      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html"
+    },
+    {
+      "publisher": "川观新闻／四川日报",
+      "publish_date": "2026-10-18",
+      "url": "https://cbgc.scol.com.cn/news/8067635"
+    },
+    {
+      "publisher": "Anthropic官方／Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "publisher": "PilotLedger厂商产品页",
+      "publish_date": null,
+      "url": "https://pilotledger.com/skyview"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
+    }
+  ],
+  "quality_notes": [
+    "不重复10月17、18日既有日报",
+    "2条早间报道为跨24小时高价值补充",
+    "SkyView只有厂商来源，未独立验证且原页面无发布日期",
+    "image_url未获明确可复用许可，均为null"
+  ]
+}

@@ -1,122 +1,134 @@
 {
   "type": "daily",
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T12:07:00+08:00",
-  "title": "行业日报｜2026-10-18",
-  "summary": "星期日，精选5条：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。3条发布于10月17日，另2条为10月16日高价值补充。",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T12:09:14+08:00",
+  "title": "行业日报｜2026-10-19",
+  "summary": "周一日报，精选5条：城市更新/GIS 3条、AI模型与工具1条、测绘/无人机1条。关注镇江容积率转移与规划一张图、湖南城市更新资产运营闭环、航测影像本地处理；2条18日早间报道略超24小时窗口，航测软件仅有厂商自证。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "城市更新权属、实施主体和城市体检流程化",
+      "summary": "规划指标转移、更新资金闭环、海绵城市空间协同",
       "item_titles": [
-        "深圳向南村二期实施主体公示",
-        "湖南推进城市体检闭环"
+        "镇江出台城市更新容积率奖励与转移试行规程",
+        "湖南披露存量资产盘活与城市更新运营资金闭环案例",
+        "绵阳展示街区更新与海绵城市的空间协同实践"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "Agent模型升级与工程化工具链",
+      "summary": "AI治理与社会影响机制",
       "item_titles": [
-        "DeepSeek V4.1 Flash 1017",
-        "Reflection Beam正式开放"
+        "Anthropic宣布拟划拨5%股份设立公共利益基金"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "航测设备采集与处理链条一体化",
+      "summary": "本地航测数据处理与交付，需独立精度检验",
       "item_titles": [
-        "山东三维激光测绘实训室采购"
+        "SkyView Desktop标称10月18日上线本地航测处理方案"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "深圳向南村二期拟确认实施主体",
-      "summary": "10月17日南山区公示，二期拆除面积12692.6平方米，已完成100%搬迁补偿签约，拟确认深圳市安和二号房地产开发有限公司为实施主体，公示至10月23日。",
-      "impact": "GIS项目库分开记录权利人核实、签约、实施主体公示与正式确认，避免把拟确认误当已确认。",
-      "publisher": "深圳市南山区城市更新和土地整备局",
-      "publish_date": "2026-10-17",
-      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13026779.html",
+      "title": "镇江出台城市更新容积率奖励与转移试行规程",
+      "summary": "镇江媒体10月18日报道，自然资源规划部门通过容积率奖励、转移及不计容等机制支持历史保护与公共配套，配套申请审批和违约撤销程序，成果纳入规划一张图。",
+      "impact": "GIS应记录指标来源地块、承接地块、公共贡献、审批状态和履约情况；实施前核对规程正式文本。",
+      "publisher": "金山网／镇江报业",
+      "publish_date": "2026-10-18",
+      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml",
+      "image_url": null,
+      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "湖南披露存量资产盘活与城市更新运营资金闭环案例",
+      "summary": "湖南省级媒体10月19日报道长沙金科园社区通过财政资金、产权单位闲置资产、专营单位投入和社会资本完善养老、青年公寓及健身配套；并介绍历史街区长期运营与融资模式。",
+      "impact": "在项目库关联宗地房屋、资金主体、闲置资产、服务半径及运营收入，注意区分案例与通用政策。",
+      "publisher": "华声在线／湖南日报",
+      "publish_date": "2026-10-19",
+      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "湖南推进县级城市体检与城市更新全链条闭环",
-      "summary": "10月16日湖南省城市更新工作现场会提出全面启动县级城市体检，建立体检—规划—策划—项目—实施—评估闭环，并强调运营前置。",
-      "impact": "建立问题点位、更新项目、运营主体与评估指标的关联GIS数据库；会议发布不是新项目全部开工。",
-      "publisher": "湖南省人民政府门户网站",
-      "publish_date": "2026-10-16",
-      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/tt/202610/t20261016_34083056.html",
-      "image_url": null
+      "title": "绵阳展示街区更新与海绵城市的空间协同实践",
+      "summary": "川观新闻10月18日报道绵阳城博会案例，包括上马商圈微更新、青义片区雨水径流分析与海绵绿地，以及智慧工地和桥梁传感监测；案例建设多在此前完成。",
+      "impact": "将更新前后影像、排水分区、调蓄设施、道路和建筑物关联至GIS，并保存时间戳及数据来源。",
+      "publisher": "川观新闻／四川日报",
+      "publish_date": "2026-10-18",
+      "url": "https://cbgc.scol.com.cn/news/8067635",
+      "image_url": null,
+      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
     },
     {
       "category": "AI模型与工具",
-      "title": "DeepSeek升级V4.1-Flash-1017并开放搜索接口",
-      "summary": "10月17日DeepSeek更新Web、App和deepseek-flash API模型，调用方式与价格不变，并开放Search与Fetch API。厂商称新版代码Agent表现和执行效率改善。",
-      "impact": "用相同ArcPy和CAD脚本测试集比较通过率、耗时、成本；外部搜索权限和数据外发需单独管控。",
-      "publisher": "DeepSeek API官方更新日志",
-      "publish_date": "2026-10-17",
-      "url": "https://api-docs.deepseek.com/updates/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "Reflection Beam开放权重与Mirror CLI",
-      "summary": "10月16日Reflection AI开放501B总参数、23B激活参数的Beam模型权重（Apache 2.0），配套Mirror CLI支持恢复会话、隔离工作树、Skills和MCP。",
-      "impact": "GIS自动化可借鉴可恢复任务与工具调用审批机制；不建议普通消费级显卡直接部署超大模型。",
-      "publisher": "Reflection AI官方博客",
-      "publish_date": "2026-10-16",
-      "url": "https://reflection.ai/blog/beam-is-available",
+      "title": "Anthropic宣布拟划拨5%股份设立公共利益基金",
+      "summary": "Anthropic于10月18日公布设立公共利益基金的计划，拟经股东批准划拨5%股份，关注公益和AI劳动市场影响；路透社同日报道。不是新模型发布。",
+      "impact": "在AI工作流采购与评估中补充治理、人员影响和审计维度；基金计划不等于已有资助可申请。",
+      "publisher": "Anthropic官方／Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
       "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "山东采购三维激光测绘实训设备，包含航测LiDAR和点云处理",
-      "summary": "中国政府采购网10月17日发布73万元采购公告，涵盖便携移动测量、点云处理、无人机算力盒子、小型无人机和航测激光雷达等。",
-      "impact": "测绘设备采购应同时核算采集、算力、点云处理、精度检核与培训成本；采购公告不代表已交付。",
-      "publisher": "中国政府采购网",
-      "publish_date": "2026-10-17",
-      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261017_27513542.htm",
-      "image_url": null
+      "title": "SkyView Desktop标称10月18日上线本地航测处理方案",
+      "summary": "PilotLedger官网标称10月18日上线Windows航测软件，可本地生成正射影像、点云和三维网格并通过云端交付。厂商页面未披露文章发布日期，亦缺独立精度测试和上线验证。",
+      "impact": "仅建议用脱敏样本及独立检核点试测，核验坐标基准、精度、导出格式与成本，不能直接认定测量级。",
+      "publisher": "PilotLedger厂商产品页",
+      "publish_date": null,
+      "url": "https://pilotledger.com/skyview",
+      "image_url": null,
+      "event_date": "2026-10-18",
+      "date_note": "仅确认厂商标称上线日，未确认文章发布日期或独立测评",
+      "verification": "厂商单一来源"
     }
   ],
-  "recommended_reading": null,
-  "industry_observation": "城市更新和GIS Agent都需要明确业务状态与审计记录，公示不等于确权，代码生成不等于成果交付。",
-  "tool_of_the_week": {
-    "name": "GIS项目状态机核验",
-    "method": "在GeoPackage或PostGIS关联宗地、房屋、权属证据与项目流程事件，按签约、公示、确认、实施、评估建立独立状态并筛查异常。"
+  "industry_observation": "城市更新正将规划激励、空间资产、资金和运营绩效连为一体；GIS应充当跨部门数据索引。航测成果仍应坚持坐标与独立检核，不能用视觉效果替代测量精度。",
+  "recommended_tool": {
+    "name": "GIS容积率转移与项目资金双台账",
+    "method": "用宗地ID建立奖励指标来源/承接地块、审批状态、公共服务贡献、资金主体与运营绩效的关联表，并叠加规划一张图进行人工复核。",
+    "caveat": "分析台账不替代正式规划审批"
   },
+  "recommended_reading": null,
   "sources": [
     {
-      "publisher": "深圳市南山区城市更新和土地整备局",
-      "publish_date": "2026-10-17",
-      "url": "https://www.szns.gov.cn/xxgk/qzfxxgkml/tzgg/content/post_13026779.html"
+      "publisher": "金山网／镇江报业",
+      "publish_date": "2026-10-18",
+      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml"
     },
     {
-      "publisher": "湖南省人民政府门户网站",
-      "publish_date": "2026-10-16",
-      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/tt/202610/t20261016_34083056.html"
+      "publisher": "华声在线／湖南日报",
+      "publish_date": "2026-10-19",
+      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html"
     },
     {
-      "publisher": "DeepSeek API官方更新日志",
-      "publish_date": "2026-10-17",
-      "url": "https://api-docs.deepseek.com/updates/"
+      "publisher": "川观新闻／四川日报",
+      "publish_date": "2026-10-18",
+      "url": "https://cbgc.scol.com.cn/news/8067635"
     },
     {
-      "publisher": "Reflection AI官方博客",
-      "publish_date": "2026-10-16",
-      "url": "https://reflection.ai/blog/beam-is-available"
+      "publisher": "Anthropic官方／Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
     },
     {
-      "publisher": "中国政府采购网",
-      "publish_date": "2026-10-17",
-      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261017_27513542.htm"
+      "publisher": "PilotLedger厂商产品页",
+      "publish_date": null,
+      "url": "https://pilotledger.com/skyview"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-10-18",
+      "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
     }
   ],
-  "coverage": {
-    "start_date": "2026-10-17",
-    "end_date": "2026-10-18",
-    "note": "10月16日两条超出严格24小时窗口，作为高价值补充明确标注；未核实图片授权，image_url为null。"
-  }
+  "quality_notes": [
+    "不重复10月17、18日既有日报",
+    "2条早间报道为跨24小时高价值补充",
+    "SkyView只有厂商来源，未独立验证且原页面无发布日期",
+    "image_url未获明确可复用许可，均为null"
+  ]
 }
