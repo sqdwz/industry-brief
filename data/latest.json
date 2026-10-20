@@ -1,134 +1,140 @@
 {
   "type": "daily",
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T12:09:14+08:00",
-  "title": "行业日报｜2026-10-19",
-  "summary": "周一日报，精选5条：城市更新/GIS 3条、AI模型与工具1条、测绘/无人机1条。关注镇江容积率转移与规划一张图、湖南城市更新资产运营闭环、航测影像本地处理；2条18日早间报道略超24小时窗口，航测软件仅有厂商自证。",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T12:16:29+08:00",
+  "title": "行业日报｜2026-10-20",
+  "summary": "北京时间星期二日报，筛选10月19日至20日可核验的5条动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。聚焦深圳土地整备、东莞补偿签约、Agent动态权限、PyTorch跨芯片迁移和广东无人机AI巡检。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "规划指标转移、更新资金闭环、海绵城市空间协同",
+      "summary": "宗地整备与补偿签约节点精细化",
       "item_titles": [
-        "镇江出台城市更新容积率奖励与转移试行规程",
-        "湖南披露存量资产盘活与城市更新运营资金闭环案例",
-        "绵阳展示街区更新与海绵城市的空间协同实践"
+        "深圳龙岗前三季度完成土地整备213.88公顷，存量地块盘活提速",
+        "东莞道滘九横丫城中村改造签约178宗，安置房拟于12月动工"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "AI治理与社会影响机制",
+      "summary": "Agent权限工程化与PyTorch算力迁移",
       "item_titles": [
-        "Anthropic宣布拟划拨5%股份设立公共利益基金"
+        "微软扩展Project Perception，推出AI Agent动态风险与动态权限控制",
+        "亚马逊发布TorchNeuron，降低PyTorch模型迁移至Trainium的门槛"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "本地航测数据处理与交付，需独立精度检验",
+      "summary": "无人机机巢、AI识别与GIS事件闭环",
       "item_titles": [
-        "SkyView Desktop标称10月18日上线本地航测处理方案"
+        "广东清远40公里河段启用无人机机巢与AI巡检闭环"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "镇江出台城市更新容积率奖励与转移试行规程",
-      "summary": "镇江媒体10月18日报道，自然资源规划部门通过容积率奖励、转移及不计容等机制支持历史保护与公共配套，配套申请审批和违约撤销程序，成果纳入规划一张图。",
-      "impact": "GIS应记录指标来源地块、承接地块、公共贡献、审批状态和履约情况；实施前核对规程正式文本。",
-      "publisher": "金山网／镇江报业",
-      "publish_date": "2026-10-18",
-      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml",
-      "image_url": null,
-      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "湖南披露存量资产盘活与城市更新运营资金闭环案例",
-      "summary": "湖南省级媒体10月19日报道长沙金科园社区通过财政资金、产权单位闲置资产、专营单位投入和社会资本完善养老、青年公寓及健身配套；并介绍历史街区长期运营与融资模式。",
-      "impact": "在项目库关联宗地房屋、资金主体、闲置资产、服务半径及运营收入，注意区分案例与通用政策。",
-      "publisher": "华声在线／湖南日报",
+      "title": "深圳龙岗前三季度完成土地整备213.88公顷，存量地块盘活提速",
+      "summary": "龙岗区城市更新和土地整备局10月19日披露，前三季度土地整备213.88公顷，提前完成年度任务；对10个疑难项目形成盘活处置方案，并通过逐宗研判、节点倒排推动连片产业空间整备。",
+      "impact": "建议将地块权属争议、征拆进度、供地潜力、盘活方案和审批节点关联到GIS宗地台账，区分已完成整备与仍处方案阶段的项目。",
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
       "publish_date": "2026-10-19",
-      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html",
+      "url": "https://www.lg.gov.cn/lgcsgxj/gkmlpt/content/13/13028/post_13028481.html",
       "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "绵阳展示街区更新与海绵城市的空间协同实践",
-      "summary": "川观新闻10月18日报道绵阳城博会案例，包括上马商圈微更新、青义片区雨水径流分析与海绵绿地，以及智慧工地和桥梁传感监测；案例建设多在此前完成。",
-      "impact": "将更新前后影像、排水分区、调蓄设施、道路和建筑物关联至GIS，并保存时间戳及数据来源。",
-      "publisher": "川观新闻／四川日报",
-      "publish_date": "2026-10-18",
-      "url": "https://cbgc.scol.com.cn/news/8067635",
-      "image_url": null,
-      "time_window_note": "10月18日早间发布，略超严格24小时窗口"
+      "title": "东莞道滘九横丫城中村改造签约178宗，安置房拟于12月动工",
+      "summary": "10月19日南方+报道，项目涉及213宗私人地块，其中183宗完成计价确认、178宗签订拆迁补偿协议，已有14栋房屋拆除；安置房一期计划2026年12月开工，仍需以正式审批及实际进度为准。",
+      "impact": "房屋测绘成果应按宗地ID与计价确认、补偿签约、拆除、用地报批、安置房建设等状态关联，避免将计价确认误记为签约或将计划开工误记为已开工。",
+      "publisher": "南方+／21经济网",
+      "publish_date": "2026-10-19",
+      "url": "https://www.21jingji.com/article/20261019/herald/df25b7e63bbcb6e9e0a7b49acd92fec4.html",
+      "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Anthropic宣布拟划拨5%股份设立公共利益基金",
-      "summary": "Anthropic于10月18日公布设立公共利益基金的计划，拟经股东批准划拨5%股份，关注公益和AI劳动市场影响；路透社同日报道。不是新模型发布。",
-      "impact": "在AI工作流采购与评估中补充治理、人员影响和审计维度；基金计划不等于已有资助可申请。",
-      "publisher": "Anthropic官方／Reuters",
-      "publish_date": "2026-10-18",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "title": "微软扩展Project Perception，推出AI Agent动态风险与动态权限控制",
+      "summary": "微软10月19日宣布扩展Project Perception，新增Dynamic Agent Risk、Dynamic Permissions及Dynamic Conditional Access，强调对Agent的身份、工具调用、读写权限和运行风险实施独立、持续控制。",
+      "impact": "为CAD/ArcPy/资料归档Agent设置单独身份、默认只读、写入审批、沙箱与审计日志；不要让模型自行决定其权限边界。",
+      "publisher": "Microsoft Security官方博客",
+      "publish_date": "2026-10-19",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
       "image_url": null
     },
     {
-      "category": "测绘/无人机",
-      "title": "SkyView Desktop标称10月18日上线本地航测处理方案",
-      "summary": "PilotLedger官网标称10月18日上线Windows航测软件，可本地生成正射影像、点云和三维网格并通过云端交付。厂商页面未披露文章发布日期，亦缺独立精度测试和上线验证。",
-      "impact": "仅建议用脱敏样本及独立检核点试测，核验坐标基准、精度、导出格式与成本，不能直接认定测量级。",
-      "publisher": "PilotLedger厂商产品页",
-      "publish_date": null,
-      "url": "https://pilotledger.com/skyview",
+      "category": "AI模型与工具",
+      "title": "亚马逊发布TorchNeuron，降低PyTorch模型迁移至Trainium的门槛",
+      "summary": "亚马逊10月19日对外介绍TorchNeuron，宣称通过少量配置调整即可在AWS Trainium上运行既有PyTorch代码，并计划10月20日以Apache 2.0许可开源；实际兼容性和成本需逐模型测试。",
+      "impact": "对未来云端部署遥感识别模型或批量影像推理可作为硬件成本备选，但不改变当前本地显卡工作流，迁移前必须对照性能、精度和数据出境要求。",
+      "publisher": "Amazon官方新闻／TechCrunch",
+      "publish_date": "2026-10-19",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
       "image_url": null,
-      "event_date": "2026-10-18",
-      "date_note": "仅确认厂商标称上线日，未确认文章发布日期或独立测评",
-      "verification": "厂商单一来源"
+      "release_note": "官方称10月20日开源，简报生成时未单独验证开源仓库是否已正式发布"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "广东清远40公里河段启用无人机机巢与AI巡检闭环",
+      "summary": "10月19日南方+披露，清远连江40公里重点河段部署3座无人机自动机场和3架无人机，累计巡检2172次、13512公里，系统自动生成261宗待核查事件，结合RTK定位、AI识别和三维河岸数据档案。",
+      "impact": "可借鉴“自动航线—影像采集—AI异常定位—属地复核—处理归档”的GIS巡检闭环；报道所称厘米级RTK定位不等于正射成果精度，仍需独立检核点。",
+      "publisher": "南方+／21经济网",
+      "publish_date": "2026-10-19",
+      "url": "https://www.21jingji.com/article/20261019/herald/96e7bc54c82b7972ae2290cc8168629d.html",
+      "image_url": null
     }
   ],
-  "industry_observation": "城市更新正将规划激励、空间资产、资金和运营绩效连为一体；GIS应充当跨部门数据索引。航测成果仍应坚持坐标与独立检核，不能用视觉效果替代测量精度。",
+  "industry_observation": "城市更新的关键不只是绘制现状图，而是把地块权属、补偿、建设和运营节点转成可追踪的空间对象；无人机巡检与AI Agent也正从单次自动化迈向权限可控、事件可复核的闭环运行。",
   "recommended_tool": {
-    "name": "GIS容积率转移与项目资金双台账",
-    "method": "用宗地ID建立奖励指标来源/承接地块、审批状态、公共服务贡献、资金主体与运营绩效的关联表，并叠加规划一张图进行人工复核。",
-    "caveat": "分析台账不替代正式规划审批"
+    "name": "宗地状态机＋GIS事件闭环台账",
+    "method": "在GeoPackage/PostGIS建立parcel_id主键、measurement_status、valuation_confirmed_at、agreement_signed_at、demolished_at、approval_status、evidence_uri等字段，借助QGIS表单设置状态转换规则；AI只提出异常候选，人工复核后写入正式成果。",
+    "caveat": "不同项目的补偿程序和审批节点以当地法定程序为准；未验证的AI识别结果不可替代实测和权属认定。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "金山网／镇江报业",
-      "publish_date": "2026-10-18",
-      "url": "https://www.jsw.com.cn/2026/1018/1971490.shtml"
-    },
-    {
-      "publisher": "华声在线／湖南日报",
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
       "publish_date": "2026-10-19",
-      "url": "https://hunan.voc.com.cn/mobile/news/202610/34018778.html"
+      "url": "https://www.lg.gov.cn/lgcsgxj/gkmlpt/content/13/13028/post_13028481.html"
     },
     {
-      "publisher": "川观新闻／四川日报",
-      "publish_date": "2026-10-18",
-      "url": "https://cbgc.scol.com.cn/news/8067635"
+      "publisher": "南方+／21经济网",
+      "publish_date": "2026-10-19",
+      "url": "https://www.21jingji.com/article/20261019/herald/df25b7e63bbcb6e9e0a7b49acd92fec4.html"
     },
     {
-      "publisher": "Anthropic官方／Reuters",
-      "publish_date": "2026-10-18",
-      "url": "https://www.anthropic.com/news/public-benefit-fund"
+      "publisher": "Microsoft Security官方博客",
+      "publish_date": "2026-10-19",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
     },
     {
-      "publisher": "PilotLedger厂商产品页",
-      "publish_date": null,
-      "url": "https://pilotledger.com/skyview"
+      "publisher": "Amazon官方新闻／TechCrunch",
+      "publish_date": "2026-10-19",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
     },
     {
-      "publisher": "Reuters",
-      "publish_date": "2026-10-18",
-      "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
+      "publisher": "南方+／21经济网",
+      "publish_date": "2026-10-19",
+      "url": "https://www.21jingji.com/article/20261019/herald/96e7bc54c82b7972ae2290cc8168629d.html"
+    },
+    {
+      "publisher": "Microsoft官方博客",
+      "publish_date": "2026-10-19",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+    },
+    {
+      "publisher": "TechCrunch",
+      "publish_date": "2026-10-19",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+    },
+    {
+      "publisher": "广州日报新花城",
+      "publish_date": "2026-10-19",
+      "url": "https://huacheng.gz-cmc.com/pages/2026/10/19/7b23bef026d34259bf34b4a4050f9523.html"
     }
   ],
   "quality_notes": [
-    "不重复10月17、18日既有日报",
-    "2条早间报道为跨24小时高价值补充",
-    "SkyView只有厂商来源，未独立验证且原页面无发布日期",
-    "image_url未获明确可复用许可，均为null"
+    "仅纳入2026-10-19发布的可核验报道和官方资料，符合本次过去24小时为主的窗口",
+    "避免复用10月17日至19日已记录的主要旧闻",
+    "未发现可直接复用且明确许可的配图，image_url均为null",
+    "厂商关于TorchNeuron的兼容性主张尚待独立基准验证"
   ]
 }
