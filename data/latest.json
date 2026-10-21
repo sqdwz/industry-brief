@@ -1,140 +1,137 @@
 {
   "type": "daily",
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T12:16:29+08:00",
-  "title": "行业日报｜2026-10-20",
-  "summary": "北京时间星期二日报，筛选10月19日至20日可核验的5条动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。聚焦深圳土地整备、东莞补偿签约、Agent动态权限、PyTorch跨芯片迁移和广东无人机AI巡检。",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T12:05:12+08:00",
+  "title": "行业日报｜2026-10-21",
+  "summary": "北京时间星期三日报，精选10月20日至21日5条高相关动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。关注北京微更新技术路线、GIS跨部门协同、SuperMap AgentX、HERE空间计算MCP及无人机地球物理测绘。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "宗地整备与补偿签约节点精细化",
+      "summary": "微更新与危楼重建实践、跨部门GIS数据共享",
       "item_titles": [
-        "深圳龙岗前三季度完成土地整备213.88公顷，存量地块盘活提速",
-        "东莞道滘九横丫城中村改造签约178宗，安置房拟于12月动工"
+        "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
+        "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "Agent权限工程化与PyTorch算力迁移",
+      "summary": "智能体原生GIS与确定性空间计算MCP工具",
       "item_titles": [
-        "微软扩展Project Perception，推出AI Agent动态风险与动态权限控制",
-        "亚马逊发布TorchNeuron，降低PyTorch模型迁移至Trainium的门槛"
+        "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
+        "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "无人机机巢、AI识别与GIS事件闭环",
+      "summary": "无人机专项传感器与地下空间探测工作流",
       "item_titles": [
-        "广东清远40公里河段启用无人机机巢与AI巡检闭环"
+        "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "深圳龙岗前三季度完成土地整备213.88公顷，存量地块盘活提速",
-      "summary": "龙岗区城市更新和土地整备局10月19日披露，前三季度土地整备213.88公顷，提前完成年度任务；对10个疑难项目形成盘活处置方案，并通过逐宗研判、节点倒排推动连片产业空间整备。",
-      "impact": "建议将地块权属争议、征拆进度、供地潜力、盘活方案和审批节点关联到GIS宗地台账，区分已完成整备与仍处方案阶段的项目。",
-      "publisher": "深圳市龙岗区城市更新和土地整备局",
-      "publish_date": "2026-10-19",
-      "url": "https://www.lg.gov.cn/lgcsgxj/gkmlpt/content/13/13028/post_13028481.html",
-      "image_url": null
+      "title": "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
+      "summary": "北京市政府门户10月20日披露丰台4个入选城市更新案例：韩庄子第二社区利用两处闲置地建5000余平方米嵌入式配套；开阳里危旧楼原拆原建，采用90%装配率的模块化方案；另涵盖宛平城保护性更新及南中轴产业楼宇改造。",
+      "impact": "城市体检与更新策划应在GIS中关联闲置空间、服务设施缺口、建筑安全、改造技术路线和运营方式；案例中的成本工期指标不可未经核实直接套用本地项目。",
+      "publisher": "北京市人民政府门户网站／丰台区人民政府",
+      "publish_date": "2026-10-20",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html",
+      "image_url": null,
+      "verification": "政府官方案例报道，部分项目在此前年度已完成；本次新增为10月20日详细披露"
     },
     {
       "category": "城市更新/GIS",
-      "title": "东莞道滘九横丫城中村改造签约178宗，安置房拟于12月动工",
-      "summary": "10月19日南方+报道，项目涉及213宗私人地块，其中183宗完成计价确认、178宗签订拆迁补偿协议，已有14栋房屋拆除；安置房一期计划2026年12月开工，仍需以正式审批及实际进度为准。",
-      "impact": "房屋测绘成果应按宗地ID与计价确认、补偿签约、拆除、用地报批、安置房建设等状态关联，避免将计价确认误记为签约或将计划开工误记为已开工。",
-      "publisher": "南方+／21经济网",
-      "publish_date": "2026-10-19",
-      "url": "https://www.21jingji.com/article/20261019/herald/df25b7e63bbcb6e9e0a7b49acd92fec4.html",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "微软扩展Project Perception，推出AI Agent动态风险与动态权限控制",
-      "summary": "微软10月19日宣布扩展Project Perception，新增Dynamic Agent Risk、Dynamic Permissions及Dynamic Conditional Access，强调对Agent的身份、工具调用、读写权限和运行风险实施独立、持续控制。",
-      "impact": "为CAD/ArcPy/资料归档Agent设置单独身份、默认只读、写入审批、沙箱与审计日志；不要让模型自行决定其权限边界。",
-      "publisher": "Microsoft Security官方博客",
-      "publish_date": "2026-10-19",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "亚马逊发布TorchNeuron，降低PyTorch模型迁移至Trainium的门槛",
-      "summary": "亚马逊10月19日对外介绍TorchNeuron，宣称通过少量配置调整即可在AWS Trainium上运行既有PyTorch代码，并计划10月20日以Apache 2.0许可开源；实际兼容性和成本需逐模型测试。",
-      "impact": "对未来云端部署遥感识别模型或批量影像推理可作为硬件成本备选，但不改变当前本地显卡工作流，迁移前必须对照性能、精度和数据出境要求。",
-      "publisher": "Amazon官方新闻／TechCrunch",
-      "publish_date": "2026-10-19",
-      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+      "title": "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持",
+      "summary": "Esri 10月20日刊文介绍北约总部将分散系统中的空间数据整合为共享态势图，利用Web应用、自动化底图和动态数据更新改善部门协作；这是一篇对既有建设历程的案例复盘，并非新软件发布。",
+      "impact": "城市更新项目可借鉴“统一宗地/建筑空间底图＋跨部门业务状态＋动态可视化”的架构，让测绘成果从静态附件升级为可检索的决策数据。",
+      "publisher": "Esri Blog（Ryan Lanclos）",
+      "publish_date": "2026-10-20",
+      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis",
       "image_url": null,
-      "release_note": "官方称10月20日开源，简报生成时未单独验证开源仓库是否已正式发布"
+      "verification": "Esri官方案例复盘；不涉及新产品上线"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
+      "summary": "超图官方议程显示大会10月21日至30日线上举行，21日上午安排AgentX Server、桌面AgentX和新一代三维GIS技术报告，后续还将讨论MCP扩展定制与遥感GIS一体化。官网列示的是会议安排，具体产品能力与可用版本仍待演示或文档核实。",
+      "impact": "可重点跟踪“自然语言→GIS工具调用→空间分析→成果输出”的闭环，比较AgentX与现有ArcGIS Pro/ArcPy工作流的可审计性、兼容性和离线部署条件。",
+      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
+      "publish_date": null,
+      "event_date": "2026-10-21",
+      "url": "https://sdc.supermap.com/",
+      "image_url": null,
+      "verification": "厂商官方会议议程；网页未标示发布日，不将活动日期冒充公告发布日期"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算",
+      "summary": "HERE 10月20日发布的行业通稿称，其Location Reasoning服务扩展至AWS Marketplace、Kiro Power及Agent插件生态，以MCP调用地理编码、路径规划、交通和地点数据，减少模型直接猜测空间关系。当前主要为厂商披露，未见独立精度或成本基准。",
+      "impact": "GIS Agent应将距离、路径、空间约束交给可验证的GIS服务计算，并记录坐标系、数据来源、时间戳与调用结果；HERE服务不等同于本地法定权属或规划底图。",
+      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
+      "publish_date": "2026-10-20",
+      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/",
+      "official_product_url": "https://www.here.com/solutions/here-location-reasoning",
+      "image_url": null,
+      "verification": "厂商通稿，尚未独立验证性能"
     },
     {
       "category": "测绘/无人机",
-      "title": "广东清远40公里河段启用无人机机巢与AI巡检闭环",
-      "summary": "10月19日南方+披露，清远连江40公里重点河段部署3座无人机自动机场和3架无人机，累计巡检2172次、13512公里，系统自动生成261宗待核查事件，结合RTK定位、AI识别和三维河岸数据档案。",
-      "impact": "可借鉴“自动航线—影像采集—AI异常定位—属地复核—处理归档”的GIS巡检闭环；报道所称厘米级RTK定位不等于正射成果精度，仍需独立检核点。",
-      "publisher": "南方+／21经济网",
-      "publish_date": "2026-10-19",
-      "url": "https://www.21jingji.com/article/20261019/herald/96e7bc54c82b7972ae2290cc8168629d.html",
-      "image_url": null
+      "title": "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模",
+      "summary": "Commercial UAV News 10月20日现场回顾SPH Engineering于10月12—13日举行的Drone Camp，展示机载探地雷达、磁测、测深与后处理流程；获奖案例涉及智利矿区地下管线测绘和爱尔兰泥炭地机载伽马测量。",
+      "impact": "对城市更新的地下管线普查和复杂场地调查，可评估无人机搭载专项传感器的补充价值；实际采用前仍需地面控制、钻探/实测对照及独立精度检核，不能把演示视为可直接交付的成果。",
+      "publisher": "Commercial UAV News（Matt Collins）",
+      "publish_date": "2026-10-20",
+      "event_date": "2026-10-12/2026-10-13",
+      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards",
+      "image_url": null,
+      "verification": "专业媒体到场报道；作者披露参与评奖，活动发生在上周"
     }
   ],
-  "industry_observation": "城市更新的关键不只是绘制现状图，而是把地块权属、补偿、建设和运营节点转成可追踪的空间对象；无人机巡检与AI Agent也正从单次自动化迈向权限可控、事件可复核的闭环运行。",
+  "industry_observation": "城市更新的数据需求正从“画出房屋和宗地”延伸至“描述状态、解释约束、支持决策”。AI Agent可帮助检索和组织空间任务，但面积、路径、拓扑与坐标转换必须交给可复核的GIS计算，测绘成果仍须独立检核。",
   "recommended_tool": {
-    "name": "宗地状态机＋GIS事件闭环台账",
-    "method": "在GeoPackage/PostGIS建立parcel_id主键、measurement_status、valuation_confirmed_at、agreement_signed_at、demolished_at、approval_status、evidence_uri等字段，借助QGIS表单设置状态转换规则；AI只提出异常候选，人工复核后写入正式成果。",
-    "caveat": "不同项目的补偿程序和审批节点以当地法定程序为准；未验证的AI识别结果不可替代实测和权属认定。"
+    "name": "空间分析Agent双轨核验法（ArcGIS Pro/ArcPy＋只读AI工具调用）",
+    "method": "挑选10个脱敏宗地，先用ArcPy生成宗地面积、红线内外相交面积、完全范围外清单；再让AI Agent调用只读脚本重做并输出参数、坐标系、运行日志及差异表。对每项差异人工核查重叠面、无效几何与投影基准。",
+    "caveat": "AI不直接改写正式权属和征收成果；对外部MCP需先评估联网、权限与数据安全。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "深圳市龙岗区城市更新和土地整备局",
-      "publish_date": "2026-10-19",
-      "url": "https://www.lg.gov.cn/lgcsgxj/gkmlpt/content/13/13028/post_13028481.html"
+      "publisher": "北京市人民政府门户网站／丰台区人民政府",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html"
     },
     {
-      "publisher": "南方+／21经济网",
-      "publish_date": "2026-10-19",
-      "url": "https://www.21jingji.com/article/20261019/herald/df25b7e63bbcb6e9e0a7b49acd92fec4.html"
+      "publisher": "Esri Blog（Ryan Lanclos）",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis"
     },
     {
-      "publisher": "Microsoft Security官方博客",
-      "publish_date": "2026-10-19",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
+      "publish_date": null,
+      "event_date": "2026-10-21",
+      "url": "https://sdc.supermap.com/"
     },
     {
-      "publisher": "Amazon官方新闻／TechCrunch",
-      "publish_date": "2026-10-19",
-      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
+      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/"
     },
     {
-      "publisher": "南方+／21经济网",
-      "publish_date": "2026-10-19",
-      "url": "https://www.21jingji.com/article/20261019/herald/96e7bc54c82b7972ae2290cc8168629d.html"
-    },
-    {
-      "publisher": "Microsoft官方博客",
-      "publish_date": "2026-10-19",
-      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
-    },
-    {
-      "publisher": "TechCrunch",
-      "publish_date": "2026-10-19",
-      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
-    },
-    {
-      "publisher": "广州日报新花城",
-      "publish_date": "2026-10-19",
-      "url": "https://huacheng.gz-cmc.com/pages/2026/10/19/7b23bef026d34259bf34b4a4050f9523.html"
+      "publisher": "Commercial UAV News（Matt Collins）",
+      "publish_date": "2026-10-20",
+      "event_date": "2026-10-12/2026-10-13",
+      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards"
     }
   ],
   "quality_notes": [
-    "仅纳入2026-10-19发布的可核验报道和官方资料，符合本次过去24小时为主的窗口",
-    "避免复用10月17日至19日已记录的主要旧闻",
-    "未发现可直接复用且明确许可的配图，image_url均为null",
-    "厂商关于TorchNeuron的兼容性主张尚待独立基准验证"
+    "避免重复10月19日至20日既有日报主题；北京案例虽属已实施项目，10月20日官方详细报道有新增技术细节。",
+    "SuperMap官网仅提供10月21日活动日期，不推定页面发布日期；SPH活动发生于10月12—13日，10月20日才发表现场报道。",
+    "HERE为厂商行业通稿，独立性能基准待核验；Esri为既有案例复盘。",
+    "无明确可复用授权的配图，image_url统一为null。"
   ]
 }

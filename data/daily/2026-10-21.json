@@ -1,0 +1,137 @@
+{
+  "type": "daily",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T12:05:12+08:00",
+  "title": "行业日报｜2026-10-21",
+  "summary": "北京时间星期三日报，精选10月20日至21日5条高相关动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。关注北京微更新技术路线、GIS跨部门协同、SuperMap AgentX、HERE空间计算MCP及无人机地球物理测绘。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "summary": "微更新与危楼重建实践、跨部门GIS数据共享",
+      "item_titles": [
+        "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
+        "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "summary": "智能体原生GIS与确定性空间计算MCP工具",
+      "item_titles": [
+        "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
+        "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "summary": "无人机专项传感器与地下空间探测工作流",
+      "item_titles": [
+        "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
+      "summary": "北京市政府门户10月20日披露丰台4个入选城市更新案例：韩庄子第二社区利用两处闲置地建5000余平方米嵌入式配套；开阳里危旧楼原拆原建，采用90%装配率的模块化方案；另涵盖宛平城保护性更新及南中轴产业楼宇改造。",
+      "impact": "城市体检与更新策划应在GIS中关联闲置空间、服务设施缺口、建筑安全、改造技术路线和运营方式；案例中的成本工期指标不可未经核实直接套用本地项目。",
+      "publisher": "北京市人民政府门户网站／丰台区人民政府",
+      "publish_date": "2026-10-20",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html",
+      "image_url": null,
+      "verification": "政府官方案例报道，部分项目在此前年度已完成；本次新增为10月20日详细披露"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持",
+      "summary": "Esri 10月20日刊文介绍北约总部将分散系统中的空间数据整合为共享态势图，利用Web应用、自动化底图和动态数据更新改善部门协作；这是一篇对既有建设历程的案例复盘，并非新软件发布。",
+      "impact": "城市更新项目可借鉴“统一宗地/建筑空间底图＋跨部门业务状态＋动态可视化”的架构，让测绘成果从静态附件升级为可检索的决策数据。",
+      "publisher": "Esri Blog（Ryan Lanclos）",
+      "publish_date": "2026-10-20",
+      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis",
+      "image_url": null,
+      "verification": "Esri官方案例复盘；不涉及新产品上线"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
+      "summary": "超图官方议程显示大会10月21日至30日线上举行，21日上午安排AgentX Server、桌面AgentX和新一代三维GIS技术报告，后续还将讨论MCP扩展定制与遥感GIS一体化。官网列示的是会议安排，具体产品能力与可用版本仍待演示或文档核实。",
+      "impact": "可重点跟踪“自然语言→GIS工具调用→空间分析→成果输出”的闭环，比较AgentX与现有ArcGIS Pro/ArcPy工作流的可审计性、兼容性和离线部署条件。",
+      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
+      "publish_date": null,
+      "event_date": "2026-10-21",
+      "url": "https://sdc.supermap.com/",
+      "image_url": null,
+      "verification": "厂商官方会议议程；网页未标示发布日，不将活动日期冒充公告发布日期"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算",
+      "summary": "HERE 10月20日发布的行业通稿称，其Location Reasoning服务扩展至AWS Marketplace、Kiro Power及Agent插件生态，以MCP调用地理编码、路径规划、交通和地点数据，减少模型直接猜测空间关系。当前主要为厂商披露，未见独立精度或成本基准。",
+      "impact": "GIS Agent应将距离、路径、空间约束交给可验证的GIS服务计算，并记录坐标系、数据来源、时间戳与调用结果；HERE服务不等同于本地法定权属或规划底图。",
+      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
+      "publish_date": "2026-10-20",
+      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/",
+      "official_product_url": "https://www.here.com/solutions/here-location-reasoning",
+      "image_url": null,
+      "verification": "厂商通稿，尚未独立验证性能"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模",
+      "summary": "Commercial UAV News 10月20日现场回顾SPH Engineering于10月12—13日举行的Drone Camp，展示机载探地雷达、磁测、测深与后处理流程；获奖案例涉及智利矿区地下管线测绘和爱尔兰泥炭地机载伽马测量。",
+      "impact": "对城市更新的地下管线普查和复杂场地调查，可评估无人机搭载专项传感器的补充价值；实际采用前仍需地面控制、钻探/实测对照及独立精度检核，不能把演示视为可直接交付的成果。",
+      "publisher": "Commercial UAV News（Matt Collins）",
+      "publish_date": "2026-10-20",
+      "event_date": "2026-10-12/2026-10-13",
+      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards",
+      "image_url": null,
+      "verification": "专业媒体到场报道；作者披露参与评奖，活动发生在上周"
+    }
+  ],
+  "industry_observation": "城市更新的数据需求正从“画出房屋和宗地”延伸至“描述状态、解释约束、支持决策”。AI Agent可帮助检索和组织空间任务，但面积、路径、拓扑与坐标转换必须交给可复核的GIS计算，测绘成果仍须独立检核。",
+  "recommended_tool": {
+    "name": "空间分析Agent双轨核验法（ArcGIS Pro/ArcPy＋只读AI工具调用）",
+    "method": "挑选10个脱敏宗地，先用ArcPy生成宗地面积、红线内外相交面积、完全范围外清单；再让AI Agent调用只读脚本重做并输出参数、坐标系、运行日志及差异表。对每项差异人工核查重叠面、无效几何与投影基准。",
+    "caveat": "AI不直接改写正式权属和征收成果；对外部MCP需先评估联网、权限与数据安全。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "北京市人民政府门户网站／丰台区人民政府",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html"
+    },
+    {
+      "publisher": "Esri Blog（Ryan Lanclos）",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis"
+    },
+    {
+      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
+      "publish_date": null,
+      "event_date": "2026-10-21",
+      "url": "https://sdc.supermap.com/"
+    },
+    {
+      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
+      "publish_date": "2026-10-20",
+      "event_date": null,
+      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/"
+    },
+    {
+      "publisher": "Commercial UAV News（Matt Collins）",
+      "publish_date": "2026-10-20",
+      "event_date": "2026-10-12/2026-10-13",
+      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards"
+    }
+  ],
+  "quality_notes": [
+    "避免重复10月19日至20日既有日报主题；北京案例虽属已实施项目，10月20日官方详细报道有新增技术细节。",
+    "SuperMap官网仅提供10月21日活动日期，不推定页面发布日期；SPH活动发生于10月12—13日，10月20日才发表现场报道。",
+    "HERE为厂商行业通稿，独立性能基准待核验；Esri为既有案例复盘。",
+    "无明确可复用授权的配图，image_url统一为null。"
+  ]
+}
