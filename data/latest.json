@@ -1,137 +1,135 @@
 {
   "type": "daily",
-  "date": "2026-10-21",
-  "generated_at": "2026-10-21T12:05:12+08:00",
-  "title": "行业日报｜2026-10-21",
-  "summary": "北京时间星期三日报，精选10月20日至21日5条高相关动态：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。关注北京微更新技术路线、GIS跨部门协同、SuperMap AgentX、HERE空间计算MCP及无人机地球物理测绘。",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T12:11:47+08:00",
+  "title": "行业日报｜2026-10-22",
+  "summary": "周四行业日报，精选上海更新三年计划、江西规划土地16条、OpenAI与Google Cloud合作、DroneDeploy现场采集及英国UTM共享空域测试五条。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "summary": "微更新与危楼重建实践、跨部门GIS数据共享",
       "item_titles": [
-        "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
-        "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持"
+        "上海公开2026—2028年城市更新三年行动计划",
+        "江西城市更新规划土地保障16条举措公布"
       ]
     },
     {
       "name": "AI模型与工具",
-      "summary": "智能体原生GIS与确定性空间计算MCP工具",
       "item_titles": [
-        "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
-        "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算"
+        "OpenAI模型及Codex工作流将接入Google Cloud Model Garden"
       ]
     },
     {
       "name": "测绘/无人机",
-      "summary": "无人机专项传感器与地下空间探测工作流",
       "item_titles": [
-        "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模"
+        "DroneDeploy展示航测土方、地下施工地图和360三维采集",
+        "英国开展多运营商共享空域的联邦式UTM飞行评估"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "北京丰台披露四类城市更新样本：嵌入式服务、危楼模块化重建与存量楼宇转型",
-      "summary": "北京市政府门户10月20日披露丰台4个入选城市更新案例：韩庄子第二社区利用两处闲置地建5000余平方米嵌入式配套；开阳里危旧楼原拆原建，采用90%装配率的模块化方案；另涵盖宛平城保护性更新及南中轴产业楼宇改造。",
-      "impact": "城市体检与更新策划应在GIS中关联闲置空间、服务设施缺口、建筑安全、改造技术路线和运营方式；案例中的成本工期指标不可未经核实直接套用本地项目。",
-      "publisher": "北京市人民政府门户网站／丰台区人民政府",
-      "publish_date": "2026-10-20",
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html",
-      "image_url": null,
-      "verification": "政府官方案例报道，部分项目在此前年度已完成；本次新增为10月20日详细披露"
+      "title": "上海公开2026—2028年城市更新三年行动计划",
+      "summary": "10月21日公开的上海市三年行动计划提出改造约2400万平方米老旧小区、70万平方米旧住房成套改造、1200公里老化燃气管道，重点片区实施不少于300个项目；文件7月23日印发。",
+      "impact": "建议将房屋体检、宗地、管网、项目状态和年度目标纳入同一GIS台账；外省指标仅供参考。",
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-21",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+      "image_url": null
     },
     {
       "category": "城市更新/GIS",
-      "title": "Esri发布GIS跨部门协同案例：从按需制图转向统一空间态势与决策支持",
-      "summary": "Esri 10月20日刊文介绍北约总部将分散系统中的空间数据整合为共享态势图，利用Web应用、自动化底图和动态数据更新改善部门协作；这是一篇对既有建设历程的案例复盘，并非新软件发布。",
-      "impact": "城市更新项目可借鉴“统一宗地/建筑空间底图＋跨部门业务状态＋动态可视化”的架构，让测绘成果从静态附件升级为可检索的决策数据。",
-      "publisher": "Esri Blog（Ryan Lanclos）",
-      "publish_date": "2026-10-20",
-      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis",
-      "image_url": null,
-      "verification": "Esri官方案例复盘；不涉及新产品上线"
+      "title": "江西城市更新规划土地保障16条举措公布",
+      "summary": "10月21日江西省政府新闻办介绍5部分16条举措，涉及详细规划动态维护、用途转换、边角地整合、5年过渡期、产权登记和微更新审批。",
+      "impact": "权属与策划表增加现状用途、拟转用途、产权证据、调规方式和审批状态；具体适用须核正式文本。",
+      "publisher": "中国新闻网／江西省政府新闻办",
+      "publish_date": "2026-10-21",
+      "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivynsp6238431.shtml",
+      "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "2026空间智能软件开发者大会10月21日开幕，聚焦SuperMap AgentX与智能体原生GIS",
-      "summary": "超图官方议程显示大会10月21日至30日线上举行，21日上午安排AgentX Server、桌面AgentX和新一代三维GIS技术报告，后续还将讨论MCP扩展定制与遥感GIS一体化。官网列示的是会议安排，具体产品能力与可用版本仍待演示或文档核实。",
-      "impact": "可重点跟踪“自然语言→GIS工具调用→空间分析→成果输出”的闭环，比较AgentX与现有ArcGIS Pro/ArcPy工作流的可审计性、兼容性和离线部署条件。",
-      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
-      "publish_date": null,
-      "event_date": "2026-10-21",
-      "url": "https://sdc.supermap.com/",
-      "image_url": null,
-      "verification": "厂商官方会议议程；网页未标示发布日，不将活动日期冒充公告发布日期"
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "HERE Location Reasoning扩展至AWS Marketplace与Kiro，MCP为AI Agent提供确定性空间计算",
-      "summary": "HERE 10月20日发布的行业通稿称，其Location Reasoning服务扩展至AWS Marketplace、Kiro Power及Agent插件生态，以MCP调用地理编码、路径规划、交通和地点数据，减少模型直接猜测空间关系。当前主要为厂商披露，未见独立精度或成本基准。",
-      "impact": "GIS Agent应将距离、路径、空间约束交给可验证的GIS服务计算，并记录坐标系、数据来源、时间戳与调用结果；HERE服务不等同于本地法定权属或规划底图。",
-      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
-      "publish_date": "2026-10-20",
-      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/",
-      "official_product_url": "https://www.here.com/solutions/here-location-reasoning",
-      "image_url": null,
-      "verification": "厂商通稿，尚未独立验证性能"
+      "title": "OpenAI模型及Codex工作流将接入Google Cloud Model Garden",
+      "summary": "双方10月21日发布官方公告，Google Cloud向部分企业客户提供模型私有预览，强调统一身份审计、数据边界与多模型选择，并规划Codex工作流集成。",
+      "impact": "可对GIS Agent比较权限、成本和日志审计；云端部署不等于本地离线，敏感测绘数据先脱敏。",
+      "publisher": "OpenAI／Google Cloud官方",
+      "publish_date": "2026-10-21",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "无人机地球物理测绘实操案例集中亮相：机载探地雷达、伽马测量与地下数据建模",
-      "summary": "Commercial UAV News 10月20日现场回顾SPH Engineering于10月12—13日举行的Drone Camp，展示机载探地雷达、磁测、测深与后处理流程；获奖案例涉及智利矿区地下管线测绘和爱尔兰泥炭地机载伽马测量。",
-      "impact": "对城市更新的地下管线普查和复杂场地调查，可评估无人机搭载专项传感器的补充价值；实际采用前仍需地面控制、钻探/实测对照及独立精度检核，不能把演示视为可直接交付的成果。",
-      "publisher": "Commercial UAV News（Matt Collins）",
-      "publish_date": "2026-10-20",
-      "event_date": "2026-10-12/2026-10-13",
-      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards",
-      "image_url": null,
-      "verification": "专业媒体到场报道；作者披露参与评奖，活动发生在上周"
+      "title": "DroneDeploy展示航测土方、地下施工地图和360三维采集",
+      "summary": "厂商公布10月21—22日Groundbreak演示内容，涉及Aerial Pro土方分析、Digital Dig Board地下工程记录及Ground Pro地面三维测量；页面未标示发布日。",
+      "impact": "可借鉴无人机影像与地面360数据联动记录施工进度；测量成果仍需坐标控制和独立精度检核。",
+      "publisher": "DroneDeploy官方活动页",
+      "publish_date": null,
+      "event_date": "2026-10-21/2026-10-22",
+      "url": "https://dronedeploy.com/lp/procore-groundbreak-2026",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "英国开展多运营商共享空域的联邦式UTM飞行评估",
+      "summary": "10月21日英国民航局监督多运营商超视距飞行共享空域测试，利用不同UTM服务商互通飞行冲突消解数据。",
+      "impact": "航测任务台账可记录飞行时段、空域审批与冲突检查；英国试验不改变中国空域规定。",
+      "publisher": "Unmanned Airspace",
+      "publish_date": "2026-10-21",
+      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/",
+      "image_url": null
     }
   ],
-  "industry_observation": "城市更新的数据需求正从“画出房屋和宗地”延伸至“描述状态、解释约束、支持决策”。AI Agent可帮助检索和组织空间任务，但面积、路径、拓扑与坐标转换必须交给可复核的GIS计算，测绘成果仍须独立检核。",
+  "industry_observation": "更新规划逐步形成可量化、可审计的空间任务；AI和无人机扩展采集与协同能力，但权属、精度、权限与空域审批仍须独立核验。",
   "recommended_tool": {
-    "name": "空间分析Agent双轨核验法（ArcGIS Pro/ArcPy＋只读AI工具调用）",
-    "method": "挑选10个脱敏宗地，先用ArcPy生成宗地面积、红线内外相交面积、完全范围外清单；再让AI Agent调用只读脚本重做并输出参数、坐标系、运行日志及差异表。对每项差异人工核查重叠面、无效几何与投影基准。",
-    "caveat": "AI不直接改写正式权属和征收成果；对外部MCP需先评估联网、权限与数据安全。"
+    "name": "ArcGIS Pro政策适用性矩阵",
+    "method": "以宗地ID/建筑编号为主键关联权属证据、现状用途、拟更新方式、调规类型、审批节点及数据日期，结合红线生成缺项核查表。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "北京市人民政府门户网站／丰台区人民政府",
-      "publish_date": "2026-10-20",
-      "event_date": null,
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261020_4911846.html"
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-21",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html"
     },
     {
-      "publisher": "Esri Blog（Ryan Lanclos）",
-      "publish_date": "2026-10-20",
-      "event_date": null,
-      "url": "https://www.esri.com/about/newsroom/blog/nato-mission-critical-gis"
+      "publisher": "中国新闻网／江西省政府新闻办",
+      "publish_date": "2026-10-21",
+      "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivynsp6238431.shtml"
     },
     {
-      "publisher": "SuperMap 2026空间智能软件开发者大会官网",
+      "publisher": "OpenAI／Google Cloud官方",
+      "publish_date": "2026-10-21",
+      "url": "https://openai.com/index/openai-models-google-cloud/"
+    },
+    {
+      "publisher": "DroneDeploy官方活动页",
       "publish_date": null,
-      "event_date": "2026-10-21",
-      "url": "https://sdc.supermap.com/"
+      "url": "https://dronedeploy.com/lp/procore-groundbreak-2026"
     },
     {
-      "publisher": "HERE Technologies（经Geo Week News发布的行业通稿）",
-      "publish_date": "2026-10-20",
-      "event_date": null,
-      "url": "https://www.geoweeknews.com/articles/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws/"
+      "publisher": "Unmanned Airspace",
+      "publish_date": "2026-10-21",
+      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/"
     },
     {
-      "publisher": "Commercial UAV News（Matt Collins）",
-      "publish_date": "2026-10-20",
-      "event_date": "2026-10-12/2026-10-13",
-      "url": "https://www.commercialuavnews.com/sph-engineering-drone-camp-hungary-geophysical-demos-awards"
+      "publisher": "Google Cloud官方交叉核验",
+      "publish_date": "2026-10-21",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+    },
+    {
+      "publisher": "澎湃新闻交叉核验",
+      "publish_date": "2026-10-21",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34301418"
+    },
+    {
+      "publisher": "江西省政府新闻办发布会资料",
+      "publish_date": "2026-10-21",
+      "url": "https://jx.ifeng.com/c/8xOjSsZrFRC"
     }
   ],
   "quality_notes": [
-    "避免重复10月19日至20日既有日报主题；北京案例虽属已实施项目，10月20日官方详细报道有新增技术细节。",
-    "SuperMap官网仅提供10月21日活动日期，不推定页面发布日期；SPH活动发生于10月12—13日，10月20日才发表现场报道。",
-    "HERE为厂商行业通稿，独立性能基准待核验；Esri为既有案例复盘。",
-    "无明确可复用授权的配图，image_url统一为null。"
+    "上海文件7月23日印发、10月21日公开；按公开日期计入。",
+    "DroneDeploy为10月21—22日活动内容，页面未标示发布日期，publish_date留空。",
+    "配图缺少明确可复用授权，image_url留空。"
   ]
 }

@@ -1,0 +1,135 @@
+{
+  "type": "daily",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T12:11:47+08:00",
+  "title": "行业日报｜2026-10-22",
+  "summary": "周四行业日报，精选上海更新三年计划、江西规划土地16条、OpenAI与Google Cloud合作、DroneDeploy现场采集及英国UTM共享空域测试五条。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "item_titles": [
+        "上海公开2026—2028年城市更新三年行动计划",
+        "江西城市更新规划土地保障16条举措公布"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "item_titles": [
+        "OpenAI模型及Codex工作流将接入Google Cloud Model Garden"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "item_titles": [
+        "DroneDeploy展示航测土方、地下施工地图和360三维采集",
+        "英国开展多运营商共享空域的联邦式UTM飞行评估"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "上海公开2026—2028年城市更新三年行动计划",
+      "summary": "10月21日公开的上海市三年行动计划提出改造约2400万平方米老旧小区、70万平方米旧住房成套改造、1200公里老化燃气管道，重点片区实施不少于300个项目；文件7月23日印发。",
+      "impact": "建议将房屋体检、宗地、管网、项目状态和年度目标纳入同一GIS台账；外省指标仅供参考。",
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-21",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "江西城市更新规划土地保障16条举措公布",
+      "summary": "10月21日江西省政府新闻办介绍5部分16条举措，涉及详细规划动态维护、用途转换、边角地整合、5年过渡期、产权登记和微更新审批。",
+      "impact": "权属与策划表增加现状用途、拟转用途、产权证据、调规方式和审批状态；具体适用须核正式文本。",
+      "publisher": "中国新闻网／江西省政府新闻办",
+      "publish_date": "2026-10-21",
+      "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivynsp6238431.shtml",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI模型及Codex工作流将接入Google Cloud Model Garden",
+      "summary": "双方10月21日发布官方公告，Google Cloud向部分企业客户提供模型私有预览，强调统一身份审计、数据边界与多模型选择，并规划Codex工作流集成。",
+      "impact": "可对GIS Agent比较权限、成本和日志审计；云端部署不等于本地离线，敏感测绘数据先脱敏。",
+      "publisher": "OpenAI／Google Cloud官方",
+      "publish_date": "2026-10-21",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "DroneDeploy展示航测土方、地下施工地图和360三维采集",
+      "summary": "厂商公布10月21—22日Groundbreak演示内容，涉及Aerial Pro土方分析、Digital Dig Board地下工程记录及Ground Pro地面三维测量；页面未标示发布日。",
+      "impact": "可借鉴无人机影像与地面360数据联动记录施工进度；测量成果仍需坐标控制和独立精度检核。",
+      "publisher": "DroneDeploy官方活动页",
+      "publish_date": null,
+      "event_date": "2026-10-21/2026-10-22",
+      "url": "https://dronedeploy.com/lp/procore-groundbreak-2026",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "英国开展多运营商共享空域的联邦式UTM飞行评估",
+      "summary": "10月21日英国民航局监督多运营商超视距飞行共享空域测试，利用不同UTM服务商互通飞行冲突消解数据。",
+      "impact": "航测任务台账可记录飞行时段、空域审批与冲突检查；英国试验不改变中国空域规定。",
+      "publisher": "Unmanned Airspace",
+      "publish_date": "2026-10-21",
+      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/",
+      "image_url": null
+    }
+  ],
+  "industry_observation": "更新规划逐步形成可量化、可审计的空间任务；AI和无人机扩展采集与协同能力，但权属、精度、权限与空域审批仍须独立核验。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro政策适用性矩阵",
+    "method": "以宗地ID/建筑编号为主键关联权属证据、现状用途、拟更新方式、调规类型、审批节点及数据日期，结合红线生成缺项核查表。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-21",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html"
+    },
+    {
+      "publisher": "中国新闻网／江西省政府新闻办",
+      "publish_date": "2026-10-21",
+      "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivynsp6238431.shtml"
+    },
+    {
+      "publisher": "OpenAI／Google Cloud官方",
+      "publish_date": "2026-10-21",
+      "url": "https://openai.com/index/openai-models-google-cloud/"
+    },
+    {
+      "publisher": "DroneDeploy官方活动页",
+      "publish_date": null,
+      "url": "https://dronedeploy.com/lp/procore-groundbreak-2026"
+    },
+    {
+      "publisher": "Unmanned Airspace",
+      "publish_date": "2026-10-21",
+      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/"
+    },
+    {
+      "publisher": "Google Cloud官方交叉核验",
+      "publish_date": "2026-10-21",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+    },
+    {
+      "publisher": "澎湃新闻交叉核验",
+      "publish_date": "2026-10-21",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34301418"
+    },
+    {
+      "publisher": "江西省政府新闻办发布会资料",
+      "publish_date": "2026-10-21",
+      "url": "https://jx.ifeng.com/c/8xOjSsZrFRC"
+    }
+  ],
+  "quality_notes": [
+    "上海文件7月23日印发、10月21日公开；按公开日期计入。",
+    "DroneDeploy为10月21—22日活动内容，页面未标示发布日期，publish_date留空。",
+    "配图缺少明确可复用授权，image_url留空。"
+  ]
+}
