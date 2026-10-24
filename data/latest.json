@@ -1,252 +1,146 @@
 {
-  "type": "weekly",
-  "date": "2026-10-23",
-  "week": "2026-W43",
+  "type": "daily",
+  "date": "2026-10-24",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-23T12:10:53+08:00",
-  "title": "本周行业汇总｜2026-W43（10月17日—10月23日）",
-  "summary": "精选11条：城市更新/GIS 4条、AI模型与工具4条、测绘/无人机3条。核心关注更新项目全周期治理、GIS与Agent协作、航测巡检及精度追溯。",
+  "generated_at": "2026-10-24T12:14:45+08:00",
+  "title": "行业日报｜2026-10-24",
+  "summary": "周六日报，精选六部门老旧街区厂区改造政策、福建居民需求前置审查、湖南实景三维规划、Kimi K3.1 Pro和长乐卫片无人机核查招标五条。4条在严格24小时窗口内，1条为略超窗口的国家级高价值补充。",
   "coverage": {
-    "start_date": "2026-10-17",
-    "end_date": "2026-10-23",
-    "timezone": "Asia/Shanghai"
+    "start": "2026-10-23T12:14:45+08:00",
+    "end": "2026-10-24T12:14:45+08:00"
   },
   "sections": [
     {
       "name": "城市更新/GIS",
       "item_titles": [
-        "上海公开城市更新三年行动计划",
-        "北京东城区9个城市更新项目集中签约",
-        "深圳罗湖完成2700余平方米公配物业产权登记",
-        "超图开发者大会聚焦AgentX、MCP与三维GIS"
-      ],
-      "summary": "城市更新强调项目量化、公共配套确权移交、运营绩效与智能GIS协同。"
+        "住建部等六部门发布老旧街区厂区改造提升指导意见",
+        "福建城市更新推进“三问于民”，需求分析成为方案审查前置条件",
+        "湖南公开自然资源保护利用“十五五”规划，强调一张图和实景三维"
+      ]
     },
     {
       "name": "AI模型与工具",
       "item_titles": [
-        "AWS发布TorchNeuron公开测试版",
-        "微软提出Agent独立身份与动态权限治理",
-        "NVIDIA展示Agent辅助构建OpenUSD数字孪生",
-        "OpenAI与Google Cloud公布模型及Codex集成计划"
-      ],
-      "summary": "跨硬件AI部署、Agent权限治理与可编辑数字孪生成为工程化重点。"
+        "Kimi K3.1 Pro与Highspeed上线，面向代码和三维创作"
+      ]
     },
     {
       "name": "测绘/无人机",
       "item_titles": [
-        "广东清远连江开展无人机自动机场河道巡检",
-        "英国开展多运营商共享空域UTM实飞评估",
-        "GNSS/IMU三维模型驱动推土机自动转向进入施工实践"
-      ],
-      "summary": "航测与持续巡检、共享空域及施工机械控制衔接。"
+        "福州长乐卫片监测与无人机外业核查项目二次招标"
+      ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "上海公开城市更新三年行动计划",
-      "summary": "10月21日公开的2026—2028年行动计划提出约2400万平方米老旧小区改造、1200公里燃气管道更新和不少于300个重点片区更新项目；文件7月23日印发。",
-      "impact": "将片区、房屋、管线与年度目标关联，区分文件印发、公开和项目完成时间。",
-      "publisher": "上海市人民政府",
-      "publish_date": "2026-10-21",
-      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "北京东城区9个城市更新项目集中签约",
-      "summary": "10月22日政府报道9个更新项目签约，涵盖医养、老城平房院落运营、文物活化；同时展示13个案例和12个成熟项目推介。",
-      "impact": "GIS项目库区分签约、审批、建设、运营及公共服务绩效，签约不等于竣工。",
-      "publisher": "北京市人民政府／东城区人民政府",
-      "publish_date": "2026-10-22",
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261022_4914722.html",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "深圳罗湖完成2700余平方米公配物业产权登记",
-      "summary": "10月22日通报高投大厦更新项目10月19日取得12本不动产权证，涉及环卫、社区警务等配套设施，随后按规划用途移交管养。",
-      "impact": "将土地合同、公配测绘、产权登记、移交、管养与巡查纳入同一空间资产台账。",
-      "publisher": "深圳市人民政府／罗湖区产业空间服务保障署",
-      "publish_date": "2026-10-22",
-      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_13036110.html",
-      "image_url": null
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "超图开发者大会聚焦AgentX、MCP与三维GIS",
-      "summary": "10月21—30日空间智能软件开发者大会日程覆盖智能体原生GIS、MCP扩展、遥感GIS一体化和三维场景融合；官网为厂商会议议程，并非独立性能测评。",
-      "impact": "用脱敏宗地数据测试空间叠加、字段回填和制图自动化，并保留人工复核。",
-      "publisher": "SuperMap空间智能软件开发者大会官网",
-      "publish_date": null,
-      "url": "https://sdc.supermap.com/",
+      "title": "住建部等六部门发布老旧街区厂区改造提升指导意见",
+      "summary": "10月23日住建部公布六部门联合指导意见，要求依据城市体检筛选改造对象，覆盖老旧厂区功能转换、商业街区升级、生活街区品质提升、交通枢纽周边融合和历史街区保护，并推动规划设计与长期运营衔接。",
+      "impact": "城市更新GIS台账宜增加街区类型、体检问题、功能转换方案、实施主体、运营主体、融资方式与绩效节点，作为片区策划与年度项目库的依据。",
+      "publisher": "住房和城乡建设部／中国建设报",
+      "publish_date": "2026-10-23",
+      "publish_time": "10:36+08:00",
+      "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html",
       "image_url": null,
-      "event_date": "2026-10-21/2026-10-30"
+      "within_24h": false
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "福建城市更新推进“三问于民”，需求分析成为方案审查前置条件",
+      "summary": "福建省住建厅10月23日解读指导意见：项目谋划阶段应综合入户走访、问卷、城市体检与12345诉求形成需求分析报告；报告缺失或质量不足不得进入方案审查，并要求投用后回访与一项目一复盘。",
+      "impact": "在房屋和宗地空间数据之外，增加居民诉求点位、需求类别、采样覆盖率、意见处理状态、满意度与复盘时间，形成从调查到运营的可追溯闭环。",
+      "publisher": "福建省住房和城乡建设厅／建筑杂志社",
+      "publish_date": "2026-10-23",
+      "publish_time": "14:51+08:00",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261023_7239808.htm",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "湖南公开自然资源保护利用“十五五”规划，强调一张图和实景三维",
+      "summary": "湖南省政府10月23日公开规划，提出优化国土空间规划一张图、推进省市县调查监测协同、实景三维湖南二三维一体更新，并拓展低空经济与自然资源管理应用；文件落款10月10日。",
+      "impact": "可参考建设宗地/建筑/权属/三维影像一体化底图，制定二维三维版本号、坐标基准、更新周期与成果质量检查规则；规划仅对湖南具有政策效力。",
+      "publisher": "湖南省人民政府",
+      "publish_date": "2026-10-23",
+      "document_date": "2026-10-10",
+      "publish_time": "17:48+08:00",
+      "url": "https://hunan.gov.cn/topic/155gh/ghwj1/202610/t20261023_34087554.html",
+      "image_url": null,
+      "within_24h": true
     },
     {
       "category": "AI模型与工具",
-      "title": "AWS发布TorchNeuron公开测试版",
-      "summary": "AWS于10月20日开放Trainium2/3原生PyTorch后端，支持通过设备切换运行常见代码，并集成torch.compile。",
-      "impact": "可评估云端遥感AI训练推理的跨硬件成本；对本地NVIDIA显卡无直接加速作用。",
-      "publisher": "AWS官方公告／PyTorch官方博客",
-      "publish_date": "2026-10-20",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "微软提出Agent独立身份与动态权限治理",
-      "summary": "10月19日Microsoft Security介绍Project Perception、Dynamic Permissions与动态风险控制，主张不让Agent直接继承用户全部权限。",
-      "impact": "GIS、ArcPy及CAD Agent实行只读默认、任务级权限、写入审批、工具白名单和审计日志。",
-      "publisher": "Microsoft Security官方博客",
-      "publish_date": "2026-10-19",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "NVIDIA展示Agent辅助构建OpenUSD数字孪生",
-      "summary": "10月21日官方技术文章介绍Omniverse DSX Blueprint：以场地规划、CAD和工程要求为输入，利用Agent、Skills和OpenUSD增量图层构建可编辑数字孪生。",
-      "impact": "可借鉴真实测绘底座、语义资产、AI增量设计、工程师复核的流程；生成模型不自动具有测量精度。",
-      "publisher": "NVIDIA开发者技术博客",
-      "publish_date": "2026-10-21",
-      "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
-      "image_url": null
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "OpenAI与Google Cloud公布模型及Codex集成计划",
-      "summary": "双方10月21日宣布OpenAI前沿模型和Codex工作流将进入Google Cloud Model Garden；全面可用仍计划在未来数周推进。",
-      "impact": "可比较云端模型、身份治理及成本；涉敏测绘数据先脱敏，避免把计划功能当作普遍可用。",
-      "publisher": "OpenAI／Google Cloud官方",
-      "publish_date": "2026-10-21",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "image_url": null
+      "title": "Kimi K3.1 Pro与Highspeed上线，面向代码和三维创作",
+      "summary": "Kimi官方10月24日发布K3.1 Pro，支持100万token上下文，Kimi Code和API已开放，Highspeed据厂商称速度约为标准版2至3倍；完整模型权重计划11月4日前发布，尚未开放本地部署。",
+      "impact": "可用脱敏CAD/ArcPy/Three.js任务测试脚本生成、修复与三维表达；厂商BenchCAD等成绩不能替代独立评测，3T级模型也不适合8GB笔记本显卡本地运行。",
+      "publisher": "Kimi／月之暗面官方技术博客及Kimi Code文档",
+      "publish_date": "2026-10-24",
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "image_url": null,
+      "within_24h": true
     },
     {
       "category": "测绘/无人机",
-      "title": "广东清远连江开展无人机自动机场河道巡检",
-      "summary": "南方+10月19日报道40公里重点河段部署3座自动机场和专业无人机，利用RTK定位、影像回传及AI识别辅助巡查。",
-      "impact": "可迁移为定期航线、影像差异、疑似变化、人工核查、GIS归档的闭环。",
-      "publisher": "南方+／广东水利系统案例",
-      "publish_date": "2026-10-19",
-      "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtynk0906172.shtml",
-      "image_url": null
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "英国开展多运营商共享空域UTM实飞评估",
-      "summary": "10月21日Chorley试验在临时管制空域内让Wing、Manna及消防救援运营方共享UTM冲突消解信息，探索多运营商BVLOS协同。",
-      "impact": "无人机航测记录空域许可、飞行时段、航线冲突与远程识别；英国规则不适用于中国。",
-      "publisher": "Unmanned Airspace专业媒体",
-      "publish_date": "2026-10-21",
-      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/",
-      "image_url": null
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "GNSS/IMU三维模型驱动推土机自动转向进入施工实践",
-      "summary": "Geo Week News 10月22日报道英国Blackwood Plant Hire采用Trimble Earthworks水平转向控制，使用GNSS、IMU和三维设计线形辅助施工。",
-      "impact": "航测DEM、控制点、设计线形应统一坐标和精度标准；实际施工效果仍需独立验收。",
-      "publisher": "Geo Week News／Blackwood Plant Hire",
-      "publish_date": "2026-10-22",
-      "url": "https://www.geoweeknews.com/articles/blackwood-plant-hire-becomes-first-uk-contractor-to-deploy-automated-dozer-steering/",
-      "image_url": null
+      "title": "福州长乐卫片监测与无人机外业核查项目二次招标",
+      "summary": "10月23日13:42，长乐区政府发布210万元测绘服务二次招标，要求一年4次卫星动态遥感监测，并对重点区域开展无人机巡检（禁飞区除外）、土地及规划违法案件测绘举证；投标截止11月18日。",
+      "impact": "此类采购明确将遥感变化图斑、无人机现场核查、界线与不动产测绘和GIS工程整合为交付链；建立图斑编号—现场照片—坐标—举证材料—复核结论的标准化流程。",
+      "publisher": "福州市长乐区人民政府／福建省政府采购网",
+      "publish_date": "2026-10-23",
+      "publish_time": "13:42+08:00",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/zfcg/cggg/202610/t20261023_5385362.htm",
+      "image_url": null,
+      "within_24h": true
     }
   ],
-  "core_changes": [
-    "城市更新从建设规模转向权属确权、公共配套移交和长期运营的完整闭环。",
-    "AI从模型输出转向可编辑空间资产、跨硬件运行及独立权限治理。",
-    "无人机与测绘数据向持续巡检、空域协同和施工控制延伸。"
-  ],
-  "practical_impact": "以project_id/parcel_id/building_id贯通房屋、宗地、更新措施、产权登记、移交与运营；GIS Agent只读默认、写入审批；航测保留坐标基准、控制/检核点、DEM及任务日志。",
-  "trends_to_watch": [
-    "空间资产确权与更新绩效一体化GIS台账。",
-    "MCP、Skills与OpenUSD构成可追溯空间生产流程。",
-    "无人机自动巡检、UTM与工程控制数据融合。"
-  ],
-  "next_week_to_track": [
-    "上海行动计划细化项目清单、北京签约项目进度及深圳公配管养落实。",
-    "超图10月26—30日技术议程与NVIDIA可复现的OpenUSD Agent样例。",
-    "广东无人机巡检异常复核、英国UTM下一阶段及国内空域动态。"
-  ],
-  "recommended_reading": {
-    "title": "9个项目集中签约 七大板块展览同步展出 东城区举办城市更新主题周系列活动",
-    "author": "东城区人民政府",
-    "publisher": "北京市人民政府门户网站",
-    "publish_date": "2026-10-22",
-    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261022_4914722.html",
-    "access": "免费公开阅读",
-    "estimated_read_minutes": 5,
-    "reading_values": [
-      "9个签约项目与12个推介项目体现不同落地阶段，便于设计GIS项目状态字段。",
-      "老城院落、文物建筑与医养设施展示差异化更新方式。",
-      "13个案例及七大展区兼顾成果、技术、公众参与与运营，可转化为绩效指标。"
-    ],
-    "work_inspiration": "建立更新对象、权属状态、实施措施、运营主体与公共服务绩效五表关联，跟踪签约后实际落地。"
+  "industry_observation": "城市更新政策正把城市体检、需求调查、项目实施与运营评价连接起来；GIS/测绘不再只是提供底图，还需承担证据追溯、时序监测与成果审计。AI编码模型能力增强，但仍须以可复核数据和独立测试作为生产应用门槛。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro 变化图斑与现场核查关联台账",
+    "method": "用唯一图斑ID关联多期影像变化面、地块权属、外业无人机照片、核查日期、问题类别、整改状态及精度/坐标元数据；优先做一处片区的5—10个样本，再扩展批量处理。"
   },
+  "recommended_reading": null,
   "sources": [
     {
-      "publisher": "上海市人民政府",
-      "publish_date": "2026-10-21",
-      "url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html"
+      "publisher": "住房和城乡建设部／中国建设报",
+      "publish_date": "2026-10-23",
+      "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html"
     },
     {
-      "publisher": "北京市人民政府／东城区人民政府",
-      "publish_date": "2026-10-22",
-      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202610/t20261022_4914722.html"
+      "publisher": "福建省住房和城乡建设厅／建筑杂志社",
+      "publish_date": "2026-10-23",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261023_7239808.htm"
     },
     {
-      "publisher": "深圳市人民政府／罗湖区产业空间服务保障署",
-      "publish_date": "2026-10-22",
-      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_13036110.html"
+      "publisher": "湖南省人民政府",
+      "publish_date": "2026-10-23",
+      "url": "https://hunan.gov.cn/topic/155gh/ghwj1/202610/t20261023_34087554.html"
     },
     {
-      "publisher": "SuperMap空间智能软件开发者大会官网",
-      "publish_date": null,
-      "url": "https://sdc.supermap.com/"
+      "publisher": "Kimi／月之暗面官方技术博客及Kimi Code文档",
+      "publish_date": "2026-10-24",
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
     },
     {
-      "publisher": "AWS官方公告／PyTorch官方博客",
-      "publish_date": "2026-10-20",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium/"
+      "publisher": "福州市长乐区人民政府／福建省政府采购网",
+      "publish_date": "2026-10-23",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/zfcg/cggg/202610/t20261023_5385362.htm"
     },
     {
-      "publisher": "Microsoft Security官方博客",
-      "publish_date": "2026-10-19",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+      "publisher": "Kimi Code官方更新日志（交叉核验）",
+      "publish_date": "2026-10-23",
+      "url": "https://www.kimi.com/code/docs/kimi-code/whats-new.html"
     },
     {
-      "publisher": "NVIDIA开发者技术博客",
-      "publish_date": "2026-10-21",
-      "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/"
-    },
-    {
-      "publisher": "OpenAI／Google Cloud官方",
-      "publish_date": "2026-10-21",
-      "url": "https://openai.com/index/openai-models-google-cloud/"
-    },
-    {
-      "publisher": "南方+／广东水利系统案例",
-      "publish_date": "2026-10-19",
-      "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtynk0906172.shtml"
-    },
-    {
-      "publisher": "Unmanned Airspace专业媒体",
-      "publish_date": "2026-10-21",
-      "url": "https://www.unmannedairspace.info/uncategorized/chorley-federated-utm-implementation-demonstration-puts-the-uk-in-the-utm-fast-lane/"
-    },
-    {
-      "publisher": "Geo Week News／Blackwood Plant Hire",
-      "publish_date": "2026-10-22",
-      "url": "https://www.geoweeknews.com/articles/blackwood-plant-hire-becomes-first-uk-contractor-to-deploy-automated-dozer-steering/"
-    },
-    {
-      "publisher": "PyTorch官方博客（交叉核验）",
-      "publish_date": "2026-10-19",
-      "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+      "publisher": "福州市长乐区政府采购公告列表（交叉核验）",
+      "publish_date": "2026-10-23",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/"
     }
   ],
-  "source_policy": "来源以政府、厂商官方及专业媒体为主；会议官网无文章发布日期，保留event_date并将publish_date设null；YellowScan 10月21日媒体稿原始厂商公告为10月9日，排除旧闻；未确认配图复用许可，image_url为null。"
+  "quality_notes": [
+    "严格24小时窗口为10月23日12:14至10月24日12:14（北京时间）；住建部10月23日10:36报道略早于窗口，因国家级政策重要性保留并明确标注。",
+    "湖南规划10月10日签发、10月23日公开，以公开日期计入。",
+    "长乐项目为9月首次公告后于10月23日重新招标，不作为全新项目立项。",
+    "Kimi模型权重尚未开放；厂商性能指标未视为独立测评。",
+    "未确认配图复用许可，image_url均为null。"
+  ]
 }

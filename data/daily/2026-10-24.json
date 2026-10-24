@@ -1,0 +1,146 @@
+{
+  "type": "daily",
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-24T12:14:45+08:00",
+  "title": "行业日报｜2026-10-24",
+  "summary": "周六日报，精选六部门老旧街区厂区改造政策、福建居民需求前置审查、湖南实景三维规划、Kimi K3.1 Pro和长乐卫片无人机核查招标五条。4条在严格24小时窗口内，1条为略超窗口的国家级高价值补充。",
+  "coverage": {
+    "start": "2026-10-23T12:14:45+08:00",
+    "end": "2026-10-24T12:14:45+08:00"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "item_titles": [
+        "住建部等六部门发布老旧街区厂区改造提升指导意见",
+        "福建城市更新推进“三问于民”，需求分析成为方案审查前置条件",
+        "湖南公开自然资源保护利用“十五五”规划，强调一张图和实景三维"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "item_titles": [
+        "Kimi K3.1 Pro与Highspeed上线，面向代码和三维创作"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "item_titles": [
+        "福州长乐卫片监测与无人机外业核查项目二次招标"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "住建部等六部门发布老旧街区厂区改造提升指导意见",
+      "summary": "10月23日住建部公布六部门联合指导意见，要求依据城市体检筛选改造对象，覆盖老旧厂区功能转换、商业街区升级、生活街区品质提升、交通枢纽周边融合和历史街区保护，并推动规划设计与长期运营衔接。",
+      "impact": "城市更新GIS台账宜增加街区类型、体检问题、功能转换方案、实施主体、运营主体、融资方式与绩效节点，作为片区策划与年度项目库的依据。",
+      "publisher": "住房和城乡建设部／中国建设报",
+      "publish_date": "2026-10-23",
+      "publish_time": "10:36+08:00",
+      "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html",
+      "image_url": null,
+      "within_24h": false
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "福建城市更新推进“三问于民”，需求分析成为方案审查前置条件",
+      "summary": "福建省住建厅10月23日解读指导意见：项目谋划阶段应综合入户走访、问卷、城市体检与12345诉求形成需求分析报告；报告缺失或质量不足不得进入方案审查，并要求投用后回访与一项目一复盘。",
+      "impact": "在房屋和宗地空间数据之外，增加居民诉求点位、需求类别、采样覆盖率、意见处理状态、满意度与复盘时间，形成从调查到运营的可追溯闭环。",
+      "publisher": "福建省住房和城乡建设厅／建筑杂志社",
+      "publish_date": "2026-10-23",
+      "publish_time": "14:51+08:00",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261023_7239808.htm",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "湖南公开自然资源保护利用“十五五”规划，强调一张图和实景三维",
+      "summary": "湖南省政府10月23日公开规划，提出优化国土空间规划一张图、推进省市县调查监测协同、实景三维湖南二三维一体更新，并拓展低空经济与自然资源管理应用；文件落款10月10日。",
+      "impact": "可参考建设宗地/建筑/权属/三维影像一体化底图，制定二维三维版本号、坐标基准、更新周期与成果质量检查规则；规划仅对湖南具有政策效力。",
+      "publisher": "湖南省人民政府",
+      "publish_date": "2026-10-23",
+      "document_date": "2026-10-10",
+      "publish_time": "17:48+08:00",
+      "url": "https://hunan.gov.cn/topic/155gh/ghwj1/202610/t20261023_34087554.html",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Kimi K3.1 Pro与Highspeed上线，面向代码和三维创作",
+      "summary": "Kimi官方10月24日发布K3.1 Pro，支持100万token上下文，Kimi Code和API已开放，Highspeed据厂商称速度约为标准版2至3倍；完整模型权重计划11月4日前发布，尚未开放本地部署。",
+      "impact": "可用脱敏CAD/ArcPy/Three.js任务测试脚本生成、修复与三维表达；厂商BenchCAD等成绩不能替代独立评测，3T级模型也不适合8GB笔记本显卡本地运行。",
+      "publisher": "Kimi／月之暗面官方技术博客及Kimi Code文档",
+      "publish_date": "2026-10-24",
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "福州长乐卫片监测与无人机外业核查项目二次招标",
+      "summary": "10月23日13:42，长乐区政府发布210万元测绘服务二次招标，要求一年4次卫星动态遥感监测，并对重点区域开展无人机巡检（禁飞区除外）、土地及规划违法案件测绘举证；投标截止11月18日。",
+      "impact": "此类采购明确将遥感变化图斑、无人机现场核查、界线与不动产测绘和GIS工程整合为交付链；建立图斑编号—现场照片—坐标—举证材料—复核结论的标准化流程。",
+      "publisher": "福州市长乐区人民政府／福建省政府采购网",
+      "publish_date": "2026-10-23",
+      "publish_time": "13:42+08:00",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/zfcg/cggg/202610/t20261023_5385362.htm",
+      "image_url": null,
+      "within_24h": true
+    }
+  ],
+  "industry_observation": "城市更新政策正把城市体检、需求调查、项目实施与运营评价连接起来；GIS/测绘不再只是提供底图，还需承担证据追溯、时序监测与成果审计。AI编码模型能力增强，但仍须以可复核数据和独立测试作为生产应用门槛。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro 变化图斑与现场核查关联台账",
+    "method": "用唯一图斑ID关联多期影像变化面、地块权属、外业无人机照片、核查日期、问题类别、整改状态及精度/坐标元数据；优先做一处片区的5—10个样本，再扩展批量处理。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "住房和城乡建设部／中国建设报",
+      "publish_date": "2026-10-23",
+      "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html"
+    },
+    {
+      "publisher": "福建省住房和城乡建设厅／建筑杂志社",
+      "publish_date": "2026-10-23",
+      "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261023_7239808.htm"
+    },
+    {
+      "publisher": "湖南省人民政府",
+      "publish_date": "2026-10-23",
+      "url": "https://hunan.gov.cn/topic/155gh/ghwj1/202610/t20261023_34087554.html"
+    },
+    {
+      "publisher": "Kimi／月之暗面官方技术博客及Kimi Code文档",
+      "publish_date": "2026-10-24",
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
+    },
+    {
+      "publisher": "福州市长乐区人民政府／福建省政府采购网",
+      "publish_date": "2026-10-23",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/zfcg/cggg/202610/t20261023_5385362.htm"
+    },
+    {
+      "publisher": "Kimi Code官方更新日志（交叉核验）",
+      "publish_date": "2026-10-23",
+      "url": "https://www.kimi.com/code/docs/kimi-code/whats-new.html"
+    },
+    {
+      "publisher": "福州市长乐区政府采购公告列表（交叉核验）",
+      "publish_date": "2026-10-23",
+      "url": "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggzypz/"
+    }
+  ],
+  "quality_notes": [
+    "严格24小时窗口为10月23日12:14至10月24日12:14（北京时间）；住建部10月23日10:36报道略早于窗口，因国家级政策重要性保留并明确标注。",
+    "湖南规划10月10日签发、10月23日公开，以公开日期计入。",
+    "长乐项目为9月首次公告后于10月23日重新招标，不作为全新项目立项。",
+    "Kimi模型权重尚未开放；厂商性能指标未视为独立测评。",
+    "未确认配图复用许可，image_url均为null。"
+  ]
+}
