@@ -1,152 +1,148 @@
 {
   "type": "daily",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-25T12:14:53+08:00",
-  "title": "行业日报｜2026-10-25",
-  "summary": "星期日日报，精选北京东城历史街区分级保护、江苏东台桥下空间微更新、Block Dessa原生语音模型、Kimi K3.1 Pro安全能力取舍、海灵01无人测量艇五条。所有条目原文均于北京时间10月24日12:14后至10月25日12:14前发布；部分是对既有项目/发布的后续报道。",
+  "generated_at": "2026-10-26T12:10:21+08:00",
+  "title": "行业日报｜2026-10-26",
+  "summary": "星期一行业日报：聚焦武汉“一房一码”城市数字底座、河北城市更新施工招标、Nanbeige 33B开源Agent模型、OpenRouter最新模型调用数据和新疆无人机蜂巢配套设备采购；五条均为10月25日中午后至10月26日中午期间公布的进展或报道。",
   "coverage": {
-    "start": "2026-10-24T12:14:53+08:00",
-    "end": "2026-10-25T12:14:53+08:00"
+    "start": "2026-10-25T12:10:21+08:00",
+    "end": "2026-10-26T12:10:21+08:00"
   },
   "sections": [
     {
       "name": "城市更新/GIS",
       "item_titles": [
-        "北京东城提出历史街区“点线面”三级保护与渐进式更新",
-        "江苏东台城市微更新盘活1.3万平方米桥下公共空间"
+        "武汉城市数字底座获全国数据要素大赛二等奖，937万套房屋实现建档赋码",
+        "河北临西中心城区城市更新一期启动施工招标，总投资约2.52亿元"
       ]
     },
     {
       "name": "AI模型与工具",
       "item_titles": [
-        "Block公布Dessa原生语音双工模型，强调本地实时交互",
-        "Kimi K3.1 Pro公开网络安全能力削减细节，开放权重前强调风险约束"
+        "Nanbeige4.3-33B开放权重，聚焦Agent编程与办公自动化",
+        "OpenRouter最新周榜：DeepSeek V4.1 Flash 1017调用量升至第一"
       ]
     },
     {
       "name": "测绘/无人机",
       "item_titles": [
-        "海博会展示“海灵01”无人测量艇与智能海洋测绘方案"
+        "新疆测绘院耕地执法无人机蜂巢项目配套算力与数据安全设备采购结果公布"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "北京东城提出历史街区“点线面”三级保护与渐进式更新",
-      "summary": "10月25日北京市政府门户转载北京日报报道：东城区拟以文保单位与历史建筑、胡同街巷与中轴线、历史街区与老城组成三级保护体系，推进申请式退租、保护性修缮和存量院落活化。相关表述为“十五五”期间工作方向，并非当天新批复的具体项目。",
-      "impact": "历史街区GIS底图可建立“文保点—街巷线—保护区面”多层约束，叠加院落权属、修缮方式、视廊和更新进度，辅助方案合规核查。",
-      "publisher": "北京市人民政府门户网站／北京日报",
+      "title": "武汉城市数字底座获全国数据要素大赛二等奖，937万套房屋实现建档赋码",
+      "summary": "武汉市政府10月25日披露，其“数智赋能超大城市现代化治理”项目获2026年“数据要素×”大赛城市治理赛道全国二等奖。全市已为3515万个城市实体统一赋码，其中937万套房屋建档赋码，并通过“一图叠加、一码互联、一网统管”关联空间和业务数据；该奖项为近期公布，体系建设并非当天启动。",
+      "impact": "城市更新项目可借鉴“房屋/宗地唯一ID—权属—现场调查—测绘成果—处置状态”关联模式，避免同一建筑跨部门重复编号；优先试点统一编码和变更留痕。",
+      "publisher": "武汉市人民政府／湖北发布",
       "publish_date": "2026-10-25",
-      "publish_time": "09:49+08:00",
-      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261025_4917621.html",
+      "publish_time": "17:26+08:00",
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml",
       "image_url": null,
       "within_24h": true
     },
     {
       "category": "城市更新/GIS",
-      "title": "江苏东台城市微更新盘活1.3万平方米桥下公共空间",
-      "summary": "10月25日盐城新闻网报道，东台海陵大桥下1.3万平方米综合运动公园已投用，滨水风光带、校园周边道路和雨污水管网同步实施改善；泰东河路东延工程涉及300余米道路及桥梁建设。该报道总结已实施项目，并非当日新开工。",
-      "impact": "适合将桥下闲置地、公共服务覆盖半径、道路通达性和雨污管网现状作为城市体检的可量化图层，改造前后用同口径指标复核。",
-      "publisher": "盐城新闻网／南京广播电视台",
-      "publish_date": "2026-10-25",
-      "url": "https://www.nbs.cn/news/7/202610/t20261025_798445.html",
+      "title": "河北临西中心城区城市更新一期启动施工招标，总投资约2.52亿元",
+      "summary": "10月26日河北省公共资源交易平台公告：临西县中心城区城市更新项目一期用地约2.03万平方米、总建筑面积约5.86万平方米，主要建设5栋住宅及配套幼儿园等；项目总投资25197.73万元，施工最高限价11363.02万元，计划工期686天。公告是施工招标，并非中标或开工确认。",
+      "impact": "可将招标公告的项目边界、用地面积、地上/地下建筑面积、工程内容、招标阶段与预计工期结构化入库，区分核准、招标、中标、施工四类状态；项目以建设为主，不能直接等同街区微更新。",
+      "publisher": "河北省公共资源交易服务平台／京津冀公共资源交易协同平台",
+      "publish_date": "2026-10-26",
+      "publish_time": null,
+      "url": "https://ggzyfw.beijing.gov.cn/xtgghbzbgg/20261026/5761046.html",
       "image_url": null,
       "within_24h": true
     },
     {
       "category": "AI模型与工具",
-      "title": "Block公布Dessa原生语音双工模型，强调本地实时交互",
-      "summary": "TechCrunch于10月24日09:00 PDT报道Block旗下研究团队Dessa：模型直接从语音对话训练，可边听边说并保留停顿、语气与情绪；Block官方称可在M4 Max或更高配置MacBook Pro本地运行。当前公开页面提供演示及候补申请，不能视为已普遍开放下载。",
-      "impact": "可关注未来语音驱动GIS/CAD交互、现场口述调查与无手操作，但当前缺乏中文测绘术语识别及测量业务可用性验证，不宜直接部署。",
-      "publisher": "Block官方Dessa研究页／TechCrunch",
-      "publish_date": "2026-10-24",
-      "publish_time": "09:00 PDT（北京时间10月25日00:00）",
-      "url": "https://block.xyz/dessa",
+      "title": "Nanbeige4.3-33B开放权重，聚焦Agent编程与办公自动化",
+      "summary": "Nanbeige团队10月25日晚宣布开源33B密集模型Nanbeige4.3-33B及Base版本，采用Apache-2.0许可，官方模型卡支持512K上下文与工具调用，并计划以其作为后续3B模型的蒸馏教师。团队宣称在同级模型的多数Agent基准上领先，但尚无充分独立复测。",
+      "impact": "适合作为内网GIS资料助手和ArcPy/CAD代码Agent的候选对照模型；BF16权重约66GB，官方SGLang/vLLM示例采用4卡张量并行，单卡部署应等待成熟量化并单独测试精度与显存。",
+      "publisher": "Nanbeige官方Hugging Face模型卡／MarkTechPost",
+      "publish_date": "2026-10-25",
+      "publish_time": "晚间（北京时间，具体分钟未核实）",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
       "image_url": null,
       "within_24h": true,
-      "secondary_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+      "secondary_url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/"
     },
     {
       "category": "AI模型与工具",
-      "title": "Kimi K3.1 Pro公开网络安全能力削减细节，开放权重前强调风险约束",
-      "summary": "路透社10月24日04:25 UTC报道，月之暗面称已从K3.1 Pro训练与强化学习流程移除部分网络攻击相关数据；其内部漏洞利用基准由未削减版本的90.5%降至81.0%，但结果未经独立验证。此条是对10月24日模型发布的安全机制后续核验，不重复报道模型上线。",
-      "impact": "将AI用于ArcPy、CAD插件和自动化脚本时，应同时测试代码正确性与权限越界风险；即便厂商声称降低攻击能力，也须保留沙箱、只读权限和执行日志。",
-      "publisher": "Reuters／月之暗面官方技术博客",
-      "publish_date": "2026-10-24",
-      "publish_time": "04:25 UTC（北京时间12:25）",
-      "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/",
+      "title": "OpenRouter最新周榜：DeepSeek V4.1 Flash 1017调用量升至第一",
+      "summary": "10月26日公布的截至10月25日OpenRouter统计显示，DeepSeek V4.1 Flash 1017过去7天处理33.6万亿Token、环比增长801%；MiniMax M3.1 Flash免费版以13.7万亿Token位居第三。这仅反映OpenRouter平台路由流量，不代表全球AI使用份额或模型质量。",
+      "impact": "对模型选型应建立“任务成功率、工具调用可靠性、延迟、每任务成本”四维评估，而非只看Token热度；可用同一批GIS空间分析和ArcPy脚本任务对比新旧版本。",
+      "publisher": "OpenRouter官方模型排行／每日经济新闻",
+      "publish_date": "2026-10-26",
+      "publish_time": "10:34+08:00（媒体报道）",
+      "url": "https://openrouter.ai/rankings",
       "image_url": null,
       "within_24h": true,
-      "secondary_url": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
+      "secondary_url": "https://www.mrjjxw.com/articles/2026-10-26/4617229.html"
     },
     {
       "category": "测绘/无人机",
-      "title": "海博会展示“海灵01”无人测量艇与智能海洋测绘方案",
-      "summary": "上海证券报10月24日21:28报道，中交上航局达华科技在深圳海博会展示海灵系列无人艇。“海灵01”支持自主导航避障、测量设备换装，可随疏浚母船出海开展航道监测、岸线测绘、水文观测等任务；现有性能与数据质量提升描述主要来自企业展示。",
-      "impact": "河道、近岸和涉水城市更新项目可借鉴“母船/平台—无人艇—多传感器—GIS归档”协同流程，选型需单独检核测深精度、GNSS/IMU时间同步和成果基准。",
-      "publisher": "上海证券报·中国证券网",
-      "publish_date": "2026-10-24",
-      "publish_time": "21:28+08:00",
-      "url": "https://finance.eastmoney.com/a/202610243907122684.html",
+      "title": "新疆测绘院耕地执法无人机蜂巢项目配套算力与数据安全设备采购结果公布",
+      "summary": "10月25日15:04中国政府采购网公告：新疆维吾尔自治区测绘科学研究院的无人机蜂巢项目算力及数据安全设备采购中标金额212.61万元，清单含14台图形工作站、4台移动工作站、GPU/应用/数据库服务器、存储和单向光闸。本次中标的是配套设备，不代表无人机蜂巢整体项目已完成。",
+      "impact": "自动化航测建设需同时预算影像处理算力、存储、数据隔离和成果审计；涉敏测绘数据建议采用采集网、处理网、发布网分区，并保留控制点与精度质检报告。",
+      "publisher": "中国政府采购网／新疆维吾尔自治区测绘科学研究院",
+      "publish_date": "2026-10-25",
+      "publish_time": "15:04+08:00",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261025_27557993.htm",
       "image_url": null,
       "within_24h": true
     }
   ],
-  "industry_observation": "本期最鲜明的共性是“采集/建模”正向“可运营、可复核、可交互”延伸：城市更新强调分级保护与微空间效益，测绘向自主化多载荷采集发展，AI同时推进语音交互和模型安全治理。成果应用仍应以数据精度、权属合法性和人工审核为前提。",
+  "industry_observation": "今日共同主题是“统一数据底座+可控自动化”：武汉展示了城市实体统一编码的可复用方法，测绘采购凸显数据算力与安全隔离的重要性，开源Agent模型则提供本地化自动处理的新候选。对城市更新GIS工作，首要价值是让权属、空间、测绘和流程状态可追踪，而不是仅增加一层AI界面。",
   "recommended_tool": {
-    "name": "ArcGIS Pro桥下及边角地微更新候选地块筛查",
-    "method": "在试点片区叠加桥梁投影范围、闲置用地、宗地权属、道路及步行可达性、现状公共设施和排水管网，筛选具备公共活动空间潜力的候选面；对每块输出唯一ID、权属核验状态、净可用面积、影响人口和现场照片，先抽查5—10块。"
+    "name": "ArcGIS Pro宗地—房屋唯一编码及跨表核查（小范围试点）",
+    "method": "在试点片区选取20—50栋房屋，建立HOUSE_ID和PARCEL_ID不可重复主键；通过空间连接将调查表、现场照片、权属凭证和征收范围内外面积挂接至同一ID，输出重复ID、空值、跨界与面积异常四类质检清单；保留原始编号字段，不直接覆盖法定权属信息。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "北京市人民政府门户网站／北京日报",
+      "publisher": "武汉市人民政府／湖北发布",
       "publish_date": "2026-10-25",
-      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261025_4917621.html"
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml"
     },
     {
-      "publisher": "盐城新闻网／南京广播电视台",
+      "publisher": "河北省公共资源交易服务平台／京津冀公共资源交易协同平台",
+      "publish_date": "2026-10-26",
+      "url": "https://ggzyfw.beijing.gov.cn/xtgghbzbgg/20261026/5761046.html"
+    },
+    {
+      "publisher": "Nanbeige官方Hugging Face模型卡／MarkTechPost",
       "publish_date": "2026-10-25",
-      "url": "https://www.nbs.cn/news/7/202610/t20261025_798445.html"
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
     },
     {
-      "publisher": "Block官方Dessa研究页／TechCrunch",
-      "publish_date": "2026-10-24",
-      "url": "https://block.xyz/dessa"
+      "publisher": "补充交叉核验",
+      "publish_date": "2026-10-25",
+      "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/"
     },
     {
-      "publisher": "Reuters／月之暗面官方技术博客",
-      "publish_date": "2026-10-24",
-      "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/"
+      "publisher": "OpenRouter官方模型排行／每日经济新闻",
+      "publish_date": "2026-10-26",
+      "url": "https://openrouter.ai/rankings"
     },
     {
-      "publisher": "上海证券报·中国证券网",
-      "publish_date": "2026-10-24",
-      "url": "https://finance.eastmoney.com/a/202610243907122684.html"
+      "publisher": "补充交叉核验",
+      "publish_date": "2026-10-26",
+      "url": "https://www.mrjjxw.com/articles/2026-10-26/4617229.html"
     },
     {
-      "publisher": "TechCrunch（Dessa发布交叉核验）",
-      "publish_date": "2026-10-24",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
-    },
-    {
-      "publisher": "月之暗面官方K3.1 Pro技术报告（安全声明交叉核验）",
-      "publish_date": "2026-10-24",
-      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
-    },
-    {
-      "publisher": "上海证券报同步稿（海灵01交叉核验）",
-      "publish_date": "2026-10-24",
-      "url": "https://m.sohu.com/a/1092233763_120988576"
+      "publisher": "中国政府采购网／新疆维吾尔自治区测绘科学研究院",
+      "publish_date": "2026-10-25",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261025_27557993.htm"
     }
   ],
   "quality_notes": [
-    "全部5条在按新闻/原文发布时间计算的24小时窗口内；东台与东城为当天发布的已有工作进展报道，非当天项目立项。",
-    "Dessa官方研究页面与TechCrunch相互核验；发布时点以TechCrunch10月24日09:00 PDT报道计。",
-    "Kimi安全措施是前一日报模型上线后的独立风险细节，非第二次模型发布；基准结果未经独立验证。",
-    "海灵01为展会展示，测量精度和效率提升尚未得到独立测评。",
-    "未找到已明确许可直接复用的新闻配图，image_url均为null。"
+    "时间窗口按北京时间2026-10-25 12:10至2026-10-26 12:10；河北招标页面只显示日期，无法独立确认精确发布时刻，因其为10月26日当天已公开，暂按窗口内收录。",
+    "Nanbeige模型权重仓库建立于10月24日、公开宣布为10月25日晚；性能数据为厂商自测，未视为独立结论。",
+    "OpenRouter统计是其平台自身流量，不代表全市场模型排名；DeepSeek版本发布于10月17日，本条是10月26日的新一周使用数据而非再次发布。",
+    "无人机蜂巢项目此次中标范围为配套算力和数据安全设备，非完整无人机设备交付。",
+    "没有发现可确认授权直接转载的新闻图片，image_url均为null。"
   ]
 }
