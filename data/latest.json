@@ -1,148 +1,142 @@
 {
   "type": "daily",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-26T12:10:21+08:00",
-  "title": "行业日报｜2026-10-26",
-  "summary": "星期一行业日报：聚焦武汉“一房一码”城市数字底座、河北城市更新施工招标、Nanbeige 33B开源Agent模型、OpenRouter最新模型调用数据和新疆无人机蜂巢配套设备采购；五条均为10月25日中午后至10月26日中午期间公布的进展或报道。",
+  "generated_at": "2026-10-27T12:08:22+08:00",
+  "title": "行业日报｜2026-10-27",
+  "summary": "星期二行业日报，精选宝鸡城市更新专项规划公示、深圳龙岗更新单元延期、GPT-6.1 Terra发布、CodeRabbit跨仓库安全审查及夏津国土变更调查监测中标5条；均为10月26日官方公布，未重复10月26日日报。",
   "coverage": {
-    "start": "2026-10-25T12:10:21+08:00",
-    "end": "2026-10-26T12:10:21+08:00"
+    "start": "2026-10-26T12:08:22+08:00",
+    "end": "2026-10-27T12:08:22+08:00"
   },
   "sections": [
     {
       "name": "城市更新/GIS",
       "item_titles": [
-        "武汉城市数字底座获全国数据要素大赛二等奖，937万套房屋实现建档赋码",
-        "河北临西中心城区城市更新一期启动施工招标，总投资约2.52亿元"
+        "宝鸡市城市更新专项规划（2026—2030年）公开征求意见，划定18个重点片区",
+        "深圳龙岗信义汽车城更新单元计划延期，拟拆除范围约11.14万平方米"
       ]
     },
     {
       "name": "AI模型与工具",
       "item_titles": [
-        "Nanbeige4.3-33B开放权重，聚焦Agent编程与办公自动化",
-        "OpenRouter最新周榜：DeepSeek V4.1 Flash 1017调用量升至第一"
+        "OpenAI发布GPT-6.1 Terra，强化视觉理解、电脑操作与低成本自动化",
+        "CodeRabbit以GPT-6.1 Sol增强跨仓库代码安全审查"
       ]
     },
     {
       "name": "测绘/无人机",
       "item_titles": [
-        "新疆测绘院耕地执法无人机蜂巢项目配套算力与数据安全设备采购结果公布"
+        "山东夏津国土变更调查与林草湿荒监测项目中标，强调图斑和数据库质检"
       ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "武汉城市数字底座获全国数据要素大赛二等奖，937万套房屋实现建档赋码",
-      "summary": "武汉市政府10月25日披露，其“数智赋能超大城市现代化治理”项目获2026年“数据要素×”大赛城市治理赛道全国二等奖。全市已为3515万个城市实体统一赋码，其中937万套房屋建档赋码，并通过“一图叠加、一码互联、一网统管”关联空间和业务数据；该奖项为近期公布，体系建设并非当天启动。",
-      "impact": "城市更新项目可借鉴“房屋/宗地唯一ID—权属—现场调查—测绘成果—处置状态”关联模式，避免同一建筑跨部门重复编号；优先试点统一编码和变更留痕。",
-      "publisher": "武汉市人民政府／湖北发布",
-      "publish_date": "2026-10-25",
-      "publish_time": "17:26+08:00",
-      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml",
+      "title": "宝鸡市城市更新专项规划（2026—2030年）公开征求意见，划定18个重点片区",
+      "summary": "宝鸡市住建局10月26日17:40发布规划公示稿，覆盖中心城区528.34平方公里，提出“产业焕新、文化赋能、生态转型、民生宜居”四条路径，划定5类18个重点更新片区及7个重点样板片区，公示至11月25日；目前为公示稿，并非正式批复。",
+      "impact": "可借鉴“国土空间总体规划—城市更新专项规划—重点片区—项目实施”四级空间数据结构，为片区设置分类、优先级、约束条件和公众意见字段；规划成果应标注公示版与批准版。",
+      "publisher": "宝鸡市住房和城乡建设局",
+      "publish_date": "2026-10-26",
+      "publish_time": "17:40+08:00",
+      "url": "https://zjj.baoji.gov.cn/col1018/col1029/202610/t20261026_1312268.html",
       "image_url": null,
       "within_24h": true
     },
     {
       "category": "城市更新/GIS",
-      "title": "河北临西中心城区城市更新一期启动施工招标，总投资约2.52亿元",
-      "summary": "10月26日河北省公共资源交易平台公告：临西县中心城区城市更新项目一期用地约2.03万平方米、总建筑面积约5.86万平方米，主要建设5栋住宅及配套幼儿园等；项目总投资25197.73万元，施工最高限价11363.02万元，计划工期686天。公告是施工招标，并非中标或开工确认。",
-      "impact": "可将招标公告的项目边界、用地面积、地上/地下建筑面积、工程内容、招标阶段与预计工期结构化入库，区分核准、招标、中标、施工四类状态；项目以建设为主，不能直接等同街区微更新。",
-      "publisher": "河北省公共资源交易服务平台／京津冀公共资源交易协同平台",
+      "title": "深圳龙岗信义汽车城更新单元计划延期，拟拆除范围约11.14万平方米",
+      "summary": "深圳市龙岗区城市更新和土地整备局10月26日公告，园山街道信义汽车城更新单元计划有效期调整至2027年9月29日，拟拆除范围111434平方米。公告明确申报主体不等于实施主体，仍须完成更新单元规划批准及实施主体确认，不能视为项目已经获准开工。",
+      "impact": "城市更新GIS台账应分别管理“计划有效期、拟拆除范围、申报主体、规划批复、实施主体确认”五个状态，加入到期提醒，避免误把计划延期当作规划批准。",
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
       "publish_date": "2026-10-26",
       "publish_time": null,
-      "url": "https://ggzyfw.beijing.gov.cn/xtgghbzbgg/20261026/5761046.html",
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/tzgg/content/post_13039204.html",
       "image_url": null,
-      "within_24h": true
+      "within_24h": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Nanbeige4.3-33B开放权重，聚焦Agent编程与办公自动化",
-      "summary": "Nanbeige团队10月25日晚宣布开源33B密集模型Nanbeige4.3-33B及Base版本，采用Apache-2.0许可，官方模型卡支持512K上下文与工具调用，并计划以其作为后续3B模型的蒸馏教师。团队宣称在同级模型的多数Agent基准上领先，但尚无充分独立复测。",
-      "impact": "适合作为内网GIS资料助手和ArcPy/CAD代码Agent的候选对照模型；BF16权重约66GB，官方SGLang/vLLM示例采用4卡张量并行，单卡部署应等待成熟量化并单独测试精度与显存。",
-      "publisher": "Nanbeige官方Hugging Face模型卡／MarkTechPost",
-      "publish_date": "2026-10-25",
-      "publish_time": "晚间（北京时间，具体分钟未核实）",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "image_url": null,
-      "within_24h": true,
-      "secondary_url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/"
-    },
-    {
-      "category": "AI模型与工具",
-      "title": "OpenRouter最新周榜：DeepSeek V4.1 Flash 1017调用量升至第一",
-      "summary": "10月26日公布的截至10月25日OpenRouter统计显示，DeepSeek V4.1 Flash 1017过去7天处理33.6万亿Token、环比增长801%；MiniMax M3.1 Flash免费版以13.7万亿Token位居第三。这仅反映OpenRouter平台路由流量，不代表全球AI使用份额或模型质量。",
-      "impact": "对模型选型应建立“任务成功率、工具调用可靠性、延迟、每任务成本”四维评估，而非只看Token热度；可用同一批GIS空间分析和ArcPy脚本任务对比新旧版本。",
-      "publisher": "OpenRouter官方模型排行／每日经济新闻",
+      "title": "OpenAI发布GPT-6.1 Terra，强化视觉理解、电脑操作与低成本自动化",
+      "summary": "OpenAI于10月26日推出GPT-6.1 Terra，重点改进技术图纸理解、桌面软件操作与编码能力。官方公布其标准API输入/输出价格分别为每百万Token 1美元/5美元，并宣称标准价格较GPT-5.6 Terra降低50%；性能指标主要来自官方评测。",
+      "impact": "可用非敏感样例测试“扫描调查表/房屋图纸→结构化字段→ArcGIS Pro操作清单”工作流，并对照原始测绘成果核查；不要让模型在未经确认的情况下直接修改正式GDB或CAD数据。",
+      "publisher": "OpenAI官方发布／OpenAI开发者社区",
       "publish_date": "2026-10-26",
-      "publish_time": "10:34+08:00（媒体报道）",
-      "url": "https://openrouter.ai/rankings",
+      "publish_time": null,
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "secondary_url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
       "image_url": null,
-      "within_24h": true,
-      "secondary_url": "https://www.mrjjxw.com/articles/2026-10-26/4617229.html"
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "CodeRabbit以GPT-6.1 Sol增强跨仓库代码安全审查",
+      "summary": "OpenAI10月26日介绍CodeRabbit Secure以GPT-6.1 Sol作为安全Agent的主要模型，跨文件、依赖与关联仓库识别风险，并可在隔离沙箱验证用户选定的问题、提出修复PR；人工仍负责批准上线。此为产品应用案例，并非当天发布全新基础模型。",
+      "impact": "CAD插件、GIS Web工具及ArcPy脚本的AI代码审查应与生成环节分离，重点检查外部依赖、文件路径、数据覆盖、鉴权及网络请求，避免“AI自己写、自己放行”。",
+      "publisher": "OpenAI／CodeRabbit",
+      "publish_date": "2026-10-26",
+      "publish_time": null,
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+      "image_url": null,
+      "within_24h": null
     },
     {
       "category": "测绘/无人机",
-      "title": "新疆测绘院耕地执法无人机蜂巢项目配套算力与数据安全设备采购结果公布",
-      "summary": "10月25日15:04中国政府采购网公告：新疆维吾尔自治区测绘科学研究院的无人机蜂巢项目算力及数据安全设备采购中标金额212.61万元，清单含14台图形工作站、4台移动工作站、GPU/应用/数据库服务器、存储和单向光闸。本次中标的是配套设备，不代表无人机蜂巢整体项目已完成。",
-      "impact": "自动化航测建设需同时预算影像处理算力、存储、数据隔离和成果审计；涉敏测绘数据建议采用采集网、处理网、发布网分区，并保留控制点与精度质检报告。",
-      "publisher": "中国政府采购网／新疆维吾尔自治区测绘科学研究院",
-      "publish_date": "2026-10-25",
-      "publish_time": "15:04+08:00",
-      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261025_27557993.htm",
+      "title": "山东夏津国土变更调查与林草湿荒监测项目中标，强调图斑和数据库质检",
+      "summary": "中国政府采购网10月26日23:48公告，夏津县自然资源局年度国土变更调查及林草湿荒调查监测采购包1由山东恒信技术发展有限公司中标，金额83.4万元；服务涉及图斑监测、成果汇总、数据库更新和质量检查，要求成果通过省级核查。公告未明确采用无人机作业，不应推断为无人机航测项目。",
+      "impact": "测绘成果交付应从“采集完成”转向“图斑一致性—属性完整性—拓扑与数据库质量—上级核查”全流程验收；可在ArcGIS Pro中自动输出拓扑错误、面积差异和字段缺失清单。",
+      "publisher": "中国政府采购网／夏津县自然资源局",
+      "publish_date": "2026-10-26",
+      "publish_time": "23:48+08:00",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261026_27565366.htm",
       "image_url": null,
       "within_24h": true
     }
   ],
-  "industry_observation": "今日共同主题是“统一数据底座+可控自动化”：武汉展示了城市实体统一编码的可复用方法，测绘采购凸显数据算力与安全隔离的重要性，开源Agent模型则提供本地化自动处理的新候选。对城市更新GIS工作，首要价值是让权属、空间、测绘和流程状态可追踪，而不是仅增加一层AI界面。",
+  "industry_observation": "城市更新正在从项目清单转向可追踪的空间规划与实施阶段管理，测绘交付则越来越强调数据库质检和上级核查；与此同时，AI正从代码生成延伸至图纸理解、电脑操作和独立安全审查。真正可落地的组合是“空间主键+阶段状态+自动质检+人工签核”，而不是把模型输出直接当成法定成果。",
   "recommended_tool": {
-    "name": "ArcGIS Pro宗地—房屋唯一编码及跨表核查（小范围试点）",
-    "method": "在试点片区选取20—50栋房屋，建立HOUSE_ID和PARCEL_ID不可重复主键；通过空间连接将调查表、现场照片、权属凭证和征收范围内外面积挂接至同一ID，输出重复ID、空值、跨界与面积异常四类质检清单；保留原始编号字段，不直接覆盖法定权属信息。"
+    "name": "ArcGIS Pro项目阶段与有效期自动核查（Python/ArcPy）",
+    "method": "在更新单元面图层增加PLAN_STATUS、PLAN_APPROVED、APPLICANT、IMPLEMENTER、VALID_TO字段；编写只读ArcPy脚本每天检查到期前30/60/90天、申报主体与实施主体混填、规划未批却标记开工、范围面积异常四类情况，输出CSV质检表并关联原始公告URL。正式审批信息只以主管部门文件为准。"
   },
   "recommended_reading": null,
   "sources": [
     {
-      "publisher": "武汉市人民政府／湖北发布",
-      "publish_date": "2026-10-25",
-      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml"
-    },
-    {
-      "publisher": "河北省公共资源交易服务平台／京津冀公共资源交易协同平台",
+      "publisher": "宝鸡市住房和城乡建设局",
       "publish_date": "2026-10-26",
-      "url": "https://ggzyfw.beijing.gov.cn/xtgghbzbgg/20261026/5761046.html"
+      "url": "https://zjj.baoji.gov.cn/col1018/col1029/202610/t20261026_1312268.html"
     },
     {
-      "publisher": "Nanbeige官方Hugging Face模型卡／MarkTechPost",
-      "publish_date": "2026-10-25",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
-    },
-    {
-      "publisher": "补充交叉核验",
-      "publish_date": "2026-10-25",
-      "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/"
-    },
-    {
-      "publisher": "OpenRouter官方模型排行／每日经济新闻",
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
       "publish_date": "2026-10-26",
-      "url": "https://openrouter.ai/rankings"
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/tzgg/content/post_13039204.html"
     },
     {
-      "publisher": "补充交叉核验",
+      "publisher": "OpenAI官方发布／OpenAI开发者社区",
       "publish_date": "2026-10-26",
-      "url": "https://www.mrjjxw.com/articles/2026-10-26/4617229.html"
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
     },
     {
-      "publisher": "中国政府采购网／新疆维吾尔自治区测绘科学研究院",
-      "publish_date": "2026-10-25",
-      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261025_27557993.htm"
+      "publisher": "OpenAI／CodeRabbit",
+      "publish_date": "2026-10-26",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/"
+    },
+    {
+      "publisher": "中国政府采购网／夏津县自然资源局",
+      "publish_date": "2026-10-26",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261026_27565366.htm"
+    },
+    {
+      "publisher": "OpenAI开发者社区（模型发布交叉核验）",
+      "publish_date": "2026-10-26",
+      "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
     }
   ],
   "quality_notes": [
-    "时间窗口按北京时间2026-10-25 12:10至2026-10-26 12:10；河北招标页面只显示日期，无法独立确认精确发布时刻，因其为10月26日当天已公开，暂按窗口内收录。",
-    "Nanbeige模型权重仓库建立于10月24日、公开宣布为10月25日晚；性能数据为厂商自测，未视为独立结论。",
-    "OpenRouter统计是其平台自身流量，不代表全市场模型排名；DeepSeek版本发布于10月17日，本条是10月26日的新一周使用数据而非再次发布。",
-    "无人机蜂巢项目此次中标范围为配套算力和数据安全设备，非完整无人机设备交付。",
-    "没有发现可确认授权直接转载的新闻图片，image_url均为null。"
+    "北京时间窗口为2026-10-26 12:08至2026-10-27 12:08。宝鸡规划公示和夏津采购公告有可核对的具体发布时间。",
+    "深圳龙岗公告、OpenAI两篇文章仅有发布日期，无法独立核实精确发布时刻，标记within_24h=null；没有将其无条件断言为严格24小时内。",
+    "宝鸡文件为征求意见稿；龙岗是计划延期非规划批复或实施主体确认；夏津项目未说明无人机采集。",
+    "OpenAI模型能力数据为厂商评测，不能替代GIS业务独立验证。",
+    "没有核实可授权直接转载的新闻图片，image_url均为null。"
   ]
 }

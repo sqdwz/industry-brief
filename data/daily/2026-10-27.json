@@ -1,0 +1,142 @@
+{
+  "type": "daily",
+  "date": "2026-10-27",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-27T12:08:22+08:00",
+  "title": "行业日报｜2026-10-27",
+  "summary": "星期二行业日报，精选宝鸡城市更新专项规划公示、深圳龙岗更新单元延期、GPT-6.1 Terra发布、CodeRabbit跨仓库安全审查及夏津国土变更调查监测中标5条；均为10月26日官方公布，未重复10月26日日报。",
+  "coverage": {
+    "start": "2026-10-26T12:08:22+08:00",
+    "end": "2026-10-27T12:08:22+08:00"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "item_titles": [
+        "宝鸡市城市更新专项规划（2026—2030年）公开征求意见，划定18个重点片区",
+        "深圳龙岗信义汽车城更新单元计划延期，拟拆除范围约11.14万平方米"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "item_titles": [
+        "OpenAI发布GPT-6.1 Terra，强化视觉理解、电脑操作与低成本自动化",
+        "CodeRabbit以GPT-6.1 Sol增强跨仓库代码安全审查"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "item_titles": [
+        "山东夏津国土变更调查与林草湿荒监测项目中标，强调图斑和数据库质检"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "宝鸡市城市更新专项规划（2026—2030年）公开征求意见，划定18个重点片区",
+      "summary": "宝鸡市住建局10月26日17:40发布规划公示稿，覆盖中心城区528.34平方公里，提出“产业焕新、文化赋能、生态转型、民生宜居”四条路径，划定5类18个重点更新片区及7个重点样板片区，公示至11月25日；目前为公示稿，并非正式批复。",
+      "impact": "可借鉴“国土空间总体规划—城市更新专项规划—重点片区—项目实施”四级空间数据结构，为片区设置分类、优先级、约束条件和公众意见字段；规划成果应标注公示版与批准版。",
+      "publisher": "宝鸡市住房和城乡建设局",
+      "publish_date": "2026-10-26",
+      "publish_time": "17:40+08:00",
+      "url": "https://zjj.baoji.gov.cn/col1018/col1029/202610/t20261026_1312268.html",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳龙岗信义汽车城更新单元计划延期，拟拆除范围约11.14万平方米",
+      "summary": "深圳市龙岗区城市更新和土地整备局10月26日公告，园山街道信义汽车城更新单元计划有效期调整至2027年9月29日，拟拆除范围111434平方米。公告明确申报主体不等于实施主体，仍须完成更新单元规划批准及实施主体确认，不能视为项目已经获准开工。",
+      "impact": "城市更新GIS台账应分别管理“计划有效期、拟拆除范围、申报主体、规划批复、实施主体确认”五个状态，加入到期提醒，避免误把计划延期当作规划批准。",
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
+      "publish_date": "2026-10-26",
+      "publish_time": null,
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/tzgg/content/post_13039204.html",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI发布GPT-6.1 Terra，强化视觉理解、电脑操作与低成本自动化",
+      "summary": "OpenAI于10月26日推出GPT-6.1 Terra，重点改进技术图纸理解、桌面软件操作与编码能力。官方公布其标准API输入/输出价格分别为每百万Token 1美元/5美元，并宣称标准价格较GPT-5.6 Terra降低50%；性能指标主要来自官方评测。",
+      "impact": "可用非敏感样例测试“扫描调查表/房屋图纸→结构化字段→ArcGIS Pro操作清单”工作流，并对照原始测绘成果核查；不要让模型在未经确认的情况下直接修改正式GDB或CAD数据。",
+      "publisher": "OpenAI官方发布／OpenAI开发者社区",
+      "publish_date": "2026-10-26",
+      "publish_time": null,
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "secondary_url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "CodeRabbit以GPT-6.1 Sol增强跨仓库代码安全审查",
+      "summary": "OpenAI10月26日介绍CodeRabbit Secure以GPT-6.1 Sol作为安全Agent的主要模型，跨文件、依赖与关联仓库识别风险，并可在隔离沙箱验证用户选定的问题、提出修复PR；人工仍负责批准上线。此为产品应用案例，并非当天发布全新基础模型。",
+      "impact": "CAD插件、GIS Web工具及ArcPy脚本的AI代码审查应与生成环节分离，重点检查外部依赖、文件路径、数据覆盖、鉴权及网络请求，避免“AI自己写、自己放行”。",
+      "publisher": "OpenAI／CodeRabbit",
+      "publish_date": "2026-10-26",
+      "publish_time": null,
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "山东夏津国土变更调查与林草湿荒监测项目中标，强调图斑和数据库质检",
+      "summary": "中国政府采购网10月26日23:48公告，夏津县自然资源局年度国土变更调查及林草湿荒调查监测采购包1由山东恒信技术发展有限公司中标，金额83.4万元；服务涉及图斑监测、成果汇总、数据库更新和质量检查，要求成果通过省级核查。公告未明确采用无人机作业，不应推断为无人机航测项目。",
+      "impact": "测绘成果交付应从“采集完成”转向“图斑一致性—属性完整性—拓扑与数据库质量—上级核查”全流程验收；可在ArcGIS Pro中自动输出拓扑错误、面积差异和字段缺失清单。",
+      "publisher": "中国政府采购网／夏津县自然资源局",
+      "publish_date": "2026-10-26",
+      "publish_time": "23:48+08:00",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261026_27565366.htm",
+      "image_url": null,
+      "within_24h": true
+    }
+  ],
+  "industry_observation": "城市更新正在从项目清单转向可追踪的空间规划与实施阶段管理，测绘交付则越来越强调数据库质检和上级核查；与此同时，AI正从代码生成延伸至图纸理解、电脑操作和独立安全审查。真正可落地的组合是“空间主键+阶段状态+自动质检+人工签核”，而不是把模型输出直接当成法定成果。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro项目阶段与有效期自动核查（Python/ArcPy）",
+    "method": "在更新单元面图层增加PLAN_STATUS、PLAN_APPROVED、APPLICANT、IMPLEMENTER、VALID_TO字段；编写只读ArcPy脚本每天检查到期前30/60/90天、申报主体与实施主体混填、规划未批却标记开工、范围面积异常四类情况，输出CSV质检表并关联原始公告URL。正式审批信息只以主管部门文件为准。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "宝鸡市住房和城乡建设局",
+      "publish_date": "2026-10-26",
+      "url": "https://zjj.baoji.gov.cn/col1018/col1029/202610/t20261026_1312268.html"
+    },
+    {
+      "publisher": "深圳市龙岗区城市更新和土地整备局",
+      "publish_date": "2026-10-26",
+      "url": "https://www.lg.gov.cn/bmzz/csgxj/xxgk/qt/tzgg/content/post_13039204.html"
+    },
+    {
+      "publisher": "OpenAI官方发布／OpenAI开发者社区",
+      "publish_date": "2026-10-26",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+    },
+    {
+      "publisher": "OpenAI／CodeRabbit",
+      "publish_date": "2026-10-26",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/"
+    },
+    {
+      "publisher": "中国政府采购网／夏津县自然资源局",
+      "publish_date": "2026-10-26",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261026_27565366.htm"
+    },
+    {
+      "publisher": "OpenAI开发者社区（模型发布交叉核验）",
+      "publish_date": "2026-10-26",
+      "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
+    }
+  ],
+  "quality_notes": [
+    "北京时间窗口为2026-10-26 12:08至2026-10-27 12:08。宝鸡规划公示和夏津采购公告有可核对的具体发布时间。",
+    "深圳龙岗公告、OpenAI两篇文章仅有发布日期，无法独立核实精确发布时刻，标记within_24h=null；没有将其无条件断言为严格24小时内。",
+    "宝鸡文件为征求意见稿；龙岗是计划延期非规划批复或实施主体确认；夏津项目未说明无人机采集。",
+    "OpenAI模型能力数据为厂商评测，不能替代GIS业务独立验证。",
+    "没有核实可授权直接转载的新闻图片，image_url均为null。"
+  ]
+}
