@@ -1,0 +1,135 @@
+{
+  "type": "daily",
+  "date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-28T12:05:43+08:00",
+  "title": "行业日报｜2026-10-28",
+  "summary": "星期三行业日报，精选10月27日官方发布的5条动态：深圳木棉湾更新单元配套工程、上海基础测绘十五五规划、上海测绘项目清单报送征求意见、OpenAI与Oracle合作、Check Point Daybreak应用。与近日日报去重。",
+  "coverage": {
+    "start": "2026-10-27T12:05:43+08:00",
+    "end": "2026-10-28T12:05:43+08:00"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "item_titles": [
+        "深圳龙岗木棉湾入口片区更新单元配套市政工程监理单位发包公示",
+        "上海基础测绘“十五五”规划公开：实景三维、遥感影像和“一张图”明确更新频次"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "item_titles": [
+        "OpenAI与Oracle扩大合作：企业应用接入ChatGPT，Codex参与应用构建",
+        "Check Point展示Daybreak安全研究案例：AI辅助漏洞分析从小时级缩短至分钟级"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "item_titles": [
+        "上海就测绘地理信息项目清单报送管理办法公开征求意见"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "深圳龙岗木棉湾入口片区更新单元配套市政工程监理单位发包公示",
+      "summary": "龙岗区布吉街道办事处10月27日公示木棉湾入口片区城市更新单元规划一路、规划二路（东段）市政工程监理发包结果，合同价33.772869万元，公示期至10月29日。这是配套工程监理发包，不代表整个更新单元已竣工。",
+      "impact": "城市更新GIS台账应把更新单元、道路及管线工程、监理合同拆成关联实体，分别管理合同、空间范围及实施状态。",
+      "publisher": "深圳市龙岗区布吉街道办事处",
+      "publish_date": "2026-10-27",
+      "url": "https://www.lg.gov.cn/xxgk/zwgk/tzgg/content/post_13040815.html",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "上海基础测绘“十五五”规划公开：实景三维、遥感影像和“一张图”明确更新频次",
+      "summary": "上海市规划和自然资源局10月27日公开《上海市基础测绘“十五五”规划》（文件落款10月23日）。规划提出城市级白模季度更新，0.1米航空影像及5点/平方米机载激光点云陆域年度更新，国土空间规划“一张图”底图月度更新，并研发变化检测智能体。",
+      "impact": "可为GIS和航测成果建立季度、月度、年度版本化更新机制；上海规划指标并非海南项目法定验收标准。",
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/zcwj/chgl/20261027/1a038a7f16754b4f85b25ab90fcb9f9e.html",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "上海就测绘地理信息项目清单报送管理办法公开征求意见",
+      "summary": "上海市规划和自然资源局10月27日公布《上海市测绘地理信息项目清单报送管理办法（征求意见稿）》，征求意见至11月17日，其中公平竞争内容截至11月9日。文件尚未正式生效。",
+      "impact": "测绘项目归档台账可预留项目类型、作业区域、坐标系、成果目录、质检与报送状态字段；实际合规要求须等待正式文本。",
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/dczj/20261027/085e6c16e9cd4c3cb6772abcdb3f8fa2.html",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI与Oracle扩大合作：企业应用接入ChatGPT，Codex参与应用构建",
+      "summary": "OpenAI与Oracle10月27日宣布扩大合作，计划以Oracle AI Workspace连接企业应用和数据，并推出App Composer、AI Security Mesh等方案。官方强调企业权限、审批与访问控制，部分方案仍处于开发或计划阶段。",
+      "impact": "可借鉴Agent—受控数据接口—人工审批—操作审计的架构建设GIS查询与资料归档助手；敏感权属数据不得未经授权上传外部服务。",
+      "publisher": "OpenAI／Oracle",
+      "publish_date": "2026-10-27",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Check Point展示Daybreak安全研究案例：AI辅助漏洞分析从小时级缩短至分钟级",
+      "summary": "OpenAI于10月27日介绍Check Point采用Daybreak辅助漏洞分析、攻击路径和代码配置检查；据Check Point CTO介绍，相关研究从数小时缩短至数分钟。该数据为厂商案例，并非独立基准测试。",
+      "impact": "CAD插件、GIS Web服务和ArcPy工具可采用AI辅助安全检查、隔离环境复现与人工批准修复流程，避免直接修改生产环境。",
+      "publisher": "OpenAI／Check Point",
+      "publish_date": "2026-10-27",
+      "url": "https://openai.com/index/check-point-daybreak/",
+      "image_url": null,
+      "within_24h": null
+    }
+  ],
+  "industry_observation": "城市更新GIS从单一图层转向更新单元、配套工程、合同和审批的关联台账；基础测绘强调分层动态更新，企业AI Agent强调权限和审批。空间主键、数据版本与操作审计正成为共同基础。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro增量更新与归档质检（ArcPy）",
+    "method": "在宗地、房屋和工程图层设置FEATURE_ID、SOURCE_DATE、UPDATE_CYCLE、VERSION、QC_STATUS、SOURCE_URL字段；用ArcPy对比前后版本，输出新增、删除、几何变化、属性变化及拓扑错误CSV；正式GDB更新前备份并人工核签。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "深圳市龙岗区布吉街道办事处",
+      "publish_date": "2026-10-27",
+      "url": "https://www.lg.gov.cn/xxgk/zwgk/tzgg/content/post_13040815.html"
+    },
+    {
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/zcwj/chgl/20261027/1a038a7f16754b4f85b25ab90fcb9f9e.html"
+    },
+    {
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/dczj/20261027/085e6c16e9cd4c3cb6772abcdb3f8fa2.html"
+    },
+    {
+      "publisher": "OpenAI／Oracle",
+      "publish_date": "2026-10-27",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+    },
+    {
+      "publisher": "OpenAI／Check Point",
+      "publish_date": "2026-10-27",
+      "url": "https://openai.com/index/check-point-daybreak/"
+    },
+    {
+      "publisher": "Oracle官方交叉核验",
+      "publish_date": "2026-10-27",
+      "url": "https://www.oracle.com/asean/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/"
+    }
+  ],
+  "quality_notes": [
+    "5条均有2026-10-27官方页面发布日期，但没有精确发布时间，不能证明全部严格落在2026-10-27 12:05:43至2026-10-28 12:05:43的24小时窗口内；within_24h均标记null。",
+    "上海基础测绘规划上网日期10月27日，文件落款10月23日；清单报送办法仍为征求意见稿。",
+    "Check Point效率数据来自厂商自述；企业AI部分产品仍在开发或计划阶段。",
+    "没有确认可直接引用且授权明确的配图，image_url为null。"
+  ]
+}
