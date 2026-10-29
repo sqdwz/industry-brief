@@ -1,0 +1,137 @@
+{
+  "type": "daily",
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-29T12:09:27.236+08:00",
+  "title": "行业日报｜2026-10-29",
+  "summary": "星期四行业日报，精选10月28日公布的5条动态：广西北海危旧房自主更新、北京昌平城市更新规划征求意见、微软Copilot多模型Agent框架、Google Agents CLI评测闭环、澳大利亚CASA无人机冲突消解指引。已与10月28日日报去重。",
+  "coverage": {
+    "start": "2026-10-28T12:08:20+08:00",
+    "end": "2026-10-29T12:08:20+08:00"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "item_titles": [
+        "广西北海西藏新村危旧房自主更新：按栋筹资、原拆原建推进",
+        "北京昌平区“十五五”城市更新规划公开征求意见"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "item_titles": [
+        "微软向开发者开放Copilot多模型Agent运行框架",
+        "Google推出Agents CLI评测闭环方法，支持回归对比与提示词优化"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "item_titles": [
+        "澳大利亚CASA就无人机间飞行冲突消解指引公开征求意见"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "广西北海西藏新村危旧房自主更新：按栋筹资、原拆原建推进",
+      "summary": "广西日报10月28日22:46报道，北海市西藏新村13栋D级危房采取“居民主体、政府补贴、原拆原建”方式，已完成398户913人搬离安置，319户参与筹资、筹款进度约70%，8号楼封顶。项目总投资约8700万元，居民自筹约4200万元。",
+      "impact": "可在城市更新GIS台账中以“楼栋—住户—危房鉴定—筹资—搬迁安置—工程节点”为关联结构，按栋更新推进状态；该案例的筹资比例和政策不能直接套用海南。",
+      "publisher": "广西日报／广西住房和城乡建设厅",
+      "publish_date": "2026-10-28",
+      "publish_time": "2026-10-28T22:46:00+08:00",
+      "url": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae20aae-22009203.shtml",
+      "image_url": null,
+      "within_24h": true
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "北京昌平区“十五五”城市更新规划公开征求意见",
+      "summary": "北京市昌平区住房和城乡建设委员会10月28日公布城市更新规划征求意见稿，公开征集意见至11月5日。该文件仍处于征求意见阶段，并非正式批准的规划。",
+      "impact": "城市更新项目空间数据库可区分“规划草案、意见征集、正式发布、实施调整”等版本和法定状态，并将片区边界、项目清单与政策依据分开维护。",
+      "publisher": "北京市昌平区住房和城乡建设委员会",
+      "publish_date": "2026-10-28",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261028_4922273.html",
+      "image_url": null,
+      "within_24h": false
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "微软向开发者开放Copilot多模型Agent运行框架",
+      "summary": "微软10月28日宣布将支撑Copilot Code、GitHub Copilot等产品的多模型harness通过Microsoft Foundry提供，支持MCP、Agent Skills和插件，并提供SDK。官方称该框架可跨模型执行复杂长任务，实际成本与效果仍需场景验证。",
+      "impact": "可参考“多模型路由＋工具权限＋执行环境”架构构建ArcPy、CAD及资料归档Agent，但应先用非涉密测试数据评估兼容性、成本和操作审计。",
+      "publisher": "Microsoft Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Google推出Agents CLI评测闭环方法，支持回归对比与提示词优化",
+      "summary": "Google Developers Blog于10月28日介绍Agents CLI评测流程，包括生成执行轨迹、打分、比较结果、分析失败类型及自动优化提示词，适用于模型替换和Agent迭代的回归测试。",
+      "impact": "可为GIS资料检索助手设计20至30条固定样例，逐版评估字段抽取、空间查询、工具调用正确率及误报，避免仅凭单次演示判断模型好坏。",
+      "publisher": "Google Developers Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/",
+      "image_url": null,
+      "within_24h": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "澳大利亚CASA就无人机间飞行冲突消解指引公开征求意见",
+      "summary": "澳大利亚民航安全局CASA于10月28日开放无人机间冲突消解指导文件征求意见，截止11月17日，建议共享准确飞行计划、使用UTM服务、运营商协调和监测实际飞行区域。官方明确该文件是原则性草案，不新增监管义务。",
+      "impact": "多机航测和自动机场作业可借鉴“航线与时段冲突检查—飞行计划共享—实时偏离监测—事件留痕”的调度流程；澳大利亚草案不构成中国适用法规。",
+      "publisher": "Civil Aviation Safety Authority (Australia)",
+      "publish_date": "2026-10-28",
+      "url": "https://consultation.casa.gov.au/regulatory-program/draft-drone-drone/",
+      "image_url": null,
+      "within_24h": null
+    }
+  ],
+  "industry_observation": "城市更新项目开始更强调住户参与、资金和工程节点的关联管理；AI Agent的价值从模型单次能力转向可评测、可替换、可审计的运行框架；多机作业则强化飞行计划协同与冲突预防。三者共同指向可追溯的数据和操作闭环。",
+  "recommended_tool": {
+    "name": "GIS Agent回归评测小样本集",
+    "method": "准备30条去标识化业务样例：10条宗地面积统计、10条权属资料检索、5条ArcPy脚本生成、5条异常输入；记录正确率、人工复核率、工具误调用和平均响应时间。使用Agents CLI的generate/grade/compare分析迭代变化，保留原始样例与日志。"
+  },
+  "recommended_reading": null,
+  "sources": [
+    {
+      "publisher": "广西日报／广西住房和城乡建设厅",
+      "publish_date": "2026-10-28",
+      "url": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae20aae-22009203.shtml"
+    },
+    {
+      "publisher": "北京市昌平区住房和城乡建设委员会",
+      "publish_date": "2026-10-28",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261028_4922273.html"
+    },
+    {
+      "publisher": "Microsoft Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+    },
+    {
+      "publisher": "Google Developers Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/"
+    },
+    {
+      "publisher": "Civil Aviation Safety Authority (Australia)",
+      "publish_date": "2026-10-28",
+      "url": "https://consultation.casa.gov.au/regulatory-program/draft-drone-drone/"
+    },
+    {
+      "publisher": "Unmanned airspace（CASA指引交叉报道）",
+      "publish_date": "2026-10-28",
+      "url": "https://www.unmannedairspace.info/latest-news-and-information/australias-casa-seeks-industry-feedback-on-draft-drone-deconfliction-guidance/"
+    }
+  ],
+  "quality_notes": [
+    "北海新闻明确发布时间为2026-10-28 22:46（北京时间），可确认落入本次24小时窗口。",
+    "昌平规划征求意见页面起始时间为2026-10-28 00:00，超出严格24小时窗口；因与城市更新规划实践高度相关而保留，并标记within_24h=false。",
+    "其余3条官方页面确认发布日期为2026-10-28，但未确认精确发布时间，within_24h=null，不能宣称全部严格处于过去24小时。",
+    "CASA文件仍为征求意见稿；昌平规划亦为征求意见稿。",
+    "未核实可直接引用的配图授权，image_url均为null。"
+  ]
+}
