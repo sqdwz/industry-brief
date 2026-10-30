@@ -1,0 +1,268 @@
+{
+  "type": "weekly",
+  "date": "2026-10-30",
+  "week": "2026-W44",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-30T04:09:44.304+00:00",
+  "title": "本周行业汇总｜2026-W44（10月24日—10月30日）",
+  "summary": "本周精选11条：城市更新/GIS 4条、AI模型与工具4条、测绘/无人机3条。城市更新突出存量空间运营与统一编码，AI突出多模型Agent运行与受限新模型，测绘突出高频三维更新、遥感自动化及多机协同。",
+  "coverage": {
+    "start": "2026-10-24",
+    "end": "2026-10-30",
+    "note": "按北京时间统计；政策原文10月23日发布，10月29日的后续分析纳入本周。"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 4,
+      "item_titles": [
+        "老旧街区厂区改造从政策发布转向落地讨论，重点关注1500个工程与运营前置",
+        "武汉城市数字底座形成“一房一码”实践，937万套房屋已建档赋码",
+        "广西北海危旧房自主更新案例：398户安置、按栋筹资与分批开工",
+        "北京昌平公开征求“十五五”城市更新规划意见"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 4,
+      "item_titles": [
+        "Google发布Gemini 4 Carbon，强化长时程编程与安全研究，仍处受限开放阶段",
+        "GitHub Agentic Workflows正式可用：Markdown任务编译为Actions自动化",
+        "微软开放Copilot多模型Harness，MCP与Agent Skills可组合运行",
+        "NVIDIA展示AI Agent将现场全景与点云重建为可编辑建筑仿真模型"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 3,
+      "item_titles": [
+        "上海基础测绘“十五五”规划明确三维白模季度更新、航摄影像年度更新",
+        "Esri更新ArcGIS Image Dedicated，强化遥感批量处理与城市热岛分析",
+        "澳大利亚CASA公开无人机间冲突消解指引草案"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "老旧街区厂区改造从政策发布转向落地讨论，重点关注1500个工程与运营前置",
+      "summary": "10月29日第一财经经21经济网发布分析，围绕六部门10月23日公布的指导意见，讨论“十五五”期间1500个老旧街区厂区改造提升重大工程及用地、融资、运营等落地难点。政策要求以城市体检确定对象，鼓励运营主体参与前期设计；具体过渡期、融资条款应以正式政策及地方细则为准。",
+      "impact": "在GIS更新项目库中增加城市体检问题、产权主体、用途转换条件、运营方、资金来源及现金流测算字段；政策解读与法定文件分开存档。",
+      "publisher": "第一财经／21经济网；住房城乡建设部",
+      "publish_date": "2026-10-29",
+      "url": "https://www.21jingji.com/article/20261029/herald/2d9e2b5069ad0435f019c59b6b1d992b.html",
+      "image_url": null,
+      "related_urls": [
+        "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html"
+      ],
+      "source_note": "政策原始发布于10月23日；本周纳入的是10月29日的落地分析。"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "武汉城市数字底座形成“一房一码”实践，937万套房屋已建档赋码",
+      "summary": "武汉市政府10月25日披露，其城市治理项目获2026年“数据要素×”大赛全国二等奖，3515万个城市实体拥有统一识别代码，其中937万套房屋完成建档赋码。统一编码将房屋档案、空间位置和治理信息关联到同一实体。",
+      "impact": "优先为房屋、宗地、权利人和现场调查表建立稳定主键与关联表，减少CAD、Excel、GIS之间的重复编号和版本冲突。",
+      "publisher": "武汉市人民政府／湖北发布",
+      "publish_date": "2026-10-25",
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "广西北海危旧房自主更新案例：398户安置、按栋筹资与分批开工",
+      "summary": "广西日报10月28日报道，北海西藏新村13栋D级危房采用居民主体、政府补贴、原拆原建方式，398户913人完成搬离安置，319户参与筹资，整体筹款进度约70%。项目实行“成熟一栋、实施一栋”，8号楼已封顶。",
+      "impact": "为每栋房屋单独记录危房等级、居民意见、筹资比例、搬迁状态、施工节点及质量验收，避免以片区总体进度代替楼栋真实进度。",
+      "publisher": "广西日报／广西住房和城乡建设厅",
+      "publish_date": "2026-10-28",
+      "url": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae20aae-22009203.shtml",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "北京昌平公开征求“十五五”城市更新规划意见",
+      "summary": "北京市昌平区住建委10月28日公布《昌平区“十五五”时期城市更新规划（征求意见稿）》，征集意见至11月5日。当前为征求意见阶段，不能视为已批准规划。",
+      "impact": "在项目空间库中为政策和片区边界增加draft、consultation、approved等状态及生效时间，保证成果引用的是正确版本。",
+      "publisher": "北京市昌平区住房和城乡建设委员会",
+      "publish_date": "2026-10-28",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261028_4922273.html",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Google发布Gemini 4 Carbon，强化长时程编程与安全研究，仍处受限开放阶段",
+      "summary": "Google 10月28日公布Gemini 4 Carbon，官方称其在Artificial Analysis Intelligence Index v5.0得分59，并展示安全漏洞发现和修复基准表现。本周先面向部分网络安全防御合作方开放，尚未向一般开发者全面提供。",
+      "impact": "将其纳入后续ArcPy、CAD插件安全审查模型观察清单，但暂不写入可直接部署的生产模型选型。",
+      "publisher": "Google Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "image_url": null,
+      "availability": "restricted_rollout"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "GitHub Agentic Workflows正式可用：Markdown任务编译为Actions自动化",
+      "summary": "GitHub 10月28日宣布Agentic Workflows正式可用，允许通过Markdown定义任务并编译为GitHub Actions，支持问题分拣、CI失败分析、文档维护和测试编写。官方提供只读默认权限、沙箱、输出校验与威胁检测等保护。",
+      "impact": "可在个人GIS工具仓库试点自动检查ArcPy脚本、README与JSON数据格式；涉及仓库写入时仍应保留审查和权限隔离。",
+      "publisher": "GitHub Changelog",
+      "publish_date": "2026-10-28",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "微软开放Copilot多模型Harness，MCP与Agent Skills可组合运行",
+      "summary": "微软10月28日宣布通过Microsoft Foundry提供支撑Copilot的多模型Agent运行框架，提供托管运行和SDK路径，支持MCP、Agent Skills与插件。其重点在模型选择、工具执行、沙箱和治理，而不只是单一模型升级。",
+      "impact": "可借鉴模型层、技能层、GIS工具层、执行日志层分离的架构；在内网场景先评估SDK、离线依赖和数据出境限制。",
+      "publisher": "Microsoft Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "NVIDIA展示AI Agent将现场全景与点云重建为可编辑建筑仿真模型",
+      "summary": "NVIDIA 10月29日发布Omniverse案例：开发者使用AI Agent解析现场全景照片并与点云对齐，生成可编辑建筑几何，以OpenUSD组织场景并用于物理仿真。该内容属于示范案例，不等同于测绘级精度验证。",
+      "impact": "适合探索城市更新三维展示、空间布局推演和设施运维，但建筑尺寸、坐标基准及权属边界仍必须使用测绘成果校核。",
+      "publisher": "NVIDIA Blog",
+      "publish_date": "2026-10-29",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "上海基础测绘“十五五”规划明确三维白模季度更新、航摄影像年度更新",
+      "summary": "上海市规划和自然资源局10月27日公开规划，提出到2030年城市级三维白模季度更新、0.1米航空影像和5点/平方米机载激光点云陆域年度更新，“一张图”地理底图月度更新。相关指标属于上海规划目标，并非全国统一标准。",
+      "impact": "可借鉴按数据类型制定更新频次、变化检测阈值与质检记录的机制，分开维护影像、点云、三维模型和宗地权属版本。",
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/zcwj/chgl/20261027/1a038a7f16754b4f85b25ab90fcb9f9e.html",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "Esri更新ArcGIS Image Dedicated，强化遥感批量处理与城市热岛分析",
+      "summary": "Esri 10月26日发布ArcGIS Image Dedicated季度更新，加入基于Sentinel-2的场景级分区统计工作流、城市热岛分析工具，以及影像任务恢复和成本监测改进。部分功能依赖该专属云服务，不能直接视为ArcGIS Pro本地功能。",
+      "impact": "可参考“场景检索—云掩膜—指数生成—分区统计—GeoParquet输出”的流程设计本地ArcPy遥感批处理，并评估云端方案成本。",
+      "publisher": "Esri ArcGIS Blog",
+      "publish_date": "2026-10-26",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-online/imagery/arcgis-image-dedicated-october-2026-enhancements",
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "澳大利亚CASA公开无人机间冲突消解指引草案",
+      "summary": "澳大利亚民航安全局10月28日开放征求意见，提出共享准确飞行计划、利用UTM服务、运营商协调及实时监测计划航区等原则，征求意见至11月17日。文件是指导草案，不新增监管义务，也不适用于中国法律判断。",
+      "impact": "多机航测和自动机场调度可借鉴航线时段冲突检查、任务留痕与偏航告警，但国内飞行须遵守中国现行空域管理规定。",
+      "publisher": "Civil Aviation Safety Authority (Australia)",
+      "publish_date": "2026-10-28",
+      "url": "https://consultation.casa.gov.au/regulatory-program/draft-drone-drone/",
+      "image_url": null
+    }
+  ],
+  "core_changes": [
+    "城市更新从单一工程建设转向“权属—资金—居民参与—运营”全周期治理，空间数据统一编码的价值上升。",
+    "AI创新重点从单模型参数转向可切换模型、可审计工具调用与长期执行的Agent Harness；高能力新模型仍需区分发布与实际可用。",
+    "基础测绘和无人机逐步从单次采集转向周期更新、自动化质检及飞行协同，数据版本和作业日志更关键。"
+  ],
+  "work_impact": [
+    "在向阳、金山寺等项目台账中将宗地、房屋、权属、调查、补偿、工程节点与运营状态以唯一ID关联，保留来源和版本。",
+    "为ArcPy/CAD Agent建立20—30个脱敏回归测试样例，并执行只读、审批、沙箱和操作日志策略。",
+    "将航测影像、点云、模型、外业核查与空间成果分开版本化；设置更新周期、坐标基准和质量检查规则。"
+  ],
+  "trends": [
+    "城市更新项目可能更强调运营前置、资金闭环和产权条件核验。",
+    "空间智能正把AI Agent、GIS和可编辑三维场景连接，但测绘级精度不能由演示案例替代。",
+    "无人机自动化业务会更依赖任务调度、空域合规、传感器数据融合和持续监测。"
+  ],
+  "next_week_watch": [
+    {
+      "topic": "老旧街区厂区改造地方细则",
+      "focus": "追踪六部门指导意见之后各地关于用途转换、产权、资金和运营的具体实施办法。"
+    },
+    {
+      "topic": "Gemini 4 Carbon与Agent框架开放程度",
+      "focus": "核对Google Carbon开发者开放、GitHub Agentic Workflows及Microsoft Harness的实际可用性、权限与成本。"
+    },
+    {
+      "topic": "测绘更新与无人机调度项目",
+      "focus": "跟踪上海测绘规划落地采购、影像/点云自动化质检及多机飞行管理规范进展。"
+    }
+  ],
+  "recommended_reading": {
+    "title": "1500个老旧街区厂区改造提速，城市更新迎来“新风口”",
+    "author": "第一财经（21经济网转载）",
+    "publisher": "第一财经／21经济网",
+    "publish_date": "2026-10-29",
+    "url": "https://www.21jingji.com/article/20261029/herald/2d9e2b5069ad0435f019c59b6b1d992b.html",
+    "access": "免费可直接阅读",
+    "estimated_read_minutes": 5,
+    "reading_values": [
+      "结合石家庄、南京、苏州等案例理解工业存量空间从改造到运营的路径。",
+      "识别用地合规、产权碎片化、资金回收期长与运营不足等项目瓶颈。",
+      "区分政策层面的弹性用地与融资方向、地方实施细则及项目自身现金流的不同确定性。"
+    ],
+    "work_inspiration": "项目GIS台账不应只记录面积和权属，还应把运营用途、现金流假设、审批状态与阶段性绩效一起纳入可追溯的数据结构。"
+  },
+  "sources": [
+    {
+      "publisher": "第一财经／21经济网",
+      "publish_date": "2026-10-29",
+      "url": "https://www.21jingji.com/article/20261029/herald/2d9e2b5069ad0435f019c59b6b1d992b.html"
+    },
+    {
+      "publisher": "住房和城乡建设部",
+      "publish_date": "2026-10-23",
+      "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_140e3dd19dfe4e5da06e14dd189d1493.html"
+    },
+    {
+      "publisher": "武汉市人民政府／湖北发布",
+      "publish_date": "2026-10-25",
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202610/t20261025_2867748.shtml"
+    },
+    {
+      "publisher": "广西日报／广西住房和城乡建设厅",
+      "publish_date": "2026-10-28",
+      "url": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae20aae-22009203.shtml"
+    },
+    {
+      "publisher": "北京市昌平区住房和城乡建设委员会",
+      "publish_date": "2026-10-28",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261028_4922273.html"
+    },
+    {
+      "publisher": "Google Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "publisher": "GitHub Changelog",
+      "publish_date": "2026-10-28",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/"
+    },
+    {
+      "publisher": "Microsoft Official Blog",
+      "publish_date": "2026-10-28",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+    },
+    {
+      "publisher": "NVIDIA Blog",
+      "publish_date": "2026-10-29",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+    },
+    {
+      "publisher": "上海市规划和自然资源局",
+      "publish_date": "2026-10-27",
+      "url": "https://ghzyj.sh.gov.cn/zcwj/chgl/20261027/1a038a7f16754b4f85b25ab90fcb9f9e.html"
+    },
+    {
+      "publisher": "Esri ArcGIS Blog",
+      "publish_date": "2026-10-26",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-online/imagery/arcgis-image-dedicated-october-2026-enhancements"
+    },
+    {
+      "publisher": "Civil Aviation Safety Authority (Australia)",
+      "publish_date": "2026-10-28",
+      "url": "https://consultation.casa.gov.au/regulatory-program/draft-drone-drone/"
+    }
+  ]
+}

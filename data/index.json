@@ -1,7 +1,13 @@
 {
   "latest_daily": "data/daily/2026-10-29.json",
-  "latest_weekly": "data/weekly/2026-W43.json",
+  "latest_weekly": "data/weekly/2026-W44.json",
   "recent": [
+    {
+      "type": "weekly",
+      "date": "2026-10-30",
+      "title": "本周行业汇总｜2026-W44（10月24日—10月30日）",
+      "path": "data/weekly/2026-W44.json"
+    },
     {
       "type": "daily",
       "date": "2026-10-29",
@@ -175,12 +181,6 @@
       "date": "2026-09-25",
       "title": "本周行业汇总｜2026-W39（9月19日—9月25日）",
       "path": "data/weekly/2026-W39.json"
-    },
-    {
-      "type": "daily",
-      "date": "2026-09-24",
-      "title": "行业日报｜2026-09-24",
-      "path": "data/daily/2026-09-24.json"
     }
   ]
 }
