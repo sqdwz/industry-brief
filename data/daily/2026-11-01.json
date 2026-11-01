@@ -1,0 +1,152 @@
+{
+  "type": "daily",
+  "date": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-01T12:10:12+08:00",
+  "title": "行业日报｜2026-11-01",
+  "summary": "精选5条：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。重点关注世界城市日可持续城市案例、CIM和数字孪生落地、上海进博会无人机管制，以及Android MCP实际可用性和Agent安全工程。",
+  "coverage": {
+    "target_window_start": "2026-10-31T12:10:12+08:00",
+    "target_window_end": "2026-11-01T12:10:12+08:00",
+    "confirmed_within_24h": 2,
+    "date_only_time_uncertain": 2,
+    "older_exception": 1,
+    "method": "以北京时间过去24小时为首选；网页仅有发布日期者标注小时不明；超窗补充单独说明。"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 2,
+      "item_titles": [
+        "世界城市日福州开幕：景德镇等五城获上海奖，2026版《上海手册》发布",
+        "福州世界城市日体验区亮相：104家单位展示300余项技术与项目"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 2,
+      "item_titles": [
+        "Android MCP/AppFunctions再受关注：开发者账号称进入Beta，官方文档仍标实验预览",
+        "Google开源周报聚焦AI Agent人工审批、成本约束和软件供应链安全"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 1,
+      "item_titles": [
+        "上海发布进博会无人机临时管制通告：11月3日起分区限飞"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "世界城市日福州开幕：景德镇等五城获上海奖，2026版《上海手册》发布",
+      "summary": "10月31日世界城市日全球主场活动在福州开幕，第四届全球可持续发展城市奖授予景德镇、亚的斯亚贝巴、圣地亚哥卡利、伊斯坦布尔和卡托维兹；同期发布2026版《上海手册》等成果。获奖是可持续发展综合表彰，不能等同于某项城市更新工程已竣工。",
+      "impact": "可跟踪《上海手册》和获奖城市案例，建立城市更新项目的住房改善、公共空间、历史保护、韧性治理四类可比指标，再关联项目GIS图斑及成效证据。",
+      "publisher": "新华社／新华网",
+      "publish_date": "2026-10-31",
+      "publish_time": "20:49:52 Asia/Shanghai",
+      "url": "https://www.news.cn/20261031/adcf0848a4e9496cbd627a924ae1dc4b/c.html",
+      "image_url": null,
+      "time_window": "confirmed_within_24h"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "福州世界城市日体验区亮相：104家单位展示300余项技术与项目",
+      "summary": "10月31日公布的体验区面积2万平方米，104家参展单位展示300余项技术、产品与项目，涵盖CIM数字底座、数字孪生治水、管网探测机器人、智能建造和社区运营等；11月1日至2日向公众开放。",
+      "impact": "为城市更新WebGIS筛选三类可复用场景：CIM底图关联楼栋与设施、排水管网和积水风险可视化、调查整改与长期运营数据联动；先验证数据接口和可交付成果，不直接照搬展会演示。",
+      "publisher": "福州新闻网；人民网福建频道",
+      "publish_date": "2026-10-31",
+      "publish_time": "22:11:56 Asia/Shanghai（福州新闻网）",
+      "url": "https://m.fznews.com.cn/fzyw/20261031/3wr5s6IQiT.shtml",
+      "related_urls": [
+        "https://fj.people.com.cn/n2/2026/1031/c181466-41738193.html"
+      ],
+      "image_url": null,
+      "time_window": "confirmed_within_24h"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "上海发布进博会无人机临时管制通告：11月3日起分区限飞",
+      "summary": "上海市政府10月31日公布通告：11月3日0时至10日24时国家会展中心半径5公里内实施临时管制；11月3日0时至5日24时世界会客厅半径10公里内实施临时管制。相关时段与范围未经批准不得飞行。",
+      "impact": "航测任务排期必须按时段和空间范围叠加临时管制面；在航前检查清单中记录官方公告、起止时间、范围和审批状态。该通告适用上海进博会，不应误作海南地区禁飞公告。",
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-31",
+      "publish_time": null,
+      "url": "https://www.shanghai.gov.cn/nw12344/20261031/0187529b2e0440b7a99ed9e05cae5ac4.html",
+      "image_url": null,
+      "time_window": "date_confirmed_hour_unknown",
+      "source_note": "通告落款10月29日，网页公开日期10月31日；具体网页发布时间未显示。"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Android MCP/AppFunctions再受关注：开发者账号称进入Beta，官方文档仍标实验预览",
+      "summary": "10月31日技术报道引述Google开发者地区账号，将Android MCP的AppFunctions称为Beta；但Android开发者官方文档仍标记Experimental Preview，Jetpack库为Alpha、Gemini集成为私有预览，需Android 16及以上。尚不能据此认定功能全面正式开放。",
+      "impact": "移动端共享地图可关注把定位、要素查询、图层切换、调查记录等封装为受权限控制的工具接口；现阶段先做MCP/工具调用原型，不应依赖尚未普遍开放的Android系统集成。",
+      "publisher": "Google Android Developers（官方文档）；Pasquale Pillitteri（10月31日报道）",
+      "publish_date": "2026-10-31",
+      "publish_time": null,
+      "url": "https://developer.android.com/ai/appfunctions",
+      "related_urls": [
+        "https://pasqualepillitteri.it/en/news/28959/android-mcp-appfunctions-beta-google-ai-agents"
+      ],
+      "image_url": null,
+      "time_window": "date_confirmed_hour_unknown",
+      "source_note": "10月31日为报道/开发者地区账号消息日期；官方文档截至检索仍称Experimental Preview，版本状态存在口径差异。"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Google开源周报聚焦AI Agent人工审批、成本约束和软件供应链安全",
+      "summary": "Google开源项目办公室10月30日周报重点整理Genkit Go 1.14的人工审批与预算控制、Agent Skills，以及LiteLLM供应链安全等开发议题。这是官方技术综述，不是Google在10月30日同时首发上述全部工具。",
+      "impact": "为自动化政策巡检和GIS Agent设置高风险操作人工审批、工具调用预算、依赖锁定与密钥隔离；特别检查第三方Python包及GitHub Actions权限。",
+      "publisher": "Google Open Source Blog",
+      "publish_date": "2026-10-30",
+      "publish_time": null,
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
+      "image_url": null,
+      "time_window": "outside_24h_high_value_exception",
+      "source_note": "10月30日官方周报超出严格24小时窗口；因与Agent安全和自动化部署高度相关，明确作为补充。"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "城市更新领域正在同时强调可持续发展成效与可落地的CIM、数字孪生、地下管网等场景；AI Agent的工程重点转向权限、审批、成本和依赖安全；无人机作业必须将临时空域通告纳入时空数据管理。",
+  "recommended_tool": {
+    "name": "ArcGIS Pro + GeoJSON 临时空域管制时空叠加核查",
+    "method": "将官方公告范围矢量化为Polygon，记录start_time、end_time、source_url、approval_status；与航测计划的航线缓冲区叠加，按任务日期输出冲突清单。",
+    "first_step": "用上海进博会两个临时管制圆形范围做样例，先完成范围与日期相交判断；实际飞行前仍以主管部门正式空域信息及审批结果为准。"
+  },
+  "sources": [
+    {
+      "publisher": "新华社／新华网",
+      "publish_date": "2026-10-31",
+      "url": "https://www.news.cn/20261031/adcf0848a4e9496cbd627a924ae1dc4b/c.html"
+    },
+    {
+      "publisher": "福州新闻网；人民网福建频道",
+      "publish_date": "2026-10-31",
+      "url": "https://m.fznews.com.cn/fzyw/20261031/3wr5s6IQiT.shtml"
+    },
+    {
+      "publisher": "上海市人民政府",
+      "publish_date": "2026-10-31",
+      "url": "https://www.shanghai.gov.cn/nw12344/20261031/0187529b2e0440b7a99ed9e05cae5ac4.html"
+    },
+    {
+      "publisher": "Google Android Developers（官方文档）；Pasquale Pillitteri（10月31日报道）",
+      "publish_date": "2026-10-31",
+      "url": "https://developer.android.com/ai/appfunctions"
+    },
+    {
+      "publisher": "Google Open Source Blog",
+      "publish_date": "2026-10-30",
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html"
+    }
+  ],
+  "quality_notes": [
+    "已对照2026-10-31日报和W44周报去重，未重复收录其已入库动态。",
+    "世界城市日颁奖与体验区为同一活动的两个不同成果，分别记录奖项/手册与具体数字化场景。",
+    "Android MCP版本口径以Google官方文档为准，未把地区账号Beta表述当作全面GA。",
+    "仅保留可核实的原文链接，image_url为null。"
+  ]
+}
