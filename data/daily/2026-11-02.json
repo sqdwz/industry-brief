@@ -1,0 +1,162 @@
+{
+  "type": "daily",
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-02T12:14:20+08:00",
+  "title": "行业日报｜2026-11-02",
+  "summary": "精选5条：城市更新/GIS 2条、AI模型与工具2条、测绘/无人机1条。今日关注上海城发大会、福州《中国城市发展报告》、ChatGPT/Codex共享额度、Droid 1.0程序化工具调用和存量无人机运行识别改造节点。",
+  "coverage": {
+    "target_window_start": "2026-11-01T12:14:20+08:00",
+    "target_window_end": "2026-11-02T12:14:20+08:00",
+    "confirmed_within_24h": 2,
+    "date_only_time_uncertain": 1,
+    "older_exception": 1,
+    "new_effective_date_older_publication": 1,
+    "method": "优先选取过去24小时公开发布；仅有发布日期时明确时间不确定；旧文件新生效与高价值补充分别标记，不伪称24小时新闻。"
+  },
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 2,
+      "item_titles": [
+        "上海2026城发大会今日开幕：曹杨新村与环城生态公园带入选《上海手册》",
+        "福州城市更新主论坛发布《中国城市发展报告（2025/2026）》"
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 2,
+      "item_titles": [
+        "OpenAI确认12月起ChatGPT与Codex共用Token额度，Instant聊天不扣减",
+        "Factory Droid 1.0推出程序化工具调用：多步骤Agent可在脚本中批量执行"
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 1,
+      "item_titles": [
+        "存量无人机运行识别改造关键节点已于11月1日到期"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "上海2026城发大会今日开幕：曹杨新村与环城生态公园带入选《上海手册》",
+      "summary": "11月2日上海世界城市日城市可持续发展全球大会开幕。上海市政府刊发的《解放日报》报道确认，2026版《上海手册》中文版收录19个国家和地区的23个重点案例及6个专栏，其中曹杨新村、环城生态公园带为上海本土案例；大会主题为“城市更新，住有宜居”。",
+      "impact": "城市更新项目GIS台账可建立“老旧社区改造—公共空间与生态廊道—住房宜居指标”的成果证据链，并为向阳、金山寺等项目加入改造前后影像与成效评价字段。",
+      "publisher": "上海市人民政府／解放日报",
+      "publish_date": "2026-11-02",
+      "publish_time": null,
+      "url": "https://www.shanghai.gov.cn/nw4411/20261102/73921a4209ad4e19b96af4aefd0454bf.html",
+      "related_urls": [
+        "https://wsb.sh.gov.cn/ywdt/gzjx/20261021/39ad364e46d44ea692977dc394ec9c23.html"
+      ],
+      "image_url": null,
+      "time_window": "date_confirmed_hour_unknown",
+      "source_note": "今日发布，网页未提供具体时刻；不把大会预告当作会议成果已全部正式发布。"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "福州城市更新主论坛发布《中国城市发展报告（2025/2026）》",
+      "summary": "11月1日“新时代城市高质量发展市长论坛”在福州举行，以“高质量推进城市更新”为主题，现场发布《中国城市发展报告（2025/2026）》并举行项目签约与主题交流。此次为前一日世界城市日开幕、颁奖之外的新报告发布节点。",
+      "impact": "建议跟踪报告全文及指标体系，筛选住房改善、历史街区保护、城市韧性等可落到宗地/房屋/片区图斑的指标，形成项目可比性评估模板；签约不等于项目已竣工。",
+      "publisher": "福州市人民政府门户网站／福州新闻网；福建省人民政府",
+      "publish_date": "2026-11-01",
+      "publish_time": "19:57 Asia/Shanghai（福州政府转载页）",
+      "url": "https://fzrd.gov.cn/zwgk/gzdt/rcyw/202611/t20261101_5388174.htm",
+      "related_urls": [
+        "https://www.fj.gov.cn/xwdt/fjyw/202611/t20261101_7242933.htm"
+      ],
+      "image_url": null,
+      "time_window": "confirmed_within_24h",
+      "source_note": "已与11月1日日报中世界城市日开幕及《上海手册》发布去重，本条仅记录11月1日新增《中国城市发展报告》成果。"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI确认12月起ChatGPT与Codex共用Token额度，Instant聊天不扣减",
+      "summary": "OpenAI最新帮助中心明确，Plus、Pro、Business从12月起共享ChatGPT与Codex用量额度，按Token衡量消耗；Work智能体能力将融入ChatGPT主体验，Instant聊天不计入该用量。11月1日14时机器之心经36氪报道，11月2日官方帮助页仍可核实。",
+      "impact": "使用Codex维护WebGIS、ArcPy脚本及自动化仓库时，应记录任务输入/输出Token与模型档位，建立轻重任务分级，避免高成本长任务占用聊天额度；具体配额、切换日期尚未公布，不应据此推断额度减少。",
+      "publisher": "OpenAI Help Center（第一手）；机器之心／36氪",
+      "publish_date": "2026-11-01",
+      "publish_time": "14:00 Asia/Shanghai（36氪报道）",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "related_urls": [
+        "https://www.36kr.com/p/4050682558714755"
+      ],
+      "image_url": null,
+      "time_window": "confirmed_within_24h",
+      "source_note": "发布日期为11月1日媒体报道；官方帮助页持续更新，不提供稳定首次发布日期。"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Factory Droid 1.0推出程序化工具调用：多步骤Agent可在脚本中批量执行",
+      "summary": "Factory 10月29日正式发布Droid 1.0，采用模型无关的Agent Harness，并把程序化工具调用（PTC）作为核心能力：Agent可编写受限JavaScript脚本批量调用工具，过滤结果后再返回模型。Factory公布的效率与基准成绩属于厂商自测，尚需独立复核。",
+      "impact": "对19市县政策/招投标巡检、GIS属性批量核验、GitHub仓库维护等多工具任务，可借鉴“程序循环+失败重试+摘要回传”的设计，减少重复上下文传输；先在只读测试仓库验证结果一致性与权限隔离。",
+      "publisher": "Factory Research（厂商官方）",
+      "publish_date": "2026-10-29",
+      "publish_time": null,
+      "url": "https://factory.com/news/frontier-harness",
+      "image_url": null,
+      "time_window": "outside_24h_high_value_exception",
+      "source_note": "距日报窗口约4天，为未收录于近几期日报/W44周报的高价值工程化补充；非今日首发。"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "存量无人机运行识别改造关键节点已于11月1日到期",
+      "summary": "民航局对强制性国家标准GB 46750—2025的官方解读明确：2026年11月1日前，已售存量机在一定条件下可按过渡规则运行；制造商须完成相应固件升级或运行识别模块改造，达到广播式、网络式运行识别指定要求。11月1日是既定合规节点，并非昨日新发布的法规。",
+      "impact": "航测项目应逐架核查DJI M4E等设备的型号、固件、实名登记、UOM对接/运行识别状态及作业审批，留存核查截图；不要简单推断所有旧无人机11月1日一律自动锁机，也不要将其与地区临时禁飞混为一谈。",
+      "publisher": "中国民用航空局（官方政策解读）",
+      "publish_date": "2026-01-20",
+      "effective_date": "2026-11-01",
+      "publish_time": null,
+      "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/SYZCFBJD/202601/t20260120_229793.html",
+      "related_urls": [
+        "https://uom.caac.gov.cn"
+      ],
+      "image_url": null,
+      "time_window": "new_effective_date_older_publication",
+      "source_note": "旧文件的新生效节点，单独标注，避免将1月20日文件误写为11月1日发布。"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "城市更新正在从案例展示转向可比较的成果指标和报告体系；AI Agent的差异化竞争转向工具调用效率与成本管理；无人机测绘的运行识别合规已成为设备与航线之外的基础作业条件。",
+  "recommended_tool": {
+    "name": "航测设备UOM合规核验清单（ArcGIS Pro / Excel均可）",
+    "method": "为每架无人机建立aircraft_id、model、firmware_version、remote_id_mode、uom_status、registration_status、last_checked_at、source_url等字段；每次航测任务前与计划日期、空域审批和临时管制信息联动校验。",
+    "first_step": "先核查M4E在UOM平台的运行识别对接与固件状态，保存型号和核查日期；再扩展到全队设备，勿以单篇二手文章推断设备自动禁飞。"
+  },
+  "sources": [
+    {
+      "publisher": "上海市人民政府／解放日报",
+      "publish_date": "2026-11-02",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261102/73921a4209ad4e19b96af4aefd0454bf.html"
+    },
+    {
+      "publisher": "福州市人民政府门户网站／福州新闻网；福建省人民政府",
+      "publish_date": "2026-11-01",
+      "url": "https://fzrd.gov.cn/zwgk/gzdt/rcyw/202611/t20261101_5388174.htm"
+    },
+    {
+      "publisher": "OpenAI Help Center（第一手）；机器之心／36氪",
+      "publish_date": "2026-11-01",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+    },
+    {
+      "publisher": "Factory Research（厂商官方）",
+      "publish_date": "2026-10-29",
+      "url": "https://factory.com/news/frontier-harness"
+    },
+    {
+      "publisher": "中国民用航空局（官方政策解读）",
+      "publish_date": "2026-01-20",
+      "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/SYZCFBJD/202601/t20260120_229793.html"
+    }
+  ],
+  "quality_notes": [
+    "已读取仓库2026-11-01日报与2026-W44周报，对照标题去重。",
+    "世界城市日新增两条分别为11月2日上海城市更新案例与11月1日福州《中国城市发展报告》，不重复前期颁奖及体验区信息。",
+    "仅2条可核实具体发布时刻处于过去24小时，另1条仅能确认日期；1条为旧政策的新合规节点，1条为高价值超窗补充。",
+    "未发现足够可靠且授权清晰的可直接引用配图，image_url均为null。"
+  ]
+}

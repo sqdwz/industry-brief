@@ -1,7 +1,13 @@
 {
-  "latest_daily": "data/daily/2026-11-01.json",
+  "latest_daily": "data/daily/2026-11-02.json",
   "latest_weekly": "data/weekly/2026-W44.json",
   "recent": [
+    {
+      "type": "daily",
+      "date": "2026-11-02",
+      "title": "行业日报｜2026-11-02",
+      "path": "data/daily/2026-11-02.json"
+    },
     {
       "type": "daily",
       "date": "2026-11-01",
@@ -175,12 +181,6 @@
       "date": "2026-09-30",
       "title": "行业日报｜2026-09-30",
       "path": "data/daily/2026-09-30.json"
-    },
-    {
-      "type": "daily",
-      "date": "2026-09-27",
-      "title": "行业日报｜2026-09-27",
-      "path": "data/daily/2026-09-27.json"
     }
   ]
 }
