@@ -1,0 +1,117 @@
+{
+  "type": "daily",
+  "date": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-03T12:10:42+08:00",
+  "title": "行业日报｜2026-11-03",
+  "summary": "精选5条新动态：香港城市更新互动展示、SAR遥感卫星入轨、工业AI合作、AI数据中心弹性用电及AI基础设施成本。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 1
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 3
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "香港市建局25周年沉浸式城市更新展览揭幕",
+      "summary": "香港市区重建局11月2日推出“城市建新室”展览，以VR及互动体验展示25年更新历程，强调地区为本、规划主导。",
+      "impact": "可将更新前后影像、建筑状态与公众参与反馈整合成WebGIS互动叙事。",
+      "publisher": "香港市区重建局",
+      "publish_date": "2026-11-02",
+      "url": "https://www.ura.org.hk/tc/news-centre/press-releases/20261102",
+      "image_url": null,
+      "time_window": "date_only"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "QPS-SAR-20雷达遥感卫星发射并完成首次通信",
+      "summary": "日本iQPS于11月3日确认WADATSUMI-II卫星入轨、首次通信成功；首批影像尚待获取。SAR支持夜间及多云条件下的地表监测。",
+      "impact": "可评估SAR影像辅助海南多云季节变化检测，但须关注数据获取成本、分辨率与配准精度。",
+      "publisher": "iQPS",
+      "publish_date": "2026-11-03",
+      "url": "https://i-qps.net/en/news/4146/",
+      "image_url": null,
+      "time_window": "confirmed"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI与阿布扎比能源企业合作推进工业AI",
+      "summary": "路透社11月2日报道ADNOC、G42与OpenAI达成协议，计划将先进AI用于能源运营；尚不能据此断言已全面部署。",
+      "impact": "工业AI落地强调权限、现场数据与业务闭环，可借鉴于GIS巡检和资产管理Agent。",
+      "publisher": "Reuters",
+      "publish_date": "2026-11-02",
+      "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/",
+      "image_url": null,
+      "time_window": "date_only"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI提出Grid Protectors数据中心弹性用电计划",
+      "summary": "OpenAI发布Grid Protectors计划，拟与电网运营方协调，在电网压力高时降低未来算力园区负荷；具体实施仍依地区协议。",
+      "impact": "AI算力资源规划需纳入电力、成本和可用性约束；本地与云端推理混合部署应有容量预算。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-03",
+      "url": "https://openai.com/index/grid-protectors-program/",
+      "image_url": null,
+      "time_window": "date_only"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Anthropic最新IPO文件披露巨额AI基础设施投入",
+      "summary": "美联社11月3日报道Anthropic更新IPO申报，披露收入、亏损和长期算力采购承诺；财务数字需以正式申报文件为准。",
+      "impact": "模型供应商算力投入与商业化成本值得持续跟踪，避免长期工作流绑定单一供应商。",
+      "publisher": "Associated Press",
+      "publish_date": "2026-11-03",
+      "url": "https://apnews.com/article/0cbd1a649a4cce904be59af8f6b30179",
+      "image_url": null,
+      "time_window": "date_only"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间数据展示正在走向公众可交互的城市更新叙事；SAR观测提升全天候变化监测潜力；AI产业同时面临实际场景落地与算力成本约束。",
+  "recommended_tool": {
+    "name": "SAR与光学影像双源变化核查",
+    "method": "以同一地块的光学正射影像为主、SAR影像为补充，统一投影与日期后比较变化候选区，人工复核建筑和地表变化；不直接将雷达强度变化判为违建。"
+  },
+  "coverage": {
+    "target_window_start": "2026-11-02T12:10:42+08:00",
+    "target_window_end": "2026-11-03T12:10:42+08:00",
+    "note": "部分来源仅有发布日期，不能确认精确24小时窗口；无授权明确的配图故image_url为空。"
+  },
+  "sources": [
+    {
+      "publisher": "香港市区重建局",
+      "publish_date": "2026-11-02",
+      "url": "https://www.ura.org.hk/tc/news-centre/press-releases/20261102"
+    },
+    {
+      "publisher": "iQPS",
+      "publish_date": "2026-11-03",
+      "url": "https://i-qps.net/en/news/4146/"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-11-02",
+      "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-03",
+      "url": "https://openai.com/index/grid-protectors-program/"
+    },
+    {
+      "publisher": "Associated Press",
+      "publish_date": "2026-11-03",
+      "url": "https://apnews.com/article/0cbd1a649a4cce904be59af8f6b30179"
+    }
+  ]
+}
