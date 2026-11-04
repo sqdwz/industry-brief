@@ -1,0 +1,117 @@
+{
+  "type": "daily",
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-04T12:07:56+08:00",
+  "title": "行业日报｜2026-11-04",
+  "summary": "5条重点：上海城市更新评价资料、Esri动态数字孪生、Astra工程AI、LifeVal任务评测、BVLOS航测成本。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 2
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 2
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "category": "城市更新/GIS",
+      "title": "上海发布2026《上海手册》及上海指数应用报告",
+      "summary": "上海市外办11月3日发布大会消息，确认11月2日城市可持续发展全球大会发布新版《上海手册》中文版、上海指数应用报告及主题场景报告，聚焦城市更新与宜居。",
+      "impact": "可将城市更新项目成果评价拆分为居住品质、公共服务、生态韧性等指标，结合GIS制作更新前后对照。",
+      "publisher": "上海市人民政府外事办公室（来源：上海发布）",
+      "publish_date": "2026-11-03",
+      "url": "https://wsb.sh.gov.cn/ywdt/wshd/20261103/d7fd70789e27424fb00f594592207e4e.html",
+      "image_url": null,
+      "time_window": "date_only; event_2026-11-02"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "Esri展示GIS、AI与城市动态数字孪生融合方案",
+      "summary": "Esri于11月2日预告11月3—5日巴塞罗那智慧城市展展示与NVIDIA合作的基础设施场景，整合影像、传感器、视频、三维信息及业务数据。展会于11月3日开始，尚不能视为产品正式发布。",
+      "impact": "共享地图可借鉴统一空间底座接入多源数据，先试点房屋状态与现场影像关联，不必一次建设完整数字孪生。",
+      "publisher": "Esri",
+      "publish_date": "2026-11-02",
+      "url": "https://www.esri.com/about/newsroom/announcements/esri-to-showcase-ai-enabled-digital-twins-at-smart-city-expo-world-congress",
+      "image_url": null,
+      "time_window": "outside_24h; event_started_2026-11-03"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI介绍Astra面向实体工程设计与制造的应用",
+      "summary": "OpenAI于11月4日发布工程领域专题，介绍模型辅助设备设计、硬件工程及任务评估的实践方向；案例展示不等于所有工程流程已自动化。",
+      "impact": "可将AI用于CAD构件设计审阅、测绘工具原型和技术方案评审，但关键尺寸与规范符合性须由工程人员核验。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-04",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+      "image_url": null,
+      "time_window": "date_only"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI发布LifeVal现实生活任务评测",
+      "summary": "OpenAI于11月3日介绍LifeVal评测，关注模型完成现实任务的质量而非仅考察知识问答；评测结果仍需结合具体任务场景判断。",
+      "impact": "为ArcPy、数据整理和GIS Agent建立端到端任务评分，包括成果正确率、人工修正次数、运行时间与成本。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-03",
+      "url": "https://openai.com/index/lifeval/",
+      "image_url": null,
+      "time_window": "date_only"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "美国拟议BVLOS规则对航测企业的成本影响引发讨论",
+      "summary": "Geo Week News 11月3日刊文分析美国FAA拟议Part 108超视距飞行监管框架，认为可能改变测绘企业运营门槛和竞争格局；文章是行业评论，法规并未因此生效。",
+      "impact": "评估无人机自动机场或远距离航测时，除设备成本还应单列审批、监视、通信、保险与人员培训费用；中国项目以本国现行规则为准。",
+      "publisher": "Geo Week News（Juan Plaza）",
+      "publish_date": "2026-11-03",
+      "url": "https://www.geoweeknews.com/articles/part-108-the-bvlos-revolution-is-coming-but-can-mapping-companies-afford-it-part-1/",
+      "image_url": null,
+      "time_window": "date_only"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间数据平台从静态成果展示转向动态运营与指标评价，AI应用从模型能力比拼转向可量化的工程任务质量；无人机自动化则需同步计算合规和运营成本。",
+  "recommended_tool": {
+    "name": "GIS Agent端到端回归评测表",
+    "method": "选取10个典型ArcPy任务，固定输入数据与预期结果，记录成果误差、异常处理、人工修改次数、执行耗时及调用成本，每次升级模型重复测试。"
+  },
+  "coverage": {
+    "target_window_start": "2026-11-03T12:07:56+08:00",
+    "target_window_end": "2026-11-04T12:07:56+08:00",
+    "note": "3条11月3日、1条11月4日、1条11月2日的展会启动补充；多数仅可核对发布日期，无法严格证明处于过去24小时。未使用授权不明配图。"
+  },
+  "sources": [
+    {
+      "publisher": "上海市人民政府外事办公室（来源：上海发布）",
+      "publish_date": "2026-11-03",
+      "url": "https://wsb.sh.gov.cn/ywdt/wshd/20261103/d7fd70789e27424fb00f594592207e4e.html"
+    },
+    {
+      "publisher": "Esri",
+      "publish_date": "2026-11-02",
+      "url": "https://www.esri.com/about/newsroom/announcements/esri-to-showcase-ai-enabled-digital-twins-at-smart-city-expo-world-congress"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-04",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-03",
+      "url": "https://openai.com/index/lifeval/"
+    },
+    {
+      "publisher": "Geo Week News（Juan Plaza）",
+      "publish_date": "2026-11-03",
+      "url": "https://www.geoweeknews.com/articles/part-108-the-bvlos-revolution-is-coming-but-can-mapping-companies-afford-it-part-1/"
+    }
+  ]
+}
