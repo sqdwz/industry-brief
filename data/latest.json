@@ -1,97 +1,259 @@
 {
-  "type": "daily",
-  "date": "2026-11-05",
+  "type": "weekly",
+  "date": "2026-11-06",
+  "week": "2026-W45",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-11-05T12:08:26+08:00",
-  "title": "行业日报｜2026-11-05",
-  "summary": "五条动态：文保精密测绘、Mistral Large 4开放权重、Images 2.6、UgCS大型LiDAR任务、ShadowVision载荷软件。",
+  "generated_at": "2026-11-06T12:13:14+08:00",
+  "title": "本周行业汇总｜2026-W45（10月31日—11月6日）",
+  "summary": "城市更新向项目清单与CIM一张图深化；AI编码及安全模型加速落地；无人机航测更加重视合规与分架次数据管理。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "count": 1
+      "count": 3,
+      "items": [
+        {
+          "category": "城市更新/GIS",
+          "title": "南京公布2026—2030城市更新行动计划",
+          "summary": "南京明确6大行动、18项任务、511个项目，并提出房屋建筑一张图和CIM+应用。",
+          "impact": "将项目、片区、房屋、地下管网及建设进度建立统一空间主键和版本化台账。",
+          "publisher": "新华日报/中共江苏省委新闻网",
+          "publish_date": "2026-11-03",
+          "url": "https://zgjssw.gov.cn/shixianchuanzhen/nanjing/202611/t20261103_8597257.shtml",
+          "image_url": null
+        },
+        {
+          "category": "城市更新/GIS",
+          "title": "Esri展示AI赋能的动态城市数字孪生",
+          "summary": "Esri在11月3日至5日巴塞罗那智慧城市博览会展示GIS、影像、传感器、视频与三维数据融合。",
+          "impact": "共享地图可优先打通实时状态、影像与业务任务，而非仅增加3D展示。",
+          "publisher": "Esri",
+          "publish_date": "2026-11-02",
+          "url": "https://www.esri.com/about/newsroom/announcements/esri-to-showcase-ai-enabled-digital-twins-at-smart-city-expo-world-congress",
+          "image_url": null
+        },
+        {
+          "category": "城市更新/GIS",
+          "title": "自然生态数字孪生开放近千个GIS数据集",
+          "summary": "Esri ArcNews 11月文章介绍TNC与UCSB合作的数字孪生，使用PostGIS、ArcGIS Enterprise及传感器自动管道。",
+          "impact": "适合借鉴空间数据目录、自动入库和动态监测架构，应用于更新项目的生态与风险评估。",
+          "publisher": "Esri ArcNews / UCSB",
+          "publish_date": "2026-11",
+          "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+          "image_url": null
+        }
+      ]
     },
     {
       "name": "AI模型与工具",
-      "count": 2
+      "count": 3,
+      "items": [
+        {
+          "category": "AI模型与工具",
+          "title": "OpenAI发布GPT-6 Cyber并限制首批访问",
+          "summary": "11月5日发布的专用安全模型面向获准的防御研究者，强调漏洞发现与授权边界。",
+          "impact": "WebGIS和CAD插件应强化依赖扫描、代码审查、最小权限及操作审计；不应将受限模型视为普遍可用。",
+          "publisher": "OpenAI / Reuters",
+          "publish_date": "2026-11-05",
+          "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/",
+          "image_url": null
+        },
+        {
+          "category": "AI模型与工具",
+          "title": "Mistral Large 4开放权重",
+          "summary": "Mistral 11月4日发布开放权重模型，强调编码Agent和安全防御能力，厂商基准尚需独立验证。",
+          "impact": "可作为自部署GIS脚本Agent的候选，但应先评估硬件资源与任务准确率。",
+          "publisher": "Mistral AI",
+          "publish_date": "2026-11-04",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "image_url": null
+        },
+        {
+          "category": "AI模型与工具",
+          "title": "OpenAI Images 2.6强化可编辑图像交付",
+          "summary": "OpenAI 11月4日发布图像生成与编辑更新，支持SVG导出等能力。",
+          "impact": "用于项目汇报的视觉素材和图标，空间测绘成果仍须来自权威数据。",
+          "publisher": "OpenAI",
+          "publish_date": "2026-11-04",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "image_url": null
+        }
+      ]
     },
     {
       "name": "测绘/无人机",
-      "count": 2
+      "count": 3,
+      "items": [
+        {
+          "category": "测绘/无人机",
+          "title": "UgCS 6.3扩展大型LiDAR分架次任务",
+          "summary": "11月4日专业报道介绍UgCS 6.3的LiDAR大项目分区规划、IMU校准和地形跟随；产品实际发布于10月28日。",
+          "impact": "建议建立分区覆盖率、航迹、校准日志与成果质检闭环。",
+          "publisher": "Geo Week News / SPH Engineering",
+          "publish_date": "2026-11-04",
+          "url": "https://www.geoweeknews.com/articles/ugcs-6-3-extends-large-projects-from-magnetic-surveys-to-lidar/",
+          "image_url": null
+        },
+        {
+          "category": "测绘/无人机",
+          "title": "无人机运行识别改造进入执行节点",
+          "summary": "11月1日是此前公布的存量无人机运行识别改造重要节点，需结合设备型号及最新民航规定核查。",
+          "impact": "检查航测机队固件、识别能力、飞行记录和UOM合规状态。",
+          "publisher": "中国民航局（本周既有简报记录）",
+          "publish_date": "2026-11-01",
+          "url": null,
+          "image_url": null
+        },
+        {
+          "category": "测绘/无人机",
+          "title": "UAS行业年度装备资料更新",
+          "summary": "UAS Vision 11月5日报道PRO-UAS发布第21版全球无人机系统免费参考资料，面向专业人士提供设备信息。",
+          "impact": "采购或任务选型时可作初筛，性能、法规及适航资格仍需逐项向制造商核实。",
+          "publisher": "UAS Vision / PRO-UAS",
+          "publish_date": "2026-11-05",
+          "url": "https://www.uasvision.com/",
+          "image_url": null
+        }
+      ]
     }
   ],
   "items": [
     {
       "category": "城市更新/GIS",
-      "title": "Topcon参与维特鲁威大教堂遗址科研保护测量",
-      "summary": "Geo Week News 11月4日报道Topcon将支持意大利维特鲁威大教堂遗址的研究与保护，体现精密测量与历史建筑数字记录结合。",
-      "impact": "历史街区更新可将三维测绘、文保对象编码、影像档案与施工前后对比纳入同一GIS台账。",
-      "publisher": "Geo Week News / Topcon",
-      "publish_date": "2026-11-04",
-      "url": "https://www.geoweeknews.com/articles/topcon-to-support-scientific-research-and-preservation-of-the-basilica-of-vitruvius/",
-      "image_url": null,
-      "time_window": "date_only"
+      "title": "南京公布2026—2030城市更新行动计划",
+      "summary": "南京明确6大行动、18项任务、511个项目，并提出房屋建筑一张图和CIM+应用。",
+      "impact": "将项目、片区、房屋、地下管网及建设进度建立统一空间主键和版本化台账。",
+      "publisher": "新华日报/中共江苏省委新闻网",
+      "publish_date": "2026-11-03",
+      "url": "https://zgjssw.gov.cn/shixianchuanzhen/nanjing/202611/t20261103_8597257.shtml",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "Esri展示AI赋能的动态城市数字孪生",
+      "summary": "Esri在11月3日至5日巴塞罗那智慧城市博览会展示GIS、影像、传感器、视频与三维数据融合。",
+      "impact": "共享地图可优先打通实时状态、影像与业务任务，而非仅增加3D展示。",
+      "publisher": "Esri",
+      "publish_date": "2026-11-02",
+      "url": "https://www.esri.com/about/newsroom/announcements/esri-to-showcase-ai-enabled-digital-twins-at-smart-city-expo-world-congress",
+      "image_url": null
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "自然生态数字孪生开放近千个GIS数据集",
+      "summary": "Esri ArcNews 11月文章介绍TNC与UCSB合作的数字孪生，使用PostGIS、ArcGIS Enterprise及传感器自动管道。",
+      "impact": "适合借鉴空间数据目录、自动入库和动态监测架构，应用于更新项目的生态与风险评估。",
+      "publisher": "Esri ArcNews / UCSB",
+      "publish_date": "2026-11",
+      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+      "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "Mistral Large 4正式开放模型权重",
-      "summary": "Mistral发布Large 4开放权重版本，强化代码Agent与防御性安全任务；厂商报告Coding Agent Index为48%，其结果应结合独立测试理解。",
-      "impact": "可将其列为自部署GIS脚本Agent的候选，但1万亿总参数意味着需要严肃评估显存、部署和推理成本。",
+      "title": "OpenAI发布GPT-6 Cyber并限制首批访问",
+      "summary": "11月5日发布的专用安全模型面向获准的防御研究者，强调漏洞发现与授权边界。",
+      "impact": "WebGIS和CAD插件应强化依赖扫描、代码审查、最小权限及操作审计；不应将受限模型视为普遍可用。",
+      "publisher": "OpenAI / Reuters",
+      "publish_date": "2026-11-05",
+      "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/",
+      "image_url": null
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "Mistral Large 4开放权重",
+      "summary": "Mistral 11月4日发布开放权重模型，强调编码Agent和安全防御能力，厂商基准尚需独立验证。",
+      "impact": "可作为自部署GIS脚本Agent的候选，但应先评估硬件资源与任务准确率。",
       "publisher": "Mistral AI",
       "publish_date": "2026-11-04",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "image_url": null,
-      "time_window": "date_only"
+      "image_url": null
     },
     {
       "category": "AI模型与工具",
-      "title": "OpenAI推出Images 2.6，支持更快迭代及SVG导出",
-      "summary": "OpenAI于11月4日发布Images 2.6，称生成速度提升约50%，API新增精细编辑与SVG导出能力，并支持GIF制作。",
-      "impact": "适合城市更新汇报中的概念图、标识和示意插画；正式规划图、地籍边界与测绘成果不可由生成式图像替代。",
+      "title": "OpenAI Images 2.6强化可编辑图像交付",
+      "summary": "OpenAI 11月4日发布图像生成与编辑更新，支持SVG导出等能力。",
+      "impact": "用于项目汇报的视觉素材和图标，空间测绘成果仍须来自权威数据。",
       "publisher": "OpenAI",
       "publish_date": "2026-11-04",
       "url": "https://openai.com/index/introducing-images-2-6/",
-      "image_url": null,
-      "time_window": "date_only"
+      "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "UgCS 6.3将大型项目航线规划扩展到LiDAR",
-      "summary": "Geo Week News于11月4日刊载UgCS 6.3消息；该版本实际发布于10月28日，支持将大范围LiDAR航测划分为多个飞行子区并统一管理传感器、IMU校准及地形跟随。",
-      "impact": "大范围航测可统一规划分架次作业，建立每架次校准与覆盖记录，降低漏测与成果拼接管理成本。",
+      "title": "UgCS 6.3扩展大型LiDAR分架次任务",
+      "summary": "11月4日专业报道介绍UgCS 6.3的LiDAR大项目分区规划、IMU校准和地形跟随；产品实际发布于10月28日。",
+      "impact": "建议建立分区覆盖率、航迹、校准日志与成果质检闭环。",
       "publisher": "Geo Week News / SPH Engineering",
       "publish_date": "2026-11-04",
       "url": "https://www.geoweeknews.com/articles/ugcs-6-3-extends-large-projects-from-magnetic-surveys-to-lidar/",
-      "image_url": null,
-      "time_window": "coverage_date_2026-11-04; product_release_2026-10-28"
+      "image_url": null
     },
     {
       "category": "测绘/无人机",
-      "title": "Redwire发布ShadowVision载荷软件平台",
-      "summary": "UAS Vision 11月4日报道Redwire推出面向Octopus载荷系列的ShadowVision软件平台，旨在改善操作界面并支持后续功能扩展。",
-      "impact": "航测载荷平台可借鉴软硬件解耦和统一操作界面，但该产品偏特定载荷领域，暂不视为通用民用航测工具。",
-      "publisher": "UAS Vision / Redwire",
-      "publish_date": "2026-11-04",
-      "url": "https://www.uasvision.com/2026/11/04/redwire-announces-shadowvision-software-for-its-octopus-payloads/",
-      "image_url": null,
-      "time_window": "date_only"
+      "title": "无人机运行识别改造进入执行节点",
+      "summary": "11月1日是此前公布的存量无人机运行识别改造重要节点，需结合设备型号及最新民航规定核查。",
+      "impact": "检查航测机队固件、识别能力、飞行记录和UOM合规状态。",
+      "publisher": "中国民航局（本周既有简报记录）",
+      "publish_date": "2026-11-01",
+      "url": null,
+      "image_url": null
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "UAS行业年度装备资料更新",
+      "summary": "UAS Vision 11月5日报道PRO-UAS发布第21版全球无人机系统免费参考资料，面向专业人士提供设备信息。",
+      "impact": "采购或任务选型时可作初筛，性能、法规及适航资格仍需逐项向制造商核实。",
+      "publisher": "UAS Vision / PRO-UAS",
+      "publish_date": "2026-11-05",
+      "url": "https://www.uasvision.com/",
+      "image_url": null
     }
   ],
-  "recommended_reading": null,
-  "industry_observation": "空间数据成果正向可持续管理的数字资产演进；AI工具开始同时强调可自部署能力与可编辑视觉交付；无人机软件更注重跨架次任务组织和载荷工作流。",
-  "recommended_tool": {
-    "name": "航测分架次覆盖质检",
-    "method": "将大范围航线按飞行子区建立唯一编号，记录起降点、IMU校准、覆盖范围与重叠率，并在ArcGIS Pro中合并航迹缓冲区检查遗漏。"
-  },
-  "coverage": {
-    "target_window_start": "2026-11-04T12:08:26+08:00",
-    "target_window_end": "2026-11-05T12:08:26+08:00",
-    "note": "5条均有11月4日发布的报道或官方公告；缺少精确时分，不能逐条确认严格落在24小时内。UgCS为11月4日报道、10月28日发布的产品，已明确区分。未引用授权不明图片。"
+  "core_changes": [
+    "城市更新项目管理由单点工程向片区、房屋、管网及运营的统一空间台账延伸。",
+    "AI从模型性能竞争延伸到可审计Agent、代码安全与视觉交付。",
+    "航测从单次飞行采集转向分架次任务组织、运行识别和成果质量闭环。"
+  ],
+  "work_impact": "城市更新GIS优先建设项目-宗地-房屋关联与CIM数据目录；AI插件建立授权边界和回归测试；航测建立飞行分区、校准、覆盖与合规记录。",
+  "trends": "空间数据持续更新、可追溯的AI Agent、测绘成果自动质检将成为共同基础能力。",
+  "next_week_watch": [
+    "南京511项目行动计划的具体项目清单及CIM实施机制",
+    "GPT-6 Cyber后续可用范围与安全评测独立验证",
+    "无人机运行识别改造及航测任务软件更新的国内适用性"
+  ],
+  "recommended_reading": {
+    "title": "A Digital Twin of Nature to Test Ideas for the Future",
+    "authors": "Amy Frazier、Trisalyn Nelson等（UCSB / Esri ArcNews）",
+    "publish_date": "2026-11",
+    "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+    "reading_minutes_estimate": 5,
+    "values": [
+      "了解近千个GIS数据集的目录化组织方式",
+      "学习IoT→PostGIS→ArcGIS Enterprise自动入库管线",
+      "借鉴空间与时间数据联动、动态变化识别和模型试验"
+    ],
+    "work_inspiration": "把城市更新GIS从成果展示页面升级为可持续接收数据、追踪变化的业务底座。",
+    "date_precision": "month_only"
   },
   "sources": [
     {
-      "publisher": "Geo Week News / Topcon",
-      "publish_date": "2026-11-04",
-      "url": "https://www.geoweeknews.com/articles/topcon-to-support-scientific-research-and-preservation-of-the-basilica-of-vitruvius/"
+      "publisher": "新华日报/中共江苏省委新闻网",
+      "publish_date": "2026-11-03",
+      "url": "https://zgjssw.gov.cn/shixianchuanzhen/nanjing/202611/t20261103_8597257.shtml"
+    },
+    {
+      "publisher": "Esri",
+      "publish_date": "2026-11-02",
+      "url": "https://www.esri.com/about/newsroom/announcements/esri-to-showcase-ai-enabled-digital-twins-at-smart-city-expo-world-congress"
+    },
+    {
+      "publisher": "Esri ArcNews / UCSB",
+      "publish_date": "2026-11",
+      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future"
+    },
+    {
+      "publisher": "OpenAI / Reuters",
+      "publish_date": "2026-11-05",
+      "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
     },
     {
       "publisher": "Mistral AI",
@@ -109,9 +271,14 @@
       "url": "https://www.geoweeknews.com/articles/ugcs-6-3-extends-large-projects-from-magnetic-surveys-to-lidar/"
     },
     {
-      "publisher": "UAS Vision / Redwire",
-      "publish_date": "2026-11-04",
-      "url": "https://www.uasvision.com/2026/11/04/redwire-announces-shadowvision-software-for-its-octopus-payloads/"
+      "publisher": "UAS Vision / PRO-UAS",
+      "publish_date": "2026-11-05",
+      "url": "https://www.uasvision.com/"
     }
-  ]
+  ],
+  "coverage": {
+    "start": "2026-10-31",
+    "end": "2026-11-06",
+    "note": "周报允许汇总此前日报已出现的重要事件；按主题聚合而非作为新消息重复推送。部分消息只有月级日期；运行识别条目沿用前期记录，原始监管链接未在本次检索中复核，明确提示。未使用未授权图片。"
+  }
 }
