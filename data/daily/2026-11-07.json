@@ -1,0 +1,174 @@
+{
+  "type": "daily",
+  "date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-07T12:14:57+08:00",
+  "title": "行业日报｜2026-11-07",
+  "summary": "AI安全协作与基础设施治理值得关注；测绘资质公示与规划成果版本管理提供直接工作启发。5条中含明确标注的超窗补充和事件节点。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 2,
+      "items": [
+        {
+          "category": "城市更新/GIS",
+          "title": "广州公布空港经济区4项控规成果",
+          "summary": "广州市规划和自然资源局通知公告栏目列示11月5日公布实施的空港经济区4项控规成果，涉及规划管理单元调整。",
+          "impact": "城市更新项目应将控规成果版本与征收红线、宗地权属及现状图斑建立可追溯关联。",
+          "publisher": "广州市规划和自然资源局",
+          "publish_date": "2026-11-05",
+          "url": "https://ghzyj.gz.gov.cn/ywpd/cxgh/",
+          "image_url": null,
+          "time_status": "超出24小时，作为高相关补充"
+        },
+        {
+          "category": "城市更新/GIS",
+          "title": "北京大兴区十五五城市更新规划征求意见截止",
+          "summary": "大兴区住建委此前公开城市更新发展规划征求意见稿，征集窗口于11月6日23:55结束；这不是11月6日新发布的规划。",
+          "impact": "对城市更新政策建立‘草案—征求意见—正式发布—实施’状态字段，避免将征求意见稿误作现行政策。",
+          "publisher": "北京市人民政府/大兴区住建委",
+          "publish_date": "2026-10-29",
+          "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261029_4922990.html",
+          "image_url": null,
+          "time_status": "事件节点在过去24小时，原公告发布于10月29日"
+        }
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 2,
+      "items": [
+        {
+          "category": "AI模型与工具",
+          "title": "OpenAI与Hacktron合作开展授权漏洞研究",
+          "summary": "OpenAI宣布与Hacktron合作，围绕系统与第三方服务交互开展高优先级安全测试，并扩大研究人员对Daybreak Red的访问。",
+          "impact": "共享地图的外部接口、Socket.IO协作与文件上传应建立授权安全测试清单和修复闭环。",
+          "publisher": "OpenAI",
+          "publish_date": "2026-11-07",
+          "url": "https://openai.com/index/partnering-with-hacktron/",
+          "image_url": null,
+          "time_status": "发布日期为11月7日，精确发布时间未确认"
+        },
+        {
+          "category": "AI模型与工具",
+          "title": "OpenAI提出负责任AI基础设施建设承诺",
+          "summary": "OpenAI发布面向数据中心所在地社区的基础设施建设承诺与政策建议，强调本地社区参与及基础设施影响。",
+          "impact": "评估GIS AI服务时应将持续运行成本、基础设施依赖和服务可用性纳入方案，而不只比较模型效果。",
+          "publisher": "OpenAI",
+          "publish_date": "2026-11-06",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+          "image_url": null,
+          "time_status": "仅确认日期，是否在过去24小时内未确认"
+        }
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 1,
+      "items": [
+        {
+          "category": "测绘/无人机",
+          "title": "湖南公示18家测绘资质申请单位信息",
+          "summary": "湖南省自然资源厅11月6日16:14公示第二批18家测绘资质申请单位主要信息，公示期至11月16日。",
+          "impact": "测绘项目分包与合作单位核验应留存资质等级、业务范围、有效期和公示异议记录。",
+          "publisher": "湖南省自然资源厅",
+          "publish_date": "2026-11-06",
+          "url": "https://zrzyt.hunan.gov.cn/zrzyt/tslm/ywgz/chgis/202611/t20261106_34097144.html",
+          "image_url": null,
+          "time_status": "确认过去24小时"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI与Hacktron合作开展授权漏洞研究",
+      "summary": "OpenAI宣布与Hacktron合作，围绕系统与第三方服务交互开展高优先级安全测试，并扩大研究人员对Daybreak Red的访问。",
+      "impact": "共享地图的外部接口、Socket.IO协作与文件上传应建立授权安全测试清单和修复闭环。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-07",
+      "url": "https://openai.com/index/partnering-with-hacktron/",
+      "image_url": null,
+      "time_status": "发布日期为11月7日，精确发布时间未确认"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "OpenAI提出负责任AI基础设施建设承诺",
+      "summary": "OpenAI发布面向数据中心所在地社区的基础设施建设承诺与政策建议，强调本地社区参与及基础设施影响。",
+      "impact": "评估GIS AI服务时应将持续运行成本、基础设施依赖和服务可用性纳入方案，而不只比较模型效果。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-06",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "image_url": null,
+      "time_status": "仅确认日期，是否在过去24小时内未确认"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "湖南公示18家测绘资质申请单位信息",
+      "summary": "湖南省自然资源厅11月6日16:14公示第二批18家测绘资质申请单位主要信息，公示期至11月16日。",
+      "impact": "测绘项目分包与合作单位核验应留存资质等级、业务范围、有效期和公示异议记录。",
+      "publisher": "湖南省自然资源厅",
+      "publish_date": "2026-11-06",
+      "url": "https://zrzyt.hunan.gov.cn/zrzyt/tslm/ywgz/chgis/202611/t20261106_34097144.html",
+      "image_url": null,
+      "time_status": "确认过去24小时"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "广州公布空港经济区4项控规成果",
+      "summary": "广州市规划和自然资源局通知公告栏目列示11月5日公布实施的空港经济区4项控规成果，涉及规划管理单元调整。",
+      "impact": "城市更新项目应将控规成果版本与征收红线、宗地权属及现状图斑建立可追溯关联。",
+      "publisher": "广州市规划和自然资源局",
+      "publish_date": "2026-11-05",
+      "url": "https://ghzyj.gz.gov.cn/ywpd/cxgh/",
+      "image_url": null,
+      "time_status": "超出24小时，作为高相关补充"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "北京大兴区十五五城市更新规划征求意见截止",
+      "summary": "大兴区住建委此前公开城市更新发展规划征求意见稿，征集窗口于11月6日23:55结束；这不是11月6日新发布的规划。",
+      "impact": "对城市更新政策建立‘草案—征求意见—正式发布—实施’状态字段，避免将征求意见稿误作现行政策。",
+      "publisher": "北京市人民政府/大兴区住建委",
+      "publish_date": "2026-10-29",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261029_4922990.html",
+      "image_url": null,
+      "time_status": "事件节点在过去24小时，原公告发布于10月29日"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "行业关注点由新功能转向安全边界、数据治理与可核查的实施过程。对城市更新GIS而言，来源版本和业务状态往往比展示形式更重要。",
+  "tool_of_week": {
+    "name": "ArcGIS Pro控规版本叠加核查",
+    "method": "建立规划成果发布日期、状态、来源URL字段；将最新控规范围与项目红线做Intersect/Symmetric Difference，输出变更图斑并人工复核。"
+  },
+  "sources": [
+    {
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/partnering-with-hacktron/",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "publish_date": "2026-11-06"
+    },
+    {
+      "publisher": "湖南省自然资源厅",
+      "url": "https://zrzyt.hunan.gov.cn/zrzyt/tslm/ywgz/chgis/202611/t20261106_34097144.html",
+      "publish_date": "2026-11-06"
+    },
+    {
+      "publisher": "广州市规划和自然资源局",
+      "url": "https://ghzyj.gz.gov.cn/ywpd/cxgh/",
+      "publish_date": "2026-11-05"
+    },
+    {
+      "publisher": "北京市人民政府/大兴区住建委",
+      "url": "https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202610/t20261029_4922990.html",
+      "publish_date": "2026-10-29"
+    }
+  ],
+  "verification_note": "依据官方来源筛选；仅一条具备明确时间戳确认在过去24小时。未为凑数虚构5条严格24小时新闻。"
+}
