@@ -1,0 +1,174 @@
+{
+  "type": "daily",
+  "date": "2026-11-08",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-08T12:09:57+08:00",
+  "title": "行业日报｜2026-11-08",
+  "summary": "低空通信与无人机固定机场规模化应用、AI研发自动化评测成为焦点；严格24小时可核实条目不足五条，另收录两条明确标注的高价值背景。",
+  "sections": [
+    {
+      "name": "城市更新/GIS",
+      "count": 1,
+      "items": [
+        {
+          "category": "城市更新/GIS",
+          "title": "忠县河库数字孪生实现无人机巡查与问题派单闭环",
+          "summary": "11月4日新华每日电讯案例介绍忠县轻量化河湖数字孪生平台，融合无人机、监测设备和分级派单，报道其隐患处置效率提升80%。",
+          "impact": "城市更新GIS可借鉴‘发现图斑—派发任务—现场照片—复核销号’的空间业务闭环，效果数据需结合当地口径验证。",
+          "publisher": "新华每日电讯/重庆七一网",
+          "publish_date": "2026-11-04",
+          "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html",
+          "image_url": null,
+          "time_status": "超出24小时的案例补充，非当日新闻"
+        }
+      ]
+    },
+    {
+      "name": "AI模型与工具",
+      "count": 1,
+      "items": [
+        {
+          "category": "AI模型与工具",
+          "title": "METR调查引发AI辅助模型研发速度讨论",
+          "summary": "The Verge于11月8日报道METR针对Anthropic的11周调查，称AI辅助研发可能正在加快模型进步，但部分证据被遮盖，独立验证存在局限。",
+          "impact": "GIS Agent应关注真实任务成功率与人工复核比例，不应把厂商内部效率倍数直接用于项目预算。",
+          "publisher": "The Verge/METR",
+          "publish_date": "2026-11-08",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "image_url": null,
+          "time_status": "搜索结果标记11月8日，精确发布时间未核实"
+        }
+      ]
+    },
+    {
+      "name": "测绘/无人机",
+      "count": 3,
+      "items": [
+        {
+          "category": "测绘/无人机",
+          "title": "江苏98公里长江低空网络支撑无人机巡检",
+          "summary": "新华日报11月8日报道，南京联通沿长江建成98公里5G低空智联网，已用于海事巡检执法与水上物流。",
+          "impact": "可参考低空通信覆盖与航线、巡检任务、实时影像一体化管理，但不应将报道中的网络长度直接视作可飞行范围。",
+          "publisher": "新华日报/江苏省委新闻网",
+          "publish_date": "2026-11-08",
+          "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml",
+          "image_url": null,
+          "time_status": "11月8日08:02发布，处于过去24小时"
+        },
+        {
+          "category": "测绘/无人机",
+          "title": "盐城电网已部署81座无人机固定机场",
+          "summary": "新华日报11月8日报道，盐城电网巡检体系已布局81座固定机场和400架无人机，计划2027年增至250座机场。",
+          "impact": "固定机场大规模部署应同步设计设备台账、巡检覆盖率、任务分配、成果质检和异常复核。",
+          "publisher": "新华日报/江苏省委新闻网",
+          "publish_date": "2026-11-08",
+          "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml",
+          "image_url": null,
+          "time_status": "11月8日08:05发布，处于过去24小时"
+        },
+        {
+          "category": "测绘/无人机",
+          "title": "Axon追加投资Skydio并扩大无人机渠道合作",
+          "summary": "路透社11月5日报道Axon计划向Skydio追加12亿美元投资并成为其在美国和加拿大的独家分销商，显示公共安全无人机应用市场继续扩张。",
+          "impact": "可关注无人机硬件与巡检平台、远程作业服务捆绑的商业模式，但该消息不代表国内采购政策变化。",
+          "publisher": "Reuters",
+          "publish_date": "2026-11-05",
+          "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/",
+          "image_url": null,
+          "time_status": "超出24小时的市场补充"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "测绘/无人机",
+      "title": "江苏98公里长江低空网络支撑无人机巡检",
+      "summary": "新华日报11月8日报道，南京联通沿长江建成98公里5G低空智联网，已用于海事巡检执法与水上物流。",
+      "impact": "可参考低空通信覆盖与航线、巡检任务、实时影像一体化管理，但不应将报道中的网络长度直接视作可飞行范围。",
+      "publisher": "新华日报/江苏省委新闻网",
+      "publish_date": "2026-11-08",
+      "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml",
+      "image_url": null,
+      "time_status": "11月8日08:02发布，处于过去24小时"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "盐城电网已部署81座无人机固定机场",
+      "summary": "新华日报11月8日报道，盐城电网巡检体系已布局81座固定机场和400架无人机，计划2027年增至250座机场。",
+      "impact": "固定机场大规模部署应同步设计设备台账、巡检覆盖率、任务分配、成果质检和异常复核。",
+      "publisher": "新华日报/江苏省委新闻网",
+      "publish_date": "2026-11-08",
+      "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml",
+      "image_url": null,
+      "time_status": "11月8日08:05发布，处于过去24小时"
+    },
+    {
+      "category": "AI模型与工具",
+      "title": "METR调查引发AI辅助模型研发速度讨论",
+      "summary": "The Verge于11月8日报道METR针对Anthropic的11周调查，称AI辅助研发可能正在加快模型进步，但部分证据被遮盖，独立验证存在局限。",
+      "impact": "GIS Agent应关注真实任务成功率与人工复核比例，不应把厂商内部效率倍数直接用于项目预算。",
+      "publisher": "The Verge/METR",
+      "publish_date": "2026-11-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "image_url": null,
+      "time_status": "搜索结果标记11月8日，精确发布时间未核实"
+    },
+    {
+      "category": "城市更新/GIS",
+      "title": "忠县河库数字孪生实现无人机巡查与问题派单闭环",
+      "summary": "11月4日新华每日电讯案例介绍忠县轻量化河湖数字孪生平台，融合无人机、监测设备和分级派单，报道其隐患处置效率提升80%。",
+      "impact": "城市更新GIS可借鉴‘发现图斑—派发任务—现场照片—复核销号’的空间业务闭环，效果数据需结合当地口径验证。",
+      "publisher": "新华每日电讯/重庆七一网",
+      "publish_date": "2026-11-04",
+      "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html",
+      "image_url": null,
+      "time_status": "超出24小时的案例补充，非当日新闻"
+    },
+    {
+      "category": "测绘/无人机",
+      "title": "Axon追加投资Skydio并扩大无人机渠道合作",
+      "summary": "路透社11月5日报道Axon计划向Skydio追加12亿美元投资并成为其在美国和加拿大的独家分销商，显示公共安全无人机应用市场继续扩张。",
+      "impact": "可关注无人机硬件与巡检平台、远程作业服务捆绑的商业模式，但该消息不代表国内采购政策变化。",
+      "publisher": "Reuters",
+      "publish_date": "2026-11-05",
+      "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/",
+      "image_url": null,
+      "time_status": "超出24小时的市场补充"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间数据系统从‘采集和展示’进一步走向‘连续感知—自动派单—现场复核’；AI进步速度报道需与可审计的真实任务数据分开评价。",
+  "tool_of_week": {
+    "name": "PostGIS空间任务闭环验证",
+    "method": "建立巡检任务表（task_id、geometry、status、assignee、captured_at、reviewed_at），用ST_Intersects关联项目红线，前端展示待办、现场照片与销号记录。"
+  },
+  "sources": [
+    {
+      "publisher": "新华日报/江苏省委新闻网",
+      "publish_date": "2026-11-08",
+      "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml"
+    },
+    {
+      "publisher": "新华日报/江苏省委新闻网",
+      "publish_date": "2026-11-08",
+      "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml"
+    },
+    {
+      "publisher": "The Verge/METR",
+      "publish_date": "2026-11-08",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+    },
+    {
+      "publisher": "新华每日电讯/重庆七一网",
+      "publish_date": "2026-11-04",
+      "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-11-05",
+      "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/"
+    }
+  ],
+  "verification_note": "3条来源日期为11月8日（其中2条有明确发布时间）；2条超出24小时，已明确标注。未为凑数冒充当日新发布。"
+}
