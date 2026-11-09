@@ -1,174 +1,91 @@
 {
   "type": "daily",
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-11-08T12:09:57+08:00",
-  "title": "行业日报｜2026-11-08",
-  "summary": "低空通信与无人机固定机场规模化应用、AI研发自动化评测成为焦点；严格24小时可核实条目不足五条，另收录两条明确标注的高价值背景。",
+  "generated_at": "2026-11-09T12:11:32+08:00",
+  "title": "行业日报｜2026-11-09",
+  "summary": "严格过去24小时未检索到足够可核验且不重复的高价值新消息；仅记录2条近期技术风险补充，不以旧闻凑满5条。",
   "sections": [
     {
       "name": "城市更新/GIS",
-      "count": 1,
-      "items": [
-        {
-          "category": "城市更新/GIS",
-          "title": "忠县河库数字孪生实现无人机巡查与问题派单闭环",
-          "summary": "11月4日新华每日电讯案例介绍忠县轻量化河湖数字孪生平台，融合无人机、监测设备和分级派单，报道其隐患处置效率提升80%。",
-          "impact": "城市更新GIS可借鉴‘发现图斑—派发任务—现场照片—复核销号’的空间业务闭环，效果数据需结合当地口径验证。",
-          "publisher": "新华每日电讯/重庆七一网",
-          "publish_date": "2026-11-04",
-          "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html",
-          "image_url": null,
-          "time_status": "超出24小时的案例补充，非当日新闻"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "name": "AI模型与工具",
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "category": "AI模型与工具",
-          "title": "METR调查引发AI辅助模型研发速度讨论",
-          "summary": "The Verge于11月8日报道METR针对Anthropic的11周调查，称AI辅助研发可能正在加快模型进步，但部分证据被遮盖，独立验证存在局限。",
-          "impact": "GIS Agent应关注真实任务成功率与人工复核比例，不应把厂商内部效率倍数直接用于项目预算。",
-          "publisher": "The Verge/METR",
-          "publish_date": "2026-11-08",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "title": "Google将Jules编码Agent整合方向转向Antigravity",
+          "summary": "TechRadar于11月初报道Google正在逐步结束Jules独立产品，将相关经验和工具整合至Antigravity；现有会话和导出安排应以官方说明为准。",
+          "impact": "自动化开发平台迁移前应备份仓库关联、环境变量、任务配置和执行日志，避免GIS脚本开发流程被产品调整打断。",
+          "publisher": "TechRadar",
+          "publish_date": "2026-11-03",
+          "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to",
           "image_url": null,
-          "time_status": "搜索结果标记11月8日，精确发布时间未核实"
+          "time_status": "超出24小时；本周产品生命周期补充"
+        },
+        {
+          "category": "AI模型与工具",
+          "title": "AWS Bedrock部分Claude旧模型计划11月13日停止服务",
+          "summary": "模型生命周期跟踪资料显示AWS Bedrock的Claude 3.5 Sonnet与Claude 3.7 Sonnet部分版本将在11月13日退役；具体账户和区域须以AWS官方公告核验。",
+          "impact": "检查GIS Agent调用的模型ID、区域与备用模型，提前安排兼容性回归测试，防止生产任务因模型退役失败。",
+          "publisher": "Model Sunset（汇总，待AWS官方复核）",
+          "publish_date": "2026-11-07",
+          "url": "https://modelsunset.dev/calendar/",
+          "image_url": null,
+          "time_status": "非过去24小时新闻；近期截止日期风险提醒"
         }
       ]
     },
     {
       "name": "测绘/无人机",
-      "count": 3,
-      "items": [
-        {
-          "category": "测绘/无人机",
-          "title": "江苏98公里长江低空网络支撑无人机巡检",
-          "summary": "新华日报11月8日报道，南京联通沿长江建成98公里5G低空智联网，已用于海事巡检执法与水上物流。",
-          "impact": "可参考低空通信覆盖与航线、巡检任务、实时影像一体化管理，但不应将报道中的网络长度直接视作可飞行范围。",
-          "publisher": "新华日报/江苏省委新闻网",
-          "publish_date": "2026-11-08",
-          "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml",
-          "image_url": null,
-          "time_status": "11月8日08:02发布，处于过去24小时"
-        },
-        {
-          "category": "测绘/无人机",
-          "title": "盐城电网已部署81座无人机固定机场",
-          "summary": "新华日报11月8日报道，盐城电网巡检体系已布局81座固定机场和400架无人机，计划2027年增至250座机场。",
-          "impact": "固定机场大规模部署应同步设计设备台账、巡检覆盖率、任务分配、成果质检和异常复核。",
-          "publisher": "新华日报/江苏省委新闻网",
-          "publish_date": "2026-11-08",
-          "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml",
-          "image_url": null,
-          "time_status": "11月8日08:05发布，处于过去24小时"
-        },
-        {
-          "category": "测绘/无人机",
-          "title": "Axon追加投资Skydio并扩大无人机渠道合作",
-          "summary": "路透社11月5日报道Axon计划向Skydio追加12亿美元投资并成为其在美国和加拿大的独家分销商，显示公共安全无人机应用市场继续扩张。",
-          "impact": "可关注无人机硬件与巡检平台、远程作业服务捆绑的商业模式，但该消息不代表国内采购政策变化。",
-          "publisher": "Reuters",
-          "publish_date": "2026-11-05",
-          "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/",
-          "image_url": null,
-          "time_status": "超出24小时的市场补充"
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   ],
   "items": [
     {
-      "category": "测绘/无人机",
-      "title": "江苏98公里长江低空网络支撑无人机巡检",
-      "summary": "新华日报11月8日报道，南京联通沿长江建成98公里5G低空智联网，已用于海事巡检执法与水上物流。",
-      "impact": "可参考低空通信覆盖与航线、巡检任务、实时影像一体化管理，但不应将报道中的网络长度直接视作可飞行范围。",
-      "publisher": "新华日报/江苏省委新闻网",
-      "publish_date": "2026-11-08",
-      "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml",
+      "category": "AI模型与工具",
+      "title": "Google将Jules编码Agent整合方向转向Antigravity",
+      "summary": "TechRadar于11月初报道Google正在逐步结束Jules独立产品，将相关经验和工具整合至Antigravity；现有会话和导出安排应以官方说明为准。",
+      "impact": "自动化开发平台迁移前应备份仓库关联、环境变量、任务配置和执行日志，避免GIS脚本开发流程被产品调整打断。",
+      "publisher": "TechRadar",
+      "publish_date": "2026-11-03",
+      "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to",
       "image_url": null,
-      "time_status": "11月8日08:02发布，处于过去24小时"
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "盐城电网已部署81座无人机固定机场",
-      "summary": "新华日报11月8日报道，盐城电网巡检体系已布局81座固定机场和400架无人机，计划2027年增至250座机场。",
-      "impact": "固定机场大规模部署应同步设计设备台账、巡检覆盖率、任务分配、成果质检和异常复核。",
-      "publisher": "新华日报/江苏省委新闻网",
-      "publish_date": "2026-11-08",
-      "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml",
-      "image_url": null,
-      "time_status": "11月8日08:05发布，处于过去24小时"
+      "time_status": "超出24小时；本周产品生命周期补充"
     },
     {
       "category": "AI模型与工具",
-      "title": "METR调查引发AI辅助模型研发速度讨论",
-      "summary": "The Verge于11月8日报道METR针对Anthropic的11周调查，称AI辅助研发可能正在加快模型进步，但部分证据被遮盖，独立验证存在局限。",
-      "impact": "GIS Agent应关注真实任务成功率与人工复核比例，不应把厂商内部效率倍数直接用于项目预算。",
-      "publisher": "The Verge/METR",
-      "publish_date": "2026-11-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "title": "AWS Bedrock部分Claude旧模型计划11月13日停止服务",
+      "summary": "模型生命周期跟踪资料显示AWS Bedrock的Claude 3.5 Sonnet与Claude 3.7 Sonnet部分版本将在11月13日退役；具体账户和区域须以AWS官方公告核验。",
+      "impact": "检查GIS Agent调用的模型ID、区域与备用模型，提前安排兼容性回归测试，防止生产任务因模型退役失败。",
+      "publisher": "Model Sunset（汇总，待AWS官方复核）",
+      "publish_date": "2026-11-07",
+      "url": "https://modelsunset.dev/calendar/",
       "image_url": null,
-      "time_status": "搜索结果标记11月8日，精确发布时间未核实"
-    },
-    {
-      "category": "城市更新/GIS",
-      "title": "忠县河库数字孪生实现无人机巡查与问题派单闭环",
-      "summary": "11月4日新华每日电讯案例介绍忠县轻量化河湖数字孪生平台，融合无人机、监测设备和分级派单，报道其隐患处置效率提升80%。",
-      "impact": "城市更新GIS可借鉴‘发现图斑—派发任务—现场照片—复核销号’的空间业务闭环，效果数据需结合当地口径验证。",
-      "publisher": "新华每日电讯/重庆七一网",
-      "publish_date": "2026-11-04",
-      "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html",
-      "image_url": null,
-      "time_status": "超出24小时的案例补充，非当日新闻"
-    },
-    {
-      "category": "测绘/无人机",
-      "title": "Axon追加投资Skydio并扩大无人机渠道合作",
-      "summary": "路透社11月5日报道Axon计划向Skydio追加12亿美元投资并成为其在美国和加拿大的独家分销商，显示公共安全无人机应用市场继续扩张。",
-      "impact": "可关注无人机硬件与巡检平台、远程作业服务捆绑的商业模式，但该消息不代表国内采购政策变化。",
-      "publisher": "Reuters",
-      "publish_date": "2026-11-05",
-      "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/",
-      "image_url": null,
-      "time_status": "超出24小时的市场补充"
+      "time_status": "非过去24小时新闻；近期截止日期风险提醒"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "空间数据系统从‘采集和展示’进一步走向‘连续感知—自动派单—现场复核’；AI进步速度报道需与可审计的真实任务数据分开评价。",
+  "industry_observation": "AI开发工具的生命周期与底层模型退役正在成为GIS Agent运维的实际风险；今日未发现足以独立成条的城市更新或航测新消息。",
   "tool_of_week": {
-    "name": "PostGIS空间任务闭环验证",
-    "method": "建立巡检任务表（task_id、geometry、status、assignee、captured_at、reviewed_at），用ST_Intersects关联项目红线，前端展示待办、现场照片与销号记录。"
+    "name": "GIS Agent模型依赖审计",
+    "method": "导出模型ID、API服务商、调用位置、替代模型及测试用例；在隔离环境跑通10个ArcPy和PostGIS任务并记录差异。"
   },
   "sources": [
     {
-      "publisher": "新华日报/江苏省委新闻网",
-      "publish_date": "2026-11-08",
-      "url": "https://www.zgjssw.gov.cn/yaowen/202611/t20261108_8597728.shtml"
+      "publisher": "TechRadar",
+      "publish_date": "2026-11-03",
+      "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to"
     },
     {
-      "publisher": "新华日报/江苏省委新闻网",
-      "publish_date": "2026-11-08",
-      "url": "https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202611/t20261108_8597730.shtml"
-    },
-    {
-      "publisher": "The Verge/METR",
-      "publish_date": "2026-11-08",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-    },
-    {
-      "publisher": "新华每日电讯/重庆七一网",
-      "publish_date": "2026-11-04",
-      "url": "https://www.12371.gov.cn/web/article/1567495741607841792/web/content_1567495741607841792.html"
-    },
-    {
-      "publisher": "Reuters",
-      "publish_date": "2026-11-05",
-      "url": "https://www.reuters.com/technology/axon-invests-12-billion-more-drone-maker-skydio-lowers-annual-revenue-growth-2026-11-05/"
+      "publisher": "Model Sunset（汇总，待AWS官方复核）",
+      "publish_date": "2026-11-07",
+      "url": "https://modelsunset.dev/calendar/"
     }
   ],
-  "verification_note": "3条来源日期为11月8日（其中2条有明确发布时间）；2条超出24小时，已明确标注。未为凑数冒充当日新发布。"
+  "verification_note": "本期无已核实的严格24小时新增条目；2条均明确标注超窗，第二条退役信息待AWS官方复核；未重复收录昨日江苏无人机及METR消息。"
 }
