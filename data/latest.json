@@ -1,91 +1,125 @@
 {
   "type": "daily",
-  "date": "2026-11-09",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-11-09T12:11:32+08:00",
-  "title": "行业日报｜2026-11-09",
-  "summary": "严格过去24小时未检索到足够可核验且不重复的高价值新消息；仅记录2条近期技术风险补充，不以旧闻凑满5条。",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T12:10:21+08:00",
+  "title": "行业日报｜2026-11-10",
+  "summary": "精选5条11月9日来源动态，覆盖城市三维建模、BVLOS航测合规、测绘AI应用、AI图纸检索与企业AI采购。仅确认发布日期，未全部核实精确24小时窗口。",
   "sections": [
     {
-      "name": "城市更新/GIS",
-      "count": 0,
-      "items": []
-    },
-    {
-      "name": "AI模型与工具",
-      "count": 2,
-      "items": [
-        {
-          "category": "AI模型与工具",
-          "title": "Google将Jules编码Agent整合方向转向Antigravity",
-          "summary": "TechRadar于11月初报道Google正在逐步结束Jules独立产品，将相关经验和工具整合至Antigravity；现有会话和导出安排应以官方说明为准。",
-          "impact": "自动化开发平台迁移前应备份仓库关联、环境变量、任务配置和执行日志，避免GIS脚本开发流程被产品调整打断。",
-          "publisher": "TechRadar",
-          "publish_date": "2026-11-03",
-          "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to",
-          "image_url": null,
-          "time_status": "超出24小时；本周产品生命周期补充"
-        },
-        {
-          "category": "AI模型与工具",
-          "title": "AWS Bedrock部分Claude旧模型计划11月13日停止服务",
-          "summary": "模型生命周期跟踪资料显示AWS Bedrock的Claude 3.5 Sonnet与Claude 3.7 Sonnet部分版本将在11月13日退役；具体账户和区域须以AWS官方公告核验。",
-          "impact": "检查GIS Agent调用的模型ID、区域与备用模型，提前安排兼容性回归测试，防止生产任务因模型退役失败。",
-          "publisher": "Model Sunset（汇总，待AWS官方复核）",
-          "publish_date": "2026-11-07",
-          "url": "https://modelsunset.dev/calendar/",
-          "image_url": null,
-          "time_status": "非过去24小时新闻；近期截止日期风险提醒"
-        }
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1
       ]
     },
     {
-      "name": "测绘/无人机",
-      "count": 0,
-      "items": []
+      "category": "测绘/无人机",
+      "item_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        4,
+        5
+      ]
     }
   ],
   "items": [
     {
-      "category": "AI模型与工具",
-      "title": "Google将Jules编码Agent整合方向转向Antigravity",
-      "summary": "TechRadar于11月初报道Google正在逐步结束Jules独立产品，将相关经验和工具整合至Antigravity；现有会话和导出安排应以官方说明为准。",
-      "impact": "自动化开发平台迁移前应备份仓库关联、环境变量、任务配置和执行日志，避免GIS脚本开发流程被产品调整打断。",
-      "publisher": "TechRadar",
-      "publish_date": "2026-11-03",
-      "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to",
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "三维城市建模系统综述：AI与数字孪生加速融合",
+      "summary": "2026年11月9日的研究报道介绍一项覆盖2015—2025年的三维城市建模系统综述，涉及GIS、遥感、机器学习和数字孪生；研究原文DOI已提供，但尚未直接读取全文。",
+      "impact": "为城市更新三维平台梳理数据源、建模方法、更新频率和精度评价，避免只有展示效果而缺少可复核指标。",
+      "publisher": "Scienmag / Computational Urban Science",
+      "publish_date": "2026-11-09",
+      "url": "https://bioengineer.org/systematic-review-details-the-decade-long-rise-of-ai-driven-3d-urban-modeling/",
       "image_url": null,
-      "time_status": "超出24小时；本周产品生命周期补充"
+      "timeliness": "secondary_report"
     },
     {
-      "category": "AI模型与工具",
-      "title": "AWS Bedrock部分Claude旧模型计划11月13日停止服务",
-      "summary": "模型生命周期跟踪资料显示AWS Bedrock的Claude 3.5 Sonnet与Claude 3.7 Sonnet部分版本将在11月13日退役；具体账户和区域须以AWS官方公告核验。",
-      "impact": "检查GIS Agent调用的模型ID、区域与备用模型，提前安排兼容性回归测试，防止生产任务因模型退役失败。",
-      "publisher": "Model Sunset（汇总，待AWS官方复核）",
-      "publish_date": "2026-11-07",
-      "url": "https://modelsunset.dev/calendar/",
+      "id": 2,
+      "category": "测绘/无人机",
+      "title": "美国BVLOS拟议Part 108：测绘企业如何应对",
+      "summary": "Geo Week News 11月9日发布系列第二篇，讨论美国超视距飞行拟议规则对测绘企业的适用性；规则尚未最终生效，部分企业已在Part 107豁免下开展运营。",
+      "impact": "航测方案应分别核算常规视距、豁免超视距与未来规则下的人员、通信、监测及合规成本；美国规则不直接适用于中国。",
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-09",
+      "url": "https://www.geoweeknews.com/articles/part-108-the-bvlos-revolution-is-coming-but-will-mapping-companies-follow-part-2/",
       "image_url": null,
-      "time_status": "非过去24小时新闻；近期截止日期风险提醒"
+      "timeliness": "published_date_only"
+    },
+    {
+      "id": 3,
+      "category": "测绘/GIS",
+      "title": "行业观察：测绘AI普及与人才短缺并存",
+      "summary": "Geo Week News 11月9日转述GIM International与Trimble支持的行业调查：受访者近四分之三已使用AI，近三分之二反映招聘困难；为调查样本结果，不代表行业总体。",
+      "impact": "优先把AI用于要素提取、数据质检和成果审核，同时保留人工复核与操作培训。",
+      "publisher": "Geo Week News / GIM International",
+      "publish_date": "2026-11-09",
+      "url": "https://www.geoweeknews.com/articles/around-the-geospatial-3d-and-aec-industries-new-reports-heritage-sites-and-greek-research/",
+      "image_url": null,
+      "timeliness": "secondary_report"
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "AI图纸检索：70年工程档案查询缩短至4.5分钟",
+      "summary": "OpenAI 11月9日发布Kuken Industries案例：利用API、图纸编号与截图检索历史工程图纸，企业报告查找时间由近一小时缩短至4.5分钟，属企业案例自报。",
+      "impact": "适合试验CAD图纸、征收档案和权属附件的图文混合检索，返回原文件和证据位置，避免AI直接判定权属。",
+      "publisher": "OpenAI / Kuken Industries",
+      "publish_date": "2026-11-09",
+      "url": "https://openai.com/index/kuken/",
+      "image_url": null,
+      "timeliness": "published_date_only"
+    },
+    {
+      "id": 5,
+      "category": "AI模型与工具",
+      "title": "ChatGPT Enterprise上架AWS Marketplace",
+      "summary": "OpenAI 11月9日宣布ChatGPT Enterprise可经AWS Marketplace采购，组织可沿用AWS采购与账务关系；此为企业采购渠道变化，不是新模型发布。",
+      "impact": "为GIS Agent企业部署比较直接采购、云市场采购和API接入的权限、审计、成本及数据治理条件。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-09",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "image_url": null,
+      "timeliness": "published_date_only"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "AI开发工具的生命周期与底层模型退役正在成为GIS Agent运维的实际风险；今日未发现足以独立成条的城市更新或航测新消息。",
+  "industry_observation": "空间信息行业的竞争重点正从采集工具本身转向可检索、可质检、可持续更新的数据工作流；监管与成本仍决定无人机规模化落地。",
   "tool_of_week": {
-    "name": "GIS Agent模型依赖审计",
-    "method": "导出模型ID、API服务商、调用位置、替代模型及测试用例；在隔离环境跑通10个ArcPy和PostGIS任务并记录差异。"
+    "name": "CAD/权属档案多模态检索小样",
+    "method": "抽取30份脱敏CAD/PDF图纸，建立编号、项目、图名和OCR文本索引，支持截图检索并返回原图位置；人工核验前不作权属结论。"
   },
   "sources": [
     {
-      "publisher": "TechRadar",
-      "publish_date": "2026-11-03",
-      "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to"
+      "publisher": "Scienmag / Computational Urban Science",
+      "url": "https://bioengineer.org/systematic-review-details-the-decade-long-rise-of-ai-driven-3d-urban-modeling/",
+      "publish_date": "2026-11-09"
     },
     {
-      "publisher": "Model Sunset（汇总，待AWS官方复核）",
-      "publish_date": "2026-11-07",
-      "url": "https://modelsunset.dev/calendar/"
+      "publisher": "Geo Week News",
+      "url": "https://www.geoweeknews.com/articles/part-108-the-bvlos-revolution-is-coming-but-will-mapping-companies-follow-part-2/",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "publisher": "Geo Week News / GIM International",
+      "url": "https://www.geoweeknews.com/articles/around-the-geospatial-3d-and-aec-industries-new-reports-heritage-sites-and-greek-research/",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "publisher": "OpenAI / Kuken Industries",
+      "url": "https://openai.com/index/kuken/",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "publish_date": "2026-11-09"
     }
   ],
-  "verification_note": "本期无已核实的严格24小时新增条目；2条均明确标注超窗，第二条退役信息待AWS官方复核；未重复收录昨日江苏无人机及METR消息。"
+  "quality_note": "严格区分发布日期与精确24小时窗口；三维建模综述及测绘调查属于二次报道，未将样本比例当作总体统计。"
 }
