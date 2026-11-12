@@ -1,125 +1,106 @@
 {
   "type": "daily",
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11T12:14:48+08:00",
-  "title": "行业日报｜2026-11-11",
-  "summary": "精选5条11月10日新发布的GIS、航测和AI工程实践动态；日期已确认，具体小时未全部核实。",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T12:08:36+08:00",
+  "title": "行业日报｜2026-11-12",
+  "summary": "本次确认4条11月11日发布的高相关动态；未发现足够可靠且不重复的测绘/无人机新消息，不以旧闻凑数。",
   "sections": [
     {
       "category": "城市更新/GIS",
       "item_ids": [
         1,
-        2
+        2,
+        4
       ]
     },
     {
       "category": "AI模型与工具",
       "item_ids": [
-        4,
-        5
+        3
       ]
     },
     {
       "category": "测绘/无人机",
-      "item_ids": [
-        3
-      ]
+      "item_ids": []
     }
   ],
   "items": [
     {
       "id": 1,
       "category": "城市更新/GIS",
-      "title": "美国Chambersburg以GIS精细管理道路标线与市政设施",
-      "summary": "市政GIS团队将斑马线、停车线等道路标线数字化，支持工程数量导出和招标预算，并联动电力、燃气、给排水设施管理。",
-      "impact": "城市更新项目可将道路标线、井盖、管网与房屋调查数据纳入统一要素库，直接输出工程量清单。",
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/articles/mapping-a-more-efficient-chambersburg/",
+      "title": "澳大利亚新南威尔士大学MapAI平台辅助基础设施规划",
+      "summary": "11月11日报道介绍MapAI利用交通网络等地理空间数据辅助基础设施规划，展示空间分析与规划决策结合的应用。",
+      "impact": "可借鉴交通可达性、基础设施覆盖和用地叠加的指标化规划评估。",
+      "publisher": "Inside Construction / UNSW",
+      "publish_date": "2026-11-11",
+      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
       "image_url": null,
       "timeliness": "published_date_only"
     },
     {
       "id": 2,
       "category": "城市更新/GIS",
-      "title": "建筑构件级数据如何支撑城市尺度更新决策",
-      "summary": "Geo Week News专访Dextall负责人，讨论外墙、玻璃、保温材料等建筑构件数据与城市能源、碳排放模型之间的断层。",
-      "impact": "房屋调查表可预留围护结构、材料、更新措施等字段，但应与正式测绘面积和权属字段分离。",
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/articles/better-cities-start-with-better-building-data/",
+      "title": "Cyient与3-GIS合作推进管网数据运营",
+      "summary": "11月11日双方宣布合作，面向电信与公用事业网络运营商，将GIS网络资产数据用于运营决策。",
+      "impact": "城市更新管线台账可增加资产状态、巡检、维修和责任单位字段，推动从制图转向运维。",
+      "publisher": "Cyient / EQS News",
+      "publish_date": "2026-11-11",
+      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
       "image_url": null,
       "timeliness": "published_date_only"
     },
     {
       "id": 3,
-      "category": "测绘/无人机",
-      "title": "徕卡发布DMC-5大画幅航空摄影系统",
-      "summary": "Leica Geosystems宣布DMC-5航空成像系统，官方称横向最高68,800像素，较前代提升超过30%的单次采集数据量，适用于大范围航测。",
-      "impact": "航测采购应对比有效航带宽度、GSD、航高、像控精度和后处理成本；厂商性能数据需项目实测。",
-      "publisher": "Leica Geosystems / Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/articles/leica-geosystems-introduces-leica-dmc-5-large-format-camera-for-more-efficient-airborne-mapping/",
+      "category": "AI模型与工具",
+      "title": "OpenAI与Upwork研究AI对自由职业工作的影响",
+      "summary": "11月11日OpenAI发布联合研究，讨论AI改变自由职业服务需求、技能组合及AI相关项目预算的情况。",
+      "impact": "GIS团队应将AI辅助制图、数据清洗与人工复核划分为可衡量的工序，持续评估岗位技能变化。",
+      "publisher": "OpenAI / Upwork",
+      "publish_date": "2026-11-11",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
       "image_url": null,
       "timeliness": "published_date_only"
     },
     {
       "id": 4,
-      "category": "AI模型与工具",
-      "title": "Bluebeam Max披露AI辅助工程估算和图纸工作流案例",
-      "summary": "Bluebeam 11月10日披露AEC客户在估算和项目资料检索中使用AI的案例；其调查称28%的受访AEC企业已将AI投入生产。",
-      "impact": "可为征收资料审核与工程量核查设计PDF标注、条目提取、人工复核的流程，调查比例不应外推全行业。",
-      "publisher": "Bluebeam / Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/articles/while-most-construction-firms-are-still-piloting-ai-contractors-are-finding-real-world-results-with-bluebeam-max/",
-      "image_url": null,
-      "timeliness": "published_date_only"
-    },
-    {
-      "id": 5,
-      "category": "AI模型与工具",
-      "title": "OpenAI开发者发布GPT-Live语音Agent四个应用案例",
-      "summary": "OpenAI开发者博客11月10日介绍四个语音Agent实践，强调实时打断、对话评测与生产数据迭代。",
-      "impact": "共享地图移动端可试验语音记录调查备注、查询任务状态，但写入空间数据须二次确认。",
-      "publisher": "OpenAI Developers",
-      "publish_date": "2026-11-10",
-      "url": "https://developers.openai.com/blog/pushing-voice-agents-further",
+      "category": "城市更新/GIS",
+      "title": "台湾信义开发转向合建与都市更新模式",
+      "summary": "11月11日行业报道指出，信义开发调整土地开发策略，偏重合建、都市更新与捷运联开项目以平滑交付节奏。",
+      "impact": "可借鉴按项目阶段、合作模式、权属协调和交付计划建立更新项目数据库；区域政策不宜直接套用。",
+      "publisher": "优分析产业数据中心",
+      "publish_date": "2026-11-11",
+      "url": "https://uanalyze.com.tw/articles/2608859160",
       "image_url": null,
       "timeliness": "published_date_only"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "空间信息行业的数字化价值越来越体现在可维护的资产台账、工程量核查与跨团队业务闭环；AI应嵌入可审计的具体任务。",
+  "industry_observation": "空间数据产品持续向基础设施规划决策和资产运营延伸，AI应用评价则更关注技能结构与实际生产流程。",
   "tool_of_week": {
-    "name": "PostGIS道路设施工程量清单",
-    "method": "对道路标线、井盖、管线建立要素编码、几何、数量和现场照片字段，用空间查询生成可复核的工程量表。"
+    "name": "PostGIS基础设施规划指标小样",
+    "method": "以道路和管线要素为输入，生成覆盖率、服务半径与资产状态统计，并保留数据来源和复核记录。"
   },
   "sources": [
     {
-      "publisher": "Geo Week News",
-      "url": "https://www.geoweeknews.com/articles/mapping-a-more-efficient-chambersburg/",
-      "publish_date": "2026-11-10"
+      "publisher": "Inside Construction / UNSW",
+      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
+      "publish_date": "2026-11-11"
     },
     {
-      "publisher": "Geo Week News",
-      "url": "https://www.geoweeknews.com/articles/better-cities-start-with-better-building-data/",
-      "publish_date": "2026-11-10"
+      "publisher": "Cyient / EQS News",
+      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
+      "publish_date": "2026-11-11"
     },
     {
-      "publisher": "Leica Geosystems / Geo Week News",
-      "url": "https://www.geoweeknews.com/articles/leica-geosystems-introduces-leica-dmc-5-large-format-camera-for-more-efficient-airborne-mapping/",
-      "publish_date": "2026-11-10"
+      "publisher": "OpenAI / Upwork",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+      "publish_date": "2026-11-11"
     },
     {
-      "publisher": "Bluebeam / Geo Week News",
-      "url": "https://www.geoweeknews.com/articles/while-most-construction-firms-are-still-piloting-ai-contractors-are-finding-real-world-results-with-bluebeam-max/",
-      "publish_date": "2026-11-10"
-    },
-    {
-      "publisher": "OpenAI Developers",
-      "url": "https://developers.openai.com/blog/pushing-voice-agents-further",
-      "publish_date": "2026-11-10"
+      "publisher": "优分析产业数据中心",
+      "url": "https://uanalyze.com.tw/articles/2608859160",
+      "publish_date": "2026-11-11"
     }
   ],
-  "quality_note": "5条均标记为2026-11-10发布，未核实全部精确24小时窗口；徕卡和Bluebeam数据为厂商声明。"
+  "quality_note": "四条均为11月11日发布日期，具体小时未全部核实；未发现可可靠核验的11月11日测绘/无人机新消息，故未凑满五条。"
 }

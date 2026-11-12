@@ -1,0 +1,106 @@
+{
+  "type": "daily",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T12:08:36+08:00",
+  "title": "行业日报｜2026-11-12",
+  "summary": "本次确认4条11月11日发布的高相关动态；未发现足够可靠且不重复的测绘/无人机新消息，不以旧闻凑数。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        3
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": []
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "澳大利亚新南威尔士大学MapAI平台辅助基础设施规划",
+      "summary": "11月11日报道介绍MapAI利用交通网络等地理空间数据辅助基础设施规划，展示空间分析与规划决策结合的应用。",
+      "impact": "可借鉴交通可达性、基础设施覆盖和用地叠加的指标化规划评估。",
+      "publisher": "Inside Construction / UNSW",
+      "publish_date": "2026-11-11",
+      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
+      "image_url": null,
+      "timeliness": "published_date_only"
+    },
+    {
+      "id": 2,
+      "category": "城市更新/GIS",
+      "title": "Cyient与3-GIS合作推进管网数据运营",
+      "summary": "11月11日双方宣布合作，面向电信与公用事业网络运营商，将GIS网络资产数据用于运营决策。",
+      "impact": "城市更新管线台账可增加资产状态、巡检、维修和责任单位字段，推动从制图转向运维。",
+      "publisher": "Cyient / EQS News",
+      "publish_date": "2026-11-11",
+      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
+      "image_url": null,
+      "timeliness": "published_date_only"
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "OpenAI与Upwork研究AI对自由职业工作的影响",
+      "summary": "11月11日OpenAI发布联合研究，讨论AI改变自由职业服务需求、技能组合及AI相关项目预算的情况。",
+      "impact": "GIS团队应将AI辅助制图、数据清洗与人工复核划分为可衡量的工序，持续评估岗位技能变化。",
+      "publisher": "OpenAI / Upwork",
+      "publish_date": "2026-11-11",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+      "image_url": null,
+      "timeliness": "published_date_only"
+    },
+    {
+      "id": 4,
+      "category": "城市更新/GIS",
+      "title": "台湾信义开发转向合建与都市更新模式",
+      "summary": "11月11日行业报道指出，信义开发调整土地开发策略，偏重合建、都市更新与捷运联开项目以平滑交付节奏。",
+      "impact": "可借鉴按项目阶段、合作模式、权属协调和交付计划建立更新项目数据库；区域政策不宜直接套用。",
+      "publisher": "优分析产业数据中心",
+      "publish_date": "2026-11-11",
+      "url": "https://uanalyze.com.tw/articles/2608859160",
+      "image_url": null,
+      "timeliness": "published_date_only"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间数据产品持续向基础设施规划决策和资产运营延伸，AI应用评价则更关注技能结构与实际生产流程。",
+  "tool_of_week": {
+    "name": "PostGIS基础设施规划指标小样",
+    "method": "以道路和管线要素为输入，生成覆盖率、服务半径与资产状态统计，并保留数据来源和复核记录。"
+  },
+  "sources": [
+    {
+      "publisher": "Inside Construction / UNSW",
+      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
+      "publish_date": "2026-11-11"
+    },
+    {
+      "publisher": "Cyient / EQS News",
+      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
+      "publish_date": "2026-11-11"
+    },
+    {
+      "publisher": "OpenAI / Upwork",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+      "publish_date": "2026-11-11"
+    },
+    {
+      "publisher": "优分析产业数据中心",
+      "url": "https://uanalyze.com.tw/articles/2608859160",
+      "publish_date": "2026-11-11"
+    }
+  ],
+  "quality_note": "四条均为11月11日发布日期，具体小时未全部核实；未发现可可靠核验的11月11日测绘/无人机新消息，故未凑满五条。"
+}
