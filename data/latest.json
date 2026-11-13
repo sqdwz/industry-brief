@@ -1,95 +1,192 @@
 {
-  "type": "daily",
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T12:08:36+08:00",
-  "title": "行业日报｜2026-11-12",
-  "summary": "本次确认4条11月11日发布的高相关动态；未发现足够可靠且不重复的测绘/无人机新消息，不以旧闻凑数。",
+  "type": "weekly",
+  "date": "2026-11-13",
+  "week": "2026-W46",
+  "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-13"
+  },
+  "generated_at": "2026-11-13T12:10:29+08:00",
+  "title": "本周行业汇总｜2026-W46（11月7日—11月13日）",
+  "summary": "本周聚焦城市更新审查协同、GIS动态数据运营、AI工程资料检索与无人机航测成本合规；收录9项，部分文章原文链接或精确日期尚待核验。",
   "sections": [
     {
       "category": "城市更新/GIS",
       "item_ids": [
         1,
         2,
-        4
+        3
       ]
     },
     {
       "category": "AI模型与工具",
       "item_ids": [
-        3
+        4,
+        5,
+        6
       ]
     },
     {
       "category": "测绘/无人机",
-      "item_ids": []
+      "item_ids": [
+        7,
+        8,
+        9
+      ]
     }
   ],
   "items": [
     {
       "id": 1,
       "category": "城市更新/GIS",
-      "title": "澳大利亚新南威尔士大学MapAI平台辅助基础设施规划",
-      "summary": "11月11日报道介绍MapAI利用交通网络等地理空间数据辅助基础设施规划，展示空间分析与规划决策结合的应用。",
-      "impact": "可借鉴交通可达性、基础设施覆盖和用地叠加的指标化规划评估。",
-      "publisher": "Inside Construction / UNSW",
+      "title": "浙江出台城市更新系列政策，推进项目联合审查和存量空间提质",
+      "summary": "浙江住建与自然资源部门近期发布多项城市更新政策，涉及项目审查“一件事”、四好建设及存量空间利用；相关文件拟于12月10日施行。",
+      "impact": "可对照梳理征收项目规划衔接、土地权属、审查材料与办理节点，形成项目级审批台账。",
+      "publisher": "浙江省住建厅、自然资源厅／澎湃政务",
       "publish_date": "2026-11-11",
-      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34457958",
       "image_url": null,
-      "timeliness": "published_date_only"
+      "verification_note": "已获取文章链接或既有日报记录"
     },
     {
       "id": 2,
       "category": "城市更新/GIS",
-      "title": "Cyient与3-GIS合作推进管网数据运营",
-      "summary": "11月11日双方宣布合作，面向电信与公用事业网络运营商，将GIS网络资产数据用于运营决策。",
-      "impact": "城市更新管线台账可增加资产状态、巡检、维修和责任单位字段，推动从制图转向运维。",
-      "publisher": "Cyient / EQS News",
+      "title": "UNSW MapAI将交通空间分析用于基础设施规划",
+      "summary": "11月11日报道介绍新南威尔士大学MapAI辅助基础设施选址和规划分析。",
+      "impact": "可建立公共设施可达性、道路连通度与更新片区服务半径的GIS评估指标。",
+      "publisher": "Inside Construction / UNSW",
       "publish_date": "2026-11-11",
-      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
+      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
       "image_url": null,
-      "timeliness": "published_date_only"
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
     },
     {
       "id": 3,
+      "category": "城市更新/GIS",
+      "title": "Esri ArcNews展示近千图层的开放数字孪生数据管线",
+      "summary": "11月刊介绍Dangermond Preserve数字孪生，利用IoT、PostGIS、ArcGIS Enterprise组织近千个GIS图层与持续更新数据。",
+      "impact": "适合借鉴为共享地图建立数据目录、动态采集、统一空间数据库和可追溯发布流程。",
+      "publisher": "Esri ArcNews / UCSB",
+      "publish_date": "2026-11（月份）",
+      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+      "image_url": null,
+      "verification_note": "已获取文章链接或既有日报记录"
+    },
+    {
+      "id": 4,
       "category": "AI模型与工具",
-      "title": "OpenAI与Upwork研究AI对自由职业工作的影响",
-      "summary": "11月11日OpenAI发布联合研究，讨论AI改变自由职业服务需求、技能组合及AI相关项目预算的情况。",
-      "impact": "GIS团队应将AI辅助制图、数据清洗与人工复核划分为可衡量的工序，持续评估岗位技能变化。",
+      "title": "OpenAI与Upwork发布AI对自由职业工作影响研究",
+      "summary": "11月11日研究讨论AI对自由职业技能、需求和任务结构的影响。",
+      "impact": "将CAD、ArcPy、资料清洗拆分成可评测工序，记录人工复核与AI节约时间。",
       "publisher": "OpenAI / Upwork",
       "publish_date": "2026-11-11",
       "url": "https://openai.com/index/ai-effect-on-freelance-work/",
       "image_url": null,
-      "timeliness": "published_date_only"
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
     },
     {
-      "id": 4,
-      "category": "城市更新/GIS",
-      "title": "台湾信义开发转向合建与都市更新模式",
-      "summary": "11月11日行业报道指出，信义开发调整土地开发策略，偏重合建、都市更新与捷运联开项目以平滑交付节奏。",
-      "impact": "可借鉴按项目阶段、合作模式、权属协调和交付计划建立更新项目数据库；区域政策不宜直接套用。",
-      "publisher": "优分析产业数据中心",
-      "publish_date": "2026-11-11",
-      "url": "https://uanalyze.com.tw/articles/2608859160",
+      "id": 5,
+      "category": "AI模型与工具",
+      "title": "OpenAI介绍Kuken Industries历史工程图纸AI检索案例",
+      "summary": "11月9日企业案例介绍通过AI检索历史图纸、截图和PDF，企业报告检索时间明显下降，效果有待独立复核。",
+      "impact": "可先用脱敏CAD与权属PDF建立多模态索引，要求每次检索回链原件。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-09",
+      "url": "https://openai.com/index/",
       "image_url": null,
-      "timeliness": "published_date_only"
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+    },
+    {
+      "id": 6,
+      "category": "AI模型与工具",
+      "title": "OpenAI发布实时语音Agent应用实践",
+      "summary": "11月10日前后开发者案例讨论实时语音Agent的产品应用与评测。",
+      "impact": "可在移动调查表测试语音备注输入，但应设置确认与隐私保护。",
+      "publisher": "OpenAI Developers",
+      "publish_date": "2026-11-10",
+      "url": "https://developers.openai.com/",
+      "image_url": null,
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+    },
+    {
+      "id": 7,
+      "category": "测绘/无人机",
+      "title": "Leica Geosystems发布DMC-5大画幅航空摄影系统",
+      "summary": "11月10日发布DMC-5新一代航摄系统，厂商披露更宽影像覆盖与数据采集能力。",
+      "impact": "航测采购和技术评估应比较GSD、航带宽度、飞行效率、后处理与成果精度。",
+      "publisher": "Leica Geosystems",
+      "publish_date": "2026-11-10",
+      "url": "https://leica-geosystems.com/",
+      "image_url": null,
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+    },
+    {
+      "id": 8,
+      "category": "测绘/无人机",
+      "title": "Geo Week News讨论美国BVLOS拟议Part 108与现有豁免机制",
+      "summary": "11月9日专业媒体分析美国超视距无人机拟议规则与Part 107现行机制的差别，强调运营适配成本。",
+      "impact": "可借鉴航测项目合规清单和通信、监视、人员成本模型；不得直接作为中国法规依据。",
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-09",
+      "url": "https://www.geoweeknews.com/",
+      "image_url": null,
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+    },
+    {
+      "id": 9,
+      "category": "测绘/无人机",
+      "title": "测绘行业调查关注AI采用率与人才缺口",
+      "summary": "11月9日前后Geo Week News介绍GIM International与Trimble支持的行业调查，讨论测绘企业AI应用和人才挑战。",
+      "impact": "在团队内建立AI辅助成果质检、培训与岗位技能清单，避免仅凭行业调查推断本地普及率。",
+      "publisher": "Geo Week News / GIM International",
+      "publish_date": "2026-11-09",
+      "url": "https://www.geoweeknews.com/",
+      "image_url": null,
+      "verification_note": "仅核实机构入口，具体文章原文链接待补"
     }
   ],
-  "recommended_reading": null,
-  "industry_observation": "空间数据产品持续向基础设施规划决策和资产运营延伸，AI应用评价则更关注技能结构与实际生产流程。",
-  "tool_of_week": {
-    "name": "PostGIS基础设施规划指标小样",
-    "method": "以道路和管线要素为输入，生成覆盖率、服务半径与资产状态统计，并保留数据来源和复核记录。"
+  "recommended_reading": {
+    "title": "A Digital Twin of Nature to Test Ideas for the Future",
+    "authors": "Amy Frazier、Trisalyn Nelson 等",
+    "publisher": "Esri ArcNews / UCSB",
+    "publish_date": "2026-11（月份，日未确认）",
+    "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+    "reading_minutes_estimate": 5,
+    "values": [
+      "近千个GIS图层如何组织为可检索的数据目录",
+      "IoT数据经PostGIS预处理再发布ArcGIS服务的架构",
+      "时序监测与三维场景结合的业务方法"
+    ],
+    "work_inspiration": "先统一项目宗地、房屋、照片和状态的空间数据管线，再考虑三维展示。",
+    "date_precision_note": "仅能确认2026年11月刊，不能严格证明在最近14天内首次发布"
   },
+  "core_changes": [
+    "城市更新从项目清单向跨部门审查和空间指标协同推进",
+    "AI应用从通用对话转向图纸检索、语音采集和具体工序评测",
+    "航测关注高效传感器、超视距合规与人才技能"
+  ],
+  "work_impact": "建议为城市更新项目建立权属—审批—图层—任务的统一关联，试点图纸AI检索，完善航测合规与成果质检清单。",
+  "trend": "可追溯空间数据、AI辅助工作流和运营级GIS正在汇合，但需明确原始数据与成果责任边界。",
+  "next_week_watch": [
+    "浙江城市更新系列政策配套细则与12月10日实施准备",
+    "GIS数字孪生数据管线与ArcGIS/PostGIS互操作",
+    "无人机航摄系统实测与BVLOS监管动态"
+  ],
   "sources": [
+    {
+      "publisher": "浙江省住建厅、自然资源厅／澎湃政务",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34457958",
+      "publish_date": "2026-11-11"
+    },
     {
       "publisher": "Inside Construction / UNSW",
       "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
       "publish_date": "2026-11-11"
     },
     {
-      "publisher": "Cyient / EQS News",
-      "url": "https://www.eqs-news.com/news/corporate/cyient-3-gis-partner-to-help-telecom-and-utility-operators-turn-network-data-into-operational-control/bb532769-30c6-462b-8804-fe47f0efe5e3_en",
-      "publish_date": "2026-11-11"
+      "publisher": "Esri ArcNews / UCSB",
+      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
+      "publish_date": "2026-11（月份）"
     },
     {
       "publisher": "OpenAI / Upwork",
@@ -97,10 +194,30 @@
       "publish_date": "2026-11-11"
     },
     {
-      "publisher": "优分析产业数据中心",
-      "url": "https://uanalyze.com.tw/articles/2608859160",
-      "publish_date": "2026-11-11"
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "publisher": "OpenAI Developers",
+      "url": "https://developers.openai.com/",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "publisher": "Leica Geosystems",
+      "url": "https://leica-geosystems.com/",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "publisher": "Geo Week News",
+      "url": "https://www.geoweeknews.com/",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "publisher": "Geo Week News / GIM International",
+      "url": "https://www.geoweeknews.com/",
+      "publish_date": "2026-11-09"
     }
   ],
-  "quality_note": "四条均为11月11日发布日期，具体小时未全部核实；未发现可可靠核验的11月11日测绘/无人机新消息，故未凑满五条。"
+  "quality_note": "本周汇总基于已存日报与本次公开来源复核；部分项目仅有机构入口而非文章深链，已标记，不能视作原文已核实。推荐阅读仅有月份级发布日期。"
 }
