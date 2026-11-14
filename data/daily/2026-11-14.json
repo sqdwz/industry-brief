@@ -1,0 +1,84 @@
+{
+  "type": "daily",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T12:13:13+08:00",
+  "title": "行业日报｜2026-11-14",
+  "summary": "严格去重后仅收录3条可定位文章的近期行业动态，其中1条超出24小时；城市更新/GIS方向没有可靠新增，未以旧闻凑数。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": []
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        1
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "测绘/无人机",
+      "title": "DJI Matrice 5T专业媒体持续评测夜间巡检能力",
+      "summary": "11月13日Digital Camera World进一步分析Matrice 5T的热成像、夜视和避障配置；设备实际发布于11月5日，属于新评测而非新产品发布。",
+      "impact": "可对照弱光、细线障碍识别及热成像能力制定现场测试清单，不将厂商标称指标视作实测精度。",
+      "publisher": "Digital Camera World / DJI",
+      "publish_date": "2026-11-13",
+      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away",
+      "image_url": null,
+      "verification_note": "报道日期11月13日；产品原始发布日期11月5日"
+    },
+    {
+      "id": 2,
+      "category": "AI模型与工具",
+      "title": "微软研究提示第三方模型权重潜在后门风险",
+      "summary": "11月13日ITPro报道微软Lazarus研究：少量权重修改可能让模型在特定触发条件下执行异常行为；尚无已在真实攻击中使用的证据。",
+      "impact": "本地部署GIS Agent模型时校验模型来源和哈希、隔离文件权限并建立异常行为测试。",
+      "publisher": "ITPro / Microsoft Research",
+      "publish_date": "2026-11-13",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents",
+      "image_url": null
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "Vercel生产使用数据反映AI模型快速更替",
+      "summary": "11月12日TechRadar报道Vercel AI Gateway生产指数，指出模型在开发者流量中的更替速度快；数据仅代表该平台样本。",
+      "impact": "共享地图与CAD开发Agent采用模型适配层和固定回归测试，降低模型切换风险。",
+      "publisher": "TechRadar / Vercel",
+      "publish_date": "2026-11-12",
+      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old",
+      "image_url": null,
+      "verification_note": "超出严格24小时窗口，作为近期补充"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "AI工程落地更需要供应链审计与可复现评测，专业无人机新设备的指标仍应通过现场测试验证。",
+  "tool_of_week": "GIS Agent模型供应链审计：记录模型版本、权重SHA256、来源、许可、任务权限与10项ArcPy回归测试结果。",
+  "sources": [
+    {
+      "publisher": "Digital Camera World / DJI",
+      "publish_date": "2026-11-13",
+      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away"
+    },
+    {
+      "publisher": "ITPro / Microsoft Research",
+      "publish_date": "2026-11-13",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents"
+    },
+    {
+      "publisher": "TechRadar / Vercel",
+      "publish_date": "2026-11-12",
+      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old"
+    }
+  ],
+  "quality_note": "检索了11月13—14日行业公开信息，未发现足够多的可信新消息。11月13日文章未全部确认精确发布时间；不能保证严格24小时。"
+}
