@@ -1,223 +1,84 @@
 {
-  "type": "weekly",
-  "date": "2026-11-13",
-  "week": "2026-W46",
-  "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-13"
-  },
-  "generated_at": "2026-11-13T12:10:29+08:00",
-  "title": "本周行业汇总｜2026-W46（11月7日—11月13日）",
-  "summary": "本周聚焦城市更新审查协同、GIS动态数据运营、AI工程资料检索与无人机航测成本合规；收录9项，部分文章原文链接或精确日期尚待核验。",
+  "type": "daily",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T12:13:13+08:00",
+  "title": "行业日报｜2026-11-14",
+  "summary": "严格去重后仅收录3条可定位文章的近期行业动态，其中1条超出24小时；城市更新/GIS方向没有可靠新增，未以旧闻凑数。",
   "sections": [
     {
       "category": "城市更新/GIS",
+      "item_ids": []
+    },
+    {
+      "category": "AI模型与工具",
       "item_ids": [
-        1,
         2,
         3
       ]
     },
     {
-      "category": "AI模型与工具",
-      "item_ids": [
-        4,
-        5,
-        6
-      ]
-    },
-    {
       "category": "测绘/无人机",
       "item_ids": [
-        7,
-        8,
-        9
+        1
       ]
     }
   ],
   "items": [
     {
       "id": 1,
-      "category": "城市更新/GIS",
-      "title": "浙江出台城市更新系列政策，推进项目联合审查和存量空间提质",
-      "summary": "浙江住建与自然资源部门近期发布多项城市更新政策，涉及项目审查“一件事”、四好建设及存量空间利用；相关文件拟于12月10日施行。",
-      "impact": "可对照梳理征收项目规划衔接、土地权属、审查材料与办理节点，形成项目级审批台账。",
-      "publisher": "浙江省住建厅、自然资源厅／澎湃政务",
-      "publish_date": "2026-11-11",
-      "url": "https://www.thepaper.cn/newsDetail_forward_34457958",
+      "category": "测绘/无人机",
+      "title": "DJI Matrice 5T专业媒体持续评测夜间巡检能力",
+      "summary": "11月13日Digital Camera World进一步分析Matrice 5T的热成像、夜视和避障配置；设备实际发布于11月5日，属于新评测而非新产品发布。",
+      "impact": "可对照弱光、细线障碍识别及热成像能力制定现场测试清单，不将厂商标称指标视作实测精度。",
+      "publisher": "Digital Camera World / DJI",
+      "publish_date": "2026-11-13",
+      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away",
       "image_url": null,
-      "verification_note": "已获取文章链接或既有日报记录"
+      "verification_note": "报道日期11月13日；产品原始发布日期11月5日"
     },
     {
       "id": 2,
-      "category": "城市更新/GIS",
-      "title": "UNSW MapAI将交通空间分析用于基础设施规划",
-      "summary": "11月11日报道介绍新南威尔士大学MapAI辅助基础设施选址和规划分析。",
-      "impact": "可建立公共设施可达性、道路连通度与更新片区服务半径的GIS评估指标。",
-      "publisher": "Inside Construction / UNSW",
-      "publish_date": "2026-11-11",
-      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+      "category": "AI模型与工具",
+      "title": "微软研究提示第三方模型权重潜在后门风险",
+      "summary": "11月13日ITPro报道微软Lazarus研究：少量权重修改可能让模型在特定触发条件下执行异常行为；尚无已在真实攻击中使用的证据。",
+      "impact": "本地部署GIS Agent模型时校验模型来源和哈希、隔离文件权限并建立异常行为测试。",
+      "publisher": "ITPro / Microsoft Research",
+      "publish_date": "2026-11-13",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents",
+      "image_url": null
     },
     {
       "id": 3,
-      "category": "城市更新/GIS",
-      "title": "Esri ArcNews展示近千图层的开放数字孪生数据管线",
-      "summary": "11月刊介绍Dangermond Preserve数字孪生，利用IoT、PostGIS、ArcGIS Enterprise组织近千个GIS图层与持续更新数据。",
-      "impact": "适合借鉴为共享地图建立数据目录、动态采集、统一空间数据库和可追溯发布流程。",
-      "publisher": "Esri ArcNews / UCSB",
-      "publish_date": "2026-11（月份）",
-      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
-      "image_url": null,
-      "verification_note": "已获取文章链接或既有日报记录"
-    },
-    {
-      "id": 4,
       "category": "AI模型与工具",
-      "title": "OpenAI与Upwork发布AI对自由职业工作影响研究",
-      "summary": "11月11日研究讨论AI对自由职业技能、需求和任务结构的影响。",
-      "impact": "将CAD、ArcPy、资料清洗拆分成可评测工序，记录人工复核与AI节约时间。",
-      "publisher": "OpenAI / Upwork",
-      "publish_date": "2026-11-11",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+      "title": "Vercel生产使用数据反映AI模型快速更替",
+      "summary": "11月12日TechRadar报道Vercel AI Gateway生产指数，指出模型在开发者流量中的更替速度快；数据仅代表该平台样本。",
+      "impact": "共享地图与CAD开发Agent采用模型适配层和固定回归测试，降低模型切换风险。",
+      "publisher": "TechRadar / Vercel",
+      "publish_date": "2026-11-12",
+      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old",
       "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
-    },
-    {
-      "id": 5,
-      "category": "AI模型与工具",
-      "title": "OpenAI介绍Kuken Industries历史工程图纸AI检索案例",
-      "summary": "11月9日企业案例介绍通过AI检索历史图纸、截图和PDF，企业报告检索时间明显下降，效果有待独立复核。",
-      "impact": "可先用脱敏CAD与权属PDF建立多模态索引，要求每次检索回链原件。",
-      "publisher": "OpenAI",
-      "publish_date": "2026-11-09",
-      "url": "https://openai.com/index/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
-    },
-    {
-      "id": 6,
-      "category": "AI模型与工具",
-      "title": "OpenAI发布实时语音Agent应用实践",
-      "summary": "11月10日前后开发者案例讨论实时语音Agent的产品应用与评测。",
-      "impact": "可在移动调查表测试语音备注输入，但应设置确认与隐私保护。",
-      "publisher": "OpenAI Developers",
-      "publish_date": "2026-11-10",
-      "url": "https://developers.openai.com/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
-    },
-    {
-      "id": 7,
-      "category": "测绘/无人机",
-      "title": "Leica Geosystems发布DMC-5大画幅航空摄影系统",
-      "summary": "11月10日发布DMC-5新一代航摄系统，厂商披露更宽影像覆盖与数据采集能力。",
-      "impact": "航测采购和技术评估应比较GSD、航带宽度、飞行效率、后处理与成果精度。",
-      "publisher": "Leica Geosystems",
-      "publish_date": "2026-11-10",
-      "url": "https://leica-geosystems.com/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
-    },
-    {
-      "id": 8,
-      "category": "测绘/无人机",
-      "title": "Geo Week News讨论美国BVLOS拟议Part 108与现有豁免机制",
-      "summary": "11月9日专业媒体分析美国超视距无人机拟议规则与Part 107现行机制的差别，强调运营适配成本。",
-      "impact": "可借鉴航测项目合规清单和通信、监视、人员成本模型；不得直接作为中国法规依据。",
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-09",
-      "url": "https://www.geoweeknews.com/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
-    },
-    {
-      "id": 9,
-      "category": "测绘/无人机",
-      "title": "测绘行业调查关注AI采用率与人才缺口",
-      "summary": "11月9日前后Geo Week News介绍GIM International与Trimble支持的行业调查，讨论测绘企业AI应用和人才挑战。",
-      "impact": "在团队内建立AI辅助成果质检、培训与岗位技能清单，避免仅凭行业调查推断本地普及率。",
-      "publisher": "Geo Week News / GIM International",
-      "publish_date": "2026-11-09",
-      "url": "https://www.geoweeknews.com/",
-      "image_url": null,
-      "verification_note": "仅核实机构入口，具体文章原文链接待补"
+      "verification_note": "超出严格24小时窗口，作为近期补充"
     }
   ],
-  "recommended_reading": {
-    "title": "A Digital Twin of Nature to Test Ideas for the Future",
-    "authors": "Amy Frazier、Trisalyn Nelson 等",
-    "publisher": "Esri ArcNews / UCSB",
-    "publish_date": "2026-11（月份，日未确认）",
-    "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
-    "reading_minutes_estimate": 5,
-    "values": [
-      "近千个GIS图层如何组织为可检索的数据目录",
-      "IoT数据经PostGIS预处理再发布ArcGIS服务的架构",
-      "时序监测与三维场景结合的业务方法"
-    ],
-    "work_inspiration": "先统一项目宗地、房屋、照片和状态的空间数据管线，再考虑三维展示。",
-    "date_precision_note": "仅能确认2026年11月刊，不能严格证明在最近14天内首次发布"
-  },
-  "core_changes": [
-    "城市更新从项目清单向跨部门审查和空间指标协同推进",
-    "AI应用从通用对话转向图纸检索、语音采集和具体工序评测",
-    "航测关注高效传感器、超视距合规与人才技能"
-  ],
-  "work_impact": "建议为城市更新项目建立权属—审批—图层—任务的统一关联，试点图纸AI检索，完善航测合规与成果质检清单。",
-  "trend": "可追溯空间数据、AI辅助工作流和运营级GIS正在汇合，但需明确原始数据与成果责任边界。",
-  "next_week_watch": [
-    "浙江城市更新系列政策配套细则与12月10日实施准备",
-    "GIS数字孪生数据管线与ArcGIS/PostGIS互操作",
-    "无人机航摄系统实测与BVLOS监管动态"
-  ],
+  "recommended_reading": null,
+  "industry_observation": "AI工程落地更需要供应链审计与可复现评测，专业无人机新设备的指标仍应通过现场测试验证。",
+  "tool_of_week": "GIS Agent模型供应链审计：记录模型版本、权重SHA256、来源、许可、任务权限与10项ArcPy回归测试结果。",
   "sources": [
     {
-      "publisher": "浙江省住建厅、自然资源厅／澎湃政务",
-      "url": "https://www.thepaper.cn/newsDetail_forward_34457958",
-      "publish_date": "2026-11-11"
+      "publisher": "Digital Camera World / DJI",
+      "publish_date": "2026-11-13",
+      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away"
     },
     {
-      "publisher": "Inside Construction / UNSW",
-      "url": "https://www.insideconstruction.com.au/unsw-mapping-platform-aims-to-improve-infrastructure-planning/",
-      "publish_date": "2026-11-11"
+      "publisher": "ITPro / Microsoft Research",
+      "publish_date": "2026-11-13",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents"
     },
     {
-      "publisher": "Esri ArcNews / UCSB",
-      "url": "https://www.esri.com/about/newsroom/arcnews/a-digital-twin-of-nature-to-test-ideas-for-the-future",
-      "publish_date": "2026-11（月份）"
-    },
-    {
-      "publisher": "OpenAI / Upwork",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work/",
-      "publish_date": "2026-11-11"
-    },
-    {
-      "publisher": "OpenAI",
-      "url": "https://openai.com/index/",
-      "publish_date": "2026-11-09"
-    },
-    {
-      "publisher": "OpenAI Developers",
-      "url": "https://developers.openai.com/",
-      "publish_date": "2026-11-10"
-    },
-    {
-      "publisher": "Leica Geosystems",
-      "url": "https://leica-geosystems.com/",
-      "publish_date": "2026-11-10"
-    },
-    {
-      "publisher": "Geo Week News",
-      "url": "https://www.geoweeknews.com/",
-      "publish_date": "2026-11-09"
-    },
-    {
-      "publisher": "Geo Week News / GIM International",
-      "url": "https://www.geoweeknews.com/",
-      "publish_date": "2026-11-09"
+      "publisher": "TechRadar / Vercel",
+      "publish_date": "2026-11-12",
+      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old"
     }
   ],
-  "quality_note": "本周汇总基于已存日报与本次公开来源复核；部分项目仅有机构入口而非文章深链，已标记，不能视作原文已核实。推荐阅读仅有月份级发布日期。"
+  "quality_note": "检索了11月13—14日行业公开信息，未发现足够多的可信新消息。11月13日文章未全部确认精确发布时间；不能保证严格24小时。"
 }
