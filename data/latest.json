@@ -1,9 +1,9 @@
 {
   "type": "daily",
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T12:13:13+08:00",
-  "title": "行业日报｜2026-11-14",
-  "summary": "严格去重后仅收录3条可定位文章的近期行业动态，其中1条超出24小时；城市更新/GIS方向没有可靠新增，未以旧闻凑数。",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T12:10:25+08:00",
+  "title": "行业日报｜2026-11-15",
+  "summary": "严格去重后收录3条近期可定位的专业动态；仅1条为11月14日媒体报道且缺精确时刻，不能确认严格过去24小时；城市更新/GIS方向无足够可靠新增。",
   "sections": [
     {
       "category": "城市更新/GIS",
@@ -12,14 +12,14 @@
     {
       "category": "AI模型与工具",
       "item_ids": [
-        2,
         3
       ]
     },
     {
       "category": "测绘/无人机",
       "item_ids": [
-        1
+        1,
+        2
       ]
     }
   ],
@@ -27,58 +27,59 @@
     {
       "id": 1,
       "category": "测绘/无人机",
-      "title": "DJI Matrice 5T专业媒体持续评测夜间巡检能力",
-      "summary": "11月13日Digital Camera World进一步分析Matrice 5T的热成像、夜视和避障配置；设备实际发布于11月5日，属于新评测而非新产品发布。",
-      "impact": "可对照弱光、细线障碍识别及热成像能力制定现场测试清单，不将厂商标称指标视作实测精度。",
-      "publisher": "Digital Camera World / DJI",
+      "title": "AI与LiDAR考古发现被纠正：所谓新遗址已有学术记录",
+      "summary": "The Verge 11月13日报道，研究者使用48个AI Agent分析NASA LiDAR数据，声称发现未记录玛雅遗址，但相关地点此前已见于学术论文。事件凸显AI识别结果与真实新发现之间的核验差距。",
+      "impact": "航测异常图斑或疑似新建筑应与历史正射、已有调查档案和现场记录交叉核验，不能将AI检出直接作为新增成果。",
+      "publisher": "The Verge",
       "publish_date": "2026-11-13",
-      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
       "image_url": null,
-      "verification_note": "报道日期11月13日；产品原始发布日期11月5日"
+      "verification_note": "超出过去24小时；近期专业案例"
     },
     {
       "id": 2,
-      "category": "AI模型与工具",
-      "title": "微软研究提示第三方模型权重潜在后门风险",
-      "summary": "11月13日ITPro报道微软Lazarus研究：少量权重修改可能让模型在特定触发条件下执行异常行为；尚无已在真实攻击中使用的证据。",
-      "impact": "本地部署GIS Agent模型时校验模型来源和哈希、隔离文件权限并建立异常行为测试。",
-      "publisher": "ITPro / Microsoft Research",
+      "category": "测绘/无人机",
+      "title": "悉尼铁路利用机载LiDAR排查沿线植被风险",
+      "summary": "11月13日报道，悉尼铁路对约850公里高压铁路网络开展直升机LiDAR扫描，建立三维障碍数据，并结合无人机复核重点隐患。",
+      "impact": "可借鉴点云距离阈值检测、风险分级与现场复核闭环，用于管线、道路设施及建筑物周边安全排查。",
+      "publisher": "The Daily Telegraph (Australia)",
       "publish_date": "2026-11-13",
-      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents",
-      "image_url": null
+      "url": "https://www.dailytelegraph.com.au/news/nsw/sydney-trains-launches-aerial-laser-blitz-to-prevent-bushfires-and-network-blackouts/news-story/6ae6ce45600bcd3fe66ed37cf77786ca",
+      "image_url": null,
+      "verification_note": "超出24小时；报道可能存在付费墙"
     },
     {
       "id": 3,
       "category": "AI模型与工具",
-      "title": "Vercel生产使用数据反映AI模型快速更替",
-      "summary": "11月12日TechRadar报道Vercel AI Gateway生产指数，指出模型在开发者流量中的更替速度快；数据仅代表该平台样本。",
-      "impact": "共享地图与CAD开发Agent采用模型适配层和固定回归测试，降低模型切换风险。",
-      "publisher": "TechRadar / Vercel",
-      "publish_date": "2026-11-12",
-      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old",
+      "title": "Google Gemini 4 Hydrogen推出，面向快速编码与日常任务",
+      "summary": "11月14日媒体报道Google推出Gemini 4 Hydrogen，主打较快的编码、检索和多步任务处理；发布与性能细节仍需Google官方产品文档复核。",
+      "impact": "可纳入GIS脚本与数据清洗任务的候选模型，用固定ArcPy/PostGIS测试集对比正确率、延迟和费用。",
+      "publisher": "Times of India",
+      "publish_date": "2026-11-14",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms",
       "image_url": null,
-      "verification_note": "超出严格24小时窗口，作为近期补充"
+      "verification_note": "媒体日期11月14日，具体时刻未知；官方核验不足"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "AI工程落地更需要供应链审计与可复现评测，专业无人机新设备的指标仍应通过现场测试验证。",
-  "tool_of_week": "GIS Agent模型供应链审计：记录模型版本、权重SHA256、来源、许可、任务权限与10项ArcPy回归测试结果。",
+  "industry_observation": "AI识别和自动化测绘的价值越来越取决于历史资料交叉验证与可追溯的人工复核；模型新品也需要固定业务基准而非只看宣称性能。",
+  "tool_of_week": "ArcGIS Pro变化检测核验清单：对疑似新增图斑关联历史影像日期、原始档案编号、空间位置和人工复核状态。",
   "sources": [
     {
-      "publisher": "Digital Camera World / DJI",
+      "publisher": "The Verge",
       "publish_date": "2026-11-13",
-      "url": "https://www.digitalcameraworld.com/drones/dji-quadruples-the-resolution-of-its-thermal-drone-the-new-matrice-5t-can-make-out-your-number-plate-from-400m-away"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery"
     },
     {
-      "publisher": "ITPro / Microsoft Research",
+      "publisher": "The Daily Telegraph (Australia)",
       "publish_date": "2026-11-13",
-      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-says-small-tweaks-to-model-weights-could-turn-ai-into-sleeper-agents"
+      "url": "https://www.dailytelegraph.com.au/news/nsw/sydney-trains-launches-aerial-laser-blitz-to-prevent-bushfires-and-network-blackouts/news-story/6ae6ce45600bcd3fe66ed37cf77786ca"
     },
     {
-      "publisher": "TechRadar / Vercel",
-      "publish_date": "2026-11-12",
-      "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old"
+      "publisher": "Times of India",
+      "publish_date": "2026-11-14",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms"
     }
   ],
-  "quality_note": "检索了11月13—14日行业公开信息，未发现足够多的可信新消息。11月13日文章未全部确认精确发布时间；不能保证严格24小时。"
+  "quality_note": "严格24小时内可靠、未重复条目不足5条；部分为11月13日补充，均显式标注。"
 }
