@@ -1,0 +1,85 @@
+{
+  "type": "daily",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T12:12:24+08:00",
+  "title": "行业日报｜2026-11-16",
+  "summary": "核实3条11月15—16日近期动态；严格24小时精确发布时间无法全部确认。城市更新/GIS未发现可靠且不重复的新增，未凑满5条。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": []
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        1
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "测绘/无人机",
+      "title": "遥感与边缘计算综述聚焦水稻监测的多源融合",
+      "summary": "11月15日专业报道梳理Sentinel-2、高光谱影像、TinyML与边缘计算在作物监测中的组合，强调跨时相数据差异和模型量化的应用挑战。该报道为研究综述的二次介绍，原始论文仍需核验。",
+      "impact": "可借鉴其多时相遥感数据质量控制和端侧轻量推理思路，用于航测影像变化检测；农业指标不能直接迁移为建筑识别精度。",
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-15",
+      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/",
+      "image_url": null,
+      "verification_note": "11月15日日期明确，精确时间未核实；二次报道"
+    },
+    {
+      "id": 2,
+      "category": "AI模型与工具",
+      "title": "路透关注中国AI教育体系扩展及能力评估缺口",
+      "summary": "路透11月16日报道，中国各地正扩大中小学AI教育覆盖，但课程定义与评估方法尚未统一，实际教学效果仍有争议。",
+      "impact": "GIS团队引入AI辅助制图、脚本和档案核查时，应建立独立完成任务的考核与人工复核标准，避免只统计AI使用频率。",
+      "publisher": "Reuters",
+      "publish_date": "2026-11-16",
+      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/",
+      "image_url": null,
+      "verification_note": "11月16日发布，精确时间未核实"
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "企业AI编码比例上升，资深工程师验证需求仍高",
+      "summary": "Business Insider 11月16日报道，CIQ管理层称AI已生成公司大部分代码，但仍需要经验丰富的工程师负责设计、检查和交付；属于企业个案，不代表行业平均水平。",
+      "impact": "瑞雪工具箱和共享地图使用Coding Agent时，优先建立接口兼容性、权限和回归测试，关键模块仍由熟悉CAD/GIS业务的人员验收。",
+      "publisher": "Business Insider",
+      "publish_date": "2026-11-16",
+      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11",
+      "image_url": null,
+      "verification_note": "11月16日发布，精确时间未核实；企业自述"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "遥感数据应用重视跨时相质量控制，AI辅助工作正从生成速度转向可验证成果与专业人员审核。",
+  "tool_of_week": "建立10项固定GIS/CAD AI回归任务：坐标转换、宗地叠加、建筑面积汇总、字段校验、CAD导出等，逐项记录正确率、耗时、人工修正次数。",
+  "sources": [
+    {
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-15",
+      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/"
+    },
+    {
+      "publisher": "Reuters",
+      "publish_date": "2026-11-16",
+      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/"
+    },
+    {
+      "publisher": "Business Insider",
+      "publish_date": "2026-11-16",
+      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11"
+    }
+  ],
+  "quality_note": "全部为可定位文章，但发布时间缺小时级确认；不将二次报道当成原始论文。"
+}

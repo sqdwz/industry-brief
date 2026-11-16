@@ -1,9 +1,9 @@
 {
   "type": "daily",
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T12:10:25+08:00",
-  "title": "行业日报｜2026-11-15",
-  "summary": "严格去重后收录3条近期可定位的专业动态；仅1条为11月14日媒体报道且缺精确时刻，不能确认严格过去24小时；城市更新/GIS方向无足够可靠新增。",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T12:12:24+08:00",
+  "title": "行业日报｜2026-11-16",
+  "summary": "核实3条11月15—16日近期动态；严格24小时精确发布时间无法全部确认。城市更新/GIS未发现可靠且不重复的新增，未凑满5条。",
   "sections": [
     {
       "category": "城市更新/GIS",
@@ -12,14 +12,14 @@
     {
       "category": "AI模型与工具",
       "item_ids": [
+        2,
         3
       ]
     },
     {
       "category": "测绘/无人机",
       "item_ids": [
-        1,
-        2
+        1
       ]
     }
   ],
@@ -27,59 +27,59 @@
     {
       "id": 1,
       "category": "测绘/无人机",
-      "title": "AI与LiDAR考古发现被纠正：所谓新遗址已有学术记录",
-      "summary": "The Verge 11月13日报道，研究者使用48个AI Agent分析NASA LiDAR数据，声称发现未记录玛雅遗址，但相关地点此前已见于学术论文。事件凸显AI识别结果与真实新发现之间的核验差距。",
-      "impact": "航测异常图斑或疑似新建筑应与历史正射、已有调查档案和现场记录交叉核验，不能将AI检出直接作为新增成果。",
-      "publisher": "The Verge",
-      "publish_date": "2026-11-13",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "title": "遥感与边缘计算综述聚焦水稻监测的多源融合",
+      "summary": "11月15日专业报道梳理Sentinel-2、高光谱影像、TinyML与边缘计算在作物监测中的组合，强调跨时相数据差异和模型量化的应用挑战。该报道为研究综述的二次介绍，原始论文仍需核验。",
+      "impact": "可借鉴其多时相遥感数据质量控制和端侧轻量推理思路，用于航测影像变化检测；农业指标不能直接迁移为建筑识别精度。",
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-15",
+      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/",
       "image_url": null,
-      "verification_note": "超出过去24小时；近期专业案例"
+      "verification_note": "11月15日日期明确，精确时间未核实；二次报道"
     },
     {
       "id": 2,
-      "category": "测绘/无人机",
-      "title": "悉尼铁路利用机载LiDAR排查沿线植被风险",
-      "summary": "11月13日报道，悉尼铁路对约850公里高压铁路网络开展直升机LiDAR扫描，建立三维障碍数据，并结合无人机复核重点隐患。",
-      "impact": "可借鉴点云距离阈值检测、风险分级与现场复核闭环，用于管线、道路设施及建筑物周边安全排查。",
-      "publisher": "The Daily Telegraph (Australia)",
-      "publish_date": "2026-11-13",
-      "url": "https://www.dailytelegraph.com.au/news/nsw/sydney-trains-launches-aerial-laser-blitz-to-prevent-bushfires-and-network-blackouts/news-story/6ae6ce45600bcd3fe66ed37cf77786ca",
+      "category": "AI模型与工具",
+      "title": "路透关注中国AI教育体系扩展及能力评估缺口",
+      "summary": "路透11月16日报道，中国各地正扩大中小学AI教育覆盖，但课程定义与评估方法尚未统一，实际教学效果仍有争议。",
+      "impact": "GIS团队引入AI辅助制图、脚本和档案核查时，应建立独立完成任务的考核与人工复核标准，避免只统计AI使用频率。",
+      "publisher": "Reuters",
+      "publish_date": "2026-11-16",
+      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/",
       "image_url": null,
-      "verification_note": "超出24小时；报道可能存在付费墙"
+      "verification_note": "11月16日发布，精确时间未核实"
     },
     {
       "id": 3,
       "category": "AI模型与工具",
-      "title": "Google Gemini 4 Hydrogen推出，面向快速编码与日常任务",
-      "summary": "11月14日媒体报道Google推出Gemini 4 Hydrogen，主打较快的编码、检索和多步任务处理；发布与性能细节仍需Google官方产品文档复核。",
-      "impact": "可纳入GIS脚本与数据清洗任务的候选模型，用固定ArcPy/PostGIS测试集对比正确率、延迟和费用。",
-      "publisher": "Times of India",
-      "publish_date": "2026-11-14",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms",
+      "title": "企业AI编码比例上升，资深工程师验证需求仍高",
+      "summary": "Business Insider 11月16日报道，CIQ管理层称AI已生成公司大部分代码，但仍需要经验丰富的工程师负责设计、检查和交付；属于企业个案，不代表行业平均水平。",
+      "impact": "瑞雪工具箱和共享地图使用Coding Agent时，优先建立接口兼容性、权限和回归测试，关键模块仍由熟悉CAD/GIS业务的人员验收。",
+      "publisher": "Business Insider",
+      "publish_date": "2026-11-16",
+      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11",
       "image_url": null,
-      "verification_note": "媒体日期11月14日，具体时刻未知；官方核验不足"
+      "verification_note": "11月16日发布，精确时间未核实；企业自述"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "AI识别和自动化测绘的价值越来越取决于历史资料交叉验证与可追溯的人工复核；模型新品也需要固定业务基准而非只看宣称性能。",
-  "tool_of_week": "ArcGIS Pro变化检测核验清单：对疑似新增图斑关联历史影像日期、原始档案编号、空间位置和人工复核状态。",
+  "industry_observation": "遥感数据应用重视跨时相质量控制，AI辅助工作正从生成速度转向可验证成果与专业人员审核。",
+  "tool_of_week": "建立10项固定GIS/CAD AI回归任务：坐标转换、宗地叠加、建筑面积汇总、字段校验、CAD导出等，逐项记录正确率、耗时、人工修正次数。",
   "sources": [
     {
-      "publisher": "The Verge",
-      "publish_date": "2026-11-13",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery"
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-15",
+      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/"
     },
     {
-      "publisher": "The Daily Telegraph (Australia)",
-      "publish_date": "2026-11-13",
-      "url": "https://www.dailytelegraph.com.au/news/nsw/sydney-trains-launches-aerial-laser-blitz-to-prevent-bushfires-and-network-blackouts/news-story/6ae6ce45600bcd3fe66ed37cf77786ca"
+      "publisher": "Reuters",
+      "publish_date": "2026-11-16",
+      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/"
     },
     {
-      "publisher": "Times of India",
-      "publish_date": "2026-11-14",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms"
+      "publisher": "Business Insider",
+      "publish_date": "2026-11-16",
+      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11"
     }
   ],
-  "quality_note": "严格24小时内可靠、未重复条目不足5条；部分为11月13日补充，均显式标注。"
+  "quality_note": "全部为可定位文章，但发布时间缺小时级确认；不将二次报道当成原始论文。"
 }
