@@ -1,0 +1,122 @@
+{
+  "type": "daily",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T12:07:11+08:00",
+  "title": "行业日报｜2026-11-17",
+  "summary": "精选5条11月16日来源信息，涵盖城市更新/GIS、测绘与AI；部分为二次研究报道，精确发布时间未核实。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        2
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "移动地理信息技术用于医疗设施空间集聚分析",
+      "summary": "11月16日专业报道介绍印度Guntur地区使用移动地理采集与空间聚类分析评估牙科诊所分布；属于研究二次报道。",
+      "impact": "城市更新公共服务设施调查可借鉴移动采集、设施点位核验及服务覆盖分析。",
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/mapping-dental-clinic-clusters-using-mobile-geospatial-technology-in-india/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 2,
+      "category": "测绘/无人机",
+      "title": "EroMapper插件探索QGIS/QField标准化野外侵蚀调查",
+      "summary": "11月16日报道介绍EroMapper插件，以QField与GeoPackage记录侵蚀、沉积等现场空间观测，后续在QGIS中处理。原始论文未独立核验。",
+      "impact": "可借鉴其移动端标准字段、离线记录与桌面GIS复核流程，完善现场测绘调查模板。",
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/eromapper-plugin-enables-standardized-digital-mapping-of-agricultural-soil-erosion/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "OpenAI公布首批四家嵌入式独立评估机构",
+      "summary": "OpenAI公布与Apollo Research、Goodfire、METR、Transluce签订嵌入式评估协议，探索更透明的模型风险评估机制。",
+      "impact": "对GIS/CAD Agent建立外部可复现测试集与安全审计，比单看模型排行榜更可靠。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "OpenAI扩大科研人员免费AI支持计划",
+      "summary": "OpenAI宣布扩大ChatGPT for Academic Researchers计划，拟向全球最多20万研究人员提供免费访问；具体申请资格应以官方条款为准。",
+      "impact": "GIS空间分析研究与科研协作可关注申请条件，但不能视为普通商业团队的免费额度。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 5,
+      "category": "AI模型与工具",
+      "title": "OpenAI公布跨系统计算机操作Agent评估",
+      "summary": "OpenAI介绍医疗软件跨应用操作Agent的任务评估、安全审批与审计日志机制；案例面向医疗场景。",
+      "impact": "共享地图后台与档案系统的跨应用自动化可借鉴人工审批、最小权限和审计日志，不直接迁移医疗性能指标。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间数据采集越来越强调规范化与复核，AI Agent则更重视跨系统操作的审批和独立评估。",
+  "tool_of_week": "使用QField与GeoPackage建立10条现场调查样本，验证离线采集、字段校验、照片关联与QGIS回传，记录错误率。",
+  "sources": [
+    {
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/mapping-dental-clinic-clusters-using-mobile-geospatial-technology-in-india/"
+    },
+    {
+      "publisher": "Bioengineer.org / Scienmag",
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/eromapper-plugin-enables-standardized-digital-mapping-of-agricultural-soil-erosion/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/"
+    }
+  ],
+  "quality_note": "优先采用官方公告；两条GIS研究仅为二次报道；未找到足够可靠且不重复的无人机专属新闻。"
+}
