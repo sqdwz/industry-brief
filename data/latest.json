@@ -1,85 +1,122 @@
 {
   "type": "daily",
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T12:12:24+08:00",
-  "title": "行业日报｜2026-11-16",
-  "summary": "核实3条11月15—16日近期动态；严格24小时精确发布时间无法全部确认。城市更新/GIS未发现可靠且不重复的新增，未凑满5条。",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T12:07:11+08:00",
+  "title": "行业日报｜2026-11-17",
+  "summary": "精选5条11月16日来源信息，涵盖城市更新/GIS、测绘与AI；部分为二次研究报道，精确发布时间未核实。",
   "sections": [
     {
       "category": "城市更新/GIS",
-      "item_ids": []
+      "item_ids": [
+        1
+      ]
     },
     {
       "category": "AI模型与工具",
       "item_ids": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     },
     {
       "category": "测绘/无人机",
       "item_ids": [
-        1
+        2
       ]
     }
   ],
   "items": [
     {
       "id": 1,
-      "category": "测绘/无人机",
-      "title": "遥感与边缘计算综述聚焦水稻监测的多源融合",
-      "summary": "11月15日专业报道梳理Sentinel-2、高光谱影像、TinyML与边缘计算在作物监测中的组合，强调跨时相数据差异和模型量化的应用挑战。该报道为研究综述的二次介绍，原始论文仍需核验。",
-      "impact": "可借鉴其多时相遥感数据质量控制和端侧轻量推理思路，用于航测影像变化检测；农业指标不能直接迁移为建筑识别精度。",
+      "category": "城市更新/GIS",
+      "title": "移动地理信息技术用于医疗设施空间集聚分析",
+      "summary": "11月16日专业报道介绍印度Guntur地区使用移动地理采集与空间聚类分析评估牙科诊所分布；属于研究二次报道。",
+      "impact": "城市更新公共服务设施调查可借鉴移动采集、设施点位核验及服务覆盖分析。",
       "publisher": "Bioengineer.org / Scienmag",
-      "publish_date": "2026-11-15",
-      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/",
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/mapping-dental-clinic-clusters-using-mobile-geospatial-technology-in-india/",
       "image_url": null,
-      "verification_note": "11月15日日期明确，精确时间未核实；二次报道"
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
     },
     {
       "id": 2,
-      "category": "AI模型与工具",
-      "title": "路透关注中国AI教育体系扩展及能力评估缺口",
-      "summary": "路透11月16日报道，中国各地正扩大中小学AI教育覆盖，但课程定义与评估方法尚未统一，实际教学效果仍有争议。",
-      "impact": "GIS团队引入AI辅助制图、脚本和档案核查时，应建立独立完成任务的考核与人工复核标准，避免只统计AI使用频率。",
-      "publisher": "Reuters",
+      "category": "测绘/无人机",
+      "title": "EroMapper插件探索QGIS/QField标准化野外侵蚀调查",
+      "summary": "11月16日报道介绍EroMapper插件，以QField与GeoPackage记录侵蚀、沉积等现场空间观测，后续在QGIS中处理。原始论文未独立核验。",
+      "impact": "可借鉴其移动端标准字段、离线记录与桌面GIS复核流程，完善现场测绘调查模板。",
+      "publisher": "Bioengineer.org / Scienmag",
       "publish_date": "2026-11-16",
-      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/",
+      "url": "https://bioengineer.org/eromapper-plugin-enables-standardized-digital-mapping-of-agricultural-soil-erosion/",
       "image_url": null,
-      "verification_note": "11月16日发布，精确时间未核实"
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
     },
     {
       "id": 3,
       "category": "AI模型与工具",
-      "title": "企业AI编码比例上升，资深工程师验证需求仍高",
-      "summary": "Business Insider 11月16日报道，CIQ管理层称AI已生成公司大部分代码，但仍需要经验丰富的工程师负责设计、检查和交付；属于企业个案，不代表行业平均水平。",
-      "impact": "瑞雪工具箱和共享地图使用Coding Agent时，优先建立接口兼容性、权限和回归测试，关键模块仍由熟悉CAD/GIS业务的人员验收。",
-      "publisher": "Business Insider",
+      "title": "OpenAI公布首批四家嵌入式独立评估机构",
+      "summary": "OpenAI公布与Apollo Research、Goodfire、METR、Transluce签订嵌入式评估协议，探索更透明的模型风险评估机制。",
+      "impact": "对GIS/CAD Agent建立外部可复现测试集与安全审计，比单看模型排行榜更可靠。",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-16",
-      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "image_url": null,
-      "verification_note": "11月16日发布，精确时间未核实；企业自述"
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "OpenAI扩大科研人员免费AI支持计划",
+      "summary": "OpenAI宣布扩大ChatGPT for Academic Researchers计划，拟向全球最多20万研究人员提供免费访问；具体申请资格应以官方条款为准。",
+      "impact": "GIS空间分析研究与科研协作可关注申请条件，但不能视为普通商业团队的免费额度。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
+    },
+    {
+      "id": 5,
+      "category": "AI模型与工具",
+      "title": "OpenAI公布跨系统计算机操作Agent评估",
+      "summary": "OpenAI介绍医疗软件跨应用操作Agent的任务评估、安全审批与审计日志机制；案例面向医疗场景。",
+      "impact": "共享地图后台与档案系统的跨应用自动化可借鉴人工审批、最小权限和审计日志，不直接迁移医疗性能指标。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+      "image_url": null,
+      "verification_note": "官方/专业来源页面日期为11月16日，精确发布时间未核实；不保证严格落在过去24小时"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "遥感数据应用重视跨时相质量控制，AI辅助工作正从生成速度转向可验证成果与专业人员审核。",
-  "tool_of_week": "建立10项固定GIS/CAD AI回归任务：坐标转换、宗地叠加、建筑面积汇总、字段校验、CAD导出等，逐项记录正确率、耗时、人工修正次数。",
+  "industry_observation": "空间数据采集越来越强调规范化与复核，AI Agent则更重视跨系统操作的审批和独立评估。",
+  "tool_of_week": "使用QField与GeoPackage建立10条现场调查样本，验证离线采集、字段校验、照片关联与QGIS回传，记录错误率。",
   "sources": [
     {
       "publisher": "Bioengineer.org / Scienmag",
-      "publish_date": "2026-11-15",
-      "url": "https://bioengineer.org/survey-synthesizes-remote-sensing-and-edge-computing-pathways-for-rice-monitoring/"
+      "publish_date": "2026-11-16",
+      "url": "https://bioengineer.org/mapping-dental-clinic-clusters-using-mobile-geospatial-technology-in-india/"
     },
     {
-      "publisher": "Reuters",
+      "publisher": "Bioengineer.org / Scienmag",
       "publish_date": "2026-11-16",
-      "url": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/"
+      "url": "https://bioengineer.org/eromapper-plugin-enables-standardized-digital-mapping-of-agricultural-soil-erosion/"
     },
     {
-      "publisher": "Business Insider",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-16",
-      "url": "https://www.businessinsider.com/ai-coding-boom-fuels-demand-senior-engineers-not-junior-developers-2026-11"
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-16",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/"
     }
   ],
-  "quality_note": "全部为可定位文章，但发布时间缺小时级确认；不将二次报道当成原始论文。"
+  "quality_note": "优先采用官方公告；两条GIS研究仅为二次报道；未找到足够可靠且不重复的无人机专属新闻。"
 }
