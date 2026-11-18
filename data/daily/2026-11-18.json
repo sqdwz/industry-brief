@@ -1,0 +1,122 @@
+{
+  "type": "daily",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T12:06:22+08:00",
+  "title": "行业日报｜2026-11-18",
+  "summary": "五条11月17日动态：宗地适宜性、城市绿化GIS、AI模型与编程、无人机测绘服务。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        5
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "VCU开发城市闲置地适宜性地图",
+      "summary": "结合土地质量与社区需求识别里士满适合城市农业的闲置宗地。",
+      "impact": "借鉴宗地多指标评分，用于城市更新存量地块盘活。",
+      "publisher": "Virginia Commonwealth University",
+      "publish_date": "2026-11-17",
+      "url": "https://news.vcu.edu/article/a-new-tool-from-vcu-helps-identify-the-best-vacant-places-to-farm-and-garden-in-richmond",
+      "image_url": null,
+      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+    },
+    {
+      "id": 2,
+      "category": "城市更新/GIS",
+      "title": "圣安东尼奥研究人员绘制潜在植树点位",
+      "summary": "研究团队结合移动传感器与环境空间数据寻找市中心植树位置。",
+      "impact": "将热环境、道路空间和树荫覆盖纳入公共空间改造评价。",
+      "publisher": "UT San Antonio",
+      "publish_date": "2026-11-17",
+      "url": "https://news.utsa.edu/2026/11/ut-san-antonio-researchers-map-potential-downtown-tree-planting-locations/",
+      "image_url": null,
+      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "OpenAI发布GPT-6.2 Astra与Sol",
+      "summary": "新模型强调视觉推理、计算机操作、三维交互生成和安全代码能力；性能来自厂商评测。",
+      "impact": "对三维交互原型、图纸理解和CAD代码任务建立实测。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-17",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "image_url": null,
+      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "微软MAI Code 2系列进入GitHub Copilot",
+      "summary": "GitHub公布MAI Code 2与Flash，面向Agent编程工作流提供模型选择。",
+      "impact": "对Vue、Fastify及AutoCAD .NET代码修复开展准确率和成本测试。",
+      "publisher": "GitHub",
+      "publish_date": "2026-11-17",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+      "image_url": null,
+      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+    },
+    {
+      "id": 5,
+      "category": "测绘/无人机",
+      "title": "ZenaTech公布能源行业无人机测绘合同",
+      "summary": "已签约约27万加元，另约70万加元为有条件后续机会，非已实现收入。",
+      "impact": "采购无人机测绘服务应重视精度、地面控制及交付验收。",
+      "publisher": "ZenaTech / GlobeNewswire",
+      "publish_date": "2026-11-17",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404538/0/en/zenatech-secures-energy-sector-survey-contracts-representing-nearly-c-1-million-in-project-work-through-its-drone-as-a-service-business.html",
+      "image_url": null,
+      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "GIS从数据展示转向多指标空间决策；AI模型更强调可执行任务；测绘服务重视成果交付。",
+  "tool_of_week": "使用PostGIS对30宗地开展道路可达性、绿地覆盖和用地约束适宜性评分，并保留复核证据。",
+  "sources": [
+    {
+      "publisher": "Virginia Commonwealth University",
+      "publish_date": "2026-11-17",
+      "url": "https://news.vcu.edu/article/a-new-tool-from-vcu-helps-identify-the-best-vacant-places-to-farm-and-garden-in-richmond"
+    },
+    {
+      "publisher": "UT San Antonio",
+      "publish_date": "2026-11-17",
+      "url": "https://news.utsa.edu/2026/11/ut-san-antonio-researchers-map-potential-downtown-tree-planting-locations/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-17",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+      "publisher": "GitHub",
+      "publish_date": "2026-11-17",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+    },
+    {
+      "publisher": "ZenaTech / GlobeNewswire",
+      "publish_date": "2026-11-17",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404538/0/en/zenatech-secures-energy-sector-survey-contracts-representing-nearly-c-1-million-in-project-work-through-its-drone-as-a-service-business.html"
+    }
+  ],
+  "quality_note": "未全部确认精确发布时间；厂商性能为官方自述，后续合同不是已实现收入。"
+}
