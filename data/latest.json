@@ -1,9 +1,9 @@
 {
   "type": "daily",
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T12:06:22+08:00",
-  "title": "行业日报｜2026-11-18",
-  "summary": "五条11月17日动态：宗地适宜性、城市绿化GIS、AI模型与编程、无人机测绘服务。",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T12:09:42+08:00",
+  "title": "行业日报｜2026-11-19",
+  "summary": "5条11月18日来源：GIS公共服务、AI安全与科研效益、无人机应用交流。",
   "sections": [
     {
       "category": "城市更新/GIS",
@@ -30,93 +30,93 @@
     {
       "id": 1,
       "category": "城市更新/GIS",
-      "title": "VCU开发城市闲置地适宜性地图",
-      "summary": "结合土地质量与社区需求识别里士满适合城市农业的闲置宗地。",
-      "impact": "借鉴宗地多指标评分，用于城市更新存量地块盘活。",
-      "publisher": "Virginia Commonwealth University",
-      "publish_date": "2026-11-17",
-      "url": "https://news.vcu.edu/article/a-new-tool-from-vcu-helps-identify-the-best-vacant-places-to-farm-and-garden-in-richmond",
+      "title": "GIS Day专题聚焦地方政府空间数据服务",
+      "summary": "Geo Week News讨论地方政府如何利用GIS支撑公共服务与跨部门协作。",
+      "impact": "共享地图可建立跨部门图层目录和更新责任人。",
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-18",
+      "url": "https://www.geoweeknews.com/articles/reflections-for-gis-day-2026-powering-purpose-innovation-and-a-better-future/",
       "image_url": null,
-      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
     },
     {
       "id": 2,
       "category": "城市更新/GIS",
-      "title": "圣安东尼奥研究人员绘制潜在植树点位",
-      "summary": "研究团队结合移动传感器与环境空间数据寻找市中心植树位置。",
-      "impact": "将热环境、道路空间和树荫覆盖纳入公共空间改造评价。",
-      "publisher": "UT San Antonio",
-      "publish_date": "2026-11-17",
-      "url": "https://news.utsa.edu/2026/11/ut-san-antonio-researchers-map-potential-downtown-tree-planting-locations/",
+      "title": "美国县级政府强调GIS支撑公共管理",
+      "summary": "Pottawattamie County在11月18日GIS Day公告中强调GIS在县级运营与社区服务中的作用。",
+      "impact": "将征收范围、权属核查和调查成果关联宗地与房屋要素。",
+      "publisher": "Pottawattamie County",
+      "publish_date": "2026-11-18",
+      "url": "https://www.pottcounty-ia.gov/news/more_than_maps_pottawattamie_county_recognizes_gis_day/",
       "image_url": null,
-      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
     },
     {
       "id": 3,
       "category": "AI模型与工具",
-      "title": "OpenAI发布GPT-6.2 Astra与Sol",
-      "summary": "新模型强调视觉推理、计算机操作、三维交互生成和安全代码能力；性能来自厂商评测。",
-      "impact": "对三维交互原型、图纸理解和CAD代码任务建立实测。",
+      "title": "OpenAI发布前沿AI分层风险管理框架",
+      "summary": "官方介绍研究沙箱、内部监测、外部防护和事件响应机制。",
+      "impact": "GIS Agent采用最小权限、沙箱、人工审批与审计日志。",
       "publisher": "OpenAI",
-      "publish_date": "2026-11-17",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/",
       "image_url": null,
-      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
     },
     {
       "id": 4,
       "category": "AI模型与工具",
-      "title": "微软MAI Code 2系列进入GitHub Copilot",
-      "summary": "GitHub公布MAI Code 2与Flash，面向Agent编程工作流提供模型选择。",
-      "impact": "对Vue、Fastify及AutoCAD .NET代码修复开展准确率和成本测试。",
-      "publisher": "GitHub",
-      "publish_date": "2026-11-17",
-      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+      "title": "AI加速科研存在明显任务差异",
+      "summary": "OpenAI报告分析Agent使用、代码变更、研究实验与时间分配，强调不同任务收益不均。",
+      "impact": "分别衡量GIS数据清洗、空间分析、制图和复核的真实收益。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
       "image_url": null,
-      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
     },
     {
       "id": 5,
       "category": "测绘/无人机",
-      "title": "ZenaTech公布能源行业无人机测绘合同",
-      "summary": "已签约约27万加元，另约70万加元为有条件后续机会，非已实现收入。",
-      "impact": "采购无人机测绘服务应重视精度、地面控制及交付验收。",
-      "publisher": "ZenaTech / GlobeNewswire",
-      "publish_date": "2026-11-17",
-      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404538/0/en/zenatech-secures-energy-sector-survey-contracts-representing-nearly-c-1-million-in-project-work-through-its-drone-as-a-service-business.html",
+      "title": "Elon大学报道无人机应用交流活动",
+      "summary": "11月18日报道约160人报名的无人机交流活动，涵盖AI和农业无人机；活动实际在10月30日举行。",
+      "impact": "评估无人机应用时分开比较载荷、AI处理与成果精度。",
+      "publisher": "Elon University",
+      "publish_date": "2026-11-18",
+      "url": "https://www.elon.edu/u/news/2026/11/18/elon-drone-day-highlighted-in-commercial-uav-news/",
       "image_url": null,
-      "verification_note": "仅确认来源日期，精确发布时间未全部核实"
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "GIS从数据展示转向多指标空间决策；AI模型更强调可执行任务；测绘服务重视成果交付。",
-  "tool_of_week": "使用PostGIS对30宗地开展道路可达性、绿地覆盖和用地约束适宜性评分，并保留复核证据。",
+  "industry_observation": "GIS走向跨部门业务治理，AI应用更重视风险与分任务评测；无人机应用应验证场景适配性。",
+  "tool_of_week": "选取10项PostGIS/ArcPy任务，建立AI执行耗时、错误率、人工复核次数和权限调用的评测表。",
   "sources": [
     {
-      "publisher": "Virginia Commonwealth University",
-      "publish_date": "2026-11-17",
-      "url": "https://news.vcu.edu/article/a-new-tool-from-vcu-helps-identify-the-best-vacant-places-to-farm-and-garden-in-richmond"
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-18",
+      "url": "https://www.geoweeknews.com/articles/reflections-for-gis-day-2026-powering-purpose-innovation-and-a-better-future/"
     },
     {
-      "publisher": "UT San Antonio",
-      "publish_date": "2026-11-17",
-      "url": "https://news.utsa.edu/2026/11/ut-san-antonio-researchers-map-potential-downtown-tree-planting-locations/"
+      "publisher": "Pottawattamie County",
+      "publish_date": "2026-11-18",
+      "url": "https://www.pottcounty-ia.gov/news/more_than_maps_pottawattamie_county_recognizes_gis_day/"
     },
     {
       "publisher": "OpenAI",
-      "publish_date": "2026-11-17",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/"
     },
     {
-      "publisher": "GitHub",
-      "publish_date": "2026-11-17",
-      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
     },
     {
-      "publisher": "ZenaTech / GlobeNewswire",
-      "publish_date": "2026-11-17",
-      "url": "https://www.globenewswire.com/news-release/2026/11/17/3404538/0/en/zenatech-secures-energy-sector-survey-contracts-representing-nearly-c-1-million-in-project-work-through-its-drone-as-a-service-business.html"
+      "publisher": "Elon University",
+      "publish_date": "2026-11-18",
+      "url": "https://www.elon.edu/u/news/2026/11/18/elon-drone-day-highlighted-in-commercial-uav-news/"
     }
   ],
-  "quality_note": "未全部确认精确发布时间；厂商性能为官方自述，后续合同不是已实现收入。"
+  "quality_note": "报道日期为11月18日，未全部核实精确发布时间；Elon无人机活动实际于10月30日举行。"
 }

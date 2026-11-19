@@ -1,0 +1,122 @@
+{
+  "type": "daily",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T12:09:42+08:00",
+  "title": "行业日报｜2026-11-19",
+  "summary": "5条11月18日来源：GIS公共服务、AI安全与科研效益、无人机应用交流。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        5
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "GIS Day专题聚焦地方政府空间数据服务",
+      "summary": "Geo Week News讨论地方政府如何利用GIS支撑公共服务与跨部门协作。",
+      "impact": "共享地图可建立跨部门图层目录和更新责任人。",
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-18",
+      "url": "https://www.geoweeknews.com/articles/reflections-for-gis-day-2026-powering-purpose-innovation-and-a-better-future/",
+      "image_url": null,
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
+    },
+    {
+      "id": 2,
+      "category": "城市更新/GIS",
+      "title": "美国县级政府强调GIS支撑公共管理",
+      "summary": "Pottawattamie County在11月18日GIS Day公告中强调GIS在县级运营与社区服务中的作用。",
+      "impact": "将征收范围、权属核查和调查成果关联宗地与房屋要素。",
+      "publisher": "Pottawattamie County",
+      "publish_date": "2026-11-18",
+      "url": "https://www.pottcounty-ia.gov/news/more_than_maps_pottawattamie_county_recognizes_gis_day/",
+      "image_url": null,
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
+    },
+    {
+      "id": 3,
+      "category": "AI模型与工具",
+      "title": "OpenAI发布前沿AI分层风险管理框架",
+      "summary": "官方介绍研究沙箱、内部监测、外部防护和事件响应机制。",
+      "impact": "GIS Agent采用最小权限、沙箱、人工审批与审计日志。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/",
+      "image_url": null,
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "AI加速科研存在明显任务差异",
+      "summary": "OpenAI报告分析Agent使用、代码变更、研究实验与时间分配，强调不同任务收益不均。",
+      "impact": "分别衡量GIS数据清洗、空间分析、制图和复核的真实收益。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "image_url": null,
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
+    },
+    {
+      "id": 5,
+      "category": "测绘/无人机",
+      "title": "Elon大学报道无人机应用交流活动",
+      "summary": "11月18日报道约160人报名的无人机交流活动，涵盖AI和农业无人机；活动实际在10月30日举行。",
+      "impact": "评估无人机应用时分开比较载荷、AI处理与成果精度。",
+      "publisher": "Elon University",
+      "publish_date": "2026-11-18",
+      "url": "https://www.elon.edu/u/news/2026/11/18/elon-drone-day-highlighted-in-commercial-uav-news/",
+      "image_url": null,
+      "verification_note": "来源日期已核实，精确24小时窗口未完全核实"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "GIS走向跨部门业务治理，AI应用更重视风险与分任务评测；无人机应用应验证场景适配性。",
+  "tool_of_week": "选取10项PostGIS/ArcPy任务，建立AI执行耗时、错误率、人工复核次数和权限调用的评测表。",
+  "sources": [
+    {
+      "publisher": "Geo Week News",
+      "publish_date": "2026-11-18",
+      "url": "https://www.geoweeknews.com/articles/reflections-for-gis-day-2026-powering-purpose-innovation-and-a-better-future/"
+    },
+    {
+      "publisher": "Pottawattamie County",
+      "publish_date": "2026-11-18",
+      "url": "https://www.pottcounty-ia.gov/news/more_than_maps_pottawattamie_county_recognizes_gis_day/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-18",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
+    },
+    {
+      "publisher": "Elon University",
+      "publish_date": "2026-11-18",
+      "url": "https://www.elon.edu/u/news/2026/11/18/elon-drone-day-highlighted-in-commercial-uav-news/"
+    }
+  ],
+  "quality_note": "报道日期为11月18日，未全部核实精确发布时间；Elon无人机活动实际于10月30日举行。"
+}
