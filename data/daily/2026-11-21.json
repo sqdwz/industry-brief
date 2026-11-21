@@ -1,0 +1,117 @@
+{
+  "type": "daily",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T12:10:01+08:00",
+  "title": "行业日报｜2026-11-21",
+  "summary": "ArcGIS Pro 3.8空间分析与在线高光谱能力更新；AI协作空间推出，模型使用政策生效。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [
+        1,
+        3
+      ]
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [
+        2
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "城市更新/GIS",
+      "title": "ArcGIS Pro 3.8 Spatial Analyst新增多准则适宜性方法",
+      "summary": "Esri介绍适宜性建模新增多种栅格叠加方法、8项新工具及11项工具优化，ArcGIS Pro 3.8于11月19日发布。",
+      "impact": "可用于城市更新地块适宜性评价，比较权重与约束条件对选址结果的影响。",
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/spatial-analyst/announcements/whats-new-for-spatial-analyst-in-arcgis-pro-3-8",
+      "image_url": null
+    },
+    {
+      "id": 2,
+      "category": "测绘/遥感",
+      "title": "ArcGIS Online扩展高光谱影像在线分析",
+      "summary": "Esri介绍高光谱影像和光谱库在线共享、目标识别、异常检测及光谱重采样能力，结合ArcGIS Pro 3.8支持现场光谱CSV数据。",
+      "impact": "适合遥感专题分类与地物核验，但高光谱不等同于常规无人机RGB正射影像。",
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/imagery/hyperspectral-analysis-in-web",
+      "image_url": null
+    },
+    {
+      "id": 3,
+      "category": "城市更新/GIS",
+      "title": "ArcGIS Business Analyst介绍Huff等概率服务区",
+      "summary": "Esri展示按设施吸引力和距离构建概率服务区的方法，突破单一距离缓冲区的选址评价。",
+      "impact": "可用于城市更新公共服务设施覆盖与商圈竞争分析，参数需结合本地调查校准。",
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/bus-analyst/analytics/huff-equal-probability-trade-areas-business-analyst-pro",
+      "image_url": null
+    },
+    {
+      "id": 4,
+      "category": "AI模型与工具",
+      "title": "ChatGPT Space开始向Plus用户推出",
+      "summary": "OpenAI 11月20日更新说明，Space逐步面向符合条件的Plus用户开放，支持协作页面、演示文稿和连接应用数据的自动更新。",
+      "impact": "可试验项目进度、GIS成果说明和团队资料协作；推出范围与实际账号可用性需确认。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-20",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "image_url": null
+    },
+    {
+      "id": 5,
+      "category": "AI模型与工具",
+      "title": "OpenAI使用政策修订于11月20日生效",
+      "summary": "OpenAI官方政策更新涉及模型输出训练替代模型的限制、高风险用途、未成年人保护及模型访问中介要求。",
+      "impact": "开发GIS Agent和授权中心接入第三方AI服务时，核查模型用途、数据流转及合规边界。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-20",
+      "url": "https://openai.com/policies/usage-policies/",
+      "image_url": null
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "空间分析正在由静态缓冲区向多准则评价、概率服务区与云端光谱分析拓展；AI工具则同步加强协作与合规治理。",
+  "weekly_tool": "ArcGIS Pro 3.8 Suitability Modeler：以道路可达性、规划约束、现状用地三个栅格指标对30宗地进行适宜性敏感性分析，保留权重和输入版本。",
+  "sources": [
+    {
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/spatial-analyst/announcements/whats-new-for-spatial-analyst-in-arcgis-pro-3-8"
+    },
+    {
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/imagery/hyperspectral-analysis-in-web"
+    },
+    {
+      "publisher": "Esri",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/bus-analyst/analytics/huff-equal-probability-trade-areas-business-analyst-pro"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-20",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-20",
+      "url": "https://openai.com/policies/usage-policies/"
+    }
+  ],
+  "quality_note": "5条均由官方来源标注2026-11-20日期；精确发布时间未全部确认，不能保证均严格落在过去24小时。未收录无可靠新来源的无人机设备新闻。"
+}

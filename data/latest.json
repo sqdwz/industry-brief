@@ -1,20 +1,14 @@
 {
-  "type": "weekly",
-  "date": "2026-11-20",
-  "week": "2026-W47",
-  "period": {
-    "start": "2026-11-14",
-    "end": "2026-11-20"
-  },
-  "generated_at": "2026-11-20T12:05:39+08:00",
-  "title": "本周行业汇总｜2026-W47",
-  "summary": "城市GIS从静态地图转向跨部门业务联动；AI工具进入权限与安全工程化；测绘强调参考框架及成果处理闭环。",
+  "type": "daily",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T12:10:01+08:00",
+  "title": "行业日报｜2026-11-21",
+  "summary": "ArcGIS Pro 3.8空间分析与在线高光谱能力更新；AI协作空间推出，模型使用政策生效。",
   "sections": [
     {
       "category": "城市更新/GIS",
       "item_ids": [
         1,
-        2,
         3
       ]
     },
@@ -22,15 +16,13 @@
       "category": "AI模型与工具",
       "item_ids": [
         4,
-        5,
-        6
+        5
       ]
     },
     {
       "category": "测绘/无人机",
       "item_ids": [
-        7,
-        8
+        2
       ]
     }
   ],
@@ -38,159 +30,88 @@
     {
       "id": 1,
       "category": "城市更新/GIS",
-      "title": "坎帕拉以建筑地理编码推动税收与数字孪生",
-      "summary": "Esri报道坎帕拉将房产估值与建筑地址关联，十年间相关税收由170亿增至750亿乌干达先令，并探索跨部门数字孪生。",
-      "impact": "为征收项目建立房屋—宗地—权属—审批唯一关联键，减少重复录入。",
+      "title": "ArcGIS Pro 3.8 Spatial Analyst新增多准则适宜性方法",
+      "summary": "Esri介绍适宜性建模新增多种栅格叠加方法、8项新工具及11项工具优化，ArcGIS Pro 3.8于11月19日发布。",
+      "impact": "可用于城市更新地块适宜性评价，比较权重与约束条件对选址结果的影响。",
       "publisher": "Esri",
-      "publish_date": "2026-11-17",
-      "url": "https://www.esri.com/about/newsroom/blog/kampala-digital-twin-tax-revenue-livability",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/spatial-analyst/announcements/whats-new-for-spatial-analyst-in-arcgis-pro-3-8",
       "image_url": null
     },
     {
       "id": 2,
-      "category": "城市更新/GIS",
-      "title": "ArcGIS Solutions十一月更新聚焦管网检测与资产管理",
-      "summary": "Esri推出CCTV管道检测管理方案并更新道路、标志、路灯、树木等行业解决方案。",
-      "impact": "可借鉴巡检工单与空间资产关联机制，扩展共享地图任务中心。",
+      "category": "测绘/遥感",
+      "title": "ArcGIS Online扩展高光谱影像在线分析",
+      "summary": "Esri介绍高光谱影像和光谱库在线共享、目标识别、异常检测及光谱重采样能力，结合ArcGIS Pro 3.8支持现场光谱CSV数据。",
+      "impact": "适合遥感专题分类与地物核验，但高光谱不等同于常规无人机RGB正射影像。",
       "publisher": "Esri",
-      "publish_date": "2026-11-17",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis-solutions/announcements/whats-new-in-arcgis-solutions-november-2026-release",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/imagery/hyperspectral-analysis-in-web",
       "image_url": null
     },
     {
       "id": 3,
       "category": "城市更新/GIS",
-      "title": "ArcGIS Enterprise与影像处理工作流更新",
-      "summary": "Esri说明11月17日Enterprise版本和11月19日Pro版本推出的影像、视频检索与现实建模能力，原说明发布于10月29日。",
-      "impact": "可评估以位置、时间索引无人机视频和历史影像，减少人工查档。",
+      "title": "ArcGIS Business Analyst介绍Huff等概率服务区",
+      "summary": "Esri展示按设施吸引力和距离构建概率服务区的方法，突破单一距离缓冲区的选址评价。",
+      "impact": "可用于城市更新公共服务设施覆盖与商圈竞争分析，参数需结合本地调查校准。",
       "publisher": "Esri",
-      "publish_date": "2026-10-29",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis/imagery/whats-new-in-imagery-in-arcgis-q4-2026",
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/bus-analyst/analytics/huff-equal-probability-trade-areas-business-analyst-pro",
       "image_url": null
     },
     {
       "id": 4,
       "category": "AI模型与工具",
-      "title": "Codex沙箱技术细节公开",
-      "summary": "OpenAI解释Codex在Windows、Linux和macOS限制文件系统与网络权限的机制及其边界。",
-      "impact": "瑞雪工具箱与共享地图的AI编码任务应使用最小权限、隔离密钥和回归测试。",
+      "title": "ChatGPT Space开始向Plus用户推出",
+      "summary": "OpenAI 11月20日更新说明，Space逐步面向符合条件的Plus用户开放，支持协作页面、演示文稿和连接应用数据的自动更新。",
+      "impact": "可试验项目进度、GIS成果说明和团队资料协作；推出范围与实际账号可用性需确认。",
       "publisher": "OpenAI",
-      "publish_date": "2026-11-18",
-      "url": "https://openai.com/index/inside-the-codex-sandbox/",
+      "publish_date": "2026-11-20",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
       "image_url": null
     },
     {
       "id": 5,
       "category": "AI模型与工具",
-      "title": "ArcGIS GeoAI连接MCP与空间智能体",
-      "summary": "Esri介绍ArcGIS MCP测试版、地理空间智能体及影像和文本AI服务；官方文章发表于11月9日，作为本周技术背景而非新发布。",
-      "impact": "为PostGIS空间查询设计只读工具接口，明确数据访问授权。",
-      "publisher": "Esri",
-      "publish_date": "2026-11-09",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis/geoai/whats-new-in-geospatial-ai-november-2026",
-      "image_url": null
-    },
-    {
-      "id": 6,
-      "category": "AI模型与工具",
-      "title": "OpenAI发布GPT-6.2 Astra和Sol系统卡",
-      "summary": "11月17日发布的系统卡提供新模型的能力与安全评估材料，具体效果仍应以实际任务验证。",
-      "impact": "用CAD字段编辑、GeoJSON验证及PostGIS查询做固定回归集，不直接依赖模型宣传。",
+      "title": "OpenAI使用政策修订于11月20日生效",
+      "summary": "OpenAI官方政策更新涉及模型输出训练替代模型的限制、高风险用途、未成年人保护及模型访问中介要求。",
+      "impact": "开发GIS Agent和授权中心接入第三方AI服务时，核查模型用途、数据流转及合规边界。",
       "publisher": "OpenAI",
-      "publish_date": "2026-11-17",
-      "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/gpt-6-2-astra-sol.pdf",
-      "image_url": null
-    },
-    {
-      "id": 7,
-      "category": "测绘/无人机",
-      "title": "挪威高纬度大地测量台站新增卫星激光测距系统",
-      "summary": "Geo Week News报道Ny-Ålesund观测站整合VLBI、SLR、GNSS等多技术，支撑全球参考框架与精密定位。",
-      "impact": "航测控制点与多源成果整合时，应记录坐标参考框架、历元和转换参数。",
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-18",
-      "url": "https://www.geoweeknews.com/articles/measuring-the-earth-inside-norways-fundamental-geodetic-observatory/",
-      "image_url": null
-    },
-    {
-      "id": 8,
-      "category": "测绘/无人机",
-      "title": "Trimble整合无人机数据处理至WorksManager",
-      "summary": "Geo Week News报道Trimble将无人机数据处理集成进工程施工管理平台，报道发表于11月10日。",
-      "impact": "关注无人机成果从采集、处理、质检到工程平台的闭环，而不只关注航拍设备。",
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/",
+      "publish_date": "2026-11-20",
+      "url": "https://openai.com/policies/usage-policies/",
       "image_url": null
     }
   ],
-  "core_changes": [
-    "房屋地理编码与跨部门数字孪生成为GIS治理重点",
-    "AI Agent从能力展示转向沙箱隔离和任务评测",
-    "测绘成果更强调统一坐标基准与跨系统流转"
-  ],
-  "work_impact": "共享地图优先建立房屋—宗地—权属关联与工单机制；CAD开发采用沙箱与固定回归测试；航测数据交付记录坐标基准、处理与复核链。",
-  "trends": "空间业务数据一体化、Agent最小权限、测绘数据处理与工程管理集成。",
-  "next_week_watch": [
-    "ArcGIS Enterprise/Pro新版本实测与兼容性",
-    "城市更新土地与房屋空间台账的自动核查",
-    "无人机航测成果质检和工程平台集成"
-  ],
-  "recommended_reading": {
-    "title": "How Kampala Turned GIS into Tax Revenue and a Path to a Digital Twin",
-    "author": "Richard Budden",
-    "publisher": "Esri",
-    "publish_date": "2026-11-17",
-    "url": "https://www.esri.com/about/newsroom/blog/kampala-digital-twin-tax-revenue-livability",
-    "reading_minutes": 5,
-    "value": [
-      "展示房产地理编码如何建立业务基础",
-      "分析GIS与税收、卫生、许可系统联动",
-      "说明数字孪生需要跨部门事件触发而非仅三维可视化"
-    ],
-    "work_insight": "先实现房屋、宗地、权属、任务统一标识，再扩展数字孪生展示。"
-  },
+  "recommended_reading": null,
+  "industry_observation": "空间分析正在由静态缓冲区向多准则评价、概率服务区与云端光谱分析拓展；AI工具则同步加强协作与合规治理。",
+  "weekly_tool": "ArcGIS Pro 3.8 Suitability Modeler：以道路可达性、规划约束、现状用地三个栅格指标对30宗地进行适宜性敏感性分析，保留权重和输入版本。",
   "sources": [
     {
       "publisher": "Esri",
-      "publish_date": "2026-11-17",
-      "url": "https://www.esri.com/about/newsroom/blog/kampala-digital-twin-tax-revenue-livability"
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/spatial-analyst/announcements/whats-new-for-spatial-analyst-in-arcgis-pro-3-8"
     },
     {
       "publisher": "Esri",
-      "publish_date": "2026-11-17",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis-solutions/announcements/whats-new-in-arcgis-solutions-november-2026-release"
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/imagery/hyperspectral-analysis-in-web"
     },
     {
       "publisher": "Esri",
-      "publish_date": "2026-10-29",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis/imagery/whats-new-in-imagery-in-arcgis-q4-2026"
+      "publish_date": "2026-11-20",
+      "url": "https://www.esri.com/arcgis-blog/products/bus-analyst/analytics/huff-equal-probability-trade-areas-business-analyst-pro"
     },
     {
       "publisher": "OpenAI",
-      "publish_date": "2026-11-18",
-      "url": "https://openai.com/index/inside-the-codex-sandbox/"
-    },
-    {
-      "publisher": "Esri",
-      "publish_date": "2026-11-09",
-      "url": "https://www.esri.com/arcgis-blog/products/arcgis/geoai/whats-new-in-geospatial-ai-november-2026"
+      "publish_date": "2026-11-20",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     },
     {
       "publisher": "OpenAI",
-      "publish_date": "2026-11-17",
-      "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/gpt-6-2-astra-sol.pdf"
-    },
-    {
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-18",
-      "url": "https://www.geoweeknews.com/articles/measuring-the-earth-inside-norways-fundamental-geodetic-observatory/"
-    },
-    {
-      "publisher": "Geo Week News",
-      "publish_date": "2026-11-10",
-      "url": "https://www.geoweeknews.com/"
+      "publish_date": "2026-11-20",
+      "url": "https://openai.com/policies/usage-policies/"
     }
   ],
-  "quality_note": "部分条目为本周持续影响的技术背景或此前发布的更新，已如实标注日期；不将其冒充本周首发。"
+  "quality_note": "5条均由官方来源标注2026-11-20日期；精确发布时间未全部确认，不能保证均严格落在过去24小时。未收录无可靠新来源的无人机设备新闻。"
 }
