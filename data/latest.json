@@ -1,85 +1,68 @@
 {
   "type": "daily",
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T12:06:45+08:00",
-  "title": "行业日报｜2026-11-22",
-  "summary": "11月21日可核实的高价值行业首发消息较少：道路BIM/GIS互通获当日报道；新模型记录待官方核验；无人机临时空域限制体现动态核查的重要性。",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:10:26+08:00",
+  "title": "行业日报｜2026-11-23",
+  "summary": "严格过去24小时内未检索到足够可独立核实且未重复的GIS、AI及测绘无人机首发消息。本期仅保留两条近期官方AI技术动态，并明确其时效限制；GIS和测绘方向不以旧闻凑数。",
   "sections": [
     {
       "category": "城市更新/GIS",
-      "item_ids": [
-        1
-      ]
+      "item_ids": [],
+      "note": "本次未检索到满足时效及来源要求的非重复动态"
     },
     {
       "category": "AI模型与工具",
       "item_ids": [
+        1,
         2
       ]
     },
     {
       "category": "测绘/无人机",
-      "item_ids": [
-        3
-      ]
+      "item_ids": [],
+      "note": "本次未检索到满足时效及来源要求的非重复动态"
     }
   ],
   "items": [
     {
       "id": 1,
-      "category": "城市更新/GIS",
-      "title": "ArcGIS Pro 11月更新支持OpenRoads道路走廊几何与TIN成果集成",
-      "summary": "MarketScale 11月21日报道，ArcGIS Pro更新增强Bentley OpenRoads Designer道路路线、纵断面、桩号关系与TIN曲面进入GIS的工作流，并涉及Revit模型显示精细度设置。此为对近期软件更新的当日报道，并非11月21日新发布的软件。",
-      "impact": "城市更新项目可试验道路设计数据与现状地形、宗地红线叠加，优先检查坐标、桩号关系、曲面高程和字段保真。",
-      "publisher": "MarketScale",
+      "category": "AI模型与工具",
+      "title": "OpenAI发布MedChemBench，评测AI对药物候选物的实验决策能力",
+      "summary": "OpenAI发布MedChemBench基准，评估模型读取分子结构、理解实验结果以及选择下一轮测试化合物的能力。官方页面检索显示约11月21日发布，精确时刻未确认。",
+      "impact": "GIS Agent评测可借鉴其任务级、可验证决策指标，建立宗地叠加、地类判定、坐标转换等任务的标准答案与误差统计。",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-21",
-      "url": "https://www.marketscale.com/industries/engineering-and-construction/arcgis-pros-november-update-brings-openroads-corridor-geometry-into-gis",
-      "image_url": null
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "image_url": null,
+      "verification_status": "official_date_approximate_outside_strict_24h"
     },
     {
       "id": 2,
       "category": "AI模型与工具",
-      "title": "Inkling 2 Mini出现在11月21日模型发布跟踪记录",
-      "summary": "多个模型追踪站点将Thinking Machines Lab的Inkling 2 Mini列为11月20日或21日的新模型，但日期相互冲突，且本次未核实官方发布公告与开放权重条件，暂按待核实线索记录。",
-      "impact": "暂不纳入生产模型选型；后续核对官方模型卡、许可、权重与推理成本，再用ArcPy和CAD插件测试集评估。",
-      "publisher": "BenchLM / AI Drops（第三方追踪）",
-      "publish_date": null,
-      "url": "https://benchlm.ai/model-updates",
-      "image_url": null,
-      "verification_status": "unconfirmed"
-    },
-    {
-      "id": 3,
-      "category": "测绘/无人机",
-      "title": "美国11月21日多地无人机临时限制区持续更新",
-      "summary": "FAA临时飞行限制数据聚合页面显示11月21日至22日期间美国多个城市存在活动及安保相关无人机限制，页面明确要求飞行前查阅原始NOTAM；这是动态运行信息而非新政策。",
-      "impact": "航测作业可借鉴按时间、范围、高度和原始公告编号进行飞前空域核查的流程；该信息不适用于海南空域。",
-      "publisher": "Drone Authority（FAA数据聚合）",
+      "title": "OpenAI披露针对对抗性蒸馏的模型安全防护措施",
+      "summary": "OpenAI介绍对抗性蒸馏风险及针对受保护推理信息提取的检测与防御机制，包括分类器、对抗测试和API保护。官方页面检索显示约11月21日发布，精确时刻未确认。",
+      "impact": "对共享地图或CAD插件使用外部AI接口，应做好密钥隔离、调用配额、日志审计和第三方模型来源核查；不得把模型输出直接视为可靠成果。",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-21",
-      "url": "https://droneauthority.org/tools/drone-tfr-tracker",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
       "image_url": null,
-      "verification_status": "secondary_dynamic_source"
+      "verification_status": "official_date_approximate_outside_strict_24h"
     }
   ],
   "recommended_reading": null,
-  "industry_observation": "周末新增行业公告偏少，GIS工程数据互操作和无人机动态合规仍值得关注；模型发布跟踪须区分第三方索引与官方首发。",
-  "weekly_tool": "在ArcGIS Pro中建立道路设计数据入库检核表：抽取5段道路的路线、桩号、TIN和坐标基准，逐项比对原始工程成果。",
+  "industry_observation": "AI行业开始将评测重点从单一模型能力扩展到任务决策质量与模型供应链安全；GIS与测绘场景同样需要可复核数据和可审计工具链。",
+  "weekly_tool": "建立一套GIS Agent最小回归测试：10项固定ArcPy/PostGIS任务，记录输入数据版本、标准结果、容差、执行耗时、人工复核和权限调用。",
   "sources": [
     {
-      "publisher": "MarketScale",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-21",
-      "url": "https://www.marketscale.com/industries/engineering-and-construction/arcgis-pros-november-update-brings-openroads-corridor-geometry-into-gis"
+      "url": "https://openai.com/index/introducing-medchembench/"
     },
     {
-      "publisher": "BenchLM / AI Drops（第三方追踪）",
-      "publish_date": null,
-      "url": "https://benchlm.ai/model-updates"
-    },
-    {
-      "publisher": "Drone Authority（FAA数据聚合）",
+      "publisher": "OpenAI",
       "publish_date": "2026-11-21",
-      "url": "https://droneauthority.org/tools/drone-tfr-tracker"
+      "url": "https://openai.com/index/combatting-adversarial-distillation/"
     }
   ],
-  "quality_note": "严格近24小时内可独立核实的高价值首发不足5条，未凑数。第2条为未获官方核验的线索；第3条为动态二次数据，须以原始NOTAM为准。"
+  "quality_note": "11月23日12:10（北京时间）检索。两条来源为官方近期文章，但约11月21日发布，均不满足严格过去24小时；未找到足够可靠的新GIS或无人机消息，故仅收录2条，不声称为24小时首发。"
 }

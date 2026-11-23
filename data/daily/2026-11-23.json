@@ -1,0 +1,68 @@
+{
+  "type": "daily",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:10:26+08:00",
+  "title": "行业日报｜2026-11-23",
+  "summary": "严格过去24小时内未检索到足够可独立核实且未重复的GIS、AI及测绘无人机首发消息。本期仅保留两条近期官方AI技术动态，并明确其时效限制；GIS和测绘方向不以旧闻凑数。",
+  "sections": [
+    {
+      "category": "城市更新/GIS",
+      "item_ids": [],
+      "note": "本次未检索到满足时效及来源要求的非重复动态"
+    },
+    {
+      "category": "AI模型与工具",
+      "item_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "category": "测绘/无人机",
+      "item_ids": [],
+      "note": "本次未检索到满足时效及来源要求的非重复动态"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "AI模型与工具",
+      "title": "OpenAI发布MedChemBench，评测AI对药物候选物的实验决策能力",
+      "summary": "OpenAI发布MedChemBench基准，评估模型读取分子结构、理解实验结果以及选择下一轮测试化合物的能力。官方页面检索显示约11月21日发布，精确时刻未确认。",
+      "impact": "GIS Agent评测可借鉴其任务级、可验证决策指标，建立宗地叠加、地类判定、坐标转换等任务的标准答案与误差统计。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-21",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "image_url": null,
+      "verification_status": "official_date_approximate_outside_strict_24h"
+    },
+    {
+      "id": 2,
+      "category": "AI模型与工具",
+      "title": "OpenAI披露针对对抗性蒸馏的模型安全防护措施",
+      "summary": "OpenAI介绍对抗性蒸馏风险及针对受保护推理信息提取的检测与防御机制，包括分类器、对抗测试和API保护。官方页面检索显示约11月21日发布，精确时刻未确认。",
+      "impact": "对共享地图或CAD插件使用外部AI接口，应做好密钥隔离、调用配额、日志审计和第三方模型来源核查；不得把模型输出直接视为可靠成果。",
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-21",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "image_url": null,
+      "verification_status": "official_date_approximate_outside_strict_24h"
+    }
+  ],
+  "recommended_reading": null,
+  "industry_observation": "AI行业开始将评测重点从单一模型能力扩展到任务决策质量与模型供应链安全；GIS与测绘场景同样需要可复核数据和可审计工具链。",
+  "weekly_tool": "建立一套GIS Agent最小回归测试：10项固定ArcPy/PostGIS任务，记录输入数据版本、标准结果、容差、执行耗时、人工复核和权限调用。",
+  "sources": [
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-21",
+      "url": "https://openai.com/index/introducing-medchembench/"
+    },
+    {
+      "publisher": "OpenAI",
+      "publish_date": "2026-11-21",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/"
+    }
+  ],
+  "quality_note": "11月23日12:10（北京时间）检索。两条来源为官方近期文章，但约11月21日发布，均不满足严格过去24小时；未找到足够可靠的新GIS或无人机消息，故仅收录2条，不声称为24小时首发。"
+}
